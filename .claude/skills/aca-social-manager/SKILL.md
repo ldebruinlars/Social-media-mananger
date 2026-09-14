@@ -58,6 +58,10 @@ Doorlopend  reacties en DM's beantwoorden binnen 24 uur (allcourtacademy-emails 
 
 Werk `context/workflow-status.md` na elke stap bij.
 
+## Websites en profielen checken
+
+`WebFetch` wordt in deze omgeving geblokkeerd voor allcourtacademy.com, poortpadel.nl en instagram.com. Gebruik dan `mcp__Chat_Cut__web_browser` (Firecrawl) met formats markdown, links en branding. Instagram en Facebook kunnen niet gescraped worden; lees die via Make (Instagram for Business, Facebook Pages) zodra gekoppeld, of vraag Lars om screenshots of een Meta Business Suite export.
+
 ## Publiceren (Meta Business)
 
 Er is nog geen directe Meta connector in deze omgeving. Drie routes, in volgorde van voorkeur:

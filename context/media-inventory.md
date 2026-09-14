@@ -32,6 +32,15 @@ Er is geen map met Poort Padel of All Court Academy video's en foto's in deze Dr
 
 Geen Canva Brand Kit aanwezig. Geen mappen.
 
+## Websites: bruikbare beelden (webformaat, originelen opvragen)
+
+| Bron | Bestanden |
+|---|---|
+| allcourtacademy.com/assets | logo.png, lessen-hero.jpg, kids-camp-lach-crop-s.jpg, kids-camp-coach-s.jpg, kids-camp-highfive-s.jpg, kids-camp-actie-s.jpg, kids-camp-jongen-s.jpg, kids-camp-pauze-s.jpg |
+| poortpadel.nl uploads 2026/06 | ACA_PoortPadel_29mei-9, ACA_PoortPadel_29mei-38, lars-de-bruin, randy-paeper, PPSocials-3/29/37/39/41/45/53, linkedin-update-1 t/m 6, DJI drone shot |
+
+Dus de fotoserie van Susan bevat minimaal 38 foto's; in Drive staan er 2. **Vraag de hele serie op.**
+
 ## Video tools
 
 - **ChatCut** (verbonden): voor het knippen van Interview_Pablo en toekomstige lesvideo's naar 9:16 Reels met ondertitels.
