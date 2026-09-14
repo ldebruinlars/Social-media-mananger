@@ -56,16 +56,18 @@ Alleen, met je vaste maatje of met je hele crew. Inschrijven via de link in bio.
 
 - [ ] Goedgekeurd
 - Bron: lessen-hero.jpg van de website, geanimeerd met Seedance 2.5 (job 7f47e1f8-992f-4818-9a1f-7e4ba7882ba7)
+- Video (mp4, 720p, 9:16, 5 sec): https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164252_7f47e1f8-992f-4818-9a1f-7e4ba7882ba7.mp4
+- Ook als Canva asset geüpload zodat je er in Canva een tekstkaart overheen kunt zetten
 - Gebruik: als opener van een Reel, daarna tekstkaart "Najaarsreeks, start 19 oktober" in ChatCut
 - Let op: AI-geanimeerd beeld van echte spelers. Alleen plaatsen als de spelers op de foto daar oké mee zijn.
 
 ## 5. Opgeschaalde foto's (Higgsfield)
 
-| Foto | Van | Naar | Job |
+| Foto | Van | Naar | Download |
 |---|---|---|---|
-| kids-camp-highfive | 1200x2133 | 2K | 294d3f10-2dbb-410c-bed0-654b7df447a7 |
-| lessen-hero | 1800x1200 | 4K | 313e4bce-baf9-4ba5-acc6-1e879ef38961 |
-| kids-camp-lach | 1200x2208 | 2K | bf52c610-65dc-43c2-bb3b-c9b8f74b8cbe |
+| kids-camp-highfive | 1200x2133 | 2160x3840 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164236_294d3f10-2dbb-410c-bed0-654b7df447a7.png |
+| lessen-hero | 1800x1200 | 4096x2737 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164240_313e4bce-baf9-4ba5-acc6-1e879ef38961.png |
+| kids-camp-lach | 1200x2208 | 2160x3968 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164243_bf52c610-65dc-43c2-bb3b-c9b8f74b8cbe.png |
 
 Deze vervangen de webformaat-versies in Canva zodra Lars de originelen niet kan vinden.
 
