@@ -62,6 +62,11 @@ Werk `context/workflow-status.md` na elke stap bij.
 
 `WebFetch` wordt in deze omgeving geblokkeerd voor allcourtacademy.com, poortpadel.nl en instagram.com. Gebruik dan `mcp__Chat_Cut__web_browser` (Firecrawl) met formats markdown, links en branding. Instagram en Facebook kunnen niet gescraped worden; lees die via Make (Instagram for Business, Facebook Pages) zodra gekoppeld, of vraag Lars om screenshots of een Meta Business Suite export.
 
+## Canva en Higgsfield (zo werkt het)
+
+- **Canva**: map `ACA Social Media` (FAHVMFpKijo). Assets uploaden via `upload-asset-from-url` (alleen publieke URL's, bijvoorbeeld van allcourtacademy.com of Higgsfield-resultaten). Genereren met `generate-design` (instagram_post = 1080x1350, your_story = 1080x1920) met de huisstijl uit brand-style in de prompt en `asset_ids` voor logo en foto. Elke job geeft 4 kandidaten; maak er 2 of 3 aan met `create-design-from-candidate`, bekijk ze met `read-design` (thumbnails komen inline), kies, fix tekst met `edit-design` (transaction openen via read-design open_transaction, edits, dan commit), hernoem naar "ACA <campagne> <jaar> <post|story|reel>", verplaats naar de map, exporteer PNG.
+- **Higgsfield**: `media_import_url` voor foto's, `upscale_image` (2 credits) om webformaat naar 2K/4K te brengen, `generate_video` met seedance_2_5 en role start_image voor image-to-video teasers (ca. 32 credits per 5 sec 9:16). Altijd eerst `get_cost`. Geen AI-animatie van kinderen zonder toestemming van ouders. Weiger preset-suggesties met `declined_preset_id` als je letterlijk wilt genereren.
+
 ## Publiceren (Meta Business)
 
 Er is nog geen directe Meta connector in deze omgeving. Drie routes, in volgorde van voorkeur:

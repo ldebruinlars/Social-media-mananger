@@ -41,6 +41,17 @@ Geen Canva Brand Kit aanwezig. Geen mappen.
 
 Dus de fotoserie van Susan bevat minimaal 38 foto's; in Drive staan er 2. **Vraag de hele serie op.**
 
+## Canva assets (geüpload 14 september 2026)
+
+| Asset | Canva id | Bron |
+|---|---|---|
+| ACA logo | MAHVMC0KjH0 | allcourtacademy.com/assets/logo.png |
+| kids kamp highfive (web) en 2K (Higgsfield upscale) | MAHVMO3VKv0, MAHVMEfpp6I | website + Higgsfield |
+| kids kamp lach (web) en 2K | MAHVMCiFuhQ, MAHVMGm9-gA | website + Higgsfield |
+| lessen hero (web) en 4K | MAHVMMF7ptI, MAHVMMb96Gw | website + Higgsfield |
+
+Canva map ACA Social Media: https://www.canva.com/folder/FAHVMFpKijo. Designs en status: zie `outputs/captions/2026-09-eerste-set.md`.
+
 ## Video tools
 
 - **ChatCut** (verbonden): voor het knippen van Interview_Pablo en toekomstige lesvideo's naar 9:16 Reels met ondertitels.
