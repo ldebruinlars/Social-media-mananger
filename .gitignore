@@ -1,0 +1,8 @@
+assets/
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+.DS_Store
+node_modules/
