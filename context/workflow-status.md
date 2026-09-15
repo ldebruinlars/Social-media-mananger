@@ -3,12 +3,13 @@
 | Stap | Status | Datum |
 |---|---|---|
 | Skills geïnstalleerd | klaar | 2026-09-14 |
-| Brand style v2 uit live website | klaar, wacht op IG handle en coach-toestemming | 2026-09-14 |
+| Brand style v2 uit live website | klaar, IG handle is allcourtacademy, wacht nog op coach-toestemming | 2026-09-14 |
 | Website check | klaar, zie docs/website-check-2026-09.md, 2 hoge fixes voor Lars | 2026-09-14 |
 | Media-inventaris | klaar, Drive is bijna leeg, wacht op map ACA Social Media | 2026-09-14 |
 | Meta Business koppeling | koppellink klaar, wacht op Lars: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5 | 2026-09-15 |
 | Postschema najaar (12 posts, 21 sep t/m 29 okt) | klaar, zie docs/postschema-najaar-2026.md | 2026-09-15 |
-| Publiceerroute gekozen: Metricool in plaats van Make | advies klaar, zie docs/publiceren-route-keuze.md, wacht op Lars die de Metricool koppeling afmaakt | 2026-09-15 |
+| Metricool gekoppeld (Instagram, Facebook, LinkedIn) | klaar, zie docs/metricool-koppeling.md, brand id 6979019 | 2026-09-15 |
+| Posters publiek bereikbaar maken voor Metricool | open, Netlify geblokkeerd door beveiliging, wacht op keuze van Lars | 2026-09-15 |
 | Make scenario publiceren vanuit Google Sheet Postplanning | terugvaloptie, alleen als Metricool afvalt | |
 | Posttijden onderbouwd (ma 19:00, do 12:15) | klaar op algemene data, bijstellen op eigen insights na 6 weken | 2026-09-15 |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
