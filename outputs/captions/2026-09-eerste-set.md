@@ -10,7 +10,7 @@ Lars: zet `[x]` bij wat mag. Niets gaat live zonder vinkje. Canva map: https://w
 |---|---|---|---|---|
 | [ ] | 01 Volley, coach explodeert aan het net | APA 13 mei-20 (Drive) | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260915_085902_41c9cf3c-5edc-4404-b35e-ecf29fadfaf4.mp4 | VAHVQgt3Imw |
 | [ ] | 02 Lars draait naar camera, racket als uitnodiging | ACA_PoortPadel_29mei-32 (Drive), 9:16 crop | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260915_100022_f3cb825c-88c7-4e70-8b30-d0dbfcf9d86a.mp4 | VAHVQsypozI |
-| [ ] | 03 Handshake na training, schouderstoot | lessen-hero 4K (website) | zie onder (job 053d3d2e) | |
+| [ ] | 03 Handshake na training, schouderstoot | lessen-hero 4K (website) | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260915_100321_053d3d2e-fd2c-4e01-a247-8f79c30ff0d6.mp4 | zie Canva map |
 
 Plan per story: 0 tot 7 sec video zonder tekst, dan tekstkaart in Canva-stijl (kicker lime, kop wit, pill). Voor de Reels: intro-kaart en outro-kaart uit het Pablo-project in ChatCut hergebruiken (assets 10b7e2b981 en 16b2aa1bbe).
 
