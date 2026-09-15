@@ -82,6 +82,16 @@ De video die Lars als stijlreferentie gaf (ChatCut project "Pablo video", 4e010a
 
 Canva assets: ACA logo wit MAHVQFFeeDA, Poort Padel wit MAHVQE2uBcg, Lars origineel MAHVQMZ2l70, Lars 9:16 MAHVQdxAfpo, coach volley 9:16 MAHVQWZde6s, APA origineel MAHVQKcjSu8.
 
+## Instagram profielfoto en beeldmerk
+
+Beeldmerk los (de A in de Q) in navy en lime, 1080x1080, staat in `outputs/branding/instagram/`. Navy #0B1420 achtergrond, lime #CCFF00 beeldmerk, dat is de website-combinatie.
+
+- Profielfoto Instagram en Facebook: `01_navy_lime.png`
+- Story highlight covers: `05_lime_navy.png`
+- Watermerk of Canva: de drie `mark_*_transparant.png` bestanden
+
+Het beeldmerk staat binnen de veilige cirkel, dus Instagram snijdt er niets af.
+
 ## Website-identiteit (allcourtacademy.com, secundair)
 
 | Element | Waarde |
