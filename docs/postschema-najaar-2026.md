@@ -2,23 +2,29 @@
 
 12 feed posts, 2 per week, 21 september tot en met 29 oktober. Instagram als hoofdkanaal, Facebook als cross-post.
 
-Tijden: maandag 18:30, donderdag 12:15. Dat zijn de momenten waarop je doelgroep in Almere op de bank zit of pauze heeft.
+Tijden: maandag 19:00, donderdag 12:15.
+
+Onderbouwing (opgezocht 15 september 2026, algemene data, niet van jouw account):
+- Avond 18:00 tot 21:00 verslaat de ochtend op de meeste dagen. Maandagavond piekt rond 19:00. 18:30 valt bij veel gezinnen in het eten, 19:00 is net daarna.
+- Donderdag gedraagt zich anders dan de rest van de week: daar ligt de piek eerder op de dag. Voor een Nederlands publiek is 12:00 tot 14:00 doordeweeks een sterk blok. 12:15 blijft dus staan.
+- Deze cijfers meten likes en bereik, niet inschrijvingen, en komen grotendeels uit internationale datasets. Jouw eigen insights zijn het echte antwoord: Instagram, Professioneel dashboard, Totaal aantal volgers, Meest actieve tijden. Daar heb je wel genoeg volgers voor nodig voordat het paneel verschijnt.
+- Na zes weken kijken we naar jouw cijfers en zetten we de tijden op wat bij jou werkt.
 
 ## Wat wanneer online gaat
 
 | Dag | Tijd | Poster | Kop | Knop | Pijler |
 |---|---|---|---|---|---|
-| maandag 21 september | 18:30 | 01_najaarsreeks | 8 weken beter padellen | Schrijf je in | najaarsreeks |
+| maandag 21 september | 19:00 | 01_najaarsreeks | 8 weken beter padellen | Schrijf je in | najaarsreeks |
 | donderdag 24 september | 12:15 | 09_padel | Binnen 10 minuten ben je verkocht | Boek een losse les | waarom padel |
-| maandag 28 september | 18:30 | 14_samen | Samen inschrijven? | Schrijf je in | najaarsreeks |
+| maandag 28 september | 19:00 | 14_samen | Samen inschrijven? | Schrijf je in | najaarsreeks |
 | donderdag 1 oktober | 12:15 | 02_eerste_les | Je eerste les regelen wij | Boek een losse les | beginners |
-| maandag 5 oktober | 18:30 | 07_laatste_plekken | Laatste plekken najaarsreeks | Schrijf je in | najaarsreeks |
+| maandag 5 oktober | 19:00 | 07_laatste_plekken | Laatste plekken najaarsreeks | Schrijf je in | najaarsreeks |
 | donderdag 8 oktober | 12:15 | 11_jouw_coach | Jouw coach, jouw moment | Kies je coach | losse training |
-| maandag 12 oktober | 18:30 | 15_geen_racket | Geen racket? Geen probleem | Boek een losse les | beginners |
+| maandag 12 oktober | 19:00 | 15_geen_racket | Geen racket? Geen probleem | Boek een losse les | beginners |
 | donderdag 15 oktober | 12:15 | 16_backhand | Backhand onder controle | Boek een losse les | techniek |
-| maandag 19 oktober | 18:30 | 04_techniek | Jouw smash, onze focus | Boek een losse les | techniek |
+| maandag 19 oktober | 19:00 | 04_techniek | Jouw smash, onze focus | Boek een losse les | techniek |
 | donderdag 22 oktober | 12:15 | 10_competitie | Klaar voor de competitie? | Boek wedstrijdtraining | competitie |
-| maandag 26 oktober | 18:30 | 18_teamuitje | Padel met je team | Plan je event | bedrijven |
+| maandag 26 oktober | 19:00 | 18_teamuitje | Padel met je team | Plan je event | bedrijven |
 | donderdag 29 oktober | 12:15 | 20_vaste_plek | Jouw vaste plek om te spelen | Schrijf je in | community |
 
 De najaarsreeks loopt als een lijn door de eerste helft: aankondiging, samen inschrijven, laatste plekken twee weken voor de start. Daarna verschuift de aandacht naar losse trainingen en de competitie.

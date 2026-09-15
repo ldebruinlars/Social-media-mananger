@@ -8,7 +8,9 @@
 | Media-inventaris | klaar, Drive is bijna leeg, wacht op map ACA Social Media | 2026-09-14 |
 | Meta Business koppeling | koppellink klaar, wacht op Lars: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5 | 2026-09-15 |
 | Postschema najaar (12 posts, 21 sep t/m 29 okt) | klaar, zie docs/postschema-najaar-2026.md | 2026-09-15 |
-| Make scenario publiceren vanuit Google Sheet Postplanning | nog niet, kan zodra Meta gekoppeld is | |
+| Publiceerroute gekozen: Metricool in plaats van Make | advies klaar, zie docs/publiceren-route-keuze.md, wacht op Lars die de Metricool koppeling afmaakt | 2026-09-15 |
+| Make scenario publiceren vanuit Google Sheet Postplanning | terugvaloptie, alleen als Metricool afvalt | |
+| Posttijden onderbouwd (ma 19:00, do 12:15) | klaar op algemene data, bijstellen op eigen insights na 6 weken | 2026-09-15 |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
 | Drive-map van Lars koppelen | klaar, map gedeeld en 8 foto's opgehaald | 2026-09-15 |
 | Posterset najaar v5: 12 feed posts (2 per week, 21 sep t/m 29 okt) | klaar na ronde 4, wacht op ronde 5 op https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK | 2026-09-15 |

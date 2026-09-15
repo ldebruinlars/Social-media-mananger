@@ -6,7 +6,7 @@ Verwerkt op 15 september uit ronde 4: 10 goedgekeurd, 2 aangepast.
 
 Vaste regels voor elke post: **maximaal 5 hashtags, geen #allcourtacademy**, locatie Poort Padel, tag @poortpadel, Collab uitnodiging naar @poortpadel, link in bio naar allcourtacademy.com. Posten via Meta Business Suite of Make. Niets gaat live zonder jouw akkoord.
 
-Posttijden: maandag 18:30 en donderdag 12:15. Stories dezelfde dag met link-sticker.
+Posttijden: maandag 19:00 en donderdag 12:15. Stories dezelfde dag met link-sticker.
 
 ## Schema
 
