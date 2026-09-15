@@ -41,9 +41,7 @@ Je merknaam hoeft er niet bij, mensen die jou al kennen zoeken niet op een hasht
 | Poster | Jouw feedback | Wat ik heb gedaan |
 |---|---|---|
 | 07 laatste plekken | 8 lessen tot 12 december niet duidelijk, lesduur bij de subregel | subregel nu "8 lessen van 1 uur, vaste coach, vervanger toegestaan", caption met de datums op een eigen regel |
-| 10 competitie | verkeerde persoon, de trainer met de pet | foto van de trainer met de pet, strak op hem gecropt |
-
-De portretfoto die je stuurde zit niet in de Drive map Openingsdag. Ik gebruik nu dezelfde man uit de groepsfoto van dezelfde dag. Zet die portretfoto in de Drive, dan wissel ik hem om.
+| 10 competitie | verkeerde persoon, de trainer met de pet | nu de juiste foto: ACA_PoortPadel_29mei-46.jpg, door Lars bevestigd |
 
 ---
 
