@@ -1,0 +1,325 @@
+<title>ACA Redactietafel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ground:#EDEFE8; --surface:#FFFFFF; --sunk:#F7F8F4; --line:#D5DACC; --line-soft:#E4E8DB;
+  --text:#0B1420; --muted:#56635B; --faint:#87918A;
+  --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#5C7000;
+  --ok:#3C8A57; --ok-bg:#E3F0E7; --warn:#A8740F; --warn-bg:#F8EDCE; --stop:#A8412F;
+  --ig:#B0347A; --fb:#2A5FBE; --li:#1A5E8E;
+  --shadow:0 1px 2px rgba(11,20,32,.05),0 6px 20px rgba(11,20,32,.06);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#090F16; --surface:#141D27; --sunk:#0F1720; --line:#25313C; --line-soft:#1C2732;
+    --text:#EEF1EB; --muted:#909D96; --faint:#6B7872;
+    --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#C4E648;
+    --ok:#6DBE88; --ok-bg:#16291D; --warn:#DDB44F; --warn-bg:#2B2211; --stop:#E08A78;
+    --ig:#E981B6; --fb:#82A9F2; --li:#73B4DD;
+    --shadow:0 1px 2px rgba(0,0,0,.45),0 8px 24px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#090F16; --surface:#141D27; --sunk:#0F1720; --line:#25313C; --line-soft:#1C2732;
+  --text:#EEF1EB; --muted:#909D96; --faint:#6B7872;
+  --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#C4E648;
+  --ok:#6DBE88; --ok-bg:#16291D; --warn:#DDB44F; --warn-bg:#2B2211; --stop:#E08A78;
+  --ig:#E981B6; --fb:#82A9F2; --li:#73B4DD;
+  --shadow:0 1px 2px rgba(0,0,0,.45),0 8px 24px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);
+  font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;padding-block:0 80px}
+h1,h2,h3{font-family:"Inter Tight",Inter,sans-serif;line-height:1.05;text-wrap:balance;margin:0}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--ground);
+  border-bottom:1px solid var(--line)}
+.topin{max-width:920px;margin:0 auto;padding:13px 20px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.top h1{font-size:19px;font-weight:800;text-transform:uppercase;letter-spacing:.02em}
+.top h1 em{font-style:normal;color:var(--lime-text)}
+.meters{display:flex;gap:7px;flex-wrap:wrap;margin-left:auto;font-variant-numeric:tabular-nums}
+.meter{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);
+  border-radius:999px;padding:5px 11px;font-size:13px;font-weight:600}
+.meter i{width:8px;height:8px;border-radius:50%;background:var(--li)}
+.meter.bew i{background:var(--ok)}
+.sync{font-size:12px;color:var(--faint);width:100%}
+
+.wrap{max-width:920px;margin:0 auto;padding:24px 20px 0}
+.lead{color:var(--muted);max-width:62ch;margin:0 0 8px}
+.lead b{color:var(--text)}
+.stappen{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 28px;padding:0;list-style:none;
+  font-size:13px;color:var(--muted)}
+.stappen li{border:1px solid var(--line-soft);background:var(--surface);border-radius:8px;padding:7px 11px}
+.stappen li b{color:var(--text);font-weight:700}
+.stappen li[data-nu="1"]{border-color:var(--lime-text);color:var(--text)}
+
+.momenten{display:flex;flex-direction:column;gap:20px}
+.moment{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.mkop{display:flex;gap:14px;align-items:center;padding:13px 16px;border-bottom:1px solid var(--line-soft)}
+.mkop img{width:52px;height:65px;object-fit:cover;border-radius:6px;display:block;flex:none;background:var(--sunk)}
+.mtitel{min-width:0}
+.mtitel h2{font-size:16px;font-weight:700}
+.mwanneer{color:var(--muted);font-size:13.5px;font-variant-numeric:tabular-nums;margin-top:2px;text-transform:capitalize}
+.mpijler{margin-left:auto;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);flex:none}
+
+.kanaal{border-top:1px solid var(--line-soft);padding:13px 16px}
+.kanaal:first-of-type{border-top:0}
+.khead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.knaam{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  padding:3px 9px;border-radius:6px;border:1px solid currentColor}
+.knaam.instagram{color:var(--ig)} .knaam.facebook{color:var(--fb)} .knaam.linkedin{color:var(--li)}
+.khint{font-size:12.5px;color:var(--faint)}
+.telling{margin-left:auto;font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.telling.over{color:var(--stop);font-weight:700}
+textarea{width:100%;background:var(--sunk);color:var(--text);border:1px solid var(--line-soft);
+  border-radius:10px;padding:11px 13px;font:14px/1.55 Inter,system-ui,sans-serif;resize:vertical;min-height:110px}
+textarea:focus{outline:2px solid var(--lime-text);outline-offset:1px;border-color:var(--lime-text)}
+
+.schakel{display:inline-flex;align-items:center;gap:9px;cursor:pointer;font-weight:600;font-size:14px}
+.schakel input{position:absolute;opacity:0;width:0;height:0}
+.spoor{width:40px;height:23px;border-radius:999px;background:var(--line);position:relative;flex:none;
+  transition:background .15s}
+.spoor::after{content:"";position:absolute;top:3px;left:3px;width:17px;height:17px;border-radius:50%;
+  background:var(--surface);transition:transform .15s}
+.schakel input:checked + .spoor{background:var(--li)}
+.schakel input:checked + .spoor::after{transform:translateX(17px)}
+.schakel input:focus-visible + .spoor{outline:2px solid var(--lime-text);outline-offset:2px}
+.fit{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:999px}
+.fit.goed{background:var(--ok-bg);color:var(--ok)}
+.fit.redelijk{background:var(--warn-bg);color:var(--warn)}
+.fit.zwak{background:var(--line-soft);color:var(--muted)}
+.li-body[hidden]{display:none!important}
+.li-uit{font-size:13px;color:var(--faint);margin:0}
+
+.slot{margin:34px 0 0;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:18px 20px}
+.slot h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:9px}
+.slot p{margin:0 0 9px;color:var(--muted);font-size:14px;max-width:62ch}
+.klaarknop{margin-top:6px;border:1px solid var(--lime);background:var(--lime);color:var(--lime-ink);
+  border-radius:999px;padding:11px 20px;font:700 15px Inter,sans-serif;cursor:pointer}
+.klaarknop.af{background:var(--ok-bg);border-color:var(--ok);color:var(--ok)}
+.klaarknop:focus-visible{outline:2px solid var(--text);outline-offset:2px}
+
+@media (max-width:560px){
+  .mkop{align-items:flex-start}
+  .mpijler{margin:0;width:100%}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<header class="top"><div class="topin">
+  <h1>ACA <em>Redactietafel</em></h1>
+  <div class="meters">
+    <span class="meter"><i></i><span id="m-li">0</span> van 12 naar LinkedIn</span>
+    <span class="meter bew"><i></i><span id="m-bew">0</span> aangepast</span>
+  </div>
+  <div class="sync" id="sync">Verbinden</div>
+</div></header>
+
+<main class="wrap">
+  <p class="lead">De laatste ronde voordat ik het doorzet. Pas hier de teksten aan en zet per moment de <b>LinkedIn-schakelaar</b> aan of uit. Wat je typt slaat vanzelf op.</p>
+  <ul class="stappen">
+    <li><b>1</b> Postercheck, gedaan</li>
+    <li data-nu="1"><b>2</b> Redactie, je bent hier</li>
+    <li><b>3</b> Claude zet het in Metricool</li>
+    <li><b>4</b> Groen licht in de planner</li>
+  </ul>
+
+  <div class="momenten" id="momenten"></div>
+
+  <div class="slot">
+    <h2>Als je klaar bent</h2>
+    <p>Druk hieronder, dan weet ik dat ik het mag verwerken. Ik lees dan alle teksten en LinkedIn-keuzes uit en zet ze klaar in Metricool, nog steeds als concept. Daarna geef je in de planner per post groen licht voor publicatie.</p>
+    <p>Je kunt hierna nog gewoon doorschrijven, druk dan opnieuw.</p>
+    <button type="button" class="klaarknop" id="klaar">Klaar, zet het door</button>
+  </div>
+</main>
+
+<script id="data" type="application/json">[{"id": "01_najaarsreeks", "dag": "maandag 21 september", "tijd": "18:00", "titel": "8 weken beter padellen", "pijler": "najaarsreeks", "img": "posters/01_najaarsreeks.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Op 19 oktober gaan we weer los. 8 weken padel met een vaste coach en een vaste groep van max 4. Jij leert sneller, wij zien precies waar je winst zit.\n\nWat je krijgt:\n- Groepsles op jouw niveau\n- Elke week dezelfde coach, dus echte progressie\n- Kun je een keer niet, dan stuur je een vervanger\n- Instromen kan, ook als de reeks al loopt\n\nLessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio of stuur een appje naar 06 21 24 65 09. Je hoort binnen 24 uur van ons 🎾\n\n#padelalmere #poortpadel #padelles #almere #padelnederland", "fb": "Op 19 oktober gaan we weer los. 8 weken padel met een vaste coach en een vaste groep van max 4. Jij leert sneller, wij zien precies waar je winst zit.\n\nWat je krijgt:\n- Groepsles op jouw niveau\n- Elke week dezelfde coach, dus echte progressie\n- Kun je een keer niet, dan stuur je een vervanger\n- Instromen kan, ook als de reeks al loopt\n\nLessen zijn bij Poort Padel in Almere.\n\nSchrijf je in: https://allcourtacademy.com/pages/lessen.html\nLiever eerst overleggen? App 06 21 24 65 09, je hoort binnen 24 uur van ons 🎾\n\n#padelalmere #poortpadel #almere", "li": "Acht weken, elke week dezelfde tijd, dezelfde coach, een vaste groep van maximaal vier.\n\nVeel van onze spelers zijn ondernemer of werken fulltime. Daar is de najaarsreeks op gebouwd. Je zet het in je agenda en het staat er acht weken. Kun je een keer niet, dan stuur je een vervanger, geen gedoe met appgroepen en afzeggingen.\n\nStart 19 oktober bij Poort Padel in Almere. Instromen kan ook als de reeks al loopt.\n\nLessen en inschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #ondernemers", "li_aan": false}, {"id": "09_padel", "dag": "donderdag 24 september", "tijd": "10:00", "titel": "Binnen 10 minuten ben je verkocht", "pijler": "waarom padel", "img": "posters/09_padel.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/business.html", "ig": "Nog nooit gepadeld? Ontdek waarom zoveel mensen er niet meer mee kunnen stoppen.\n\nBinnen tien minuten vind je het al leuk. De baan is klein, de glaswand houdt de bal in het spel, en je speelt altijd met z'n vieren. Dus je hoeft niet goed te zijn om er meteen plezier in te hebben. Dat gevoel als die eerste bal uit de wand precies goed terugkomt, daar doen we het voor.\n\nRacket lenen we je, baan regelen wij. Boek een losse les via de link in bio.\n\n#padel #padelnederland #padelalmere #poortpadel #almere", "fb": "Nog nooit gepadeld? Ontdek waarom zoveel mensen er niet meer mee kunnen stoppen.\n\nBinnen tien minuten vind je het al leuk. De baan is klein, de glaswand houdt de bal in het spel, en je speelt altijd met z'n vieren. Dus je hoeft niet goed te zijn om er meteen plezier in te hebben. Dat gevoel als die eerste bal uit de wand precies goed terugkomt, daar doen we het voor.\n\nRacket lenen we je, baan regelen wij.\n\nBoek een losse les: https://allcourtacademy.com/pages/lessen.html\n\n#padelalmere #poortpadel #almere", "li": "Wat maakt padel zo geschikt als bedrijfsactiviteit? De lage drempel.\n\nDe baan is klein, de glaswand houdt de bal in het spel, en je speelt altijd met vier. Daardoor heeft ook de collega die nooit sport binnen tien minuten een rally te pakken. Geen uur lang toekijken vanaf de kant, iedereen doet meteen mee.\n\nDat is precies wat je wil bij een teamdag: een activiteit waar niemand zich buitengesloten voelt.\n\nVoor bedrijven: https://allcourtacademy.com/pages/business.html\n\n#padel #teamuitje #almere", "li_aan": false}, {"id": "14_samen", "dag": "maandag 28 september", "tijd": "18:00", "titel": "Samen inschrijven?", "pijler": "najaarsreeks", "img": "posters/14_samen.jpg", "fit": "redelijk", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Padel is leuker met je maatjes. Schrijf je samen in voor de najaarsreeks, dan train je gewoon in je eigen groep.\n\nKom als duo, met z'n drieën, of meteen met je hele vriendengroep. Je komt bij elkaar in de groep, met een vaste coach en elke week dezelfde tijd.\n\nWil je juist nieuwe mensen leren kennen? Ook goed. Zijn jullie niet compleet, dan zoeken wij er spelers bij van jullie niveau tot de groep vol is met vier.\n\nTag hieronder wie mee moet 🎾 Inschrijven via de link in bio.\n\n#padelalmere #poortpadel #padelles #almere #padelnederland", "fb": "Padel is leuker met je maatjes. Schrijf je samen in voor de najaarsreeks, dan train je gewoon in je eigen groep.\n\nKom als duo, met z'n drieën, of meteen met je hele vriendengroep. Je komt bij elkaar in de groep, met een vaste coach en elke week dezelfde tijd.\n\nWil je juist nieuwe mensen leren kennen? Ook goed. Zijn jullie niet compleet, dan zoeken wij er spelers bij van jullie niveau tot de groep vol is met vier.\n\nTag hieronder wie mee moet 🎾\n\nSamen inschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padelalmere #poortpadel #almere", "li": "Sporten met collega's werkt beter dan sporten in je eentje. Je komt opdagen, want er rekent iemand op je.\n\nSchrijf je met een paar collega's in voor de najaarsreeks, dan train je in je eigen groep, op een vaste avond. Zijn jullie niet met vier, dan vullen wij aan met spelers van jullie niveau.\n\nEen uur per week, acht weken, bij Poort Padel in Almere.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #vitaliteit", "li_aan": false}, {"id": "02_eerste_les", "dag": "donderdag 1 oktober", "tijd": "10:00", "titel": "Je eerste les regelen wij", "pijler": "beginners", "img": "posters/02_eerste_les.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/business.html", "ig": "Nooit gepadeld? Dan is dit je moment. Bij All Court Academy start je gewoon bij het begin, met een coach naast je en een leenracket van ons.\n\nEen losse les boek je op de dag en tijd die jou uitkomt, met 1 tot 4 spelers. Neem je maatje mee of kom alleen, wij zetten je in een les op jouw niveau. Baanhuur zit erbij.\n\nBoek je eerste les via de link in bio. Vragen? App 06 21 24 65 09, je krijgt binnen 24 uur antwoord.\n\n#padel #padelalmere #poortpadel #padelles #almere", "fb": "Nooit gepadeld? Dan is dit je moment. Bij All Court Academy start je gewoon bij het begin, met een coach naast je en een leenracket van ons.\n\nEen losse les boek je op de dag en tijd die jou uitkomt, met 1 tot 4 spelers. Neem je maatje mee of kom alleen, wij zetten je in een les op jouw niveau. Baanhuur zit erbij.\n\nBoek je eerste les: https://allcourtacademy.com/pages/lessen.html\nVragen? App 06 21 24 65 09, je krijgt binnen 24 uur antwoord.\n\n#padelalmere #poortpadel #almere", "li": "De meeste mensen die bij ons beginnen hebben nog nooit een padelracket vastgehouden.\n\nDaar zit precies de kracht voor een bedrijfsclinic: je hoeft niets te kunnen. Een coach staat naast je, rackets liggen klaar, baanhuur zit erbij. Binnen een half uur speelt iedereen punten.\n\nOf het nu een kennismaking is voor het hele team of een eerste les voor jezelf, je start bij het begin.\n\nVoor bedrijven: https://allcourtacademy.com/pages/business.html\nLosse lessen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #teamuitje", "li_aan": false}, {"id": "07_laatste_plekken", "dag": "maandag 5 oktober", "tijd": "18:00", "titel": "Laatste plekken najaarsreeks", "pijler": "najaarsreeks", "img": "posters/07_laatste_plekken.jpg", "fit": "redelijk", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Over twee weken start de najaarsreeks. Een paar groepen hebben nog een plek vrij.\n\n- 8 lessen van 1 uur\n- Van 19 oktober tot en met 12 december\n- Max 4 per groep, elke week dezelfde coach\n- Kun je een keer niet, dan mag een vervanger komen\n\nWil je erbij? Schrijf je in via de link in bio, dan zetten we je in een groep op jouw niveau. App 06 21 24 65 09 als je wil overleggen welke groep past.\n\n#padelalmere #poortpadel #padelles #almere #padeltraining", "fb": "Over twee weken start de najaarsreeks. Een paar groepen hebben nog een plek vrij.\n\n- 8 lessen van 1 uur\n- Van 19 oktober tot en met 12 december\n- Max 4 per groep, elke week dezelfde coach\n- Kun je een keer niet, dan mag een vervanger komen\n\nWil je erbij? Schrijf je in, dan zetten we je in een groep op jouw niveau.\n\nhttps://allcourtacademy.com/pages/lessen.html\n\nApp 06 21 24 65 09 als je wil overleggen welke groep past.\n\n#padelalmere #poortpadel #almere", "li": "Over twee weken start de najaarsreeks. Een paar groepen hebben nog plek.\n\nAcht lessen van een uur, van 19 oktober tot en met 12 december. Maximaal vier per groep, elke week dezelfde coach. Kun je een keer niet, dan mag een vervanger komen, handig als je agenda onvoorspelbaar is.\n\nBij Poort Padel in Almere.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #ondernemers", "li_aan": false}, {"id": "11_jouw_coach", "dag": "donderdag 8 oktober", "tijd": "10:00", "titel": "Jouw coach, jouw moment", "pijler": "losse training", "img": "posters/11_jouw_coach.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Acht coaches, elk met een eigen stijl. Jij kiest wie bij je past.\n\nEen losse training plan je op de dag en tijd die jou uitkomt. Wil je rustig en duidelijk, of juist tempo en wedstrijddruk? Zeg wat je zoekt, dan koppelen we je aan de juiste coach.\n\nKies je coach via de link in bio. Twijfel je? App 06 21 24 65 09, we denken mee.\n\n#padelcoach #padelalmere #poortpadel #padeltraining #almere", "fb": "Acht coaches, elk met een eigen stijl. Jij kiest wie bij je past.\n\nEen losse training plan je op de dag en tijd die jou uitkomt. Wil je rustig en duidelijk, of juist tempo en wedstrijddruk? Zeg wat je zoekt, dan koppelen we je aan de juiste coach.\n\nKies je coach: https://allcourtacademy.com/pages/lessen.html\nTwijfel je? App 06 21 24 65 09, we denken mee.\n\n#padelalmere #poortpadel #almere", "li": "Acht coaches, elk met een eigen stijl. Jij kiest wie bij je past.\n\nDe een is rustig en technisch en bouwt je slag stap voor stap op. De ander zet je meteen onder wedstrijddruk. Wat werkt hangt af van wat je wil bereiken en hoe je leert.\n\nZeg wat je zoekt, dan koppelen we je aan de juiste coach. Losse trainingen plan je op de dag en tijd die in je agenda past.\n\nLessen en coaches: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #padelles", "li_aan": true}, {"id": "15_geen_racket", "dag": "maandag 12 oktober", "tijd": "18:00", "titel": "Geen racket? Geen probleem", "pijler": "beginners", "img": "posters/15_geen_racket.jpg", "fit": "zwak", "li_link": "https://allcourtacademy.com/pages/business.html", "ig": "Je wil padel proberen maar hebt geen racket? Wij hebben er genoeg. Leenracket is gratis tijdens de les.\n\nKom in sportkleren en schoenen zonder zwarte zool, de rest regelen wij. Een losse les boek je op de dag en tijd die jou past, met 1 tot 4 spelers.\n\nBoek je eerste les via de link in bio of app 06 21 24 65 09.\n\n#padel #padelalmere #poortpadel #padelles #almere", "fb": "Je wil padel proberen maar hebt geen racket? Wij hebben er genoeg. Leenracket is gratis tijdens de les.\n\nKom in sportkleren en schoenen zonder zwarte zool, de rest regelen wij. Een losse les boek je op de dag en tijd die jou past, met 1 tot 4 spelers.\n\nBoek je eerste les: https://allcourtacademy.com/pages/lessen.html\nOf app 06 21 24 65 09.\n\n#padelalmere #poortpadel #almere", "li": "Een van de eerste vragen die we krijgen bij een bedrijfsuitje: moeten onze mensen zelf materiaal meenemen?\n\nNee. Rackets, ballen, banen en coaches staan klaar. Sportkleren en schoenen zonder zwarte zool zijn genoeg. Hoe minder je van deelnemers vraagt, hoe meer mensen er meedoen.\n\nDatzelfde geldt als je zelf een keer wil proberen: leenracket is gratis tijdens de les.\n\nVoor bedrijven: https://allcourtacademy.com/pages/business.html\nLosse lessen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #teamuitje #almere", "li_aan": false}, {"id": "16_backhand", "dag": "donderdag 15 oktober", "tijd": "10:00", "titel": "Backhand onder controle", "pijler": "techniek", "img": "posters/16_backhand.jpg", "fit": "zwak", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Je backhand voelt onzeker? In een losse training kijken we rustig naar je techniek en bouwen we het op.\n\nGrip, voetenwerk, het moment van raken. Kleine aanpassingen, groot verschil. Jij kiest de trainer en de tijd, baanhuur is inbegrepen.\n\nBoek je losse training via de link in bio.\n\n#padeltips #padeltechniek #padelcoach #padelalmere #poortpadel", "fb": "Je backhand voelt onzeker? In een losse training kijken we rustig naar je techniek en bouwen we het op.\n\nGrip, voetenwerk, het moment van raken. Kleine aanpassingen, groot verschil. Jij kiest de trainer en de tijd, baanhuur is inbegrepen.\n\nBoek je losse training: https://allcourtacademy.com/pages/lessen.html\n\n#padelalmere #poortpadel #almere", "li": "Vooruitgang die je kunt aanwijzen, dat is waarom mensen bij ons blijven trainen.\n\nNeem de backhand. Grip, voetenwerk, het moment van raken. Drie kleine dingen die samen het verschil maken tussen een bal die terugkomt en een bal die de wand in vliegt. In een losse training pakken we er een uit en bouwen we die op.\n\nGeen vage tips, maar een punt waar je de week erna iets aan hebt.\n\nLosse trainingen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #padelles", "li_aan": false}, {"id": "04_techniek", "dag": "maandag 19 oktober", "tijd": "18:00", "titel": "Jouw smash, onze focus", "pijler": "techniek", "img": "posters/04_techniek.jpg", "fit": "zwak", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Je smash gaat steeds net niet zoals je wil? Dat is een techniekpunt, geen talentpunt. In een losse training pakken we die slag en maken we hem af.\n\nJe kiest zelf de dag, de tijd en de trainer. 1 tot 4 spelers, baanhuur inbegrepen. Ideaal als je snel een stap wil maken voor de competitie of gewoon voor jezelf.\n\nBoek je losse training via de link in bio.\n\n#padeltips #padeltechniek #padeltraining #padelalmere #poortpadel", "fb": "Je smash gaat steeds net niet zoals je wil? Dat is een techniekpunt, geen talentpunt. In een losse training pakken we die slag en maken we hem af.\n\nJe kiest zelf de dag, de tijd en de trainer. 1 tot 4 spelers, baanhuur inbegrepen. Ideaal als je snel een stap wil maken voor de competitie of gewoon voor jezelf.\n\nBoek je losse training: https://allcourtacademy.com/pages/lessen.html\n\n#padelalmere #poortpadel #almere", "li": "\"Ik heb er gewoon geen talent voor.\" Die zin horen we vaak, meestal over de smash.\n\nNegen van de tien keer is het geen talentkwestie maar een techniekkwestie. Timing, de stand van je lichaam, waar je de bal raakt. In een losse training halen we die slag uit elkaar en zetten we hem opnieuw in elkaar.\n\nJij kiest de dag, de tijd en de trainer. Een tot vier spelers, baanhuur inbegrepen.\n\nLosse trainingen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #padelles", "li_aan": false}, {"id": "10_competitie", "dag": "donderdag 22 oktober", "tijd": "10:00", "titel": "Klaar voor de competitie?", "pijler": "competitie", "img": "posters/10_competitie.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "In november start de KNLTB competitie. Wil je er klaar voor staan? Dan is dit het moment voor wedstrijdtraining.\n\nWat we doen:\n- Tactiek: waar sta je, waar sla je heen\n- Spelinzicht: de juiste bal op het juiste moment\n- Druk zetten aan het net en rustig blijven achterin\n\nMet je team of alleen, 1 tot 4 spelers per training. Boek via de link in bio of app 06 21 24 65 09.\n\n#padelcompetitie #knltb #padelalmere #poortpadel #padeltraining", "fb": "In november start de KNLTB competitie. Wil je er klaar voor staan? Dan is dit het moment voor wedstrijdtraining.\n\nWat we doen:\n- Tactiek: waar sta je, waar sla je heen\n- Spelinzicht: de juiste bal op het juiste moment\n- Druk zetten aan het net en rustig blijven achterin\n\nMet je team of alleen, 1 tot 4 spelers per training.\n\nBoek wedstrijdtraining: https://allcourtacademy.com/pages/lessen.html\nOf app 06 21 24 65 09.\n\n#padelalmere #poortpadel #almere", "li": "In november start de KNLTB competitie. Speel je met een team, dan is dit het moment om samen te trainen.\n\nWaar wedstrijdtraining over gaat:\n- Tactiek: waar sta je, waar sla je heen\n- Spelinzicht: de juiste bal op het juiste moment\n- Druk zetten aan het net en rustig blijven achterin\n\nMet je hele team of alleen, een tot vier spelers per training. Ook als je met collega's een team hebt gevormd.\n\nWedstrijdtraining boeken: https://allcourtacademy.com/pages/lessen.html\n\n#padel #knltb #almere", "li_aan": false}, {"id": "18_teamuitje", "dag": "maandag 26 oktober", "tijd": "18:00", "titel": "Padel met je team", "pijler": "bedrijven", "img": "posters/18_teamuitje.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/business.html", "ig": "Op zoek naar een teamuitje dat iedereen leuk vindt, ook wie nooit gepadeld heeft? Binnen tien minuten heeft iedereen lol, binnen een uur is iedereen fanatiek.\n\nBij Poort Padel regelen we het all-in: banen, coaches, rackets en catering in huis. Van 8 tot 100+ personen. Ook voor klantevents en personeelsfeesten.\n\nPlan je event via de link in bio of mail info@allcourtacademy.com.\n\n#teamuitje #bedrijfsuitje #padelalmere #poortpadel #flevoland", "fb": "Op zoek naar een teamuitje dat iedereen leuk vindt, ook wie nooit gepadeld heeft? Binnen tien minuten heeft iedereen lol, binnen een uur is iedereen fanatiek.\n\nBij Poort Padel regelen we het all-in: banen, coaches, rackets en catering in huis. Van 8 tot 100+ personen. Ook voor klantevents en personeelsfeesten.\n\nVoor bedrijven: https://allcourtacademy.com/pages/business.html\nAlle events: https://allcourtacademy.com/pages/events.html\n\nLiever even bellen of mailen? info@allcourtacademy.com\n\n#teamuitje #padelalmere #poortpadel", "li": "Een bedrijfsuitje waar iedereen aan meedoet, ook de collega's die normaal afhaken zodra er sport op het programma staat.\n\nDat is precies waarom padel werkt. De baan is klein, de glaswand houdt de bal in het spel en je speelt altijd met vier. Binnen tien minuten heeft iedereen lol, binnen een uur is iedereen fanatiek. Ervaring is niet nodig, rackets liggen klaar.\n\nBij Poort Padel in Almere regelen we het all-in: banen, coaches, materiaal en catering in huis. Van 8 tot 100+ personen. Ook voor klantevents, teamdagen en personeelsfeesten.\n\nVoor bedrijven: https://allcourtacademy.com/pages/business.html\nAlle events: https://allcourtacademy.com/pages/events.html\n\n#teamuitje #bedrijfsuitje #almere", "li_aan": true}, {"id": "20_vaste_plek", "dag": "donderdag 29 oktober", "tijd": "10:00", "titel": "Jouw vaste plek om te spelen", "pijler": "community", "img": "posters/20_vaste_plek.jpg", "fit": "goed", "li_link": "https://allcourtacademy.com/pages/lessen.html", "ig": "Meer dan een padelacademy: een vaste plek om te spelen, te leren en mensen te ontmoeten. Meer dan 100 spelers gingen je voor.\n\nIn januari start de voorjaarsreeks (7 lessen, 4 januari t/m 20 februari). Wil je erbij zijn? Schrijf je alvast in via de link in bio, dan hou je een plek in een groep op jouw niveau.\n\n#padelalmere #poortpadel #padel #almere #indoorpadel", "fb": "Meer dan een padelacademy: een vaste plek om te spelen, te leren en mensen te ontmoeten. Meer dan 100 spelers gingen je voor.\n\nIn januari start de voorjaarsreeks: 7 lessen, 4 januari tot en met 20 februari. Wil je erbij zijn? Schrijf je alvast in, dan hou je een plek in een groep op jouw niveau.\n\nhttps://allcourtacademy.com/pages/lessen.html\n\n#padelalmere #poortpadel #almere", "li": "Meer dan honderd spelers trainen inmiddels bij ons. Wat ze delen is niet hun niveau, maar hun avond.\n\nEen vaste plek om te spelen, te leren en mensen te ontmoeten die je anders nooit was tegengekomen. We zien geregeld dat mensen elkaar hier zakelijk vinden, zonder dat dat het doel was.\n\nIn januari start de voorjaarsreeks: zeven lessen, 4 januari tot en met 20 februari. Alvast inschrijven kan.\n\nLessen en inschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #netwerken", "li_aan": false}]</script>
+<script>
+(function(){
+  var rows = JSON.parse(document.getElementById('data').textContent);
+  var wrap = document.getElementById('momenten');
+  var db = null, timers = {};
+  var LS = 'aca-redactie-v1';
+  var state = {};
+  var LIMIET = {ig:2200, fb:63206, li:3000};
+  var HINT = {
+    ig:'Link in bio, 5 hashtags. Links zijn hier niet klikbaar.',
+    fb:'Echte link in de tekst, 3 hashtags.',
+    li:'Zakelijk, geen emoji, echte link, 3 hashtags.'
+  };
+  var NAAM = {ig:'Instagram', fb:'Facebook', li:'LinkedIn'};
+
+  rows.forEach(function(r){
+    state[r.id] = {id:r.id, ig:r.ig, fb:r.fb, li:r.li, li_aan:!!r.li_aan};
+  });
+  try { var op = JSON.parse(localStorage.getItem(LS) || '{}');
+        Object.keys(op).forEach(function(k){ if (state[k]) Object.assign(state[k], op[k]); });
+  } catch(e){}
+
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function veld(r, k){
+    var d = document.createElement('div');
+    d.className = 'kanaal';
+    d.innerHTML =
+      '<div class="khead">' +
+        '<span class="knaam ' + (k==='ig'?'instagram':k==='fb'?'facebook':'linkedin') + '">' + NAAM[k] + '</span>' +
+        '<span class="khint">' + HINT[k] + '</span>' +
+        '<span class="telling" data-tel="' + k + '"></span>' +
+      '</div>';
+    var ta = document.createElement('textarea');
+    ta.id = 'ta-' + r.id + '-' + k;
+    ta.value = state[r.id][k];
+    ta.setAttribute('aria-label', NAAM[k] + ' tekst voor ' + r.titel);
+    ta.addEventListener('input', function(){
+      state[r.id][k] = ta.value;
+      tel(r, k, d);
+      bewaar(r.id);
+      meters();
+    });
+    d.appendChild(ta);
+    tel(r, k, d);
+    return d;
+  }
+
+  function tel(r, k, d){
+    var el = d.querySelector('[data-tel="' + k + '"]');
+    var n = state[r.id][k].length;
+    var max = LIMIET[k];
+    el.textContent = k === 'fb' ? (n + ' tekens') : (n + ' / ' + max);
+    el.classList.toggle('over', k !== 'fb' && n > max);
+  }
+
+  rows.forEach(function(r){
+    var m = document.createElement('section');
+    m.className = 'moment';
+
+    var kop = document.createElement('div');
+    kop.className = 'mkop';
+    kop.innerHTML =
+      '<img src="' + esc(r.img) + '" alt="Poster ' + esc(r.titel) + '">' +
+      '<div class="mtitel"><h2>' + esc(r.titel) + '</h2>' +
+      '<div class="mwanneer">' + esc(r.dag) + ' om ' + esc(r.tijd) + '</div></div>' +
+      '<div class="mpijler">' + esc(r.pijler) + '</div>';
+    m.appendChild(kop);
+
+    m.appendChild(veld(r, 'ig'));
+    m.appendChild(veld(r, 'fb'));
+
+    var liBlok = document.createElement('div');
+    liBlok.className = 'kanaal';
+    var kh = document.createElement('div');
+    kh.className = 'khead';
+    kh.innerHTML = '<span class="knaam linkedin">LinkedIn</span>' +
+      '<span class="fit ' + r.fit + '">past ' + r.fit + '</span>';
+    var lab = document.createElement('label');
+    lab.className = 'schakel';
+    lab.style.marginLeft = 'auto';
+    var cb = document.createElement('input');
+    cb.type = 'checkbox'; cb.id = 'li-' + r.id; cb.checked = state[r.id].li_aan;
+    var spoor = document.createElement('span'); spoor.className = 'spoor';
+    var tekstje = document.createElement('span'); tekstje.textContent = 'Naar LinkedIn';
+    lab.appendChild(cb); lab.appendChild(spoor); lab.appendChild(tekstje);
+    kh.appendChild(lab);
+    liBlok.appendChild(kh);
+
+    var body = document.createElement('div');
+    body.className = 'li-body';
+    var hint = document.createElement('p');
+    hint.className = 'khint';
+    hint.style.margin = '0 0 8px';
+    hint.textContent = HINT.li;
+    body.appendChild(hint);
+    var liTa = document.createElement('textarea');
+    liTa.id = 'ta-' + r.id + '-li';
+    liTa.value = state[r.id].li;
+    liTa.setAttribute('aria-label', 'LinkedIn tekst voor ' + r.titel);
+    liTa.style.minHeight = '150px';
+    body.appendChild(liTa);
+    var liTel = document.createElement('div');
+    liTel.className = 'telling'; liTel.dataset.tel = 'li';
+    liTel.style.marginTop = '6px';
+    body.appendChild(liTel);
+    liBlok.appendChild(body);
+
+    var uit = document.createElement('p');
+    uit.className = 'li-uit';
+    uit.textContent = 'Staat uit. Dit moment gaat alleen naar Instagram en Facebook.';
+    liBlok.appendChild(uit);
+
+    function telLi(){
+      var n = state[r.id].li.length;
+      liTel.textContent = n + ' / ' + LIMIET.li;
+      liTel.classList.toggle('over', n > LIMIET.li);
+    }
+    liTa.addEventListener('input', function(){
+      state[r.id].li = liTa.value; telLi(); bewaar(r.id);
+    });
+    function toon(){
+      body.hidden = !cb.checked;
+      uit.hidden = cb.checked;
+    }
+    cb.addEventListener('change', function(){
+      state[r.id].li_aan = cb.checked; toon(); bewaar(r.id); meters();
+    });
+    telLi(); toon();
+
+    m.appendChild(liBlok);
+    wrap.appendChild(m);
+  });
+
+  function meters(){
+    var li = 0, bew = 0;
+    rows.forEach(function(r){
+      if (state[r.id].li_aan) li++;
+      if (state[r.id].ig !== r.ig || state[r.id].fb !== r.fb || state[r.id].li !== r.li) bew++;
+    });
+    document.getElementById('m-li').textContent = li;
+    document.getElementById('m-bew').textContent = bew;
+  }
+
+  function bewaar(id){
+    try { localStorage.setItem(LS, JSON.stringify(state)); } catch(e){}
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(function(){
+      if (!db) { melding('Alleen op dit apparaat bewaard'); return; }
+      var rec = Object.assign({}, state[id], {bijgewerkt:new Date().toISOString()});
+      db.doc('redactie/' + id).set(rec).then(function(){
+        melding('Opgeslagen');
+      }, function(e){ melding('Opslaan mislukt (' + (e.code || 'fout') + ')'); });
+    }, 600);
+  }
+
+  function melding(t){ document.getElementById('sync').textContent = t; }
+
+  document.getElementById('klaar').addEventListener('click', function(){
+    var knop = this;
+    if (!db) { melding('Geen opslag, ik kan dit niet uitlezen'); return; }
+    db.doc('redactie/_status').set({klaar:true, moment:new Date().toISOString(),
+      naar_linkedin: rows.filter(function(r){ return state[r.id].li_aan; }).map(function(r){ return r.id; })
+    }).then(function(){
+      knop.textContent = 'Doorgezet, ik pak het op'; knop.classList.add('af');
+      melding('Klaargemeld');
+    }, function(e){ melding('Klaarmelden mislukt (' + (e.code || 'fout') + ')'); });
+  });
+
+  meters();
+
+  (function(){
+    if (!(window.claude && window.claude.use)) { melding('Geen opslag, keuzes blijven op dit apparaat'); return; }
+    window.claude.use('db').then(function(d){
+      db = d;
+      if (!db) { melding('Geen opslag, keuzes blijven op dit apparaat'); return; }
+      melding('Verbonden');
+    }, function(){ melding('Geen opslag, keuzes blijven op dit apparaat'); });
+  })();
+})();
+</script>
