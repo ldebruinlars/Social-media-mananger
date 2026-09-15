@@ -6,7 +6,7 @@
 | Brand style v2 uit live website | klaar, IG handle is allcourtacademy, wacht nog op coach-toestemming | 2026-09-14 |
 | Website check | klaar, zie docs/website-check-2026-09.md, 2 hoge fixes voor Lars | 2026-09-14 |
 | Media-inventaris | klaar, Drive is bijna leeg, wacht op map ACA Social Media | 2026-09-14 |
-| Meta Business koppeling | koppellink klaar, wacht op Lars: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5 | 2026-09-15 |
+| Meta Business koppeling | koppellink klaar, wacht op Lars: (koppellink verwijderd, stond in een publieke repo, Lars moet het credential request in Make intrekken) | 2026-09-15 |
 | Postschema najaar (12 posts, 21 sep t/m 29 okt) | klaar, zie docs/postschema-najaar-2026.md | 2026-09-15 |
 | Metricool gekoppeld (Instagram, Facebook, LinkedIn) | klaar, zie docs/metricool-koppeling.md, brand id 6979019 | 2026-09-15 |
 | Posters publiek bereikbaar maken voor Metricool | open, Netlify geblokkeerd door beveiliging, wacht op keuze van Lars | 2026-09-15 |

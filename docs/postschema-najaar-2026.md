@@ -48,7 +48,7 @@ Pas als een post in de planner op groen licht staat, mag hij weg. Staat hij op n
 
 ## Koppeling met Meta
 
-Koppellink voor Instagram en Facebook in Make: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5
+Koppellink voor Instagram en Facebook in Make: (koppellink verwijderd, stond in een publieke repo, Lars moet het credential request in Make intrekken)
 
 Log in met het account dat beheerder is van de Facebook pagina en het Instagram account, en keur beide koppelingen goed. Voorwaarden van Meta: het Instagram account moet een professioneel account zijn (Bedrijf of Maker) en gekoppeld aan de Facebook pagina van All Court Academy.
 

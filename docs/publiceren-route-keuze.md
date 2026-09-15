@@ -37,7 +37,7 @@ Nog niet geverifieerd: hoe de Metricool tools er precies uitzien vanuit Claude. 
 
 Metricool afmaken in plaats van het Make scenario bouwen. Twee stappen: in claude.ai bij Connectors de koppeling afronden, en in Metricool zelf het Instagram Business account en de Facebook pagina toevoegen.
 
-De Make koppellink blijft staan als terugvaloptie: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5
+De Make koppellink blijft staan als terugvaloptie: (koppellink verwijderd, stond in een publieke repo, Lars moet het credential request in Make intrekken)
 
 ## Posttijden
 
