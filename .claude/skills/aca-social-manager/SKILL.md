@@ -67,6 +67,19 @@ Werk `context/workflow-status.md` na elke stap bij.
 - **Canva**: map `ACA Social Media` (FAHVMFpKijo). Assets uploaden via `upload-asset-from-url` (alleen publieke URL's, bijvoorbeeld van allcourtacademy.com of Higgsfield-resultaten). Genereren met `generate-design` (instagram_post = 1080x1350, your_story = 1080x1920) met de huisstijl uit brand-style in de prompt en `asset_ids` voor logo en foto. Elke job geeft 4 kandidaten; maak er 2 of 3 aan met `create-design-from-candidate`, bekijk ze met `read-design` (thumbnails komen inline), kies, fix tekst met `edit-design` (transaction openen via read-design open_transaction, edits, dan commit), hernoem naar "ACA <campagne> <jaar> <post|story|reel>", verplaats naar de map, exporteer PNG.
 - **Higgsfield**: `media_import_url` voor foto's, `upscale_image` (2 credits) om webformaat naar 2K/4K te brengen, `generate_video` met seedance_2_5 en role start_image voor image-to-video teasers (ca. 32 credits per 5 sec 9:16). Altijd eerst `get_cost`. Geen AI-animatie van kinderen zonder toestemming van ouders. Weiger preset-suggesties met `declined_preset_id` als je letterlijk wilt genereren.
 
+## Video prompting voor Higgsfield (Kling 3.0 pro en Seedance)
+
+Gebruik deze skills voordat je een prompt schrijft, in deze volgorde:
+
+1. `higgsfield-prompt` (O-Side Media): MCSLA-structuur (Model, Camera, Subject, Look, Action). Bij image-to-video beschrijf je alleen wat beweegt, de foto bepaalt de rest. Maximaal 200 woorden, positief formuleren (geen "no text, no logos"), één hoofdactie per clip.
+2. `higgsfield-camera` en `vp-director-techniques`: schrijf camerabewegingen als mechanisme ("de camera is een gimbal die zijwaarts meebeweegt op heuphoogte"), niet als filmterm. Kling kan dolly, pan, crane, push-in, whip pan. Kling kan geen rack focus of dolly zoom. Vraag nooit om overgangen of speed ramps in de prompt, dat regel je in de montage.
+3. `visual-video` (smixs, CC BY 4.0) en `video-prompting`: shotlist, montage-ritme, wanneer start- en eindframe gebruiken (onomkeerbare verandering of reveal tussen twee foto's).
+4. `higgsfield-troubleshoot` als een clip mislukt.
+
+ACA-regels voor clips: eerst 9:16 croppen (Kling houdt de bronverhouding), Kling 3.0 pro 10 sec sound off (17,5 credits), `enhance_prompt: false`, cfg 0.5. Foto's van kinderen niet animeren zonder toestemming van ouders. Batch van maximaal 7 tegelijk via `generate_video_batch`, dan `jobs_wait` in groepen.
+
+Montage: intro-kaart (2 sec, verloop 158° #2C6B5C naar #0B131F, witte logo's, lime kicker) → AI-clip 5 tot 6 sec → outro-pill "SCHRIJF JE IN ↗ LINK IN BIO". Assembleren in Higgsfield `sandbox_exec` (ffmpeg, workflow `video-editing`) of in ChatCut.
+
 ## Geleerd op 15 september (zo werkt het echt)
 
 - **Canva AI-generatie is niet goed genoeg.** Bouw designs zelf via `edit-design`: open transactie, verwijder rommel, `insert_fill` foto full-bleed, twee navy rechthoeken als overlay (0.45 en 0.88), lime pill via `insert_shape` met corner_rounding 999, logo's via `insert_fill`, teksten hergebruiken via `replace_text` + `format_text` + `position_element` (zo behoud je het font), daarna `layer_element front` voor tekst. Commit meteen; bij een MCP-reconnect is een open transactie weg.
