@@ -113,3 +113,18 @@ Nieuw erbij: #werkgeluk (sterk NL HR-onderwerp), #ondernemerschap, #poortpadel a
 - https://contentin.io/blog/do-hashtags-work-on-linkedin/
 - https://blog.hootsuite.com/linkedin-algorithm/
 - https://stormachtig.nl/dit-zijn-de-populairste-linkedin-hashtags-in-nederland-gebruik-de-hashtag-generator/
+
+### Meer padel erin, 15 september 2026
+
+Lars zag te weinig padel in de LinkedIn-tags. Klopte: bij de teamuitje-posts stond helemaal geen padel-tag.
+
+Nieuwe opbouw, nog steeds 5 per post: **2 padel, 2 zakelijk, 1 lokaal of locatie**. Elke LinkedIn-post heeft nu minstens twee padel-tags.
+
+De twee erbij:
+
+| Tag | Waarom deze |
+|---|---|
+| #padelnederland | de landelijke padel-tag, en we gebruiken hem al op Instagram |
+| #padelalmere | padel en regio in één, ook al in gebruik op Instagram |
+
+Allebei bewust gekozen uit de set die op Instagram al draait, zodat de kanalen dezelfde taal spreken. Er is geen publieke data over hoeveel padel-tags op LinkedIn gebruikt worden, dus dit is een redenering, geen meting.
