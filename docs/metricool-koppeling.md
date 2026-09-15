@@ -83,3 +83,15 @@ Tijden aangepast op de eigen Metricool-data: maandag 18:00 en donderdag 10:00, i
 Metricool wil publieke URL's. De posters zijn kort in de publieke repo gezet, Metricool heeft ze naar zijn eigen opslag gekopieerd (`static.metricool.com`), daarna zijn ze weer uit de repo gehaald. Ze blijven wel in de geschiedenis van de repo staan.
 
 Voor volgende sets is een vaste plek voor beeld nodig. Netlify is vanuit deze omgeving niet bereikbaar. Google Drive werkt alleen op een betaald Metricool-plan, of via een CSV-import met een publiek gedeelde Drive-link (`view?usp=sharing`, openbaar).
+
+## Bijgewerkt op 15 september 2026, avond
+
+Alle 26 concepten in Metricool opnieuw geschreven:
+
+- Facebook van 3 naar 8 hashtags
+- LinkedIn van 3 naar 5 hashtags
+- Telefoonnummer uit alle teksten, Instagram verwijst naar de link in bio, Facebook en LinkedIn naar de inschrijflink
+
+Let op voor de volgende keer: de post-id verandert bij elke update, de uuid blijft gelijk. Werk dus met de uuid als vaste sleutel en haal de id telkens opnieuw op met getScheduledPosts.
+
+Les geleerd: een wijziging in de repo en in de artifacts is niet genoeg, Metricool heeft zijn eigen kopie van de tekst. Alle drie moeten mee.
