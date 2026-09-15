@@ -77,3 +77,39 @@ De tekst staat op vier plekken. Alle vier bijwerken, daarna controleren:
 4. Metricool, alle posts, via updateScheduledPost
 
 Daarna terugleggen met getScheduledPosts en tellen, niet aannemen dat het goed staat.
+
+## LinkedIn hashtags onderzocht, 15 september 2026
+
+### Wat er sinds eind 2024 veranderd is
+
+LinkedIn heeft het volgen van hashtags afgeschaft en de hashtagpagina's uitgezet. Er is geen aparte hashtagfeed meer en op desktop zijn ze niet eens klikbaar. Wat ze nog doen: het algoritme vertellen waar je post over gaat, en meetellen in zoeken. Gemeten effect op bereik is nog ongeveer 9 procent.
+
+Belangrijker: **het algoritme leest nu de woorden in de post zelf** om te bepalen wie hem ziet. De tekst is dus de motor, de hashtags zijn hooguit een duwtje.
+
+### Opbouw die we aanhouden
+
+Vijf per post, volgens 1-2-2: 1 brede tag, 2 zakelijke, 2 lokale of specifieke.
+
+| Rol | Tags |
+|---|---|
+| Breed | #padel, #bedrijfsuitje |
+| Zakelijk | #werkgeluk, #vitaliteit, #teambuilding, #teamuitje, #personeelsuitje, #ondernemerschap, #netwerken, #knltb |
+| Lokaal en specifiek | #almere, #flevoland, #poortpadel |
+
+### Wat eruit ging en waarom
+
+| Tag | Reden |
+|---|---|
+| #coaching | wordt op LinkedIn gedomineerd door life- en business-coaches, een padelpost verdrinkt daarin |
+| #clinic | betekent op LinkedIn vooral iets medisch |
+| #padelles | consumententerm, past niet bij een zakelijk publiek |
+| #ondernemers | #ondernemerschap is de tag die in Nederland daadwerkelijk gebruikt wordt |
+
+Nieuw erbij: #werkgeluk (sterk NL HR-onderwerp), #ondernemerschap, #poortpadel als locatie.
+
+### Bronnen
+
+- https://sproutsocial.com/insights/linkedin-hashtags/
+- https://contentin.io/blog/do-hashtags-work-on-linkedin/
+- https://blog.hootsuite.com/linkedin-algorithm/
+- https://stormachtig.nl/dit-zijn-de-populairste-linkedin-hashtags-in-nederland-gebruik-de-hashtag-generator/
