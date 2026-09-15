@@ -1,0 +1,252 @@
+<title>ACA Publicatieplanner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ground:#F2F2EE; --surface:#FFFFFF; --line:#DCDFD6; --text:#0B1420; --muted:#5B6660;
+  --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#677A00;
+  --ok:#3E8E5A; --ok-bg:#E4F1E8; --wait:#B07A12; --wait-bg:#FAEECF; --off:#8A8F88; --off-bg:#EAEAE5;
+  --shadow:0 1px 2px rgba(11,20,32,.05),0 10px 28px rgba(11,20,32,.07);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0B1420; --surface:#141F2C; --line:#26333F; --text:#F2F2EE; --muted:#95A09A;
+    --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#CCFF00;
+    --ok:#6FC08A; --ok-bg:#16291D; --wait:#E0B84C; --wait-bg:#2C2312; --off:#7C857E; --off-bg:#1C242C;
+    --shadow:0 1px 2px rgba(0,0,0,.45),0 12px 32px rgba(0,0,0,.4);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0B1420; --surface:#141F2C; --line:#26333F; --text:#F2F2EE; --muted:#95A09A;
+  --lime:#CCFF00; --lime-ink:#0B1420; --lime-text:#CCFF00;
+  --ok:#6FC08A; --ok-bg:#16291D; --wait:#E0B84C; --wait-bg:#2C2312; --off:#7C857E; --off-bg:#1C242C;
+  --shadow:0 1px 2px rgba(0,0,0,.45),0 12px 32px rgba(0,0,0,.4);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;padding-block:0 56px}
+h1,h2{font-family:"Inter Tight",Inter,sans-serif;line-height:1.05;text-wrap:balance;margin:0}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--ground);border-bottom:1px solid var(--line)}
+.topin{max-width:980px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.top h1{font-size:21px;font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+.top h1 em{font-style:normal;color:var(--lime-text)}
+.tally{display:flex;gap:7px;flex-wrap:wrap;margin-left:auto;font-variant-numeric:tabular-nums}
+.pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;font-weight:600}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--off)}
+.pill.ok i{background:var(--ok)} .pill.wait i{background:var(--wait)}
+.sync{font-size:12px;color:var(--muted);width:100%}
+.wrap{max-width:980px;margin:0 auto;padding:26px 20px 0}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 10px}
+.steps{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px;padding:0;list-style:none}
+.steps li{flex:1 1 220px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;font-size:14px}
+.steps b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--lime-text);margin-bottom:3px}
+.feed{display:flex;flex-direction:column;gap:0}
+.slot{display:grid;grid-template-columns:132px 1fr;gap:20px;padding:0 0 26px;position:relative}
+.when{position:relative;padding-top:6px}
+.when::after{content:"";position:absolute;right:-10px;top:12px;bottom:-26px;width:2px;background:var(--line)}
+.slot:last-child .when::after{display:none}
+.dot{position:absolute;right:-16px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--off);border:3px solid var(--ground)}
+.slot[data-status="akkoord"] .dot{background:var(--ok)}
+.slot[data-status="wacht"] .dot{background:var(--wait)}
+.dag{font-weight:700;font-size:15px;text-transform:capitalize}
+.tijd{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.pijler{margin-top:6px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.post{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);max-width:470px}
+.slot[data-status="akkoord"] .post{border-color:var(--ok)}
+.slot[data-status="pauze"] .post{opacity:.6}
+.phead{display:flex;align-items:center;gap:10px;padding:11px 13px}
+.phead img{width:34px;height:34px;border-radius:50%;display:block}
+.who{font-weight:700;font-size:14px;line-height:1.2}
+.where{font-size:12px;color:var(--muted)}
+.dots{margin-left:auto;color:var(--muted);letter-spacing:2px}
+.pimg{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;max-width:100%}
+.icons{display:flex;gap:14px;padding:11px 13px 4px;color:var(--text)}
+.icons svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.7}
+.icons .last{margin-left:auto}
+.cap{padding:2px 13px 13px;font-size:14px}
+.cap .naam{font-weight:700;margin-right:5px}
+.cap .body{white-space:pre-wrap}
+.cap .body.kort{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.meer{background:none;border:0;padding:0;color:var(--muted);font:600 14px Inter,sans-serif;cursor:pointer}
+.acties{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:12px 13px;border-top:1px solid var(--line)}
+.acties button{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:9px 15px;font:700 14px Inter,sans-serif;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.acties button i{width:9px;height:9px;border-radius:50%;background:var(--off)}
+.acties button[data-v="akkoord"] i{background:var(--ok)}
+.acties button[data-v="wacht"] i{background:var(--wait)}
+.acties button.on[data-v="akkoord"]{background:var(--lime);border-color:var(--lime);color:var(--lime-ink)}
+.acties button.on[data-v="akkoord"] i{background:var(--lime-ink)}
+.acties button.on[data-v="wacht"]{background:var(--wait-bg);border-color:var(--wait)}
+.acties button.on[data-v="pauze"]{background:var(--off-bg);border-color:var(--off)}
+.acties button:focus-visible,.meer:focus-visible,.copy:focus-visible{outline:2px solid var(--lime-text);outline-offset:2px}
+.stamp{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.copy{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:7px 13px;font:600 13px Inter,sans-serif;cursor:pointer}
+.copy.done{background:var(--ok-bg);border-color:var(--ok)}
+.uitleg{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:16px 18px;margin:8px 0 0;font-size:14px;max-width:62ch}
+.uitleg h2{font-size:15px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:8px}
+.uitleg p{margin:0 0 8px;color:var(--muted)}
+.uitleg p:last-child{margin-bottom:0}
+@media (max-width:640px){
+  .slot{grid-template-columns:1fr;gap:10px}
+  .when::after,.dot{display:none}
+  .when{display:flex;gap:10px;align-items:baseline}
+  .pijler{margin:0 0 0 auto}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<header class="top"><div class="topin">
+  <h1>ACA <em>Publicatieplanner</em></h1>
+  <div class="tally">
+    <span class="pill ok"><i></i><span id="t-ok">0</span> klaar om te posten</span>
+    <span class="pill wait"><i></i><span id="t-wait">0</span> nog even wachten</span>
+    <span class="pill"><i></i><span id="t-open">12</span> niet bekeken</span>
+  </div>
+  <div class="sync" id="sync">Verbinden…</div>
+</div></header>
+
+<main class="wrap">
+  <p class="lead">Dit is de laatste stap voor publicatie. Je ziet elke post zoals hij straks op je feed staat, op de dag en tijd die ernaast staat.</p>
+  <ul class="steps">
+    <li><b>Stap 1 gedaan</b>Inhoud goedgekeurd in de postercheck</li>
+    <li><b>Stap 2 hier</b>Jij geeft groen licht voor publicatie</li>
+    <li><b>Stap 3 automatisch</b>Make zet hem online op het geplande moment</li>
+  </ul>
+  <div class="feed" id="feed"></div>
+
+  <div class="uitleg">
+    <h2>Hoe het straks loopt</h2>
+    <p>Alleen posts met groen licht gaan online. Staat er niets of staat hij op wachten, dan gebeurt er niets en blijft hij gewoon staan.</p>
+    <p>Van gedachten veranderd? Zet hem tot het geplande moment terug op wachten, dan wordt hij overgeslagen.</p>
+    <p>Instagram staat via een koppeling geen concepten toe, alleen direct publiceren. Daarom is deze pagina je concept: je ziet precies wat er komt te staan en niets gaat weg zonder jouw groen licht hier.</p>
+  </div>
+</main>
+
+<script id="data" type="application/json">[{"id": "01_najaarsreeks", "n": 1, "dag": "maandag 21 september", "tijd": "18:30", "titel": "8 weken beter padellen", "cta": "Schrijf je in", "pijler": "najaarsreeks", "caption": "Op 19 oktober gaan we weer los. 8 weken padel met een vaste coach en een vaste groep van max 4. Jij leert sneller, wij zien precies waar je winst zit.\n\nWat je krijgt:\n- Groepsles op jouw niveau\n- Elke week dezelfde coach, dus echte progressie\n- Kun je een keer niet, dan stuur je een vervanger\n- Instromen kan, ook als de reeks al loopt\n\nLessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio of stuur een appje naar 06 21 24 65 09. Je hoort binnen 24 uur van ons 🎾\n\n#padelalmere #poortpadel #padelles #almere #padelnederland", "img": "posters/01_najaarsreeks.jpg"}, {"id": "09_padel", "n": 9, "dag": "donderdag 24 september", "tijd": "12:15", "titel": "Binnen 10 minuten ben je verkocht", "cta": "Boek een losse les", "pijler": "waarom padel", "caption": "Nog nooit gepadeld? Ontdek waarom zoveel mensen er niet meer mee kunnen stoppen.\n\nBinnen tien minuten vind je het al leuk. De baan is klein, de glaswand houdt de bal in het spel, en je speelt altijd met z'n vieren. Dus je hoeft niet goed te zijn om er meteen plezier in te hebben. Dat gevoel als die eerste bal uit de wand precies goed terugkomt, daar doen we het voor.\n\nRacket lenen we je, baan regelen wij. Boek een losse les via de link in bio.\n\n#padel #padelnederland #padelalmere #poortpadel #almere", "img": "posters/09_padel.jpg"}, {"id": "14_samen", "n": 14, "dag": "maandag 28 september", "tijd": "18:30", "titel": "Samen inschrijven?", "cta": "Schrijf je in", "pijler": "najaarsreeks", "caption": "Padel is leuker met je maatjes. Schrijf je samen in voor de najaarsreeks, dan train je gewoon in je eigen groep.\n\nKom als duo, met z'n drieën, of meteen met je hele vriendengroep. Je komt bij elkaar in de groep, met een vaste coach en elke week dezelfde tijd.\n\nWil je juist nieuwe mensen leren kennen? Ook goed. Zijn jullie niet compleet, dan zoeken wij er spelers bij van jullie niveau tot de groep vol is met vier.\n\nTag hieronder wie mee moet 🎾 Inschrijven via de link in bio.\n\n#padelalmere #poortpadel #padelles #almere #padelnederland", "img": "posters/14_samen.jpg"}, {"id": "02_eerste_les", "n": 2, "dag": "donderdag 1 oktober", "tijd": "12:15", "titel": "Je eerste les regelen wij", "cta": "Boek een losse les", "pijler": "beginners", "caption": "Nooit gepadeld? Dan is dit je moment. Bij All Court Academy start je gewoon bij het begin, met een coach naast je en een leenracket van ons.\n\nEen losse les boek je op de dag en tijd die jou uitkomt, met 1 tot 4 spelers. Neem je maatje mee of kom alleen, wij zetten je in een les op jouw niveau. Baanhuur zit erbij.\n\nBoek je eerste les via de link in bio. Vragen? App 06 21 24 65 09, je krijgt binnen 24 uur antwoord.\n\n#padel #padelalmere #poortpadel #padelles #almere", "img": "posters/02_eerste_les.jpg"}, {"id": "07_laatste_plekken", "n": 7, "dag": "maandag 5 oktober", "tijd": "18:30", "titel": "Laatste plekken najaarsreeks", "cta": "Schrijf je in", "pijler": "najaarsreeks", "caption": "Over twee weken start de najaarsreeks. Een paar groepen hebben nog een plek vrij.\n\n- 8 lessen van 1 uur\n- Van 19 oktober tot en met 12 december\n- Max 4 per groep, elke week dezelfde coach\n- Kun je een keer niet, dan mag een vervanger komen\n\nWil je erbij? Schrijf je in via de link in bio, dan zetten we je in een groep op jouw niveau. App 06 21 24 65 09 als je wil overleggen welke groep past.\n\n#padelalmere #poortpadel #padelles #almere #padeltraining", "img": "posters/07_laatste_plekken.jpg"}, {"id": "11_jouw_coach", "n": 11, "dag": "donderdag 8 oktober", "tijd": "12:15", "titel": "Jouw coach, jouw moment", "cta": "Kies je coach", "pijler": "losse training", "caption": "Acht coaches, elk met een eigen stijl. Jij kiest wie bij je past.\n\nEen losse training plan je op de dag en tijd die jou uitkomt. Wil je rustig en duidelijk, of juist tempo en wedstrijddruk? Zeg wat je zoekt, dan koppelen we je aan de juiste coach.\n\nKies je coach via de link in bio. Twijfel je? App 06 21 24 65 09, we denken mee.\n\n#padelcoach #padelalmere #poortpadel #padeltraining #almere", "img": "posters/11_jouw_coach.jpg"}, {"id": "15_geen_racket", "n": 15, "dag": "maandag 12 oktober", "tijd": "18:30", "titel": "Geen racket? Geen probleem", "cta": "Boek een losse les", "pijler": "beginners", "caption": "Je wil padel proberen maar hebt geen racket? Wij hebben er genoeg. Leenracket is gratis tijdens de les.\n\nKom in sportkleren en schoenen zonder zwarte zool, de rest regelen wij. Een losse les boek je op de dag en tijd die jou past, met 1 tot 4 spelers.\n\nBoek je eerste les via de link in bio of app 06 21 24 65 09.\n\n#padel #padelalmere #poortpadel #padelles #almere", "img": "posters/15_geen_racket.jpg"}, {"id": "16_backhand", "n": 16, "dag": "donderdag 15 oktober", "tijd": "12:15", "titel": "Backhand onder controle", "cta": "Boek een losse les", "pijler": "techniek", "caption": "Je backhand voelt onzeker? In een losse training kijken we rustig naar je techniek en bouwen we het op.\n\nGrip, voetenwerk, het moment van raken. Kleine aanpassingen, groot verschil. Jij kiest de trainer en de tijd, baanhuur is inbegrepen.\n\nBoek je losse training via de link in bio.\n\n#padeltips #padeltechniek #padelcoach #padelalmere #poortpadel", "img": "posters/16_backhand.jpg"}, {"id": "04_techniek", "n": 4, "dag": "maandag 19 oktober", "tijd": "18:30", "titel": "Jouw smash, onze focus", "cta": "Boek een losse les", "pijler": "techniek", "caption": "Je smash gaat steeds net niet zoals je wil? Dat is een techniekpunt, geen talentpunt. In een losse training pakken we die slag en maken we hem af.\n\nJe kiest zelf de dag, de tijd en de trainer. 1 tot 4 spelers, baanhuur inbegrepen. Ideaal als je snel een stap wil maken voor de competitie of gewoon voor jezelf.\n\nBoek je losse training via de link in bio.\n\n#padeltips #padeltechniek #padeltraining #padelalmere #poortpadel", "img": "posters/04_techniek.jpg"}, {"id": "10_competitie", "n": 10, "dag": "donderdag 22 oktober", "tijd": "12:15", "titel": "Klaar voor de competitie?", "cta": "Boek wedstrijdtraining", "pijler": "competitie", "caption": "In november start de KNLTB competitie. Wil je er klaar voor staan? Dan is dit het moment voor wedstrijdtraining.\n\nWat we doen:\n- Tactiek: waar sta je, waar sla je heen\n- Spelinzicht: de juiste bal op het juiste moment\n- Druk zetten aan het net en rustig blijven achterin\n\nMet je team of alleen, 1 tot 4 spelers per training. Boek via de link in bio of app 06 21 24 65 09.\n\n#padelcompetitie #knltb #padelalmere #poortpadel #padeltraining", "img": "posters/10_competitie.jpg"}, {"id": "18_teamuitje", "n": 18, "dag": "maandag 26 oktober", "tijd": "18:30", "titel": "Padel met je team", "cta": "Plan je event", "pijler": "bedrijven", "caption": "Op zoek naar een teamuitje dat iedereen leuk vindt, ook wie nooit gepadeld heeft? Binnen tien minuten heeft iedereen lol, binnen een uur is iedereen fanatiek.\n\nBij Poort Padel regelen we het all-in: banen, coaches, rackets en catering in huis. Van 8 tot 100+ personen. Ook voor klantevents en personeelsfeesten.\n\nPlan je event via de link in bio of mail info@allcourtacademy.com.\n\n#teamuitje #bedrijfsuitje #padelalmere #poortpadel #flevoland", "img": "posters/18_teamuitje.jpg"}, {"id": "20_vaste_plek", "n": 20, "dag": "donderdag 29 oktober", "tijd": "12:15", "titel": "Jouw vaste plek om te spelen", "cta": "Schrijf je in", "pijler": "community", "caption": "Meer dan een padelacademy: een vaste plek om te spelen, te leren en mensen te ontmoeten. Meer dan 100 spelers gingen je voor.\n\nIn januari start de voorjaarsreeks (7 lessen, 4 januari t/m 20 februari). Wil je erbij zijn? Schrijf je alvast in via de link in bio, dan hou je een plek in een groep op jouw niveau.\n\n#padelalmere #poortpadel #padel #almere #indoorpadel", "img": "posters/20_vaste_plek.jpg"}]</script>
+<script>
+(function(){
+  var posts = JSON.parse(document.getElementById('data').textContent);
+  var feed = document.getElementById('feed');
+  var state = {}, timers = {}, db = null;
+  var LS = 'aca-publicatie-v1';
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  var HART = '<svg viewBox="0 0 24 24"><path d="M12 20.5 4.2 13a4.6 4.6 0 0 1 6.5-6.5l1.3 1.3 1.3-1.3A4.6 4.6 0 0 1 19.8 13Z" stroke-linejoin="round"/></svg>';
+  var PRAAT = '<svg viewBox="0 0 24 24"><path d="M21 11.5a8 8 0 0 1-11.7 7.1L3 20.5l1.9-6A8 8 0 1 1 21 11.5Z" stroke-linejoin="round"/></svg>';
+  var DEEL = '<svg viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4Z" stroke-linejoin="round"/></svg>';
+  var BEWAAR = '<svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1Z" stroke-linejoin="round"/></svg>';
+
+  function bouw(p){
+    var el = document.createElement('article');
+    el.className = 'slot'; el.id = 'slot-' + p.id; el.dataset.status = '';
+    el.innerHTML =
+      '<div class="when"><span class="dot"></span>' +
+        '<div class="dag">' + esc(p.dag) + '</div>' +
+        '<div class="tijd">' + esc(p.tijd) + '</div>' +
+        '<div class="pijler">' + esc(p.pijler) + '</div>' +
+      '</div>' +
+      '<div class="post">' +
+        '<div class="phead"><img src="avatar.png" alt=""><div><div class="who">allcourtacademy</div>' +
+        '<div class="where">Poort Padel, Almere</div></div><span class="dots">•••</span></div>' +
+        '<img class="pimg" src="' + p.img + '" alt="' + esc(p.titel) + '" loading="lazy">' +
+        '<div class="icons">' + HART + PRAAT + DEEL + '<span class="last">' + BEWAAR + '</span></div>' +
+        '<div class="cap"><span class="naam">allcourtacademy</span>' +
+          '<span class="body kort" id="cap-' + p.id + '">' + esc(p.caption) + '</span> ' +
+          '<button type="button" class="meer">meer</button></div>' +
+        '<div class="acties">' +
+          '<button type="button" data-v="akkoord"><i></i>Groen licht</button>' +
+          '<button type="button" data-v="wacht"><i></i>Nog wachten</button>' +
+          '<button type="button" data-v="pauze"><i></i>Overslaan</button>' +
+          '<span class="stamp" id="stamp-' + p.id + '"></span>' +
+        '</div>' +
+        '<div class="acties" style="border-top:0;padding-top:0"><button type="button" class="copy">Kopieer caption</button></div>' +
+      '</div>';
+    el.querySelectorAll('.acties button[data-v]').forEach(function(b){
+      b.addEventListener('click', function(){
+        var nu = state[p.id] && state[p.id].status;
+        zet(p, nu === b.dataset.v ? '' : b.dataset.v);
+      });
+    });
+    var body = el.querySelector('#cap-' + p.id);
+    var meer = el.querySelector('.meer');
+    meer.addEventListener('click', function(){
+      var kort = body.classList.toggle('kort');
+      meer.textContent = kort ? 'meer' : 'minder';
+    });
+    el.querySelector('.copy').addEventListener('click', function(ev){
+      navigator.clipboard.writeText(p.caption).then(function(){
+        ev.target.textContent = 'Gekopieerd'; ev.target.classList.add('done');
+        setTimeout(function(){ ev.target.textContent = 'Kopieer caption'; ev.target.classList.remove('done'); }, 1800);
+      }, function(){ ev.target.textContent = 'Selecteer en kopieer zelf'; });
+    });
+    return el;
+  }
+
+  function verf(p){
+    var s = state[p.id] || {};
+    var el = document.getElementById('slot-' + p.id);
+    if (!el) return;
+    el.dataset.status = s.status || '';
+    el.querySelectorAll('.acties button[data-v]').forEach(function(b){
+      b.classList.toggle('on', b.dataset.v === s.status);
+    });
+    var st = document.getElementById('stamp-' + p.id);
+    if (st) st.textContent = s.updatedAt ? 'Opgeslagen ' + new Date(s.updatedAt).toLocaleTimeString('nl-NL', {hour:'2-digit', minute:'2-digit'}) : '';
+    tel();
+  }
+  function tel(){
+    var ok = 0, wacht = 0;
+    posts.forEach(function(p){
+      var s = state[p.id] && state[p.id].status;
+      if (s === 'akkoord') ok++; else if (s === 'wacht') wacht++;
+    });
+    document.getElementById('t-ok').textContent = ok;
+    document.getElementById('t-wait').textContent = wacht;
+    document.getElementById('t-open').textContent = posts.length - ok - wacht;
+  }
+  function zet(p, v){
+    state[p.id] = Object.assign({}, state[p.id], {status: v});
+    verf(p);
+    clearTimeout(timers[p.id]);
+    timers[p.id] = setTimeout(function(){ bewaar(p); }, 400);
+  }
+  function bewaar(p){
+    var rec = Object.assign({}, state[p.id], {dag: p.dag, tijd: p.tijd, updatedAt: new Date().toISOString()});
+    state[p.id] = rec; verf(p);
+    try { localStorage.setItem(LS, JSON.stringify(state)); } catch(e){}
+    if (db) {
+      db.doc('publicatie/' + p.id).set(rec).then(function(){
+        melding('Opgeslagen, ik kan het uitlezen');
+      }, function(e){
+        melding('Opslaan mislukt (' + (e.code || 'fout') + '), probeer het zo nog eens');
+      });
+    } else {
+      melding('Alleen op dit apparaat opgeslagen');
+    }
+  }
+  function melding(t){ document.getElementById('sync').textContent = t; }
+
+  posts.forEach(function(p){ feed.appendChild(bouw(p)); });
+  try { Object.assign(state, JSON.parse(localStorage.getItem(LS) || '{}')); } catch(e){}
+  posts.forEach(verf);
+
+  (function(){
+    if (!(window.claude && window.claude.use)) { melding('Geen verbinding met opslag, keuzes blijven op dit apparaat'); return; }
+    window.claude.use('db').then(function(d){
+      db = d;
+      if (!db) { melding('Geen verbinding met opslag, keuzes blijven op dit apparaat'); return; }
+      melding('Verbonden');
+      db.collection('publicatie').onSnapshot(function(snap){
+        snap.docs.forEach(function(doc){
+          var data = doc.data();
+          if (data) state[doc.id] = Object.assign({}, state[doc.id], data);
+        });
+        posts.forEach(verf);
+        melding('Verbonden, ' + snap.size + ' opgeslagen');
+      }, function(err){ melding('Opslag niet beschikbaar (' + err.code + ')'); });
+    }, function(){ melding('Geen verbinding met opslag, keuzes blijven op dit apparaat'); });
+  })();
+})();
+</script>

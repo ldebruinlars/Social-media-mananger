@@ -179,7 +179,7 @@ In januari start de voorjaarsreeks (7 lessen, 4 januari t/m 20 februari). Wil je
 
 ## Goedkeuringspagina
 
-Lars keurt goed via de postercheck pagina: https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK
+Er zijn twee pagina's. De postercheck is voor beeld en tekst: https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK. De publicatieplanner is de tweede goedkeuring, vlak voor publicatie: https://claude.ai/artifact/86xmviVu8NTuFQ6DPNizCb. Daar zie je de post zoals hij in je feed komt en zet je hem op groen licht, nog wachten of overslaan. Die keuzes komen in de collectie `publicatie`.
 
 Per post: Goed, Aanpassen of Niet gebruiken, plus velden voor kop, subregel, knop, kicker en een notitie. Ronde 1 staat in collectie `reviews`, ronde 2 in `reviews_v2`, ronde 3 in `reviews_v3`, ronde 4 in `reviews_v4`. Claude leest die uit met read_db en verwerkt de wijzigingen in `outputs/posters/2026-10/make_posters.py`.
 

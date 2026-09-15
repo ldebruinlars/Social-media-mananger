@@ -31,6 +31,15 @@ De najaarsreeks loopt als een lijn door de eerste helft: aankondiging, samen ins
 - Story dezelfde dag met link-sticker naar de inschrijfpagina
 - Countdown-sticker bij 01 en 07, die tellen af naar 19 oktober
 
+## Twee keer goedkeuren
+
+Voordat er iets live gaat zijn er twee momenten waarop jij ja zegt.
+
+1. **Postercheck**: https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK. Daar keur je beeld en tekst per poster goed of vraag je een aanpassing. Dat is de ronde die we nu vijf keer hebben gedaan.
+2. **Publicatieplanner**: https://claude.ai/artifact/86xmviVu8NTuFQ6DPNizCb. Daar zie je elke post zoals hij straks in je feed staat, met datum, tijd en de caption eronder. Per post kies je Groen licht, Nog wachten of Overslaan.
+
+Pas als een post in de planner op groen licht staat, mag hij weg. Staat hij op nog wachten of overslaan, dan gebeurt er niets. Je keuzes komen binnen in de collectie `publicatie`, die lees ik uit.
+
 ## Koppeling met Meta
 
 Koppellink voor Instagram en Facebook in Make: https://eu1.make.com/1563554/credentials-requests/inbox?requestId=97f6c5c4-02c5-40d7-a528-a7b2cff9e4a5

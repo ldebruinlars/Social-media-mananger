@@ -15,6 +15,7 @@
 | Portretfoto trainer met pet (competitie poster) | open, staat niet in Drive Openingsdag, Lars zet hem erin dan wissel ik om | 2026-09-15 |
 | 8 onderwerpen nog niet ingepland (kids kamp, vaste coach, jeugd, vrije plekken, voor iedereen, kinderfeestje, kerstreeks, clubgevoel) | open, Lars zegt of ze terugkomen met andere foto of invalshoek | 2026-09-15 |
 | Goedkeuringspagina posters (artifact met db) | live, rondes in reviews t/m reviews_v5 | 2026-09-15 |
+| Publicatieplanner (tweede goedkeuring voor publicatie) | live op https://claude.ai/artifact/86xmviVu8NTuFQ6DPNizCb, groen licht komt in collectie publicatie | 2026-09-15 |
 | Video-route (Kling, Seedance) | geparkeerd op verzoek van Lars, gids staat in docs/higgsfield-prompt-gids.md | 2026-09-15 |
 | Contentkalender oktober | nog niet, start zodra brand-style is bevestigd | |
 | Eerste Reels uit Interview_Pablo | nog niet | |
