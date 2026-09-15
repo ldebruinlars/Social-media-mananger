@@ -15,6 +15,16 @@ Laatste scan: 14 september 2026 via de Google Drive connector (account l.debruin
 
 Drive-id's: foto's `1TFwJtOY3qeUoU7ahwov2raQUETlGTJZd`, `1O19IA-mWAmeUmwA68G6dwJipY6_r5_j-`, `1Y-JfC0uw-GnmJRQiHYQR9MWDu2-L6Oy_`; video `1j80TuTe7bRz3yFF__q9mtrhABnErEttd`.
 
+## Drive-map van Lars (15 september)
+
+Lars deelde https://drive.google.com/drive/u/0/folders/1XZk9y0NRC8HlLKZMIsz3wwb5YZJ-2g3z. Die map is **niet bereikbaar** met het gekoppelde Drive-account (l.debruin@allcourtacademy.com): "Requested entity was not found". Waarschijnlijk staat hij onder ldebruinlars@gmail.com. Fix: map delen met l.debruin@allcourtacademy.com, of de Drive-connector opnieuw koppelen met het gmail-account.
+
+Wat wel lukte: de losse foto's van Susan (4608px) via de connector binnenhalen (limiet 10 MB per bestand, ACA_PoortPadel_29mei-6 van 9 MB lukte 3 keer niet door sessie-timeouts) en naar Higgsfield uploaden. Higgsfield media ids: ACA_PoortPadel_29mei-32 = 8e2c4b33, APA 13 mei-20 = 80875511, Lars 9:16 = ddbe48d2, Lars 4:5 = bdc07ccd, coach 9:16 = d1ee5060, coach 4:5 = f36b7a0e.
+
+## ChatCut: Pablo video
+
+Project "Pablo video" (4e010a45-4fec-4f55-a143-2edbe2c65c0d): Interview_Pablo_final.webm 59 sec 9:16 met transcript, plus introkaart en outrokaart als motion graphics. Dit is de stijlreferentie. Herbruikbaar voor Reels: 3 tot 5 quotes van Pablo ("playing faster is not playing better", "top 20 ranked in Madrid").
+
 ## Google Drive: NIET gevonden
 
 Er is geen map met Poort Padel of All Court Academy video's en foto's in deze Drive. Geen mappen behalve "Saved from Chrome". Waarschijnlijk staat het materiaal op je telefoon, in een andere Google account (ldebruinlars@gmail.com?), in een gedeelde drive van Poort Padel, of bij fotografe Susan (Pittig Bakkie).

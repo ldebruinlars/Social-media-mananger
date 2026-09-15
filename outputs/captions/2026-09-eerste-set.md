@@ -1,80 +1,80 @@
-# Eerste contentset ACA (14 september 2026)
+# Contentset ACA v2 (15 september 2026)
 
-Gemaakt met Canva (designs) en Higgsfield (opschalen en teaser-video). Lars: zet `[x]` bij wat mag. Niets gaat live zonder vinkje.
+Opnieuw gemaakt na feedback van Lars. Stijl komt nu 1 op 1 uit de Lars en Pablo video in ChatCut: donkergroen naar navy verloop (#2C6B5C, #123A34, #0B131F), lime accent #C4D44E, witte ACA en Poort Padel logo's, vette kapitalen, lime pill-knop "LINK IN BIO". Foto's zijn de originelen van Susan (4608px) uit Drive en de Higgsfield-opschalingen.
 
-Canva map: https://www.canva.com/folder/FAHVMFpKijo
+Lars: zet `[x]` bij wat mag. Niets gaat live zonder vinkje. Canva map: https://www.canva.com/folder/FAHVMFpKijo
 
-## 1. Padel Kids Kamp aankondiging (feed, 4:5)
+## Stories (10 sec, 9:16, Higgsfield Kling 3.0 pro, 17,5 credits per stuk)
 
-- [ ] Goedgekeurd
-- Design: ACA Kids Kamp herfst 2026 post (DAHVMCTEFak), bewerken: https://www.canva.com/d/B36dQq9WQixayBM
-- Extra slide met echte foto (polaroid-stijl, DAHVMBOMA1k): https://www.canva.com/d/9ieRsOYHDddo40V. Samen als carrousel: slide 1 tekst, slide 2 foto.
-- Plannen: dinsdag 22 september, 18:30
-- Platform: Instagram feed + Facebook
+| | Video | Bron | Download | Canva asset |
+|---|---|---|---|---|
+| [ ] | 01 Volley, coach explodeert aan het net | APA 13 mei-20 (Drive) | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260915_085902_41c9cf3c-5edc-4404-b35e-ecf29fadfaf4.mp4 | VAHVQgt3Imw |
+| [ ] | 02 Lars draait naar camera, racket als uitnodiging | ACA_PoortPadel_29mei-32 (Drive), 9:16 crop | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260915_100022_f3cb825c-88c7-4e70-8b30-d0dbfcf9d86a.mp4 | VAHVQsypozI |
+| [ ] | 03 Handshake na training, schouderstoot | lessen-hero 4K (website) | zie onder (job 053d3d2e) | |
 
-Caption:
+Plan per story: 0 tot 7 sec video zonder tekst, dan tekstkaart in Canva-stijl (kicker lime, kop wit, pill). Voor de Reels: intro-kaart en outro-kaart uit het Pablo-project in ChatCut hergebruiken (assets 10b7e2b981 en 16b2aa1bbe).
+
+Prompts staan onder "Higgsfield log" zodat je ze kunt laten variëren.
+
+## Feed posts (4:5)
+
+| | Design | Canva | Preview PNG |
+|---|---|---|---|
+| [ ] | ACA Najaarsreeks 2026 post v2 (Lars, "8 lessen. Vaste coach. Vaste groep.") | https://www.canva.com/d/oERx37J6Urm-_lW | export 15 sep |
+| [ ] | ACA Kids Kamp herfst 2026 post v2 (high five foto, "Padel Kids Kamp. 3 ochtenden. Vol plezier.") | https://www.canva.com/d/B36dQq9WQixayBM | export 15 sep |
+
+## Story (statisch, 9:16)
+
+| | Design | Canva |
+|---|---|---|
+| [ ] | ACA Najaarsreeks 2026 story v2 (Lars 9:16) | https://www.canva.com/d/NZnAX-vOYkFf_FN |
+
+## Captions
+
+**Najaarsreeks (feed)**
+
+Na de herfstvakantie start de najaarsreeks. 8 lessen, vanaf 19 oktober t/m 12 december, elke week op een vaste dag en tijd.
+
+Vaste coach, vaste groep van max 4 spelers, ingedeeld op jouw niveau. Elke week een stap verder in plaats van losse tips.
+
+Ben je er een week niet? Dan mag een vriend, partner of collega jouw plek innemen. Later instromen kan ook.
+
+Inschrijven via de link in bio.
+
+#padelles #padelalmere #allcourtacademy #poortpadel #padeltraining #najaarsreeks #almere
+
+**Kids Kamp (feed)**
 
 De data zijn bekend. Padel Kids Kamp in de herfstvakantie bij Poort Padel.
 
 Drie ochtenden vol padel, spelletjes en nieuwe vrienden. Maandag t/m woensdag van 10:00 tot 12:30, voor kinderen van 6 t/m 14 jaar. Ook als je kind nog nooit een racket heeft vastgehouden.
 
-Wat zit erin: training van onze eigen coaches, elke dag een pauze met eten en drinken, rackets en ballen aanwezig, en prijzen voor iedereen. 195 euro all-in, 10 procent familiekorting vanaf het tweede kind.
+Training van onze eigen coaches, elke dag een pauze met eten en drinken, rackets en ballen aanwezig, prijzen voor iedereen. 195 euro all-in, 10 procent familiekorting vanaf het tweede kind.
 
 Plekken zijn beperkt. Inschrijven via de link in bio.
 
 #padelkidskamp #padelalmere #allcourtacademy #poortpadel #jeugdpadel #sportalmere #herfstvakantie
 
-## 2. Padel Kids Kamp story (9:16)
+**Story-tekst (over video 01 en 02, laatste 3 sec)**
 
-- [ ] Goedgekeurd
-- Design: ACA Kids Kamp herfst 2026 story (DAHVMJu1SBw), bewerken: https://www.canva.com/d/cy2wqSiGJf4FzgB
-- Plannen: dezelfde dag als post 1, plus herhaling op zaterdag 26 september
-- Link-sticker naar allcourtacademy.com/pages/kids-camp.html, tekst op de sticker: "Schrijf je in"
-- Tag @poortpadel, locatie Poort Padel
+NAJAARSREEKS · START 19 OKTOBER
+8 LESSEN. VASTE COACH. VASTE GROEP.
+[pill] SCHRIJF JE IN ↗ LINK IN BIO
 
-## 3. Najaarsreeks 2026 (feed, 4:5)
+## Higgsfield log
 
-- [ ] Goedgekeurd
-- Design: ACA Najaarsreeks 2026 post (DAHVMNOzPag), bewerken: https://www.canva.com/d/O_a8O4JmkY8g5Eu
-- Alternatief met lime accent (DAHVMKi1jS8): https://www.canva.com/d/DeKjiNaRVNFA_Z9 (heeft dubbele regel, alleen gebruiken na fix)
-- Plannen: donderdag 24 september, 19:00
-- Platform: Instagram feed + Facebook
-
-Caption:
-
-Na de herfstvakantie start de najaarsreeks. 8 lessen, vanaf 19 oktober t/m 12 december, elke week op een vaste dag en tijd.
-
-Vaste coach, vaste groep van max 4 spelers, ingedeeld op jouw niveau. Je coach werkt de hele reeks aan één lijn: eerst de basis, daarna positiespel, tactiek en spelsituaties. Elke week een stap verder in plaats van losse tips.
-
-Ben je er een week niet? Dan mag een vriend, partner of collega jouw plek innemen. Later instromen kan ook, je betaalt alleen de lessen die je nog meedoet.
-
-Alleen, met je vaste maatje of met je hele crew. Inschrijven via de link in bio.
-
-#padelles #padelalmere #allcourtacademy #poortpadel #padeltraining #najaarsreeks #almere
-
-## 4. Najaarsreeks teaser Reel (9:16, 5 sec, Higgsfield)
-
-- [ ] Goedgekeurd
-- Bron: lessen-hero.jpg van de website, geanimeerd met Seedance 2.5 (job 7f47e1f8-992f-4818-9a1f-7e4ba7882ba7)
-- Video (mp4, 720p, 9:16, 5 sec): https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164252_7f47e1f8-992f-4818-9a1f-7e4ba7882ba7.mp4
-- Ook als Canva asset geüpload zodat je er in Canva een tekstkaart overheen kunt zetten
-- Gebruik: als opener van een Reel, daarna tekstkaart "Najaarsreeks, start 19 oktober" in ChatCut
-- Let op: AI-geanimeerd beeld van echte spelers. Alleen plaatsen als de spelers op de foto daar oké mee zijn.
-
-## 5. Opgeschaalde foto's (Higgsfield)
-
-| Foto | Van | Naar | Download |
+| Job | Model | Prompt (kort) | Credits |
 |---|---|---|---|
-| kids-camp-highfive | 1200x2133 | 2160x3840 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164236_294d3f10-2dbb-410c-bed0-654b7df447a7.png |
-| lessen-hero | 1800x1200 | 4096x2737 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164240_313e4bce-baf9-4ba5-acc6-1e879ef38961.png |
-| kids-camp-lach | 1200x2208 | 2160x3968 | https://d8j0ntlcm91z4.cloudfront.net/user_3DTi6Z7G6lm7S5aYIwHXC1iM486/hf_20260914_164243_bf52c610-65dc-43c2-bb3b-c9b8f74b8cbe.png |
+| 41c9cf3c | kling3_0 pro 10s 9:16 | coach lunges, rips forehand volley, ball explodes, whip handheld push-in, slow-mo on impact, blue court, film grain | 17,5 |
+| f3cb825c | kling3_0 pro 10s 9:16 | coach turns to camera with grin, spins racket, points at lens, low angle push-in, speed ramp | 17,5 |
+| 053d3d2e | kling3_0 pro 10s 9:16 | handshake over net, shoulder bump, camera arcs, slow-mo on handshake | 17,5 |
+| 294d3f10, 313e4bce, bf52c610 | upscale 2K/4K | websitefoto's opgeschaald | 6 |
+| 7f47e1f8 (v1, vervangen) | seedance 5s 720p | handshake, te tam | 32,5 |
 
-Deze vervangen de webformaat-versies in Canva zodra Lars de originelen niet kan vinden.
+## Niet gemaakt
 
-## Niet gemaakt (bewust)
+- Kids Kamp video met de kinderen van de high-five foto. AI-animatie van kinderen pas na toestemming van de ouders. De statische post met die foto is wel gemaakt, want de foto staat al publiek op allcourtacademy.com.
 
-- Kids Kamp teaser-video met de kinderen op de foto. AI-animatie van kinderen doe ik pas na expliciete toestemming van de ouders. Kost 32,5 credits, kan in 1 minuut.
+## Oude v1 designs (kunnen weg)
 
-## Afgekeurde Canva varianten (staan in de map, kunnen weg)
-
-DAHVMDChQIs (post zonder foto, dubbele regel), DAHVMDz40GY (story zonder foto), DAHVMGmg_mc (najaarsreeks met minifoto), DAHVMK0-dRc (story met stockmeisje, vervormde tekst).
+DAHVMJu1SBw (Kids Kamp story v1 zonder foto), DAHVMNOzPag (najaarsreeks serif), DAHVMBOMA1k (polaroid), DAHVMGmg_mc, DAHVMK0-dRc, DAHVMKi1jS8.

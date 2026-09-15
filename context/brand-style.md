@@ -64,7 +64,25 @@
 **Gebruiken**: progressie, spelinzicht, techniek, tactiek, kleine groepen (max 4), persoonlijke aandacht, plezier, vaste coach, vaste groep, thuisbaan, community, club-gevoel.
 **Vermijden**: goedkoop, korting-stapels, "de beste van Nederland", "wereldklasse", neerbuigend over niveau.
 
-## Visuele identiteit (uit de live site, Firecrawl branding)
+## Visuele identiteit voor social (uit de Lars en Pablo video, leidend)
+
+De video die Lars als stijlreferentie gaf (ChatCut project "Pablo video", 4e010a45) heeft intro- en outrokaarten met deze look. **Dit is de social-stijl.**
+
+| Element | Waarde |
+|---|---|
+| Achtergrond | verloop 158 graden: #2C6B5C boven, #123A34 midden, #0B131F onder, met zachte lime gloed |
+| Accent | **#C4D44E** lime (kicker, streep, pill-knop) |
+| Tekst | wit #FFFFFF, Inter 800, KAPITALEN, regelhoogte 1.0, kop 92 tot 104px op 1080 breed |
+| Kicker | lime, 26 tot 30px, brede letterspatiëring, bijvoorbeeld "PADEL · ALMERE" of "NAJAARSREEKS 2026 · START 19 OKTOBER" |
+| Knop | lime pill, navy tekst, "SCHRIJF JE IN ↗ LINK IN BIO" |
+| Logo's | wit ACA woordmerk met lime A (aca_logo_white.png) links, Poort Padel wit rechts, uit github.com/ldebruinlars/video-editor/assets/logos |
+| Foto | full-bleed, echte actiefoto van Susan, onderste 40 procent navy overlay 85 procent |
+| Ondertitels | wit vet met donkere rand, midden onder |
+| Video-ritme | 2 sec introkaart (logo's + streep + kicker), content, 3,5 sec outro "BOOK YOUR LESSONS NOW" + pill |
+
+Canva assets: ACA logo wit MAHVQFFeeDA, Poort Padel wit MAHVQE2uBcg, Lars origineel MAHVQMZ2l70, Lars 9:16 MAHVQdxAfpo, coach volley 9:16 MAHVQWZde6s, APA origineel MAHVQKcjSu8.
+
+## Website-identiteit (allcourtacademy.com, secundair)
 
 | Element | Waarde |
 |---|---|

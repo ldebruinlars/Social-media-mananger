@@ -67,6 +67,14 @@ Werk `context/workflow-status.md` na elke stap bij.
 - **Canva**: map `ACA Social Media` (FAHVMFpKijo). Assets uploaden via `upload-asset-from-url` (alleen publieke URL's, bijvoorbeeld van allcourtacademy.com of Higgsfield-resultaten). Genereren met `generate-design` (instagram_post = 1080x1350, your_story = 1080x1920) met de huisstijl uit brand-style in de prompt en `asset_ids` voor logo en foto. Elke job geeft 4 kandidaten; maak er 2 of 3 aan met `create-design-from-candidate`, bekijk ze met `read-design` (thumbnails komen inline), kies, fix tekst met `edit-design` (transaction openen via read-design open_transaction, edits, dan commit), hernoem naar "ACA <campagne> <jaar> <post|story|reel>", verplaats naar de map, exporteer PNG.
 - **Higgsfield**: `media_import_url` voor foto's, `upscale_image` (2 credits) om webformaat naar 2K/4K te brengen, `generate_video` met seedance_2_5 en role start_image voor image-to-video teasers (ca. 32 credits per 5 sec 9:16). Altijd eerst `get_cost`. Geen AI-animatie van kinderen zonder toestemming van ouders. Weiger preset-suggesties met `declined_preset_id` als je letterlijk wilt genereren.
 
+## Geleerd op 15 september (zo werkt het echt)
+
+- **Canva AI-generatie is niet goed genoeg.** Bouw designs zelf via `edit-design`: open transactie, verwijder rommel, `insert_fill` foto full-bleed, twee navy rechthoeken als overlay (0.45 en 0.88), lime pill via `insert_shape` met corner_rounding 999, logo's via `insert_fill`, teksten hergebruiken via `replace_text` + `format_text` + `position_element` (zo behoud je het font), daarna `layer_element front` voor tekst. Commit meteen; bij een MCP-reconnect is een open transactie weg.
+- **Drive bestanden groter dan 30 KB** komen als base64 in een bestand onder tool-results; decodeer met python. Limiet 10 MB per bestand. Video's dus niet via Drive, wel via ChatCut.
+- **Higgsfield upload van lokale bestanden**: `media_upload` geeft een S3 upload_url, `curl -X PUT` werkt door de proxy, dan `media_confirm`. Kling 3.0 pro 10 sec 9:16 zonder geluid kost 17,5 credits en is beter en goedkoper dan Seedance 1080p (90).
+- **Crops**: `pip install pillow` werkt (pypi staat op de allowlist). Maak 9:16 en 4:5 crops lokaal voordat je naar Higgsfield of Canva stuurt.
+- **Stijl**: altijd de Pablo-video look (zie brand-style), niet de website-look.
+
 ## Publiceren (Meta Business)
 
 Er is nog geen directe Meta connector in deze omgeving. Drie routes, in volgorde van voorkeur:
