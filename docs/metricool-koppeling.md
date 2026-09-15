@@ -95,3 +95,38 @@ Alle 26 concepten in Metricool opnieuw geschreven:
 Let op voor de volgende keer: de post-id verandert bij elke update, de uuid blijft gelijk. Werk dus met de uuid als vaste sleutel en haal de id telkens opnieuw op met getScheduledPosts.
 
 Les geleerd: een wijziging in de repo en in de artifacts is niet genoeg, Metricool heeft zijn eigen kopie van de tekst. Alle drie moeten mee.
+
+## Definitief ingepland op 15 september 2026, na groen licht van Lars
+
+Lars heeft alles in de redactietafel en de publicatieplanner goedgekeurd. Alle posts staan nu op **draft: false** en gaan vanzelf de deur uit via de koppeling.
+
+Wat er is veranderd ten opzichte van de vorige ronde:
+
+- Dagen van maandag en donderdag naar **woensdag en vrijdag**, met de eerste post op **donderdag 17 september**. Onderbouwing in `docs/doelgroep-en-posttijden.md`.
+- Tijd van 18:00 en 10:00 naar **18:30 voor Instagram en Facebook** en **11:00 voor LinkedIn**.
+- Overal precies **5 hashtags**, geen telefoonnummer, en **@poortpadel in de zin zelf** in plaats van als vaste slotregel.
+- LinkedIn staat aan bij 9 van de 12 momenten. Uit: 15_geen_racket, 16_backhand en 04_techniek, die zijn te weinig zakelijk.
+
+### Het schema
+
+| Datum | Dag | Onderwerp | IG | FB | LI |
+|---|---|---|---|---|---|
+| 17 sep | do | 01_najaarsreeks | 18:30 | 18:30 | 11:00 |
+| 23 sep | wo | 09_padel | 18:30 | 18:30 | 11:00 |
+| 25 sep | vr | 14_samen | 18:30 | 18:30 | 11:00 |
+| 30 sep | wo | 02_eerste_les | 18:30 | 18:30 | 11:00 |
+| 2 okt | vr | 11_jouw_coach | 18:30 | 18:30 | 11:00 |
+| 7 okt | wo | 07_laatste_plekken | 18:30 | 18:30 | 11:00 |
+| 9 okt | vr | 15_geen_racket | 18:30 | 18:30 | |
+| 14 okt | wo | 16_backhand | 18:30 | 18:30 | |
+| 16 okt | vr | 04_techniek | 18:30 | 18:30 | |
+| 21 okt | wo | 10_competitie | 18:30 | 18:30 | 11:00 |
+| 23 okt | vr | 18_teamuitje | 18:30 | 18:30 | 11:00 |
+| 28 okt | wo | 20_vaste_plek | 18:30 | 18:30 | 11:00 |
+
+Totaal 33 posts: 12 Instagram, 12 Facebook, 9 LinkedIn. Gecontroleerd met getScheduledPosts, alle 33 staan op PENDING en draft is overal uit.
+
+### Twee dingen die nog open staan
+
+1. **Locatie Poort Padel.** De koppeling heeft geen veld voor een locatie. Dat moet per post met de hand in de Metricool webplanner. @poortpadel staat wel in elke tekst en de Collab-uitnodiging staat op elke Instagram post.
+2. **Oktober telt 21 posts.** Op een gratis Metricool-plan kan er een maandlimiet van 20 zitten. Als er iets niet uitgaat, dan is dat de reden. Even in de gaten houden rond eind oktober.

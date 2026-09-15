@@ -68,7 +68,6 @@ h1,h2,h3{font-family:"Inter Tight",Inter,sans-serif;line-height:1.05;text-wrap:b
 .post{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;
   box-shadow:var(--shadow);display:grid;grid-template-columns:132px 1fr}
 .post[data-status="akkoord"]{border-color:var(--ok)}
-.post[data-status="pauze"]{opacity:.55}
 .post.verborgen{display:none}
 .beeld{background:var(--sunk);position:relative}
 .beeld img{display:block;width:100%;height:100%;object-fit:cover;max-width:100%}
@@ -92,7 +91,6 @@ h1,h2,h3{font-family:"Inter Tight",Inter,sans-serif;line-height:1.05;text-wrap:b
 .acties button.on[data-v="akkoord"]{background:var(--lime);border-color:var(--lime);color:var(--lime-ink)}
 .acties button.on[data-v="akkoord"] i{background:var(--lime-ink)}
 .acties button.on[data-v="wacht"]{background:var(--wait-bg);border-color:var(--wait)}
-.acties button.on[data-v="pauze"]{background:var(--off-bg);border-color:var(--off)}
 .kopieer{margin-left:auto;border:1px solid var(--line);background:var(--surface);color:var(--muted);
   border-radius:999px;padding:6px 12px;font:600 12.5px Inter,sans-serif;cursor:pointer}
 .kopieer.klaar{background:var(--ok-bg);border-color:var(--ok);color:var(--ok)}
@@ -143,7 +141,7 @@ button:focus-visible{outline:2px solid var(--lime-text);outline-offset:2px}
   <div class="uitleg">
     <h2>Hoe het loopt</h2>
     <p>Alles staat nu als <b>concept</b> in Metricool. Een concept publiceert nooit vanzelf, ook niet als de datum voorbij komt.</p>
-    <p>Zet je een post op <b>groen licht</b>, dan haal ik het concept-vinkje eraf en gaat hij op de geplande dag en tijd automatisch online. Op <b>nog wachten</b> of <b>overslaan</b> gebeurt er niets.</p>
+    <p>Zet je een post op <b>groen licht</b>, dan gaat hij op de geplande dag en tijd automatisch online. Op <b>nog wachten</b> gebeurt er niets.</p>
     <p>Van gedachten veranderd? Zet hem terug op wachten zolang de datum nog niet voorbij is.</p>
     <p>Woensdag en vrijdag scoren het hoogst in je eigen Metricool-cijfers, maandag valt af omdat LinkedIn daar bijna stilstaat. De tijd van 18:30 komt uit onderzoek naar je doelgroep: de grootste groep padelspelers is 25 tot 34 jaar, en die groep pakt Instagram 's avonds na het werk. LinkedIn gaat om 11:00, want dat publiek zit er onder werktijd.</p>
   </div>
@@ -182,7 +180,7 @@ button:focus-visible{outline:2px solid var(--lime-text);outline-offset:2px}
         '<div class="acties">' +
           '<button type="button" data-v="akkoord"><i></i>Groen licht</button>' +
           '<button type="button" data-v="wacht"><i></i>Nog wachten</button>' +
-          '<button type="button" data-v="pauze"><i></i>Overslaan</button>' +
+          '' +
           '<button type="button" class="kopieer">Kopieer tekst</button>' +
         '</div>' +
       '</div>';

@@ -9,10 +9,10 @@
 | Meta Business koppeling | koppellink klaar, wacht op Lars: (koppellink verwijderd, stond in een publieke repo, Lars moet het credential request in Make intrekken) | 2026-09-15 |
 | Postschema najaar (12 posts, 21 sep t/m 29 okt) | klaar, zie docs/postschema-najaar-2026.md | 2026-09-15 |
 | Metricool gekoppeld (Instagram, Facebook, LinkedIn) | klaar, zie docs/metricool-koppeling.md, brand id 6979019 | 2026-09-15 |
-| 12 posts als concept in Metricool | klaar, Instagram en Facebook los van elkaar, alles op draft | 2026-09-15 |
+| 12 posts als concept in Metricool | vervangen, zie regel hieronder | 2026-09-15 |
 | Kanaalverschillen IG, FB, LinkedIn | klaar, zie docs/kanaalverschillen.md, links toegevoegd op FB en LinkedIn | 2026-09-15 |
-| LinkedIn eigen content | 2 posts als start, onderwerpen voorgesteld, wacht op keuze van Lars | 2026-09-15 |
-| Posttijden naar maandag 18:00 en donderdag 10:00 | gedaan op eigen Metricool-data, wacht op bevestiging van Lars | 2026-09-15 |
+| LinkedIn eigen content | klaar, 9 van de 12 momenten gaan mee naar LinkedIn, keuze door Lars in de redactietafel | 2026-09-15 |
+| Posttijden naar woensdag en vrijdag, IG en FB 18:30, LinkedIn 11:00 | klaar en bevestigd door Lars, onderbouwing in docs/doelgroep-en-posttijden.md | 2026-09-15 |
 | Make scenario publiceren vanuit Google Sheet Postplanning | terugvaloptie, alleen als Metricool afvalt | |
 | Posttijden onderbouwd (ma 19:00, do 12:15) | klaar op algemene data, bijstellen op eigen insights na 6 weken | 2026-09-15 |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
@@ -26,3 +26,7 @@
 | Contentkalender oktober | nog niet, start zodra brand-style is bevestigd | |
 | Eerste Reels uit Interview_Pablo | nog niet | |
 | Insights pipeline | nog niet | |
+| Redactietafel (laatste edit en LinkedIn-keuze) | klaar, keuzes van Lars verwerkt | 2026-09-15 |
+| **33 posts definitief ingepland in Metricool** | **klaar, groen licht van Lars, draft overal uit, eerste post do 17 sep 18:30** | 2026-09-15 |
+| Locatie Poort Padel per post | open, kan alleen met de hand in de Metricool webplanner, de koppeling heeft geen locatieveld | 2026-09-15 |
+| Maandlimiet Metricool gratis plan | in de gaten houden, oktober telt 21 posts en de limiet kan 20 zijn | 2026-09-15 |
