@@ -30,3 +30,5 @@
 | **33 posts definitief ingepland in Metricool** | **klaar, groen licht van Lars, draft overal uit, eerste post do 17 sep 18:30** | 2026-09-15 |
 | Locatie Poort Padel per post | open, kan alleen met de hand in de Metricool webplanner, de koppeling heeft geen locatieveld | 2026-09-15 |
 | Maandlimiet Metricool gratis plan | in de gaten houden, oktober telt 21 posts en de limiet kan 20 zijn | 2026-09-15 |
+| Dagen gevarieerd (di 22 sep, ma 12 okt, do 15 okt) | klaar, basis blijft wo en vr, drie tests om eigen Metricool-data op te bouwen | 2026-09-15 |
+| Reels als volgende stap | open, statische posters halen 2 tot 3 keer minder bereik dan Reels | 2026-09-15 |

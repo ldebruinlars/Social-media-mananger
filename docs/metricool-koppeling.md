@@ -130,3 +130,25 @@ Totaal 33 posts: 12 Instagram, 12 Facebook, 9 LinkedIn. Gecontroleerd met getSch
 
 1. **Locatie Poort Padel.** De koppeling heeft geen veld voor een locatie. Dat moet per post met de hand in de Metricool webplanner. @poortpadel staat wel in elke tekst en de Collab-uitnodiging staat op elke Instagram post.
 2. **Oktober telt 21 posts.** Op een gratis Metricool-plan kan er een maandlimiet van 20 zitten. Als er iets niet uitgaat, dan is dat de reden. Even in de gaten houden rond eind oktober.
+
+## Dagen gevarieerd op 15 september 2026
+
+Lars vroeg of vaste dagen wel slim zijn. Antwoord: woensdag en vrijdag blijven de basis, maar drie momenten gaan bewust naar een andere dag.
+
+**Waarom.** Niet omdat die dagen beter zijn, maar omdat Metricool nooit iets over maandag, dinsdag of donderdag kan leren als er nooit iets op staat. De cijfers die we nu hebben zijn een algemeen model, te herkennen aan de piek van 10:00 op letterlijk elke dag, ook in het weekend. Variatie is de enige manier om daar echte eigen data van te maken.
+
+**Wat er verandert.**
+
+| Was | Wordt | Post | Kanalen |
+|---|---|---|---|
+| wo 23 sep | di 22 sep | 09_padel | IG, FB, LinkedIn |
+| wo 14 okt | ma 12 okt | 16_backhand | IG, FB |
+| vr 16 okt | do 15 okt | 04_techniek | IG, FB |
+
+Dat zijn 7 posts in Metricool. Geen enkele tekst is aangepast.
+
+**Twee dingen die goed uitkomen.** 07_laatste_plekken blijft op woensdag 7 oktober staan, want die zegt "over twee weken start de najaarsreeks" en dat moet kloppen met 19 oktober. En de maandag- en donderdagtest raken alleen Instagram en Facebook, want bij die twee posts staat LinkedIn toch al uit. De dinsdagtest gaat wel mee naar LinkedIn, wat juist gunstig is: dinsdag tot donderdag doet het daar beter dan maandag en vrijdag.
+
+**Verdeling na de wijziging:** woensdag 4, vrijdag 4, donderdag 2, dinsdag 1, maandag 1. Nog steeds 2 posts per week, nergens twee dagen achter elkaar. De langste tussenpoos is 6 dagen, tussen 15 en 21 oktober.
+
+**Voorbehoud.** Met 12 posts krijg je een richting, geen bewijs. Eén post op maandag zegt statistisch weinig, want hoe goed een post loopt hangt veel meer af van de inhoud dan van de dag. Pas na een paar maanden is dit te lezen. De echte winst zit in Reels, die halen 2 tot 3 keer het bereik van een statische post.
