@@ -128,3 +128,27 @@ De twee erbij:
 | #padelalmere | padel en regio in één, ook al in gebruik op Instagram |
 
 Allebei bewust gekozen uit de set die op Instagram al draait, zodat de kanalen dezelfde taal spreken. Er is geen publieke data over hoeveel padel-tags op LinkedIn gebruikt worden, dus dit is een redenering, geen meting.
+
+## @poortpadel en de locatie, 15 september 2026
+
+Handle geverifieerd: **instagram.com/poortpadel**, 1069 volgers, 13 indoor banen aan de Neonweg 60-62 in Almere. Dat is de juiste.
+
+`@poortpadel` staat nu in de tekst van alle 33 posts. Waar Poort Padel al genoemd werd is de naam vervangen, waar hij ontbrak staat er een eigen regel "Bij @poortpadel in Almere." boven de hashtags.
+
+### Wat de vermelding per kanaal doet
+
+| Kanaal | Wordt het een link | Toelichting |
+|---|---|---|
+| Instagram | **ja** | Instagram maakt @vermeldingen in een caption automatisch klikbaar |
+| Facebook | nee | een pagina @taggen vraagt de pagina-ID in een speciaal formaat, dat geeft de koppeling niet door |
+| LinkedIn | nee | zelfde verhaal, een bedrijfspagina vermelden vraagt een URN |
+
+Op Facebook en LinkedIn blijft het dus leesbare tekst zonder link. Bewuste keuze van Lars.
+
+De Collab-uitnodiging naar @poortpadel staat los daarvan nog steeds op alle 12 Instagram-posts. Dat is sterker dan een vermelding: de post komt ook op hun account te staan.
+
+### Locatie
+
+Metricool ondersteunt locaties wel, maar alleen in de webplanner: post openen, op het locatie-icoon klikken, naam zoeken, kiezen. De koppeling die ik gebruik heeft geen veld voor locatie, dus dit is handwerk per post.
+
+De locatiezoeker leunt op de Meta API. Staat Poort Padel er niet tussen, dan heeft Meta hem niet in zijn database.
