@@ -52,32 +52,25 @@ def make(spec):
     return img
 SPECS=[
  dict(id='01_najaarsreeks',photo=D+'541525.jpg',focus=(0.5,0.3),kicker='NAJAARSREEKS · START 19 OKTOBER',head=['8 WEKEN BETER','PADELLEN'],sub='Max 4 per groep, vaste coach, instromen kan altijd',cta='SCHRIJF JE IN'),
- dict(id='02_eerste_les',photo=D+'548441.jpg',focus=(0.5,0.25),kicker='NOOIT GEPADELD? GEEN PROBLEEM',head=['JE EERSTE LES','REGELEN WIJ'],sub='Leenracket gratis, groep op jouw niveau, coach naast je',cta='BOEK EEN LOSSE LES'),
- dict(id='03_kids_kamp',photo=D+'549796.jpg',focus=(0.35,0.5),kicker='HERFSTVAKANTIE · 19 T/M 21 OKTOBER',head=['PADEL','KIDS KAMP'],sub='6 tot 14 jaar, 10:00 tot 12:30, rackets aanwezig, 195 euro all-in',cta='MELD JE KIND AAN'),
+ dict(id='02_eerste_les',photo=D+'548441.jpg',focus=(0.5,0.25),kicker='NOOIT GEPADELD? GEEN PROBLEEM',head=['JE EERSTE LES','REGELEN WIJ'],sub='Leenracket gratis, coach naast je, les op jouw niveau',cta='BOEK EEN LOSSE LES'),
  dict(id='04_techniek',photo=D+'546391.jpg',focus=(0.5,0.25),kicker='TECHNIEK · LOSSE TRAINING',head=['JOUW SMASH,','ONZE FOCUS'],sub='1 tot 4 spelers, jij kiest dag en tijd, trainer naar keuze',cta='BOEK EEN LOSSE LES'),
- dict(id='05_vaste_coach',photo=M+'ACA_PoortPadel_29mei-32.jpg',focus=(0.5,0.25),kicker='ONS TEAM · 8 COACHES',head=['TRAIN MET','EEN VASTE COACH'],sub='6 dagen per week, groepen op niveau, persoonlijke aandacht',cta='KIES JE COACH'),
- dict(id='06_clubgevoel',photo=D+'543611.jpg',focus=(0.5,0.25),kicker='PADEL MET JE VRIENDEN',head=['CLUBGEVOEL ZONDER','LIDMAATSCHAP'],sub='Vaste groep, vaste tijd, 100+ actieve spelers bij Poort Padel',cta='SCHRIJF JE IN',hsize=74),
- dict(id='07_laatste_plekken',photo=D+'545474.jpg',focus=(0.5,0.3),kicker='NOG 1 WEEK · START 19 OKTOBER',head=['LAATSTE PLEKKEN','NAJAARSREEKS'],sub='8 lessen t/m 12 december, vervanger toegestaan',cta='SCHRIJF JE IN',hsize=76),
- dict(id='08_jeugd',photo=D+'542742.jpg',focus=(0.42,0.5),kicker='JEUGDTRAINING · VANAF 19 OKTOBER',head=['VASTE COACH,','VASTE GROEP'],sub='Vanaf 6 jaar, 8 lessen, een vriendje mag invallen',cta='MELD JE KIND AAN'),
- dict(id='09_lachen',photo=D2+'ACA_PoortPadel_29mei-38.jpg',focus=(0.45,0.5),kicker='PLEZIER · TECHNIEK · PRESTATIE',head=['ALS JE LACHT,','LEER JE SNELLER'],sub='Kleine groepen, veel ballen slaan, coach naast je',cta='SCHRIJF JE IN'),
+ dict(id='06_clubgevoel',photo=D2+'ACA_PoortPadel_29mei-29.jpg',focus=(0.28,0.5),kicker='PADEL MET JE VRIENDEN',head=['CLUBGEVOEL ZONDER','LIDMAATSCHAP'],sub='Vaste groep, vaste tijd, 100+ actieve spelers bij Poort Padel',cta='SCHRIJF JE IN',hsize=74),
+ dict(id='07_laatste_plekken',photo=D2+'ACA_PoortPadel_29mei-50.jpg',focus=(0.5,0.4),kicker='NOG 1 WEEK · START 19 OKTOBER',head=['LAATSTE PLEKKEN','NAJAARSREEKS'],sub='8 lessen t/m 12 december, vervanger toegestaan',cta='SCHRIJF JE IN',hsize=76),
+ dict(id='09_lachen',photo=D2+'ACA_PoortPadel_29mei-38.jpg',focus=(0.45,0.5),kicker='PLEZIER · TECHNIEK · PRESTATIE',head=['ALS JE LACHT,','LEER JE SNELLER'],sub='Kleine groepen, coach naast je, groep op jouw niveau',cta='SCHRIJF JE IN'),
  dict(id='10_competitie',photo=D2+'ACA_PoortPadel_29mei-52.jpg',focus=(0.5,0.3),kicker='KNLTB COMPETITIE · START NOVEMBER',head=['KLAAR VOOR','DE COMPETITIE?'],sub='Wedstrijdtraining: tactiek, spelinzicht, druk zetten aan het net',cta='BOEK WEDSTRIJDTRAINING'),
  dict(id='11_jouw_coach',photo=D2+'all_footage_01_01_00_20.jpg',focus=(0.4,0.5),kicker='8 COACHES · JIJ KIEST',head=['JOUW COACH,','JOUW MOMENT'],sub='Losse training op de dag en tijd die jou past',cta='KIES JE COACH'),
- dict(id='12_vrije_plekken',photo=D2+'all_footage_01_00_06_21.jpg',focus=(0.5,0.5),kicker='DEZE WEEK · LOSSE TRAINING',head=['VRIJE PLEKKEN','DEZE WEEK'],sub='1 tot 4 spelers, baan inbegrepen, reactie binnen 24 uur',cta='APP 06 21 24 65 09'),
- dict(id='13_voor_iedereen',photo=D2+'APA_13_mei-6.jpg',focus=(0.45,0.5),kicker='NAJAARSREEKS · START 19 OKTOBER',head=['PADEL IS','VOOR IEDEREEN'],sub='Beginner, gemiddeld of gevorderd: er is een groep op jouw niveau',cta='SCHRIJF JE IN'),
- dict(id='14_samen',photo=D2+'all_footage_01_15_31_08.jpg',focus=(0.42,0.5),kicker='PADEL MET JE MAATJE',head=['SAMEN','INSCHRIJVEN?'],sub="Kom met z'n tweeën of vieren, dan zetten we jullie in één groep",cta='SCHRIJF JE IN'),
- dict(id='15_geen_racket',photo=D2+'APA_13_mei-5.jpg',focus=(0.45,0.5),kicker='EERSTE KEER OP DE BAAN',head=['GEEN RACKET?','GEEN PROBLEEM'],sub='Leenracket gratis, wij regelen de rest',cta='BOEK EEN LOSSE LES'),
- dict(id='16_backhand',photo=D2+'APA_13_mei-34.jpg',focus=(0.4,0.5),kicker='TECHNIEK · ÉÉN SLAG CENTRAAL',head=['BACKHAND','ONDER CONTROLE'],sub='Losse training, één slag per les, trainer naar keuze',cta='BOEK EEN LOSSE LES'),
- dict(id='17_kinderfeestje',photo=D2+'ACA_PoortPadel_29mei-53.jpg',focus=(0.45,0.5),kicker='KINDERFEESTJE · VANAF 6 JAAR',head=['FEESTJE','OP DE BAAN'],sub='Padel, coach en plezier, rackets aanwezig',cta='VRAAG EEN FEESTJE AAN'),
- dict(id='18_teamuitje',photo=D2+'ACA_PoortPadel_29mei-28.jpg',focus=(0.5,0.5),kicker='TEAMUITJE · TOT 100+ PERSONEN',head=['PADEL MET','JE TEAM'],sub='All-in event bij Poort Padel, catering in huis',cta='PLAN JE EVENT'),
- dict(id='19_kerstreeks',photo=D2+'APA_13_mei-24.jpg',focus=(0.5,0.3),kicker='KERSTREEKS · 14 DEC T/M 2 JAN',head=['3 LESSEN,','1 KERSTVAKANTIE'],sub='Blijf in ritme, ook in december',cta='SCHRIJF JE IN'),
+ dict(id='14_samen',photo=D2+'all_footage_01_15_31_08.jpg',focus=(0.42,0.5),kicker='PADEL MET JE MAATJE',head=['SAMEN','INSCHRIJVEN?'],sub='Kom als duo of met meer vrienden, wij vullen de groep aan',cta='SCHRIJF JE IN'),
+ dict(id='15_geen_racket',photo=D2+'ACA_PoortPadel_29mei-39.jpg',focus=(0.45,0.45),kicker='EERSTE KEER OP DE BAAN',head=['GEEN RACKET?','GEEN PROBLEEM'],sub='Leenracket gratis, wij regelen de rest',cta='BOEK EEN LOSSE LES'),
+ dict(id='16_backhand',photo=D2+'APA_13_mei-34.jpg',focus=(0.4,0.5),kicker='TECHNIEK · LOSSE TRAINING',head=['BACKHAND','ONDER CONTROLE'],sub='Losse training met focus op techniek, trainer naar keuze',cta='BOEK EEN LOSSE LES'),
+ dict(id='18_teamuitje',photo=D2+'ACA_PoortPadel_29mei-34.jpg',focus=(0.4,0.5),kicker='TEAMUITJE · TOT 100+ PERSONEN',head=['PADEL MET','JE TEAM'],sub='All-in event bij Poort Padel, catering in huis',cta='PLAN JE EVENT'),
  dict(id='20_vaste_plek',photo=D2+'APA_13_mei-16.jpg',focus=(0.5,0.3),kicker='100+ ACTIEVE SPELERS',head=['JOUW VASTE PLEK','OM TE SPELEN'],sub='Trainen, spelen en mensen ontmoeten bij Poort Padel',cta='SCHRIJF JE IN'),
 ]
-os.makedirs('posters/out2',exist_ok=True)
+os.makedirs('posters/out3',exist_ok=True)
 for s in SPECS:
-    make(s).save(f"posters/out2/{s['id']}.jpg",quality=92)
-ims=[Image.open(f"posters/out2/{s['id']}.jpg") for s in SPECS]
+    make(s).save(f"posters/out3/{s['id']}.jpg",quality=92)
+ims=[Image.open(f"posters/out3/{s['id']}.jpg") for s in SPECS]
 for im in ims: im.thumbnail((400,500))
-cols=5; rows=4
+cols=5; rows=3
 sheet=Image.new('RGB',(cols*410,rows*510),'white')
 for i,im in enumerate(ims): sheet.paste(im,((i%cols)*410,(i//cols)*510))
-sheet.save('posters/contact2.jpg',quality=82); print('ok')
+sheet.save('posters/contact3.jpg',quality=82); print('ok')
