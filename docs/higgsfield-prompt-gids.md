@@ -149,3 +149,7 @@ Volgorde: Lars lage volley aan het net → smash blauw shirt → speelster rode 
 Overgangsregels: harde cut op het moment van balcontact, alle camera's bewegen dezelfde kant op (push-in of van links naar rechts), de bal verlaat het beeld in de richting waar hij in de volgende clip binnenkomt. Geen dissolves. Intro en outro kaart in Canva met langzame zoom, of als startbeeld in Kling met de prompt "Soft light drifts slowly across the dark green gradient from the top left; the logos stay perfectly still and sharp. Subtle film grain."
 
 Timing 10 sec story: intro 1,2 sec, vier clips van 2 sec, outro 1,8 sec. Cuts op de beat van de muziek.
+
+## 11. Seedance 2.5, alles in één keer (omni reference)
+
+Instellingen: mode omni_reference, 9:16, 720p, 15 sec, audio uit als je Instagram muziek gebruikt. Uploadvolgorde: 1 intro kaart, 2 Lars volley, 3 smash blauw, 4 speelster rood, 5 coach zwart aan het net, 6 outro kaart. De volledige prompt staat in het chatlog van 15 september en volgt de Seedance 2.5 regels: elke foto een rol plus een uitsluiting, één gebeurtenis per fase met een eindtoestand, harde cuts op balcontact, kaart 1 als eerste frame en kaart 6 als laatste frame.
