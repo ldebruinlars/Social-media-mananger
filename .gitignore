@@ -6,3 +6,6 @@ assets/
 *.png
 .DS_Store
 node_modules/
+
+# De posters worden publiek gehost zodat Metricool ze kan ophalen
+!outputs/posters/2026-10/*.jpg
