@@ -8,7 +8,9 @@
 | Media-inventaris | klaar, Drive is bijna leeg, wacht op map ACA Social Media | 2026-09-14 |
 | Meta Business koppeling | open, Lars moet Facebook Pages + Instagram for Business in Make koppelen | |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
-| Drive-map van Lars koppelen | open, map niet bereikbaar met gekoppeld account | 2026-09-15 |
+| Drive-map van Lars koppelen | klaar, map gedeeld en 8 foto's opgehaald | 2026-09-15 |
+| Posterset oktober: 8 feed posts (2 per week) met captions | klaar, wacht op vinkjes in outputs/captions/2026-10-posters.md | 2026-09-15 |
+| Video-route (Kling, Seedance) | geparkeerd op verzoek van Lars, gids staat in docs/higgsfield-prompt-gids.md | 2026-09-15 |
 | Contentkalender oktober | nog niet, start zodra brand-style is bevestigd | |
 | Eerste Reels uit Interview_Pablo | nog niet | |
 | Insights pipeline | nog niet | |
