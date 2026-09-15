@@ -1,8 +1,8 @@
-# Posterset najaar 2026, versie 4 (na ronde 3)
+# Posterset najaar 2026, versie 5 (na ronde 4)
 
 12 feed posts, 2 per week van 21 september t/m 29 oktober. Formaat 1080x1350 (4:5). Bestanden in `outputs/posters/2026-10/`.
 
-Verwerkt op 15 september uit ronde 3: 7 goedgekeurd, 5 aangepast.
+Verwerkt op 15 september uit ronde 4: 10 goedgekeurd, 2 aangepast.
 
 Vaste regels voor elke post: **maximaal 5 hashtags, geen #allcourtacademy**, locatie Poort Padel, tag @poortpadel, Collab uitnodiging naar @poortpadel, link in bio naar allcourtacademy.com. Posten via Meta Business Suite of Make. Niets gaat live zonder jouw akkoord.
 
@@ -36,16 +36,14 @@ Je merknaam hoeft er niet bij, mensen die jou al kennen zoeken niet op een hasht
 | Locatie | #poortpadel |
 | Onderwerp | #padelles #padeltraining #padeltips #padeltechniek #padelcoach #indoorpadel #padelcompetitie #knltb #teamuitje #bedrijfsuitje |
 
-## Wat er is aangepast in ronde 3
+## Wat er is aangepast in ronde 4
 
 | Poster | Jouw feedback | Wat ik heb gedaan |
 |---|---|---|
-| 01 najaarsreeks | opsomming zonder bolletjes | streepjes voor elke regel |
-| 09 waarom padel | half Almere gaat te ver, niet leren in 10 minuten maar leuk vinden | herschreven naar "veel mensen" en "binnen tien minuten vind je het al leuk" |
-| 10 competitie | verkeerde persoon op de foto, competitie algemeen houden, bolletjes | foto van Pablo in het witte shirt, "bij Poort Padel" weg, streepjes toegevoegd |
-| 14 samen | duidelijker: duo of hele vriendengroep, ook nieuwe mensen | caption uitgebreid |
-| 18 teamuitje | niet leren in 10 minuten, maar lol hebben | "binnen tien minuten heb je lol" |
-| alle posts | #allcourtacademy weg, betere hashtags | nieuwe sets van 5 per post |
+| 07 laatste plekken | 8 lessen tot 12 december niet duidelijk, lesduur bij de subregel | subregel nu "8 lessen van 1 uur, vaste coach, vervanger toegestaan", caption met de datums op een eigen regel |
+| 10 competitie | verkeerde persoon, de trainer met de pet | foto van de trainer met de pet, strak op hem gecropt |
+
+De portretfoto die je stuurde zit niet in de Drive map Openingsdag. Ik gebruik nu dezelfde man uit de groepsfoto van dezelfde dag. Zet die portretfoto in de Drive, dan wissel ik hem om.
 
 ---
 
@@ -99,8 +97,9 @@ Boek je eerste les via de link in bio. Vragen? App 06 21 24 65 09, je krijgt bin
 
 Over twee weken start de najaarsreeks. Een paar groepen hebben nog een plek vrij.
 
-- 8 lessen, 19 oktober t/m 12 december
-- Max 4 per groep, vaste coach
+- 8 lessen van 1 uur
+- Van 19 oktober tot en met 12 december
+- Max 4 per groep, elke week dezelfde coach
 - Kun je een keer niet, dan mag een vervanger komen
 
 Wil je erbij? Schrijf je in via de link in bio, dan zetten we je in een groep op jouw niveau. App 06 21 24 65 09 als je wil overleggen welke groep past.

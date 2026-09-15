@@ -9,9 +9,10 @@
 | Meta Business koppeling | open, Lars moet Facebook Pages + Instagram for Business in Make koppelen | |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
 | Drive-map van Lars koppelen | klaar, map gedeeld en 8 foto's opgehaald | 2026-09-15 |
-| Posterset najaar v4: 12 feed posts (2 per week, 21 sep t/m 29 okt), max 5 hashtags zonder merktag | klaar na ronde 3, wacht op ronde 4 op https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK | 2026-09-15 |
+| Posterset najaar v5: 12 feed posts (2 per week, 21 sep t/m 29 okt) | klaar na ronde 4, wacht op ronde 5 op https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK | 2026-09-15 |
+| Portretfoto trainer met pet (competitie poster) | open, staat niet in Drive Openingsdag, Lars zet hem erin dan wissel ik om | 2026-09-15 |
 | 8 onderwerpen nog niet ingepland (kids kamp, vaste coach, jeugd, vrije plekken, voor iedereen, kinderfeestje, kerstreeks, clubgevoel) | open, Lars zegt of ze terugkomen met andere foto of invalshoek | 2026-09-15 |
-| Goedkeuringspagina posters (artifact met db) | live, rondes in reviews, reviews_v2, reviews_v3, reviews_v4 | 2026-09-15 |
+| Goedkeuringspagina posters (artifact met db) | live, rondes in reviews t/m reviews_v5 | 2026-09-15 |
 | Video-route (Kling, Seedance) | geparkeerd op verzoek van Lars, gids staat in docs/higgsfield-prompt-gids.md | 2026-09-15 |
 | Contentkalender oktober | nog niet, start zodra brand-style is bevestigd | |
 | Eerste Reels uit Interview_Pablo | nog niet | |
