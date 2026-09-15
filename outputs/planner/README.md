@@ -2,10 +2,15 @@
 
 Live: https://claude.ai/artifact/86xmviVu8NTuFQ6DPNizCb
 
-De tweede goedkeuring. Stap 1 is de postercheck (beeld en tekst), stap 2 is deze pagina: de post zoals hij in de feed komt, met datum, tijd en caption. Per post kiest Lars Groen licht, Nog wachten of Overslaan.
+De tweede goedkeuring. Stap 1 is de postercheck (beeld en tekst), stap 2 is deze pagina.
+
+Sinds 15 september staan hier alle 26 posts: 12 Instagram, 12 Facebook en 2 LinkedIn, gegroepeerd per datum met een filter per kanaal. Per post kiest Lars Groen licht, Nog wachten of Overslaan.
+
+Keuzes komen in de collectie `publicatie`, met sleutels `ig_`, `fb_` en `li_`. De oude sleutels (kale poster-id's) zijn vervallen, localStorage-sleutel is nu `aca-publicatie-v2`.
 
 - `index.html` de pagina zoals gepubliceerd
-- `posts.json` de 12 posts met datum, tijd, poster, kop, knop, pijler en caption
+- `posts.json` de 26 posts met kanaal, datum, tijd, poster, kop, pijler en caption per kanaal
+- gebouwd door de scripts in de scratchpad, brondata staat in docs/kanaalverschillen.md
 
 Bij publiceren gaan `avatar.png` (uit `outputs/branding/instagram/01_navy_lime.png`) en de 12 jpg's uit `outputs/posters/2026-10/` mee als bestanden onder `posters/`.
 
