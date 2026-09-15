@@ -130,7 +130,7 @@ Frequentie doel: 3 Reels per week, 1 carrousel, dagelijks 1 tot 3 stories. Faceb
 - Techniek: #padeltips #bandeja #vibora #padeltechniek #padelcoach
 - Regio: #almere #almerepoort #flevoland #lelystad #zeewolde #ijburg
 
-Max 8 per post, 3 tot 5 in de caption bij Reels.
+**Maximaal 5 hashtags per post**, ook bij Reels en carrousels. Afgesproken met Lars op 15 september 2026.
 
 ## Do en don't
 

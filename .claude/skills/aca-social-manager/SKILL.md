@@ -36,6 +36,8 @@ Lees deze bestanden voordat je iets maakt. Bestaan ze niet, zeg dat en bouw ze e
 
 ## Stap 2. Vaste regels voor ACA
 
+- **Maximaal 5 hashtags per post.** Geldt voor feed, Reels en carrousel. Afgesproken met Lars op 15 september 2026.
+
 1. **Taal**: Nederlands, casual, je/jij. Engels alleen als de doelgroep expat is (Almere heeft die). Geen gedachtestreepjes, geen ondertekening onder captions.
 2. **Twee merken**: ACA is de padelschool, Poort Padel is de club en locatie. ACA post over lessen, coaches, progressie, jeugd, kids camps. Tag altijd `@poortpadel` bij content op locatie. Nooit namens Poort Padel spreken zonder dat Lars dat zegt.
 3. **Formaten**: Reels 9:16 1080x1920, feed 4:5 1080x1350, stories 9:16. Ondertitels altijd aan.
