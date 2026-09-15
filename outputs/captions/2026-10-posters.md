@@ -4,9 +4,9 @@
 
 Verwerkt op 15 september uit ronde 4: 10 goedgekeurd, 2 aangepast.
 
-Vaste regels voor elke post: **maximaal 5 hashtags, geen #allcourtacademy**, locatie Poort Padel, tag @poortpadel, Collab uitnodiging naar @poortpadel, link in bio naar allcourtacademy.com. Posten via Meta Business Suite of Make. Niets gaat live zonder jouw akkoord.
+Vaste regels voor elke post: **precies 5 hashtags op elk kanaal, geen #allcourtacademy, geen telefoonnummer**, locatie Poort Padel, tag @poortpadel, Collab uitnodiging naar @poortpadel, link in bio naar allcourtacademy.com. Posten via Meta Business Suite of Make. Niets gaat live zonder jouw akkoord.
 
-Posttijden: maandag 19:00 en donderdag 12:15. Stories dezelfde dag met link-sticker.
+Posttijden: maandag 18:00 en donderdag 10:00. Stories dezelfde dag met link-sticker.
 
 ## Schema
 
@@ -55,7 +55,7 @@ Wat je krijgt:
 - Kun je een keer niet, dan stuur je een vervanger
 - Instromen kan, ook als de reeks al loopt
 
-Lessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio of stuur een appje naar 06 21 24 65 09. Je hoort binnen 24 uur van ons 🎾
+Lessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio, je hoort binnen 24 uur van ons 🎾
 
 #padelalmere #poortpadel #padelles #almere #padelnederland
 
@@ -87,7 +87,7 @@ Nooit gepadeld? Dan is dit je moment. Bij All Court Academy start je gewoon bij 
 
 Een losse les boek je op de dag en tijd die jou uitkomt, met 1 tot 4 spelers. Neem je maatje mee of kom alleen, wij zetten je in een les op jouw niveau. Baanhuur zit erbij.
 
-Boek je eerste les via de link in bio. Vragen? App 06 21 24 65 09, je krijgt binnen 24 uur antwoord.
+Boek je eerste les via de link in bio. Je krijgt binnen 24 uur antwoord.
 
 #padel #padelalmere #poortpadel #padelles #almere
 
@@ -100,7 +100,7 @@ Over twee weken start de najaarsreeks. Een paar groepen hebben nog een plek vrij
 - Max 4 per groep, elke week dezelfde coach
 - Kun je een keer niet, dan mag een vervanger komen
 
-Wil je erbij? Schrijf je in via de link in bio, dan zetten we je in een groep op jouw niveau. App 06 21 24 65 09 als je wil overleggen welke groep past.
+Wil je erbij? Schrijf je in via de link in bio, dan zetten we je in een groep op jouw niveau.
 
 #padelalmere #poortpadel #padelles #almere #padeltraining
 
@@ -110,7 +110,7 @@ Acht coaches, elk met een eigen stijl. Jij kiest wie bij je past.
 
 Een losse training plan je op de dag en tijd die jou uitkomt. Wil je rustig en duidelijk, of juist tempo en wedstrijddruk? Zeg wat je zoekt, dan koppelen we je aan de juiste coach.
 
-Kies je coach via de link in bio. Twijfel je? App 06 21 24 65 09, we denken mee.
+Kies je coach via de link in bio.
 
 #padelcoach #padelalmere #poortpadel #padeltraining #almere
 
@@ -120,7 +120,7 @@ Je wil padel proberen maar hebt geen racket? Wij hebben er genoeg. Leenracket is
 
 Kom in sportkleren en schoenen zonder zwarte zool, de rest regelen wij. Een losse les boek je op de dag en tijd die jou past, met 1 tot 4 spelers.
 
-Boek je eerste les via de link in bio of app 06 21 24 65 09.
+Boek je eerste les via de link in bio.
 
 #padel #padelalmere #poortpadel #padelles #almere
 
@@ -153,7 +153,7 @@ Wat we doen:
 - Spelinzicht: de juiste bal op het juiste moment
 - Druk zetten aan het net en rustig blijven achterin
 
-Met je team of alleen, 1 tot 4 spelers per training. Boek via de link in bio of app 06 21 24 65 09.
+Met je team of alleen, 1 tot 4 spelers per training. Boek via de link in bio.
 
 #padelcompetitie #knltb #padelalmere #poortpadel #padeltraining
 
@@ -163,7 +163,7 @@ Op zoek naar een teamuitje dat iedereen leuk vindt, ook wie nooit gepadeld heeft
 
 Bij Poort Padel regelen we het all-in: banen, coaches, rackets en catering in huis. Van 8 tot 100+ personen. Ook voor klantevents en personeelsfeesten.
 
-Plan je event via de link in bio of mail info@allcourtacademy.com.
+Plan je event via de link in bio.
 
 #teamuitje #bedrijfsuitje #padelalmere #poortpadel #flevoland
 

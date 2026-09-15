@@ -36,7 +36,7 @@ Lees deze bestanden voordat je iets maakt. Bestaan ze niet, zeg dat en bouw ze e
 
 ## Stap 2. Vaste regels voor ACA
 
-- **Hashtags per kanaal: Instagram 5, Facebook 8, LinkedIn 5. Nooit #allcourtacademy.** Opbouw: brede tags (#padel, #padelnederland), lokale (#padelalmere, #almere, #flevoland), de locatie (#poortpadel) en de rest op onderwerp. Geldt voor feed, Reels en carrousel.
+- **Precies 5 hashtags per post op elk kanaal, ook Facebook en LinkedIn. Nooit #allcourtacademy.** Opbouw: 1 brede tag (#padel of #padelnederland), 2 lokale (#padelalmere, #almere of #flevoland), de locatie (#poortpadel) en 1 op onderwerp. Geldt voor feed, Reels en carrousel.
 - **Geen telefoonnummer in posts.** Instagram verwijst naar de link in bio, Facebook en LinkedIn zetten de inschrijflink zelf in de tekst. Afgesproken met Lars op 15 september 2026.
 
 1. **Taal**: Nederlands, casual, je/jij. Engels alleen als de doelgroep expat is (Almere heeft die). Geen gedachtestreepjes, geen ondertekening onder captions.

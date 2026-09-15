@@ -51,3 +51,29 @@ Twee posts in zes weken is weinig. Voorstellen voor eigen LinkedIn-onderwerpen, 
 - Cijfers over de groei van padel in Flevoland, alleen als we echte bronnen hebben
 
 Voor LinkedIn is ander beeld nodig dan de feed-posters: liggend of vierkant werkt daar beter dan 4:5, en foto's van groepen en bedrijven doen het beter dan losse spelers.
+
+## Herzien op 15 september 2026, avond
+
+Lars wil **overal precies 5 hashtags**, ook op Facebook en LinkedIn. De korte proef met 8 op Facebook is teruggedraaid.
+
+| Kanaal | Hashtags | Telefoonnummer |
+|---|---|---|
+| Instagram | 5 | nee, link in bio |
+| Facebook | 5 | nee, inschrijflink in de tekst |
+| LinkedIn | 5 | nee, inschrijflink in de tekst |
+
+### Twee fouten die dit veroorzaakten
+
+1. Het hint-label in de redactietafel stond hard op "3 hashtags" en was nooit meegenomen toen de teksten veranderden. Labels die een regel herhalen moeten mee met de regel.
+2. De redactietafel laadde opgeslagen tekst uit localStorage over de nieuwe tekst heen. Lars zag daardoor zijn eigen eerste sessie terug, niet de nieuwe versie. Opgelost door de sleutel te verhogen naar `aca-redactie-v3`, wat oude opslag laat vervallen.
+
+### Checklist bij elke tekstwijziging
+
+De tekst staat op vier plekken. Alle vier bijwerken, daarna controleren:
+
+1. `outputs/redactie/rows.json` en `outputs/planner/posts.json`
+2. `outputs/captions/2026-10-posters.md`
+3. De twee artifacts opnieuw publiceren
+4. Metricool, alle posts, via updateScheduledPost
+
+Daarna terugleggen met getScheduledPosts en tellen, niet aannemen dat het goed staat.
