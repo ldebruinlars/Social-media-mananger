@@ -56,7 +56,7 @@ SPECS=[
  dict(id='04_techniek',photo=D+'546391.jpg',focus=(0.5,0.25),kicker='TECHNIEK · LOSSE TRAINING',head=['JOUW SMASH,','ONZE FOCUS'],sub='1 tot 4 spelers, jij kiest dag en tijd, trainer naar keuze',cta='BOEK EEN LOSSE LES'),
  dict(id='07_laatste_plekken',photo=D2+'ACA_PoortPadel_29mei-40.jpg',focus=(0.5,0.3),kicker='NOG 2 WEKEN · START 19 OKTOBER',head=['LAATSTE PLEKKEN','NAJAARSREEKS'],sub='8 lessen t/m 12 december, vervanger toegestaan',cta='SCHRIJF JE IN',hsize=76),
  dict(id='09_padel',photo=D2+'ACA_PoortPadel_29mei-38.jpg',focus=(0.45,0.5),kicker='WAAROM PADEL?',head=['BINNEN 10 MINUTEN','BEN JE VERKOCHT'],sub='Makkelijk te leren, meteen leuk, en je speelt altijd samen',cta='BOEK EEN LOSSE LES',hsize=70),
- dict(id='10_competitie',photo=D2+'ACA_PoortPadel_29mei-29.jpg',focus=(0.42,0.4),kicker='KNLTB COMPETITIE · START NOVEMBER',head=['KLAAR VOOR','DE COMPETITIE?'],sub='Wedstrijdtraining: tactiek, spelinzicht, druk zetten aan het net',cta='BOEK WEDSTRIJDTRAINING'),
+ dict(id='10_competitie',photo=D2+'ACA_PoortPadel_29mei-35.jpg',focus=(0.62,0.35),kicker='KNLTB COMPETITIE · START NOVEMBER',head=['KLAAR VOOR','DE COMPETITIE?'],sub='Wedstrijdtraining: tactiek, spelinzicht, druk zetten aan het net',cta='BOEK WEDSTRIJDTRAINING'),
  dict(id='11_jouw_coach',photo=D2+'all_footage_01_01_00_20.jpg',focus=(0.4,0.5),kicker='8 COACHES · JIJ KIEST',head=['JOUW COACH,','JOUW MOMENT'],sub='Losse training op de dag en tijd die jou past',cta='KIES JE COACH'),
  dict(id='14_samen',photo=D2+'all_footage_01_15_31_08.jpg',focus=(0.42,0.5),kicker='PADEL MET JE MAATJE',head=['SAMEN','INSCHRIJVEN?'],sub='Kom samen met je vrienden, dan train je in je eigen groep',cta='SCHRIJF JE IN'),
  dict(id='15_geen_racket',photo=D2+'ACA_PoortPadel_29mei-39.jpg',focus=(0.45,0.45),kicker='EERSTE KEER OP DE BAAN',head=['GEEN RACKET?','GEEN PROBLEEM'],sub='Leenracket gratis, wij regelen de rest',cta='BOEK EEN LOSSE LES'),
@@ -64,12 +64,12 @@ SPECS=[
  dict(id='18_teamuitje',photo=D2+'ACA_PoortPadel_29mei-34.jpg',focus=(0.4,0.5),kicker='TEAMUITJE · TOT 100+ PERSONEN',head=['PADEL MET','JE TEAM'],sub='All-in event bij Poort Padel, catering in huis',cta='PLAN JE EVENT'),
  dict(id='20_vaste_plek',photo=D2+'APA_13_mei-16.jpg',focus=(0.5,0.3),kicker='100+ ACTIEVE SPELERS',head=['JOUW VASTE PLEK','OM TE SPELEN'],sub='Trainen, spelen en mensen ontmoeten bij Poort Padel',cta='SCHRIJF JE IN'),
 ]
-os.makedirs('posters/out4',exist_ok=True)
+os.makedirs('posters/out5',exist_ok=True)
 for s in SPECS:
-    make(s).save(f"posters/out4/{s['id']}.jpg",quality=92)
-ims=[Image.open(f"posters/out4/{s['id']}.jpg") for s in SPECS]
+    make(s).save(f"posters/out5/{s['id']}.jpg",quality=92)
+ims=[Image.open(f"posters/out5/{s['id']}.jpg") for s in SPECS]
 for im in ims: im.thumbnail((400,500))
 cols=4; rows=3
 sheet=Image.new('RGB',(cols*410,rows*510),'white')
 for i,im in enumerate(ims): sheet.paste(im,((i%cols)*410,(i//cols)*510))
-sheet.save('posters/contact4.jpg',quality=82); print('ok')
+sheet.save('posters/contact5.jpg',quality=82); print('ok')

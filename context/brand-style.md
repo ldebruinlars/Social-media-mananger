@@ -124,13 +124,13 @@ Frequentie doel: 3 Reels per week, 1 carrousel, dagelijks 1 tot 3 stories. Faceb
 
 ## Hashtag sets
 
-- Basis: #padel #padelalmere #allcourtacademy #poortpadel #padelles #padeltraining #indoorpadel
+- Basis: #padel #padelnederland #padelalmere #almere #flevoland #poortpadel #padelles #padeltraining #indoorpadel
 - Poort Padel gebruikt zelf: #PoortPadel #PadelAlmere #IndoorPadel #MeetSmashRelax #NieuwinAlmere
 - Jeugd: #jeugdpadel #padelkids #kidskamp #sportalmere
 - Techniek: #padeltips #bandeja #vibora #padeltechniek #padelcoach
 - Regio: #almere #almerepoort #flevoland #lelystad #zeewolde #ijburg
 
-**Maximaal 5 hashtags per post**, ook bij Reels en carrousels. Afgesproken met Lars op 15 september 2026.
+**Maximaal 5 hashtags per post**, ook bij Reels en carrousels. **Geen #allcourtacademy**, die levert geen nieuwe mensen op. Opbouw: 1 brede tag, 2 lokale, de locatie, 1 op onderwerp. Afgesproken met Lars op 15 september 2026.
 
 ## Do en don't
 
