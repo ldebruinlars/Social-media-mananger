@@ -260,6 +260,14 @@ In januari start de voorjaarsreeks (7 lessen, 4 januari t/m 20 februari). Wil je
 
 ---
 
+## Goedkeuringspagina
+
+Lars keurt goed via de postercheck pagina: https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK
+
+Per post: Goed, Aanpassen of Niet gebruiken, plus velden voor kop, subregel, knop, kicker en een notitie over wat er anders moet. Alles wordt opgeslagen in de artifact database (collectie `reviews`, één document per poster-id). Claude leest die uit met read_db en verwerkt de wijzigingen in `outputs/posters/2026-10/make_posters.py`.
+
+De vinkjes in de tabel hierboven blijven de papieren backup. De pagina is leidend.
+
 ## Stories bij elke post (zelfde dag)
 
 Zet de poster als story met een link-sticker naar de inschrijfpagina en de tekst "Swipe up staat in de link" is niet meer nodig, gewoon de sticker. Voeg de countdown-sticker toe bij post 1, 3 en 7 (start 19 oktober). Tag @poortpadel en zet Poort Padel als locatie, dan deelt Poort Padel het door.

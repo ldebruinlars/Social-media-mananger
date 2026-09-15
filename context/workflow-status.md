@@ -9,7 +9,8 @@
 | Meta Business koppeling | open, Lars moet Facebook Pages + Instagram for Business in Make koppelen | |
 | Contentset v2 in Pablo-video stijl: 2 feed posts, 1 story, 3 Higgsfield story-video's van 10 sec | klaar, wacht op vinkjes van Lars in outputs/captions/2026-09-eerste-set.md | 2026-09-15 |
 | Drive-map van Lars koppelen | klaar, map gedeeld en 8 foto's opgehaald | 2026-09-15 |
-| Posterset najaar: 20 feed posts (2 per week, 21 sep t/m 26 nov) met captions | klaar, wacht op vinkjes in outputs/captions/2026-10-posters.md | 2026-09-15 |
+| Posterset najaar: 20 feed posts (2 per week, 21 sep t/m 26 nov) met captions | klaar, Lars keurt goed op https://claude.ai/artifact/SZHraJFEar8GRhpCMEt9xK | 2026-09-15 |
+| Goedkeuringspagina posters (artifact met db) | live, feedback komt in collectie reviews | 2026-09-15 |
 | Video-route (Kling, Seedance) | geparkeerd op verzoek van Lars, gids staat in docs/higgsfield-prompt-gids.md | 2026-09-15 |
 | Contentkalender oktober | nog niet, start zodra brand-style is bevestigd | |
 | Eerste Reels uit Interview_Pablo | nog niet | |
