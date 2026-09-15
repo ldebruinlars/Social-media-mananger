@@ -9,7 +9,9 @@
 | Meta Business koppeling | koppellink klaar, wacht op Lars: (koppellink verwijderd, stond in een publieke repo, Lars moet het credential request in Make intrekken) | 2026-09-15 |
 | Postschema najaar (12 posts, 21 sep t/m 29 okt) | klaar, zie docs/postschema-najaar-2026.md | 2026-09-15 |
 | Metricool gekoppeld (Instagram, Facebook, LinkedIn) | klaar, zie docs/metricool-koppeling.md, brand id 6979019 | 2026-09-15 |
-| 12 posts als concept in Metricool | klaar, alle 12 staan op draft, niets publiceert vanzelf | 2026-09-15 |
+| 12 posts als concept in Metricool | klaar, Instagram en Facebook los van elkaar, alles op draft | 2026-09-15 |
+| Kanaalverschillen IG, FB, LinkedIn | klaar, zie docs/kanaalverschillen.md, links toegevoegd op FB en LinkedIn | 2026-09-15 |
+| LinkedIn eigen content | 2 posts als start, onderwerpen voorgesteld, wacht op keuze van Lars | 2026-09-15 |
 | Posttijden naar maandag 18:00 en donderdag 10:00 | gedaan op eigen Metricool-data, wacht op bevestiging van Lars | 2026-09-15 |
 | Make scenario publiceren vanuit Google Sheet Postplanning | terugvaloptie, alleen als Metricool afvalt | |
 | Posttijden onderbouwd (ma 19:00, do 12:15) | klaar op algemene data, bijstellen op eigen insights na 6 weken | 2026-09-15 |
