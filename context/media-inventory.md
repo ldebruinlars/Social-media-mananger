@@ -74,3 +74,16 @@ Canva map ACA Social Media: https://www.canva.com/folder/FAHVMFpKijo. Designs en
 | Interview_Pablo_final.mp4 | nog niet geknipt. Eerste kandidaat voor 3 Reels |
 | Foto's 29 mei | bruikbaar, wachten op de rest van de serie |
 | Kids Camp designs | klaar voor hergebruik als herfstvakantie kids camp post |
+
+## Openstaande fotowissel: competitie poster (15 september 2026)
+
+Lars wil op `10_competitie` de trainer met de pet, uit de map Openingsdag. Twee kandidaten, gesorteerd op laatst gewijzigd staan ze bovenaan in zijn Drive:
+
+| Bestand | Drive file id | Wat erop staat |
+|---|---|---|
+| ACA_PoortPadel_29mei-66.jpg | 10H2T3uV_xagVghGSJ43-xt1pMRvmXwW5 | vermoedelijk het portret, hij lacht, blauw licht |
+| ACA_PoortPadel_29mei-1.jpg | 1qIPtHFTVU_zbZNAsFczuODCNwqdcK2WV | vermoedelijk hij met racket omhoog |
+
+Nog niet opgehaald: de Drive connector verbrak de sessie bij elke download van deze grootte (7 tot 9 MB). Zoeken werkte wel. Zodra downloaden weer werkt: ophalen, croppen naar 4:5 en in `outputs/posters/2026-10/make_posters.py` de regel `10_competitie` laten wijzen naar het nieuwe bestand.
+
+Tijdelijk staat er nu een andere opname van dezelfde man van dezelfde dag (ACA_PoortPadel_29mei-29.jpg).
