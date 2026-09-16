@@ -107,3 +107,53 @@ Q4 CPM's liggen 40 tot 70 procent boven normaal door Black Friday, Sinterklaas e
 Daarna kan ik uitgaven, CPM, CPC, CTR, frequentie en resultaten per campagne uitlezen en er een echte analyse op doen in plaats van een checklist.
 
 Let op: dat geeft mij **leestoegang**. Aanpassen blijft in Meta Ads Manager, door Lars zelf. Dat was ook zijn uitdrukkelijke wens.
+
+## 16 september, avond: advertentieaccount gekoppeld, nog geen data
+
+Lars heeft het advertentieaccount gekoppeld. In de merkinstellingen staat nu:
+
+```
+facebookAdsData: act_1495244022295779
+```
+
+De koppeling is dus geregistreerd. Maar er komt nog niets uit.
+
+| Opvraging | Periode | Resultaat |
+|---|---|---|
+| Campagnenaam + uitgaven + bereik + frequentie + CTR + resultaten | 18 jun t/m 16 sep | 0 rijen |
+| Alleen campagnenaam + uitgaven | 17 aug t/m 16 sep | 0 rijen |
+| Campagnenaam + id + uitgaven + impressies | 16 sep 2025 t/m 16 sep 2026 | 0 rijen |
+| Instagram demografie (land, leeftijd, geslacht) | 17 aug t/m 16 sep | 0 rijen |
+
+Die laatste regel is het belangrijkste diagnosepunt. **Instagram is al sinds 15 september gekoppeld en levert ook nog niets.** Het probleem zit dus niet in de advertentiekoppeling, maar in de analytics van dit merk als geheel.
+
+Netwerknaam ter referentie: `metaads`. `facebookAds` bestaat niet als netwerk in de API, dat gaf een foutmelding.
+
+### Drie mogelijke oorzaken, en hoe je ze uit elkaar houdt
+
+1. **Synchronisatie loopt nog.** Metricool haalt historie op na een koppeling en dat kan tot een dag duren. Instagram is nu ruim 24 uur oud en nog leeg, dus dit verklaart niet alles.
+2. **Gratis plan.** Advertentierapportage is bij Metricool mogelijk een betaalde functie. Niet bevestigd, wel plausibel gezien de rest van de planbeperkingen.
+3. **Rechten.** Als het advertentieaccount van het bureau is en niet van Lars, kan Metricool wel de koppeling leggen maar geen cijfers ophalen.
+
+**Test die het uitwijst:** open Metricool in de browser, ga naar het merk en open het Ads-onderdeel. Staan daar wel cijfers, dan is het een API- of planbeperking. Staat daar ook niets, dan is het synchronisatie of rechten.
+
+### Snelste route naar een echte analyse
+
+Een export uit Meta Ads Manager over de laatste 30 dagen, op campagneniveau, met deze kolommen: campagnenaam, doelstelling, uitgegeven bedrag, bereik, impressies, **frequentie**, CTR, resultaten, kosten per resultaat. Als CSV of als screenshot.
+
+## Vragen om aan het bureau te stellen
+
+Lars heeft een social media bureau dat dit beheert. Onderstaande vragen scheiden een bureau dat stuurt van een bureau dat alleen budget uitgeeft. Bij elk staat waarom het ertoe doet.
+
+| Vraag | Waarom |
+|---|---|
+| Hoeveel advertentiegroepen draaien er en wat is het dagbudget per groep? | Meta heeft circa 50 conversies per groep per week nodig. Klein budget over veel groepen betekent dat geen enkele groep uit de leerfase komt. |
+| Op welke gebeurtenis optimaliseren we, en hoe vaak gebeurt die per week? | Optimaliseren op een inschrijving die vijf keer per week voorkomt werkt niet. Dan moet je een frequentere gebeurtenis kiezen. |
+| Wat is de frequentie over de laatste 30 dagen? | Boven 3 is advertentiemoeheid. Bij een straal rond Almere loop je daar snel tegenaan. Weet het bureau dit niet uit het hoofd, dan wordt er niet op gestuurd. |
+| Welke straal draaien we en liggen er interesses overheen? | Interesses bovenop een kleine straal duwen de CPM van 4 tot 9 euro naar 8 tot 18 euro, voor minder mensen. |
+| Wat kost een inschrijving ons? | Niet bereik, niet impressies, niet CPC. Als het rapport alleen bereik laat zien, wordt er op het verkeerde gestuurd. |
+| Vuurt de pixel op de bedankpagina en staan er UTM's op de advertenties? | Zonder allebei is achteraf niet te zien wat een advertentie heeft opgeleverd. |
+| Zijn `dsa_beneficiary` en `dsa_payor` ingevuld? | Verplicht voor EU-targeting. Ontbreken ze, dan beperkt Meta de levering. Wordt vaak vergeten. |
+| Wat is het plan voor Q4? | CPM's liggen dan 40 tot 70 procent hoger. Een goed bureau begint hier zelf over. |
+| Hoeveel creatives draaien er en wanneer zijn ze voor het laatst ververst? | Kleine doelgroep verbrandt creatives snel. |
+| Krijg ik leestoegang tot het advertentieaccount? | Het is Lars' account en Lars' geld. Een bureau dat hier moeilijk over doet is een serieus signaal. |
