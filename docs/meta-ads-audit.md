@@ -250,3 +250,76 @@ De vraag van Lars of het bereik uit Almere komt, kon Metricool niet beantwoorden
 Eén Facebook-verbinding toevoegen in Make met leesrecht op advertenties (`ads_read`). Dat is een inlogstap met zijn eigen account, die kan niemand anders doen. Daarna kan het scenario de cijfers op verzoek ophalen.
 
 Op dit moment staan er in team 1563554 alleen verbindingen voor Mollie, Google, Moneybird en Gmail.
+
+## 16 september: volledige analyse op eigen opgehaalde data
+
+Verbinding gelegd, Make-tool `ACA Meta Ads inzichten lezen` (id 7446513) gebouwd, drie uitvragen gedaan: per advertentiegroep, uitgesplitst naar regio, en uitgesplitst naar leeftijd en geslacht. Alleen lezen.
+
+### De twee advertentiegroepen
+
+| | Advantage+ | Retarget |
+|---|---|---|
+| Besteed | 275,49 | 25,69 |
+| Impressies | 35.023 | 3.077 |
+| **Bereik** | **10.546** | 2.255 |
+| **Frequentie** | **3,32** | 1,36 |
+| CTR | 2,24% | 2,44% |
+| Link-CTR | 1,08% | 0,94% |
+| Leads | 18 | 2 |
+| Per lead | 15,31 | 12,85 |
+
+### Bevinding 1: de helft van het budget gaat naar leeftijden die niets opleveren
+
+| Leeftijd | Besteed | % budget | CTR | Leads | Per lead |
+|---|---|---|---|---|---|
+| 18-24 | 9,37 | 3,1% | 1,52% | **0** | geen |
+| 25-34 | 55,24 | 18,3% | 1,70% | 9 | **6,14** |
+| 35-44 | 93,31 | 31,0% | 1,84% | 9 | **10,37** |
+| 45-54 | 67,55 | 22,4% | 2,06% | 2 | 33,77 |
+| 55-64 | 50,70 | 16,8% | 3,90% | **0** | geen |
+| 65+ | 25,00 | 8,3% | 4,64% | **0** | geen |
+
+- **25 tot 44**: 148,55 euro (49,3% van het budget) levert **18 van de 20 leads**, tegen 8,25 euro per stuk.
+- **De rest**: 152,63 euro (50,7%) levert **2 leads**, tegen 76,31 euro per stuk.
+
+Dat is geen toeval. Bij het campagnegemiddelde zou 55-plus ongeveer 5 leads moeten opleveren; het werden er nul. De kans dat dat toeval is, is 0,67 procent. Voor 45-plus samen is die kans 0,41 procent.
+
+**Rekensom:** die 152,63 euro verplaatsen naar 25 tot 44 levert bij 8,25 euro per lead ongeveer 18,5 extra leads op. Totaal zou van 20 naar 36 gaan, een stijging van 82 procent, en de prijs per lead zakt van 15,06 naar 8,25.
+
+### Bevinding 2: de CTR-val
+
+Precies de groepen die het meest klikken leveren niets op:
+
+| Leeftijd | CTR | Link-CTR | Leads |
+|---|---|---|---|
+| 25-34 | 1,70% | 0,98% | 9 |
+| 35-44 | 1,84% | 0,85% | 9 |
+| 55-64 | **3,90%** | **1,72%** | **0** |
+| 65+ | **4,64%** | **2,21%** | **0** |
+
+Wie op CTR stuurt, concludeert dat 55-plus de beste doelgroep is. Het is de slechtste. De mooie campagne-CTR van 2,25 procent wordt opgehouden door groepen die niet converteren.
+
+### Bevinding 3: frequentie 3,32 en een bereik van maar 10.546
+
+Bereik 10.546 mensen in dertig dagen, met 35.023 impressies. Iedereen ziet de advertentie dus gemiddeld 3,3 keer. Boven 3 is de gangbare grens voor advertentiemoeheid, en in sommige subgroepen loopt het op tot 3,97.
+
+### Bevinding 4: de kliks zijn niet wat ze lijken
+
+858 kliks, maar slechts **407 link-kliks**. Meer dan de helft van de kliks zijn likes, reacties en het uitklappen van de tekst. De echte link-CTR is 1,08 procent, niet 2,25.
+
+De trechter: 35.023 impressies, 378 link-kliks (1,08%), 321 landingspaginaweergaves (85% van de kliks), 18 leads (5,6% van de landingen).
+
+### Bevinding 5: de regio klopt wel
+
+| Regio | Besteed | % | Bereik |
+|---|---|---|---|
+| Flevoland | 270,00 | 89,6% | 10.305 |
+| Noord-Holland | 31,18 | 10,4% | 1.408 |
+
+Bijna negentig procent van het budget landt in Flevoland, waar Almere in ligt. De zorg dat het geld buiten de regio weglekt is ongegrond.
+
+Let op: Meta kan offsite pixel-conversies niet naar regio uitsplitsen, dus welke regio beter converteert is hiermee niet te zeggen.
+
+### Voorbehoud
+
+Twintig leads is een kleine steekproef. De richting is duidelijk en statistisch sterk, maar de precieze bedragen zullen bewegen. Doe de verschuiving stapsgewijs en kijk na twee weken opnieuw.
