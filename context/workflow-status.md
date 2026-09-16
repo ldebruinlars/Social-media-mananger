@@ -32,3 +32,5 @@
 | Maandlimiet Metricool gratis plan | in de gaten houden, oktober telt 21 posts en de limiet kan 20 zijn | 2026-09-15 |
 | Dagen gevarieerd (di 22 sep, ma 12 okt, do 15 okt) | klaar, basis blijft wo en vr, drie tests om eigen Metricool-data op te bouwen | 2026-09-15 |
 | Reels als volgende stap | open, statische posters halen 2 tot 3 keer minder bereik dan Reels | 2026-09-15 |
+| Meta Ads campagne bekijken | geblokkeerd, geen advertentieaccount gekoppeld in Metricool of Make, zie docs/meta-ads-audit.md | 2026-09-16 |
+| Doelgroep Almere uit Metricool halen | kan niet, Metricool geeft alleen land, geen stad. Instagram Insights of Meta Business Suite gebruiken | 2026-09-16 |
