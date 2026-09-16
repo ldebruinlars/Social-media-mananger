@@ -323,3 +323,79 @@ Let op: Meta kan offsite pixel-conversies niet naar regio uitsplitsen, dus welke
 ### Voorbehoud
 
 Twintig leads is een kleine steekproef. De richting is duidelijk en statistisch sterk, maar de precieze bedragen zullen bewegen. Doe de verschuiving stapsgewijs en kijk na twee weken opnieuw.
+
+## Oplossingen, onderbouwd
+
+### Correctie op eerder advies in dit document
+
+Ik schreef eerder dat Advantage+ een leeftijdsondergrens **en** bovengrens respecteert. Dat klopt niet en het is belangrijk.
+
+Bij Advantage+ Audience zijn alleen **locatie, taal, minimumleeftijd, uitsluitingen en Special Ad Category** harde grenzen. Leeftijd als **reeks** en geslacht zijn sinds 2026 **suggesties**: Meta mag daar overheen als het denkt meer resultaat te halen. Alleen de ondergrens blijft staan.
+
+Gevolg voor All Court Academy: de advertentiegroep heet letterlijk `Advantage+`. Zelfs als het bureau 25 tot 44 heeft ingesteld, mag Meta gewoon aan 65-plussers leveren. En dat doet het ook.
+
+### Waarom het misgaat: de twee problemen hangen samen
+
+1. De campagne haalt 4,7 conversies per week, Meta wil er 50. De campagne staat dus permanent op Learning Limited.
+2. Zonder voldoende conversiesignaal valt Meta terug op zwakkere signalen: kliks en interactie.
+3. Oudere doelgroepen klikken veel meer. 65-plus haalt 4,64 procent CTR tegen 1,70 procent bij 25-34.
+4. Advantage+ mag daarheen bewegen, want de bovengrens is maar een suggestie.
+5. Resultaat: de helft van het budget naar leeftijden die nul leads opleveren.
+
+Het leerfaseprobleem **veroorzaakt** dus het doelgroepprobleem. Dat is één verhaal, geen twee losse fouten.
+
+### Oplossing 1: Advantage+ Audience uit, harde leeftijdsgrens 25 tot 44
+
+De directe fix. Alleen de minimumleeftijd verhogen is niet genoeg, want dat dicht alleen het lek van 9,37 euro bij 18-24 en laat de 143 euro bij 45-plus gewoon doorlopen. Voor een echte bovengrens moet Advantage+ Audience uit en ga je terug naar originele targeting met een strikte reeks.
+
+Verwachte winst: ongeveer 18 extra leads per maand, prijs per lead van 15,06 naar circa 8,25.
+
+Tegenwerping die het bureau kan geven: breed targeten werkt meestal beter omdat het algoritme meer vrijheid heeft. Dat klopt **als het algoritme signaal heeft**. Bij 4,7 conversies per week heeft het dat niet, en dan is breed juist schadelijk.
+
+### Oplossing 2: native Meta lead form in plaats van een formulier op de site
+
+Nu loopt de trechter via de website: 378 link-kliks, 321 landingen, 18 leads. Elke stap kost mensen.
+
+Een native lead form vult zich voor met gegevens die Meta al heeft en laadt geen externe pagina. Dat levert doorgaans fors meer leads bij hetzelfde budget. Nadeel: de leads zijn minder "warm", want de drempel is lager. Voor een proefles is dat acceptabel.
+
+### Oplossing 3: optimaliseren op een gebeurtenis die vaker voorkomt
+
+Standaardadvies bij te weinig conversies. Zijn landingspaginaweergaves zijn er 321 per maand, oftewel circa 75 per week. Dat is **boven** de grens van 50 en zou de leerfase dus wel uitkomen.
+
+Nadeel, en dit is een echt nadeel: je optimaliseert dan op mensen die klikken, niet op mensen die inschrijven. De kwaliteit zakt. Doe dit alleen als oplossing 1 en 2 onvoldoende opleveren.
+
+### Oplossing 4: de twee advertentiegroepen samenvoegen
+
+Retarget krijgt 25,69 van de 301,18 euro, 8,5 procent. Te weinig om iets te doen, en het splitst wel het conversiesignaal. Samenvoegen of stoppen.
+
+Controleer ook of het budget op campagneniveau staat (CBO) of op groepsniveau (ABO). Bij CBO schuift Meta geld naar de best presterende groep en bouw je sneller signaal op. In Metricool stonden zowel dagbudget als lifetime budget leeg op de campagneregel, wat op ABO wijst.
+
+### Oplossing 5: Conversions API naast de pixel
+
+Browsers en iOS blokkeren een deel van de pixelmetingen. Met de Conversions API meet je server-side mee en zie je meer leads. Dat helpt twee keer: Meta krijgt meer signaal om op te optimaliseren, en de rapportage klopt beter.
+
+### Oplossing 6: nieuwe creatives klaarzetten
+
+Frequentie 3,32 bij een bereik van 10.546. Bij zo'n kleine vijver slijt beeld snel.
+
+### Wat realistisch is over de leerfase
+
+| Situatie | Per lead | 50 per week kost | Per dag |
+|---|---|---|---|
+| Nu | 15,06 | 753 | 108 |
+| Na leeftijdsfix | 8,25 | 413 | 59 |
+| Met lead form, schatting | 5,00 | 250 | 36 |
+
+Bij 10 euro per dag komt deze campagne er niet uit, ook niet na alle fixes. **Het doel is dus niet de leerfase verlaten, maar zorgen dat elke euro bij de juiste mensen landt.** Oplossing 1 doet precies dat.
+
+### Vragen voor het bureau
+
+1. Staat Advantage+ Audience aan? Zo ja, weten jullie dat de bovengrens van de leeftijd daarmee een suggestie is en geen grens?
+2. 45-plus kostte in dertig dagen 143 euro en leverde 2 leads, 55-plus nul op 76 euro. Waarom loopt dat nog?
+3. Waarom sturen we op een gebeurtenis die 4,7 keer per week voorkomt terwijl Meta er 50 wil?
+4. Staat het budget op campagne- of op groepsniveau, en waarom die keuze?
+5. Retarget krijgt 8,5 procent van het budget. Wat is het plan daarmee?
+6. Draait de Conversions API naast de pixel, of alleen de pixel?
+7. Onze link-CTR is 1,08 procent terwijl de gewone CTR 2,25 is. Meer dan de helft van de kliks zijn geen link-kliks. Wat doen we daaraan?
+8. Frequentie is 3,32 bij een bereik van 10.546. Wanneer komt er nieuw beeld?
+9. Is een native lead form overwogen in plaats van het formulier op de site?
