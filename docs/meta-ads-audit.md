@@ -229,3 +229,24 @@ Voorbehoud: CTR kan iets dalen bij een bredere doelgroep. Zelfs met een kwart la
 ### Onthouden voor Q4
 
 CPM's stijgen in het vierde kwartaal 40 tot 70 procent. Die 7,90 kan in november en december 11 tot 13 worden. De najaarsreeks start 19 oktober, dus het budget hoort in september en de eerste helft van oktober, niet erna.
+
+## Route gevonden: Make kan het wel ophalen
+
+De Metricool-koppeling geeft geen advertentiedata door, maar Make heeft er twee apps voor die wel werken.
+
+| App | Wat het kan |
+|---|---|
+| `facebook-insights` v1 | `GetAdAccountInsights`. Cijfers op niveau van advertentieaccount, campagne, advertentiegroep of losse advertentie. Vrij te kiezen periode of preset tot 37 maanden terug. Ondersteunt **breakdowns**. |
+| `facebook-ads-cm` v1 | `listCampaigns`, `listAdSets`, `listAds`, `searchLocations`, `searchAdInterests`, `getReachEstimate`. |
+
+Belangrijk: `facebook-ads-cm` bevat ook `updateCampaign`, `updateAdSet` en `updateAd`. **Die worden niet gebruikt.** Lars heeft gevraagd niets aan te passen, dus alleen de lees-modules.
+
+### Wat breakdowns oplossen
+
+De vraag van Lars of het bereik uit Almere komt, kon Metricool niet beantwoorden (alleen landniveau). De Meta Marketing API kan dat wel, via breakdowns op regio, leeftijd, geslacht, plaatsing en apparaat. Dit is dus de route naar die vraag.
+
+### Wat Lars moet doen
+
+Eén Facebook-verbinding toevoegen in Make met leesrecht op advertenties (`ads_read`). Dat is een inlogstap met zijn eigen account, die kan niemand anders doen. Daarna kan het scenario de cijfers op verzoek ophalen.
+
+Op dit moment staan er in team 1563554 alleen verbindingen voor Mollie, Google, Moneybird en Gmail.
