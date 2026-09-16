@@ -157,3 +157,75 @@ Lars heeft een social media bureau dat dit beheert. Onderstaande vragen scheiden
 | Wat is het plan voor Q4? | CPM's liggen dan 40 tot 70 procent hoger. Een goed bureau begint hier zelf over. |
 | Hoeveel creatives draaien er en wanneer zijn ze voor het laatst ververst? | Kleine doelgroep verbrandt creatives snel. |
 | Krijg ik leestoegang tot het advertentieaccount? | Het is Lars' account en Lars' geld. Een bureau dat hier moeilijk over doet is een serieus signaal. |
+
+## 16 september: de eerste echte cijfers
+
+Metricool toont de advertentiecijfers **wel in de browser, niet via de koppeling**. Vijf opvragingen via de API gaven nul rijen terug terwijl dezelfde periode in de webpagina gewoon gevuld is. Conclusie: advertentiedata zit achter een plan- of API-beperking. Werk dus met exports of screenshots, niet met de koppeling.
+
+### De campagne
+
+Periode 17 augustus tot en met 15 september 2026, dertig dagen. Eén campagne, `PB - Padellessen leads`, doel Outcome leads, strategie Lowest Cost Without Cap.
+
+| | |
+|---|---|
+| Uitgegeven | 301,18 euro, dus 10,04 per dag |
+| Impressies | 38.100 |
+| Kliks | 858 |
+| Conversies | 20 |
+| CPM | 7,90 euro |
+| CPC | 0,35 euro |
+| CTR | 2,25 procent |
+| Conversieratio | 2,33 procent |
+| **Kosten per conversie** | **15,06 euro** |
+
+### Wat goed zit
+
+- **CTR 2,25 procent.** Het gemiddelde over alle branches op Facebook ligt rond 1 procent, de benchmark voor leadcampagnes rond 2,5 procent. Dit zit daar vlak onder en ruim boven het algemene gemiddelde. Beeld en aanbod werken.
+- **CPC 0,35 euro** is goedkoop.
+- **Doelstelling staat op leads**, niet op verkeer of interactie. Dat is de juiste keuze voor een lesaanbieder. Een lui bureau zet dit op verkeer of bereik en laat mooie grote getallen zien die niets opleveren.
+- **Eén campagne.** Geen versnippering, geen tegen jezelf bieden in de veiling.
+- **Lowest Cost Without Cap** is de verstandige standaard op dit budget.
+
+De basis is dus op orde. Dit is geen slecht opgezette campagne.
+
+### Het structurele plafond: de leerfase
+
+Twintig conversies in dertig dagen is **4,7 per week**. Meta wil er **50 per advertentiegroep per week** om te kunnen optimaliseren. Dat is 9 procent van wat nodig is, een factor 10,7 tekort.
+
+Om die 50 te halen bij 15,06 euro per conversie is 753 euro per week nodig, oftewel 108 euro per dag. Dat is elf keer het huidige budget en dus niet realistisch.
+
+Gevolg: de campagne komt nooit uit de leerfase en Meta blijft in feite gokken. Daar is bij dit budget geen ontkomen aan, maar er volgen wel twee consequenties:
+
+1. **Nooit opsplitsen in meerdere advertentiegroepen.** Al het signaal moet op één plek samenkomen. Elke extra groep deelt die 4,7 conversies per week verder op.
+2. **Overweeg een frequentere gebeurtenis om op te optimaliseren.** Iets ondieper in de trechter dat drie tot vijf keer zo vaak voorkomt, geeft Meta genoeg signaal om wel te leren.
+
+### De grootste gratis winst: de CPM omlaag
+
+7,90 euro CPM zit aan de bovenkant van de Nederlandse bandbreedte voor brede doelgroepen (4 tot 9 euro) en aan de onderkant van die voor smalle interesse- of retargetingdoelgroepen (8 tot 18 euro). Dat wijst er sterk op dat er **interesses over de straal heen liggen**.
+
+Wat het oplevert als die eraf gaan, bij hetzelfde budget en gelijke CTR en conversieratio:
+
+| CPM | Impressies | Kliks | Conversies | Per conversie |
+|---|---|---|---|---|
+| 7,90 (nu) | 38.100 | 859 | 20,0 | 15,05 |
+| 6,50 | 46.335 | 1.043 | 24,3 | 12,38 |
+| 5,50 | 54.760 | 1.233 | 28,7 | 10,48 |
+| 4,50 | 66.929 | 1.507 | 35,1 | 8,57 |
+
+Op 5,50 euro CPM zijn dat **29 conversies in plaats van 20, een stijging van 44 procent, zonder een euro extra uit te geven.** Dit is de belangrijkste aanbeveling.
+
+Voorbehoud: CTR kan iets dalen bij een bredere doelgroep. Zelfs met een kwart lagere CTR blijft dit gunstig.
+
+### Wat nog ontbreekt om het af te maken
+
+| Ontbreekt | Waarom nodig |
+|---|---|
+| **Bereik** | Zonder bereik geen frequentie. Frequentie = impressies gedeeld door bereik. |
+| **Frequentie** | Boven 3 is advertentiemoeheid. Bij een straal rond Almere de meest waarschijnlijke stille remmer. |
+| **Aantal advertentiegroepen** (tabblad Groups) | Bepaalt of het signaal al versnipperd is. |
+| **Wat telt als conversie** | Een ingevuld formulier of een betaalde inschrijving? Bij 15,06 euro per lead is dat iets heel anders dan 15,06 euro per leerling. |
+| **Lead naar klant ratio** | Zonder dit is 15,06 euro niet te beoordelen. Bij 1 op 3 kost een leerling ongeveer 45 euro. |
+
+### Onthouden voor Q4
+
+CPM's stijgen in het vierde kwartaal 40 tot 70 procent. Die 7,90 kan in november en december 11 tot 13 worden. De najaarsreeks start 19 oktober, dus het budget hoort in september en de eerste helft van oktober, niet erna.
