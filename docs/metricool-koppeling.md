@@ -184,6 +184,22 @@ Iemand moet hem aanmaken. Dat kan niet vanuit Instagram, dat loopt via Facebook.
 - Facebook-app, nieuwe post, Inchecken, zoeken op Poort Padel, onderaan Nieuwe plaats toevoegen. Naam, adres Neonweg 62 Almere, categorie sportlocatie. Na een dag staat hij ook op Instagram.
 - Beter en duurzamer: vraag Poort Padel om op hun eigen Facebook-pagina het adres in te vullen en de categorie op een lokale sportlocatie te zetten. Dan wordt de pagina zelf de plaats. Dat is ook in hun eigen belang, want dan kunnen bezoekers inchecken en komt de club op de kaart te staan.
 
+### Tweede zoekronde, 17 september later op de dag
+
+Op verzoek van Lars nog een keer gezocht in Meta's plaatsenindex (via Make, `searchPagesLocation`, dezelfde bron als Metricool en de Instagram-app), nu met tien varianten.
+
+| Zoekterm | Uitkomst |
+|---|---|
+| Poort Padel, Poortpadel, Padel Poort, PoortPadel Almere | leeg |
+| Neonweg, Neonweg 62 Almere | leeg, er is op dat adres helemaal geen plaats |
+| Poort Padel Almere, Almere Poort | 39 tot 44 plaatsen in de wijk, geen padel |
+| Padel Almere | 1 treffer: "Padel Almere" aan de Marathonlaan 20. Dat is een andere club in Almere Stad, niet gebruiken |
+| Padelclub Almere, Padel | alleen buitenlandse clubs |
+
+Conclusie blijft: de plaats bestaat niet. Route B is de enige weg.
+
+Wat wel bestaat en als tussenoplossing kan: de wijk **Almere-Poort** (Meta id 211366062378022). Dan staat er "Almere-Poort" boven de post in plaats van de clubnaam. Beter dan niets voor lokale vindbaarheid, maar het tagt de club niet.
+
 ### Afweging
 
 De locatietag is een leuke extra, geen must. Er staat al iets sterkers klaar: bij elke Instagram-post gaat er een Collab-uitnodiging naar @poortpadel, en die zet de post op hun feed voor circa 1.070 volgers. Dat levert meer op dan een locatietag.
