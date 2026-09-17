@@ -185,8 +185,8 @@ Lars vroeg om zelf uit te zoeken hoe de foto-tag @poortpadel automatisch gezet k
 
 | Spoor | Uitkomst |
 |---|---|
-| Metricool-koppeling (MCP) | `instagramData` kent alleen `collaborators`. Geen veld voor foto-tags. Dood. |
-| Metricool REST API rechtstreeks | Volgens Metricool's docs ondersteunt hun API foto-tags wel. Maar `app.metricool.com` is vanuit deze omgeving geblokkeerd door de proxy (403 op de CONNECT). Dood. |
+| Metricool-koppeling (MCP) | **Getest op 17 september**, niet alleen uit de docs. Update gestuurd op post 10_competitie met `tags`, `userTags`, `user_tags` in `instagramData` en een top-level `mediaTags`, alle met `{username: poortpadel, x: 0.5, y: 0.5}`. Metricool gaf geen fout maar sloeg **geen enkel** tag-veld op: het antwoord bevatte alleen `autoPublish, type, showReelOnFeed, isAiGenerated`. Stil weggegooid. De post zelf bleef intact. Dood, en nu bewezen. |
+| Metricool REST API rechtstreeks | Volgens Metricool's docs ondersteunt hun API foto-tags wel. Maar `app.metricool.com`, `api.metricool.com` en `metricool.com` staan alle drie expliciet op de policy-lijst van de proxy (HTTP 000, verbinding komt nooit tot stand). Opnieuw getest op 17 september, zelfde uitkomst. Dood. |
 | Make, app `instagram-business`, module `CreatePostPhoto` | **Werkt.** Heeft `user_tags` (username, x, y) én `location_id`. Vereist wel het recht `instagram_content_publish`, dat de huidige Facebook-verbinding (10964362) niet heeft. Nieuwe autorisatie van Lars nodig. |
 
 ### Wat de Make-route in de praktijk betekent
