@@ -37,3 +37,5 @@
 | Collab alleen waar Poort Padel mede-onderwerp is | klaar, 3 van de 12 houden Collab, 9 eraf. Zie docs/kanaalverschillen.md | 2026-09-17 |
 | Foto-tags @poortpadel op de 9 overige posts | voor Lars in de Metricool webplanner, 3 minuten. Automatisch kan via Make maar dat is ombouwen mid-campagne, zie docs/kanaalverschillen.md | 2026-09-17 |
 | Instagram-publisher via Make (foto-tags en locatie ingebouwd) | optie voor november, module gevonden, vereist nieuwe autorisatie | 2026-09-17 |
+| Metricool betaald plan | advertentiecijfers komen nu via de koppeling, bevestigd op 17 sep. Toolset zelf ongewijzigd | 2026-09-17 |
+| Metricool API-verbinding in Make (voor foto-tags) | aanvraag staat klaar, wacht op klik en token van Lars | 2026-09-17 |

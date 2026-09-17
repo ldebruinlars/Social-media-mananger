@@ -399,3 +399,20 @@ Bij 10 euro per dag komt deze campagne er niet uit, ook niet na alle fixes. **He
 7. Onze link-CTR is 1,08 procent terwijl de gewone CTR 2,25 is. Meer dan de helft van de kliks zijn geen link-kliks. Wat doen we daaraan?
 8. Frequentie is 3,32 bij een bereik van 10.546. Wanneer komt er nieuw beeld?
 9. Is een native lead form overwogen in plaats van het formulier op de site?
+
+## 17 september: advertentiecijfers komen nu ook via de Metricool-koppeling
+
+Lars is naar een betaald Metricool-plan gegaan. Dezelfde opvraging die op 16 september nul rijen gaf, levert nu data:
+
+```
+PB - Padellessen leads | besteed 309,92 | bereik 12.072 | leads 20
+```
+
+Daarmee is het vermoeden van gisteren bevestigd: advertentierapportage via de API zat achter de planbeperking, niet achter een synchronisatieprobleem.
+
+Werkverdeling vanaf nu:
+
+- **Metricool-koppeling**: campagnetotalen, snel en zonder omweg.
+- **Make-tool `ACA Meta Ads inzichten lezen` (7446513)**: uitsplitsingen naar regio, leeftijd en geslacht, en cijfers per advertentiegroep. Die kent de Metricool-koppeling niet.
+
+De MCP-toolset zelf is ongewijzigd door de upgrade: dezelfde negen tools, hetzelfde schema. Foto-tags op Instagram zitten er nog steeds niet in, dat is een eigenschap van de koppeling, niet van het plan.
