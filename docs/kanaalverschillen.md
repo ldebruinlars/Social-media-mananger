@@ -200,9 +200,27 @@ Make publiceert dan de Instagram-post, niet Metricool. Dus:
 
 Dit is niet nieuw: in `.claude/skills/aca-social-manager/SKILL.md` staat precies dit scenario als oorspronkelijk plan (Google Sheet ACA Content Planning naar Instagram Create a Photo Post). Metricool werd gekozen omdat het sneller stond, maar Make kan dingen die Metricool's API niet kan.
 
+### Vierde spoor, en die werkt: Metricool's eigen API via Make
+
+Lars gaf een Metricool API-token en zette die als verbinding in Make (verbinding 11004268, "ACA Metricool API"). Make's servers zitten niet achter de proxy, dus vanaf daar is `app.metricool.com/api` gewoon bereikbaar. In Make staat nu tool 7466648 "ACA Metricool ruwe API-call": methode, pad en body erin, ruw antwoord eruit. De Metricool-app van Make zet zelf de auth (`X-Mc-Auth`, `userId`, `blogId`) op elke call.
+
+Getest op post 10_competitie (21 okt):
+
+1. `GET /v2/scheduler/posts/{id}` geeft dezelfde `instagramData` als de MCP. Een ongetagde post verraadt het veld dus niet.
+2. `PUT /v2/scheduler/posts/{id}` met de hele post plus zes kandidaatvelden tegelijk. Metricool hield er precies één: **`instagramData.tags`**, een lijst van `{username, x, y}`. De rest (`userTags`, `mediaTags`, `taggedUsers`, top-level varianten) is stil weggegooid, net als bij de MCP.
+3. Teruglezen met GET: `tags: [{username: poortpadel, x: 0.5, y: 0.5, deleted: false}]` staat er. Post kreeg een nieuw `id`, `uuid` bleef gelijk, datum, tekst en beeld ongewijzigd.
+
+Daarna dezelfde PUT op de andere acht posts. Tag staat in het midden van het beeld (x 0.5, y 0.5), zichtbaar in de Metricool webplanner als je op de foto klikt.
+
+Waarom de MCP het wél weggooide en de ruwe API niet: de MCP-tool heeft een eigen schema dat alleen zijn bekende velden doorlaat. De REST API kent `tags` gewoon. De MCP loopt dus achter op de API.
+
+Let op voor later: de `id` van een post verandert bij elke update. Altijd op `uuid` zoeken, nooit een oud `id` hergebruiken.
+
 ### Advies
 
-**Voor de lopende campagne: niet doen.** Negen foto-tags met de hand in de Metricool webplanner is drie minuten werk. Een draaiend systeem ombouwen terwijl de eerste post vanavond de deur uitgaat is het niet waard.
+**Voor de lopende campagne: klaar via de API.** Alle negen foto-tags staan erop, Lars hoeft alleen te controleren.
+
+Het eerdere advies (met de hand in de webplanner, drie minuten werk) is daarmee vervallen. De Make-publisher voor Instagram is niet nodig om te taggen, alleen nog als Lars ook een locatie wil zetten zodra die bestaat.
 
 **Voor de novembercampagne: overwegen.** Als Lars foto-tags en locatie standaard wil, is een Make-publisher voor Instagram de betere basis. Dan zit het er voor altijd in en hoeft niemand meer te klikken.
 

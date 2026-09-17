@@ -35,7 +35,7 @@
 | Meta Ads campagne bekijken | geblokkeerd, geen advertentieaccount gekoppeld in Metricool of Make, zie docs/meta-ads-audit.md | 2026-09-16 |
 | Doelgroep Almere uit Metricool halen | kan niet, Metricool geeft alleen land, geen stad. Instagram Insights of Meta Business Suite gebruiken | 2026-09-16 |
 | Collab alleen waar Poort Padel mede-onderwerp is | klaar, 3 van de 12 houden Collab, 9 eraf. Zie docs/kanaalverschillen.md | 2026-09-17 |
-| Foto-tags @poortpadel op de 9 overige posts | voor Lars in de Metricool webplanner, 3 minuten. Automatisch kan via Make maar dat is ombouwen mid-campagne, zie docs/kanaalverschillen.md | 2026-09-17 |
+| Foto-tags @poortpadel op de 9 overige posts | klaar via Metricool's eigen API (veld `instagramData.tags`) door Make tool 7466648, Lars checkt in de webplanner. Zie docs/kanaalverschillen.md | 2026-09-17 |
 | Instagram-publisher via Make (foto-tags en locatie ingebouwd) | optie voor november, module gevonden, vereist nieuwe autorisatie | 2026-09-17 |
 | Metricool betaald plan | advertentiecijfers komen nu via de koppeling, bevestigd op 17 sep. Toolset zelf ongewijzigd | 2026-09-17 |
-| Metricool API-verbinding in Make (voor foto-tags) | aanvraag staat klaar, wacht op klik en token van Lars | 2026-09-17 |
+| Metricool API-verbinding in Make (voor foto-tags) | klaar, verbinding 11004268 plus tool 7466648 (ruwe API-call). Lars maakt na deze klus een nieuw token aan en werkt de verbinding bij | 2026-09-17 |
