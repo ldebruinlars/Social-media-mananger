@@ -28,11 +28,12 @@
 | Insights pipeline | nog niet | |
 | Redactietafel (laatste edit en LinkedIn-keuze) | klaar, keuzes van Lars verwerkt | 2026-09-15 |
 | **33 posts definitief ingepland in Metricool** | **klaar, groen licht van Lars, draft overal uit, eerste post do 17 sep 18:30** | 2026-09-15 |
-| Locatie Poort Padel per post | uitgezocht, Metricool vindt de plaats niet omdat Meta hem niet in de plaatsenindex heeft. Test en twee routes in docs/metricool-koppeling.md | 2026-09-17 |
+| Locatie Poort Padel per post | bevestigd via Meta's eigen index: de plaats bestaat niet. Poort Padel moet hem aanmaken, zie docs/metricool-koppeling.md | 2026-09-17 |
 | Maandlimiet Metricool gratis plan | in de gaten houden, oktober telt 21 posts en de limiet kan 20 zijn | 2026-09-15 |
 | Dagen gevarieerd (di 22 sep, ma 12 okt, do 15 okt) | klaar, basis blijft wo en vr, drie tests om eigen Metricool-data op te bouwen | 2026-09-15 |
 | Reels als volgende stap | open, statische posters halen 2 tot 3 keer minder bereik dan Reels | 2026-09-15 |
 | Meta Ads campagne bekijken | geblokkeerd, geen advertentieaccount gekoppeld in Metricool of Make, zie docs/meta-ads-audit.md | 2026-09-16 |
 | Doelgroep Almere uit Metricool halen | kan niet, Metricool geeft alleen land, geen stad. Instagram Insights of Meta Business Suite gebruiken | 2026-09-16 |
 | Collab alleen waar Poort Padel mede-onderwerp is | klaar, 3 van de 12 houden Collab, 9 eraf. Zie docs/kanaalverschillen.md | 2026-09-17 |
-| Foto-tags @poortpadel op de 9 overige posts | open voor Lars, kan alleen in de Metricool webplanner, niet via de koppeling | 2026-09-17 |
+| Foto-tags @poortpadel op de 9 overige posts | voor Lars in de Metricool webplanner, 3 minuten. Automatisch kan via Make maar dat is ombouwen mid-campagne, zie docs/kanaalverschillen.md | 2026-09-17 |
+| Instagram-publisher via Make (foto-tags en locatie ingebouwd) | optie voor november, module gevonden, vereist nieuwe autorisatie | 2026-09-17 |

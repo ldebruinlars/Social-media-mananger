@@ -178,3 +178,36 @@ De @poortpadel-vermelding in de tekst blijft overal staan, die is niet afhankeli
 De Metricool API kent bij `instagramData` alleen `collaborators`. Er is geen veld voor het taggen van accounts in de foto. De webplanner van Metricool kan dat wel: drie puntjes op de afbeelding, Add user tag, minimaal drie tekens typen.
 
 Werkverdeling: Claude zet de Collabs via de koppeling, Lars zet de foto-tags in de webplanner. Voorwaarde voor een foto-tag is dat het account openbaar is en tags toestaat, anders negeert Instagram hem stil.
+
+## Foto-tags automatisch zetten: uitgezocht op 17 september 2026
+
+Lars vroeg om zelf uit te zoeken hoe de foto-tag @poortpadel automatisch gezet kan worden. Drie sporen onderzocht.
+
+| Spoor | Uitkomst |
+|---|---|
+| Metricool-koppeling (MCP) | `instagramData` kent alleen `collaborators`. Geen veld voor foto-tags. Dood. |
+| Metricool REST API rechtstreeks | Volgens Metricool's docs ondersteunt hun API foto-tags wel. Maar `app.metricool.com` is vanuit deze omgeving geblokkeerd door de proxy (403 op de CONNECT). Dood. |
+| Make, app `instagram-business`, module `CreatePostPhoto` | **Werkt.** Heeft `user_tags` (username, x, y) én `location_id`. Vereist wel het recht `instagram_content_publish`, dat de huidige Facebook-verbinding (10964362) niet heeft. Nieuwe autorisatie van Lars nodig. |
+
+### Wat de Make-route in de praktijk betekent
+
+Make publiceert dan de Instagram-post, niet Metricool. Dus:
+
+- Die posts moeten uit Metricool, anders komen ze dubbel.
+- Elke post wordt een Make-scenario met `scheduling: once` op datum en tijd, of één scenario dat een planning uitleest.
+- De planner van Metricool toont dan niet meer de echte Instagram-planning.
+- Beeld moet op een publieke URL staan die de Instagram API kan ophalen. De `static.metricool.com` URL's zijn publiek, maar zijn afhankelijk van Metricool.
+
+Dit is niet nieuw: in `.claude/skills/aca-social-manager/SKILL.md` staat precies dit scenario als oorspronkelijk plan (Google Sheet ACA Content Planning naar Instagram Create a Photo Post). Metricool werd gekozen omdat het sneller stond, maar Make kan dingen die Metricool's API niet kan.
+
+### Advies
+
+**Voor de lopende campagne: niet doen.** Negen foto-tags met de hand in de Metricool webplanner is drie minuten werk. Een draaiend systeem ombouwen terwijl de eerste post vanavond de deur uitgaat is het niet waard.
+
+**Voor de novembercampagne: overwegen.** Als Lars foto-tags en locatie standaard wil, is een Make-publisher voor Instagram de betere basis. Dan zit het er voor altijd in en hoeft niemand meer te klikken.
+
+### De locatie Poort Padel bestaat niet bij Meta
+
+Via Make's `searchPagesLocation` (dezelfde plaatsenindex die Instagram gebruikt) gezocht op "Poort Padel", "Poortpadel" en "Neonweg Almere". Alle drie leeg. Controlezoekopdracht op "Almere" gaf 44 resultaten, dus de zoeker werkt.
+
+Conclusie: het is geen Metricool-probleem. **De plaats bestaat niet.** Geen enkel tool kan hem taggen totdat iemand hem aanmaakt, zie de routes in `docs/metricool-koppeling.md`. Poort Padel zelf is de aangewezen partij: adres invullen op hun Facebook-pagina en categorie op lokale sportlocatie zetten.
