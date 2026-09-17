@@ -152,3 +152,29 @@ De Collab-uitnodiging naar @poortpadel staat los daarvan nog steeds op alle 12 I
 Metricool ondersteunt locaties wel, maar alleen in de webplanner: post openen, op het locatie-icoon klikken, naam zoeken, kiezen. De koppeling die ik gebruik heeft geen veld voor locatie, dus dit is handwerk per post.
 
 De locatiezoeker leunt op de Meta API. Staat Poort Padel er niet tussen, dan heeft Meta hem niet in zijn database.
+
+## Collab versus tag op Instagram (17 september 2026)
+
+Lars: Poort Padel gaat niet op elke post een Collab accepteren, alleen waar ze echt genoemd zijn. Terecht, want een Collab vragen bij een post waar ze zijdelings voorkomen is een rare vraag.
+
+Alle twaalf Instagram-teksten nagelopen op de rol die Poort Padel speelt.
+
+**Collab blijft staan (3):** hier is Poort Padel mede-onderwerp, niet een adresregel.
+
+| Post | Datum | Waarom |
+|---|---|---|
+| 09_padel | 22 sep | Werving voor padel als sport. Hun banen en glaswand zijn het verhaal, en meer spelers is direct hun belang. |
+| 18_teamuitje | 23 okt | "Banen, coaches, rackets en catering in huis." Hun faciliteiten zijn de helft van het aanbod. |
+| 20_vaste_plek | 28 okt | Gaat over de plek en het clubgevoel zelf. |
+
+**Collab eraf (9):** 01_najaarsreeks, 14_samen, 02_eerste_les, 11_jouw_coach, 07_laatste_plekken, 15_geen_racket, 16_backhand, 04_techniek, 10_competitie.
+
+Daar staat @poortpadel als praktisch detail: "lessen zijn bij", "baanhuur zit erbij". Dat is ACA's product, niet dat van Poort Padel.
+
+De @poortpadel-vermelding in de tekst blijft overal staan, die is niet afhankelijk van acceptatie.
+
+### Foto-tags kunnen niet via de koppeling
+
+De Metricool API kent bij `instagramData` alleen `collaborators`. Er is geen veld voor het taggen van accounts in de foto. De webplanner van Metricool kan dat wel: drie puntjes op de afbeelding, Add user tag, minimaal drie tekens typen.
+
+Werkverdeling: Claude zet de Collabs via de koppeling, Lars zet de foto-tags in de webplanner. Voorwaarde voor een foto-tag is dat het account openbaar is en tags toestaat, anders negeert Instagram hem stil.

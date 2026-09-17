@@ -34,3 +34,5 @@
 | Reels als volgende stap | open, statische posters halen 2 tot 3 keer minder bereik dan Reels | 2026-09-15 |
 | Meta Ads campagne bekijken | geblokkeerd, geen advertentieaccount gekoppeld in Metricool of Make, zie docs/meta-ads-audit.md | 2026-09-16 |
 | Doelgroep Almere uit Metricool halen | kan niet, Metricool geeft alleen land, geen stad. Instagram Insights of Meta Business Suite gebruiken | 2026-09-16 |
+| Collab alleen waar Poort Padel mede-onderwerp is | klaar, 3 van de 12 houden Collab, 9 eraf. Zie docs/kanaalverschillen.md | 2026-09-17 |
+| Foto-tags @poortpadel op de 9 overige posts | open voor Lars, kan alleen in de Metricool webplanner, niet via de koppeling | 2026-09-17 |
