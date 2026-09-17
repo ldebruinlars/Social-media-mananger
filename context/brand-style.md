@@ -138,7 +138,7 @@ Frequentie doel: 3 Reels per week, 1 carrousel, dagelijks 1 tot 3 stories. Faceb
 
 ## Do en don't
 
-**Do**: tag @poortpadel op locatie, locatietag Poort Padel, ondertitels, CTA naar link in bio, coach bij naam, leenracket noemen bij beginners, "reactie binnen 24 uur" als belofte.
+**Do**: tag @poortpadel op locatie, locatietag Poort Padel, ondertitels, CTA naar link in bio, coach bij naam, leenracket noemen bij beginners, geen reactietermijn in posts (Lars wil "binnen 24 uur" niet in captions, besloten 17 sep 2026).
 **Don't**: kinderen zonder toestemming, prijzen in beeld branden behalve kids kamp (195 euro staat publiek op de site), andere padelscholen noemen, posten zonder akkoord van Lars.
 
 ## Open vragen voor Lars

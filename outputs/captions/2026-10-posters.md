@@ -55,7 +55,7 @@ Wat je krijgt:
 - Kun je een keer niet, dan stuur je een vervanger
 - Instromen kan, ook als de reeks al loopt
 
-Lessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio, je hoort binnen 24 uur van ons 🎾
+Lessen zijn bij Poort Padel in Almere. Schrijf je in via de link in bio 🎾
 
 #padelalmere #poortpadel #padelles #almere #padelnederland
 
@@ -87,7 +87,7 @@ Nooit gepadeld? Dan is dit je moment. Bij All Court Academy start je gewoon bij 
 
 Een losse les boek je op de dag en tijd die jou uitkomt, met 1 tot 4 spelers. Neem je maatje mee of kom alleen, wij zetten je in een les op jouw niveau. Baanhuur zit erbij.
 
-Boek je eerste les via de link in bio. Je krijgt binnen 24 uur antwoord.
+Boek je eerste les via de link in bio.
 
 #padel #padelalmere #poortpadel #padelles #almere
 

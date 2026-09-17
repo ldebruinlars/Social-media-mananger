@@ -39,3 +39,4 @@
 | Instagram-publisher via Make (foto-tags en locatie ingebouwd) | optie voor november, module gevonden, vereist nieuwe autorisatie | 2026-09-17 |
 | Metricool betaald plan | advertentiecijfers komen nu via de koppeling, bevestigd op 17 sep. Toolset zelf ongewijzigd | 2026-09-17 |
 | Metricool API-verbinding in Make (voor foto-tags) | klaar, verbinding 11004268 plus tool 7466648 (ruwe API-call). Lars maakt na deze klus een nieuw token aan en werkt de verbinding bij | 2026-09-17 |
+| "Je hoort binnen 24 uur van ons" uit alle captions | klaar, stond alleen in de twee posts van 17 sep (al gepubliceerd, Lars heeft ze live zelf aangepast). Bronbestanden, planner, redactietafel en brand-style bijgewerkt zodat het niet terugkomt | 2026-09-17 |
