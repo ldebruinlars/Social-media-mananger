@@ -152,3 +152,40 @@ Dat zijn 7 posts in Metricool. Geen enkele tekst is aangepast.
 **Verdeling na de wijziging:** woensdag 4, vrijdag 4, donderdag 2, dinsdag 1, maandag 1. Nog steeds 2 posts per week, nergens twee dagen achter elkaar. De langste tussenpoos is 6 dagen, tussen 15 en 21 oktober.
 
 **Voorbehoud.** Met 12 posts krijg je een richting, geen bewijs. Eén post op maandag zegt statistisch weinig, want hoe goed een post loopt hangt veel meer af van de inhoud dan van de dag. Pas na een paar maanden is dit te lezen. De echte winst zit in Reels, die halen 2 tot 3 keer het bereik van een statische post.
+
+## Locatie Poort Padel toevoegen lukt niet (17 september 2026)
+
+Metricool vindt de locatie Poort Padel niet. Uitgezocht: dit is geen fout van Metricool en ook niet van de instellingen.
+
+Metricool's eigen helpcentrum zegt het zo: het zoeken naar locaties loopt via de API van Meta. Staat een locatie daar niet in geregistreerd, of is hij tijdelijk niet beschikbaar via die API, dan vindt Metricool hem niet. Metricool heeft geen eigen locatiedatabase.
+
+Een Facebook-**pagina** is namelijk niet automatisch een Facebook-**plaats**. Poort Padel heeft wel een pagina (id 61579258105585), maar een pagina komt alleen in de plaatsenindex als er een fysiek adres en een passende categorie op staan.
+
+### De test die uitwijst waar het aan ligt
+
+Open de Instagram-app, begin een post en probeer Poort Padel als locatie toe te voegen.
+
+| Uitkomst | Betekenis | Oplossing |
+|---|---|---|
+| Lukt in de app, niet in Metricool | De plaats bestaat, de API geeft hem niet door | Zie route A |
+| Lukt ook in de app niet | De plaats bestaat niet bij Meta | Zie route B |
+
+### Route A: de plaats bestaat wel
+
+Twee opties, en de tweede is beter.
+
+1. Metricool's eigen advies: zet automatisch publiceren uit, dan krijg je een melding op je telefoon en plaats je hem zelf met locatie. Nadeel: je verliest de automatisering.
+2. Laat gewoon automatisch publiceren en voeg de locatie daarna toe in de Instagram-app. Een geplaatste post bewerken en er een locatie aan hangen kan gewoon. Kost tien seconden per post en je houdt de planning intact.
+
+### Route B: de plaats bestaat niet
+
+Iemand moet hem aanmaken. Dat kan niet vanuit Instagram, dat loopt via Facebook.
+
+- Facebook-app, nieuwe post, Inchecken, zoeken op Poort Padel, onderaan Nieuwe plaats toevoegen. Naam, adres Neonweg 62 Almere, categorie sportlocatie. Na een dag staat hij ook op Instagram.
+- Beter en duurzamer: vraag Poort Padel om op hun eigen Facebook-pagina het adres in te vullen en de categorie op een lokale sportlocatie te zetten. Dan wordt de pagina zelf de plaats. Dat is ook in hun eigen belang, want dan kunnen bezoekers inchecken en komt de club op de kaart te staan.
+
+### Afweging
+
+De locatietag is een leuke extra, geen must. Er staat al iets sterkers klaar: bij elke Instagram-post gaat er een Collab-uitnodiging naar @poortpadel, en die zet de post op hun feed voor circa 1.070 volgers. Dat levert meer op dan een locatietag.
+
+**Zet de 33 ingeplande posts dus niet terug naar handmatig publiceren om dit op te lossen.** Dat is een slechte ruil.
