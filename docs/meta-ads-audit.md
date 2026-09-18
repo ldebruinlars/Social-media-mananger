@@ -416,3 +416,103 @@ Werkverdeling vanaf nu:
 - **Make-tool `ACA Meta Ads inzichten lezen` (7446513)**: uitsplitsingen naar regio, leeftijd en geslacht, en cijfers per advertentiegroep. Die kent de Metricool-koppeling niet.
 
 De MCP-toolset zelf is ongewijzigd door de upgrade: dezelfde negen tools, hetzelfde schema. Foto-tags op Instagram zitten er nog steeds niet in, dat is een eigenschap van de koppeling, niet van het plan.
+
+## 18 september: alle data opnieuw opgehaald, nu ook via Metricool
+
+Lars heeft het betaalde Metricool-plan, dus de koppeling geeft nu wel advertentiedata. Alles opnieuw opgehaald langs twee wegen en tegen elkaar gelegd. Ruwe cijfers staan in `outputs/ads/2026-09-18-meta-ads-ruwe-data.json`.
+
+| Bron | Wat het geeft | Beperking |
+|---|---|---|
+| Meta Marketing API via Make (tool 7446513) | Campagne, groepen, losse advertenties, leeftijd, geslacht, regio, elke periode | Advertenties zonder naam |
+| Metricool-koppeling, `metaAds` | Dagcijfers sinds de start, campagneregel, en per advertentie **met naam en thumbnail** | Loopt 1 tot 2 dagen achter. Zelfde venster gaf 271,70 euro en 14 leads, Meta zelf 294,32 en 18. Geen leeftijd of regio. |
+
+Werkwijze vanaf nu: Meta via Make voor de cijfers, Metricool voor namen, beeld en het dagverloop. Advertenties uit beide bronnen aan elkaar gekoppeld op impressies.
+
+### De campagne, drie vensters
+
+| | Laatste 7 dagen (11 t/m 17 sep) | Laatste 30 dagen (19 aug t/m 17 sep) | Hele looptijd (28 jul t/m 17 sep) |
+|---|---|---|---|
+| Besteed | 68,43 | 294,32 | 517,13 |
+| Impressies | 8.442 | 37.661 | 59.030 |
+| Bereik | 3.563 | 11.149 | 15.370 |
+| Frequentie | 2,37 | 3,38 | 3,84 |
+| Link-kliks | 84 | 398 | 631 |
+| Landingspagina's | 66 | 333 | 502 |
+| **Leads** | **0** | **18** | **28** |
+| Per lead | geen | 16,35 | 18,47 |
+
+### Wat er veranderd is sinds 16 september
+
+**Een week zonder leads.** Van 11 tot en met 17 september is 68 euro uitgegeven, 84 mensen klikten door, 66 landden op de site, niemand schreef zich in. Over de hele looptijd komen er gemiddeld 3,8 leads per week binnen. De kans op een lege week bij dat gemiddelde is ongeveer 2 procent. Dat kan pech zijn, maar in combinatie met een frequentie die over de looptijd naar 3,84 is gekropen is advertentiemoeheid de meest waarschijnlijke verklaring. Het vraagt in elk geval om een blik van het bureau.
+
+**Het venster schoof twee dagen op** en daarmee de cijfers: van 20 naar 18 leads en van 15,06 naar 16,35 per lead. De twee dagen die eraf vielen (17 en 18 augustus) brachten 2 leads, de twee dagen die erbij kwamen (16 en 17 september) nul.
+
+**De CPM is wel echt gedaald.** Weekcijfers uit Metricool:
+
+| Week van | Besteed | Impressies | CPM | CTR |
+|---|---|---|---|---|
+| 27 jul | 54,27 | 4.704 | 11,54 | 3,23% |
+| 3 aug | 70,12 | 6.357 | 11,03 | 2,33% |
+| 10 aug | 70,25 | 6.867 | 10,23 | 2,11% |
+| 17 aug | 68,39 | 8.828 | 7,75 | 2,15% |
+| 24 aug | 72,38 | 8.991 | 8,05 | 2,55% |
+| 31 aug | 68,22 | 9.192 | 7,42 | 2,15% |
+| 7 sep | 69,39 | 8.253 | 8,41 | 2,10% |
+| 14 sep (4 dagen) | 40,71 | 5.359 | 7,60 | 2,13% |
+
+Van 11,50 in de eerste weken naar 7,50 tot 8,40 nu. Dat is het algoritme dat goedkopere plekken vindt, en het is precies de winst die ik op 16 september als "grootste gratis winst" beschreef. Die is dus al deels binnen. Alleen: goedkopere impressies leverden geen extra leads op, want de mensen die ze zien zijn de verkeerde.
+
+### Leeftijd en geslacht, opnieuw
+
+Zelfde beeld als op 16 september, nu op het nieuwe venster.
+
+| Leeftijd | Besteed | % budget | Leads | Per lead |
+|---|---|---|---|---|
+| 18-24 | 9,03 | 3,1% | 0 | geen |
+| 25-34 | 53,64 | 18,2% | 9 | **5,96** |
+| 35-44 | 92,80 | 31,5% | 7 | 13,26 |
+| 45-54 | 65,99 | 22,4% | 2 | 32,99 |
+| 55-64 | 50,17 | 17,0% | 0 | geen |
+| 65+ | 22,68 | 7,7% | 0 | geen |
+
+25 tot 44: 146,44 euro, 16 leads, 9,15 per lead. De rest: 147,88 euro, 2 leads, 73,94 per lead. 55-plus: 72,85 euro, nul leads.
+
+Nieuw is de splitsing naar geslacht. Vrouwen 149,77 euro voor 8 leads (18,72), mannen 143,36 voor 10 leads (14,34). Dat ligt dicht bij elkaar. Het beste segment van de hele campagne is **vrouwen 25 tot 34: 6 leads voor 19,21 euro, 3,20 per lead**. Daarna mannen 35 tot 44 met 5 leads voor 42,01 euro (8,40).
+
+### Nieuw: welke advertentie werkt
+
+Er draaien zes creatives in elke groep, twaalf advertenties in totaal. De namen lees ik als T = tekstvariant, F = foto, V = video. Cijfers uit Meta, namen uit Metricool.
+
+| Advertentie | Besteed | Impressies | Link-CTR | Leads | Per lead |
+|---|---|---|---|---|---|
+| Advantage+ T1F2 | 113,60 | 15.435 | 1,13% | **12** | **9,47** |
+| Advantage+ T2V1 | 75,42 | 9.308 | 0,96% | 2 | 37,71 |
+| Advantage+ T2F1 | 47,72 | 5.972 | 0,99% | 2 | 23,86 |
+| Advantage+ T2F2 | 11,45 | 1.616 | 0,80% | 0 | geen |
+| Advantage+ T1F1 | 10,75 | 1.226 | 1,31% | 2 | 5,38 |
+| Advantage+ T1V1 | 9,85 | 1.029 | 1,75% | 0 | geen |
+| Retarget, alle zes samen | 25,53 | 3.075 | 0,94% | 0 | geen |
+
+Drie dingen springen eruit.
+
+1. **Tekst 1 verslaat tekst 2 ruim.** T1 kreeg 134,20 euro en leverde 14 leads (9,59 per lead). T2 kreeg 134,59 euro en leverde 4 leads (33,65 per lead). Zelfde budget, drie en een half keer minder resultaat.
+2. **Foto verslaat video.** De foto-advertenties: 183,52 euro, 16 leads, 11,47 per lead. De video's: 85,27 euro, 2 leads, 42,64 per lead. Meta stuurde 85 euro naar video, ruim een kwart van het budget, voor twee leads.
+3. **Meta verdeelt het budget zelf en doet dat maar half goed.** T1F2 krijgt terecht het meeste. Maar T2V1 krijgt 75 euro voor 2 leads terwijl T1F1 met 10,75 euro ook 2 leads haalt. Bij Advantage+ creative kiest Meta op basis van kliks en interactie, en video's scoren daar altijd goed op. Dat is dezelfde val als bij leeftijd: sturen op kliks in plaats van op leads.
+
+De retargetgroep heeft in dertig dagen nul leads opgeleverd op 25,53 euro. Over de hele looptijd zijn alle 28 leads uit de Advantage+ groep gekomen.
+
+### Regio
+
+Flevoland 264,72 euro (89,9 procent), Noord-Holland 29,60. Ongewijzigd, klopt.
+
+### Wat dit betekent voor de vragen aan het bureau
+
+De eerdere acht vragen blijven staan. Hier komen er drie bij, en die zijn concreter omdat we nu per advertentie kunnen kijken.
+
+9. In de laatste zeven dagen zijn er nul leads binnengekomen op 68 euro. Wat is er die week veranderd, en wat gaan jullie doen?
+10. Tekst 1 haalt 14 leads voor 134 euro, tekst 2 haalt er 4 voor hetzelfde geld. De foto's halen 16 leads, de video's 2. Waarom draaien tekst 2 en de video's nog?
+11. Vrouwen van 25 tot 34 kosten 3,20 per lead, 55-plussers zijn 73 euro kwijt zonder één lead. Als de leeftijdsgrens hard wordt gezet, hoeveel budget schuift er dan naar 25 tot 44?
+
+### Voorbehoud
+
+Achttien leads in dertig dagen, 28 over de looptijd. De patronen (leeftijd, tekst 1 tegen tekst 2, foto tegen video) zijn alle drie groot genoeg om op te sturen. De precieze prijs per lead beweegt met elke lead die erbij komt, dus lees de bedragen als richting, niet als vaste waarde.
