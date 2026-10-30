@@ -31,4 +31,8 @@ Er zijn geen bronbestanden (Canva of Drive) van de slides gevonden. De oude teks
 - `gen.py` rendert de slides met headless Chromium en ImageMagick (`python3 gen.py <scratchpad> [bestand.jpg ...]`), verwacht de originelen in `<scratchpad>/tvzip/tv/`
 - `build_check.py` bouwt de check-pagina
 
+## Volgorde van de slideshow (30 oktober, op verzoek van Lars)
+
+Kids Kamp moet vaker en eerder. `slideshow.html` speelt nu een vaste volgorde van 60 slides (8 minuten) in plaats van de bestandsvolgorde: Kids Kamp als eerste en daarna elke zesde slide (elke 48 seconden), afgewisseld met jeugd, lessenreeks en All Court Academy zelf. De drie Kids Kamp slides komen elk 3 tot 4 keer per loop, winterreeks (09) en voorjaarsreeks (42) twee keer. De volgorde staat in `scripts/order.json` en wordt gemaakt door `scripts/order.py`.
+
 Na akkoord: aangepaste jpg's over de originelen heen in de zip zetten, `slideshow.html` hoeft niet te veranderen (zelfde bestandsnamen). Slides die Lars op Niet gebruiken zet gaan uit de img-lijst in `slideshow.html`.
