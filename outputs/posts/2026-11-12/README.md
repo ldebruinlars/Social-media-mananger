@@ -11,7 +11,7 @@ Gemaakt 30 oktober 2026 op verzoek van Lars: "maak van de TV-slides gewoon de so
 Lars: alle 30 goedgekeurde TV-slides moeten een post worden, op de beste dagen, met tekst voor alle kanalen. Dus:
 
 - 30 posts in deze map (10 campagneposts plus 20 rechtstreeks uit de slides, `slide` in `scripts/posts.json`), plus de 8 bestaande Metricool-concepten = 38 momenten.
-- Dagen volgens `docs/doelgroep-en-posttijden.md`: woensdag en vrijdag 18:30, donderdag als derde dag in november en december, LinkedIn 11:00. De 4 Metricool-concepten die op dinsdag stonden zijn verplaatst (3, 10, 17, 24 nov naar 5, 11, 19, 26 nov).
+- Dagen volgens `docs/doelgroep-en-posttijden.md`: woensdag en vrijdag 18:30, LinkedIn 11:00. In november en december een derde dag: eerst donderdag, op 30 oktober op verzoek van Lars verplaatst naar maandag (drie dagen achter elkaar was te veel). Donderdagposts gingen naar de maandag van dezelfde week: 2, 9, 16, 23, 30 nov en 7, 14, 28 dec. De welkomstpost staat daardoor op 28 december in plaats van 31 december, de LinkedIn-tekst zegt nu "In de laatste week van het jaar". De 4 Metricool-concepten die op dinsdag stonden zijn eerst naar donderdag en daarna naar maandag verplaatst.
 - Volgorde: Kids Kamp 5x vanaf 4 november, winterreeks voor 14 december, feestdagen en voorjaarsreeks rond de jaarwisseling, beginners en reeks in januari, jeugd en community in februari. Volledige lijst in `captions.md` en `scripts/schedule.json`.
 - Alleen het ACA-logo op het beeld. Poort Padel krijgt de tag, de collab en de locatie, niet meer het logo rechtsboven (besluit Lars 30 okt). De 8 oudere concepten hebben het logo nog wel.
 - Alleen foto's die in de goedgekeurde slides zaten. Voor 01 (teamfoto) is de foto uit de slide zelf gesneden, het origineel staat niet in de Drive-mappen die bereikbaar zijn.
@@ -62,4 +62,4 @@ Aangemaakt op 30 oktober, allemaal als concept (draft): 29 Instagram (collab en 
 
 In Metricool staan nu als concept (draft): de 7 oorspronkelijke Instagram-posts op hun nieuwe dag, plus Facebook voor alle 7 en LinkedIn voor de 5 met de schakelaar aan (competitie, kerstborrel, coaches, feestje, voorjaarsreeks). Beeld hergebruikt van het Instagram-concept.
 
-Sinds 30 oktober staan ook de 29 nieuwe posts in Metricool als concept: 29 IG, 29 FB en 11 LI (id's in `scripts/metricool_ids.json`). Alles bij elkaar: 36 Instagram-, 36 Facebook- en 16 LinkedIn-concepten van 4 november t/m 19 februari.
+Sinds 30 oktober staan ook de 29 nieuwe posts in Metricool als concept: 29 IG, 29 FB en 11 LI (id's in `scripts/metricool_ids.json`). Alles bij elkaar: 36 Instagram-, 36 Facebook- en 16 LinkedIn-concepten van 2 november t/m 19 februari, op maandag, woensdag en vrijdag (nov en dec) en woensdag en vrijdag (jan en feb).

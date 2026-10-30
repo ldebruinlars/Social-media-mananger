@@ -66,3 +66,7 @@ Over zes weken echte posts opnieuw ophalen. Dan pas is het zijn eigen publiek.
 - https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/
 - https://sproutsocial.com/insights/best-times-to-post-on-instagram/
 - `.claude/skills/social-instagram/SKILL.md` in deze repo
+
+## Aanpassing 30 oktober 2026
+
+Lars wil in november en december geen drie dagen achter elkaar posten. Derde dag is daarom maandag in plaats van donderdag: maandag, woensdag en vrijdag 18:30, LinkedIn 11:00. In januari en februari blijft het woensdag en vrijdag.

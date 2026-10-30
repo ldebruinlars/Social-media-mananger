@@ -6,29 +6,29 @@ Instagram en Facebook 18:30, LinkedIn 11:00 dezelfde dag. Woensdag en vrijdag al
 | Datum | Id | Kop | LinkedIn |
 |---|---|---|---|
 | woensdag 4 november | k1_kidskamp_aankondiging | Kids Kamp 21 t/m 23 dec | uit (zwak) |
-| donderdag 5 november | mc_01-competitie | Elke bal telt nu | aan (goed) |
+| maandag 2 november | mc_01-competitie | Elke bal telt nu | aan (goed) |
 | vrijdag 6 november | mc_02-instromen | Nog niet begonnen? | uit (redelijk) |
 | woensdag 11 november | mc_03-kerstborrel | Kerstborrel op de baan | aan (goed) |
-| donderdag 12 november | s03_lessenreeks | Elke week een stap beter | aan (redelijk) |
+| maandag 9 november | s03_lessenreeks | Elke week een stap beter | aan (redelijk) |
 | vrijdag 13 november | mc_04-jeugd | Spelend beter worden | uit (zwak) |
 | woensdag 18 november | k2_kidskamp_prijs | Drie ochtenden vol padel | uit (zwak) |
-| donderdag 19 november | mc_05-coaches | Kies je eigen coach | aan (goed) |
+| maandag 16 november | mc_05-coaches | Kies je eigen coach | aan (goed) |
 | vrijdag 20 november | mc_06-kerstreeks | 3 lessen in de vakantie | uit (redelijk) |
 | woensdag 25 november | s37_collegas | Padel met je collega's | aan (goed) |
-| donderdag 26 november | mc_07-feestje | Vier het op de baan | uit (zwak) |
+| maandag 23 november | mc_07-feestje | Vier het op de baan | uit (zwak) |
 | vrijdag 27 november | mc_08-voorjaarsreeks | Begin 2027 op de baan | aan (goed) |
 | woensdag 2 december | k3_kidskamp_programma | Elke ochtend een nieuwe slag | uit (zwak) |
-| donderdag 3 december | s33_daluren | Overdag spelen is voordeliger | uit (redelijk) |
+| maandag 30 november | s33_daluren | Overdag spelen is voordeliger | uit (redelijk) |
 | vrijdag 4 december | w1_winterreeks_start | Doorspelen in de kerstvakantie | aan (redelijk) |
 | woensdag 9 december | j1_jeugd_voorjaar | Jeugdreeks start 4 januari | uit (zwak) |
-| donderdag 10 december | s07_toernooien | Padel is leuker met z'n allen | uit (redelijk) |
+| maandag 7 december | s07_toernooien | Padel is leuker met z'n allen | uit (redelijk) |
 | vrijdag 11 december | k4_kidskamp_nog10dagen | Meld je kind nog aan | uit (zwak) |
 | woensdag 16 december | w2_winterreeks_instromen | Instromen kan nog | aan (redelijk) |
-| donderdag 17 december | s13_jeugd_groepjes | Kleine groepjes, veel aandacht | uit (zwak) |
+| maandag 14 december | s13_jeugd_groepjes | Kleine groepjes, veel aandacht | uit (zwak) |
 | vrijdag 18 december | k5_kidskamp_maandag | Klaar voor maandag? | uit (zwak) |
 | woensdag 23 december | a1_feestdagen | Wij spelen door | aan (goed) |
 | woensdag 30 december | v1_voorjaarsreeks | 7 lessen, 4 jan t/m 21 feb | aan (goed) |
-| donderdag 31 december | s01_welkom | Welkom bij All Court Academy | aan (goed) |
+| maandag 28 december | s01_welkom | Welkom bij All Court Academy | aan (goed) |
 | woensdag 6 januari | s04_beginners | Nooit gespeeld? Perfect. | uit (redelijk) |
 | vrijdag 8 januari | s27_eerste_les | Je eerste les is de leukste | uit (redelijk) |
 | woensdag 13 januari | s16_niveau | Jouw niveau, jouw moment | aan (redelijk) |
@@ -83,7 +83,7 @@ Voor ouders die de vakantie nog moeten plannen: https://allcourtacademy.com/page
 #padel #jeugdsport #almere #kidskamp #padelnederland
 
 
-## donderdag 5 november · mc_01-competitie
+## maandag 2 november · mc_01-competitie
 
 Kop: Elke bal telt nu. LinkedIn standaard aan (goed).
 
@@ -204,7 +204,7 @@ December loopt snel vol, plan op tijd: https://allcourtacademy.com/pages/busines
 #teamuitje #bedrijfsuitje #padel #almere #netwerken
 
 
-## donderdag 12 november · s03_lessenreeks
+## maandag 9 november · s03_lessenreeks
 
 Kop: Elke week een stap beter. TV-slide 03. LinkedIn standaard aan (redelijk).
 
@@ -319,7 +319,7 @@ Aanmelden: https://allcourtacademy.com/pages/kids-camp.html
 #padel #jeugdsport #almere #kidskamp #padelnederland
 
 
-## donderdag 19 november · mc_05-coaches
+## maandag 16 november · mc_05-coaches
 
 Kop: Kies je eigen coach. LinkedIn standaard aan (goed).
 
@@ -432,7 +432,7 @@ Offerte aanvragen: https://allcourtacademy.com/pages/business.html
 #teamuitje #bedrijfsuitje #padel #almere #netwerken
 
 
-## donderdag 26 november · mc_07-feestje
+## maandag 23 november · mc_07-feestje
 
 Kop: Vier het op de baan. LinkedIn standaard uit (zwak).
 
@@ -551,7 +551,7 @@ Programma en aanmelden: https://allcourtacademy.com/pages/kids-camp.html
 #padel #jeugdsport #almere #kidskamp #padelcoach
 
 
-## donderdag 3 december · s33_daluren
+## maandag 30 november · s33_daluren
 
 Kop: Overdag spelen is voordeliger. TV-slide 33. LinkedIn standaard uit (redelijk).
 
@@ -664,7 +664,7 @@ Aanmelden: https://allcourtacademy.com/pages/lessen.html
 #padel #jeugdsport #almere #padelnederland #poortpadel
 
 
-## donderdag 10 december · s07_toernooien
+## maandag 7 december · s07_toernooien
 
 Kop: Padel is leuker met z'n allen. TV-slide 07. LinkedIn standaard uit (redelijk).
 
@@ -777,7 +777,7 @@ Inschrijven: https://allcourtacademy.com/pages/lessen.html
 #padel #vitaliteit #almere #padelnederland #poortpadel
 
 
-## donderdag 17 december · s13_jeugd_groepjes
+## maandag 14 december · s13_jeugd_groepjes
 
 Kop: Kleine groepjes, veel aandacht. TV-slide 13. LinkedIn standaard uit (zwak).
 
@@ -923,7 +923,7 @@ Inschrijven: https://allcourtacademy.com/pages/lessen.html
 #padel #netwerken #almere #padelnederland #vitaliteit
 
 
-## donderdag 31 december · s01_welkom
+## maandag 28 december · s01_welkom
 
 Kop: Welkom bij All Court Academy. TV-slide 01. LinkedIn standaard aan (goed).
 
@@ -949,7 +949,7 @@ Padelles voor iedereen: van je allereerste bal tot wedstrijdniveau, voor volwass
 
 **LinkedIn**
 
-Op de laatste dag van het jaar even voorstellen: All Court Academy, de padelschool bij Poort Padel in Almere.
+In de laatste week van het jaar even voorstellen: All Court Academy, de padelschool bij Poort Padel in Almere.
 
 Wij geven padelles aan iedereen die beter wil worden, van de eerste bal tot wedstrijdniveau. Losse lessen met een coach naar keuze, lessenreeksen in groepen van vier, kids kamps in de schoolvakanties en clinics voor bedrijven.
 
