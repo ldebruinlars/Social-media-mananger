@@ -1,6 +1,6 @@
 import json,os,html,sys
 D=sys.argv[1]; W=D+'/tvwork'; OUTDIR=D+'/tvcheck'
-edits={e['file']:e for e in json.load(open(W+'/edits2.json'))}
+edits={e['file']:e for e in json.load(open(W+'/edits2.json')) if e['file']!='47-jeugd-spel.jpg'}
 order=json.load(open(W+'/order.json')); REJ=set(order['rejected'])
 files=sorted(f for f in os.listdir(D+'/tvzip/tv') if f.endswith('.jpg'))
 labels={'01':'Welkom','02':'Losse training','03':'Lessenreeks','04':'Beginners','05':'Onze aanpak','06':'Jeugd','07':'Toernooien','08':'Gevorderden','09':'Winterreeks','10':'Contact','11':'Kids Kamp kerstvakantie','12':'Jeugd voorjaarsreeks','13':'Jeugd groepjes','14':'Jeugd leren','15':'Losse les','16':'Lessenreeks (variant)','21':'Coach kiezen','22':'Snel op de baan','23':'Duo','24':'Vaste reeks','25':'Groep klaar','26':'Instromen','27':'Eerste les','28':'Eerste rally','29':'Lachen en werken','30':'Smash','31':'Competitie','32':'Queen of the court','33':'Daluren','34':'King of the court','35':'Mexicano','36':'Community','37':"Collega's",'38':'Vrienden','39':'Playtomic','40':'Team','41':'Aanbod','42':'Voorjaarsreeks','43':'Winterreeks (variant)','44':'Jeugd nieuw','45':'Jeugd bewegen','46':'Jeugd uitleg','47':'Jeugd spel','48':'Kids Kamp drie ochtenden','49':'Kids Kamp prijzen en extra\'s','50':'Jeugd proefles'}
@@ -91,7 +91,7 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 </style>
 <div class="top">
 <h1>TV-slides: ronde 2</h1>
-<p class="sub">Je keuzes van ronde 1 staan er nog in: 22 goed, 15 eruit. De 9 slides waar je Aanpassen op zette zijn opnieuw gemaakt met andere foto's uit je Drive (Kids Kamp map en openingsdag). Zet die 9 nu op Goed of nog een keer op Aanpassen met wat er anders moet. Filter: Ronde 2.</p>
+<p class="sub">Je keuzes van ronde 1 staan er nog in: 22 goed, 16 eruit. Slide 47 is op jouw verzoek eruit. De 8 slides waar je Aanpassen op zette zijn opnieuw gemaakt met andere foto's uit je Drive (Kids Kamp map en openingsdag). Zet die 9 nu op Goed of nog een keer op Aanpassen met wat er anders moet. Filter: Ronde 2.</p>
 <div class="bar">
 <button type="button" class="chip on" data-f="all">Alles</button>
 <button type="button" class="chip" data-f="new">Ronde 2</button>

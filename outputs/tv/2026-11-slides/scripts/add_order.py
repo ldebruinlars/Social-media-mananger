@@ -1,12 +1,12 @@
 import json,sys
 D=sys.argv[1]
 o=json.load(open(D+'/tvwork/order.json')); seq=o['seq']; files=o['files']; theme=o['theme']
-NEW=("09","11","12","41","42","43","44","47","48")
+NEW=("09","11","12","41","42","43","44","48")
 cells=''.join(f'<li class="o-{theme[n]}"><img src="{"nieuw" if n in NEW else "orig"}/{files[n]}" alt="" loading="lazy"><span>{i+1}</span><b>{n}</b></li>' for i,n in enumerate(seq))
 sec=f'''
 <section class="order" id="volgorde">
 <h2 class="oh">Volgorde van de slideshow</h2>
-<p class="sub">Zonder de 15 afgekeurde slides. Kids Kamp (11 en 48) komt als eerste en daarna elke zesde slide terug, elke 48 seconden. Daartussen jeugd, lessenreeks en All Court Academy. De loop is {len(seq)} slides, 8 seconden per slide, ruim 5 en een halve minuut.</p>
+<p class="sub">Zonder de 16 afgekeurde slides. Kids Kamp (11 en 48) komt als eerste en daarna elke zesde slide terug, elke 48 seconden. Daartussen jeugd, lessenreeks en All Court Academy. De loop is {len(seq)} slides, 8 seconden per slide, bijna 5 minuten.</p>
 <ul class="legend"><li class="o-kamp">Kids Kamp ({sum(1 for s in seq if theme[s]=="kamp")}x)</li><li class="o-jeugd">Jeugd ({sum(1 for s in seq if theme[s]=="jeugd")}x)</li><li class="o-reeks">Lessenreeks ({sum(1 for s in seq if theme[s]=="reeks")}x)</li><li class="o-aca">All Court Academy ({sum(1 for s in seq if theme[s]=="aca")}x)</li></ul>
 <ol class="strip">{cells}</ol>
 <textarea id="note-volgorde" class="note" rows="2" placeholder="Opmerking over de volgorde (optioneel)"></textarea>
