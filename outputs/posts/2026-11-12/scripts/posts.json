@@ -1,9 +1,9 @@
 [
  {
   "id": "k1_kidskamp_aankondiging",
-  "date": "2026-11-05",
+  "date": "2026-11-04",
   "time": "18:30",
-  "dag": "donderdag 5 november",
+  "dag": "woensdag 4 november",
   "pijler": "kids kamp",
   "photo": "kamp/frame_14.jpg",
   "fx": 0.5,
@@ -19,9 +19,9 @@
  },
  {
   "id": "k2_kidskamp_prijs",
-  "date": "2026-11-19",
+  "date": "2026-11-18",
   "time": "18:30",
-  "dag": "donderdag 19 november",
+  "dag": "woensdag 18 november",
   "pijler": "kids kamp",
   "photo": "kamp/frame_31.jpg",
   "fx": 0.5,
@@ -37,9 +37,9 @@
  },
  {
   "id": "k3_kidskamp_programma",
-  "date": "2026-12-01",
+  "date": "2026-12-02",
   "time": "18:30",
-  "dag": "dinsdag 1 december",
+  "dag": "woensdag 2 december",
   "pijler": "kids kamp",
   "photo": "kamp/frame_4.jpg",
   "fx": 0.5,
@@ -73,9 +73,9 @@
  },
  {
   "id": "j1_jeugd_voorjaar",
-  "date": "2026-12-08",
+  "date": "2026-12-09",
   "time": "18:30",
-  "dag": "dinsdag 8 december",
+  "dag": "woensdag 9 december",
   "pijler": "jeugd",
   "photo": "kamp/frame_15.jpg",
   "fx": 0.5,
@@ -95,7 +95,7 @@
   "time": "18:30",
   "dag": "vrijdag 11 december",
   "pijler": "kids kamp",
-  "photo": "kamp/frame_6.jpg",
+  "photo": "kamp/frame_5.jpg",
   "fx": 0.5,
   "fy": 0.62,
   "kick": "Padel Kids Kamp · nog 10 dagen",
@@ -105,13 +105,14 @@
   ],
   "sub": "21 t/m 23 december, 10% familiekorting vanaf het tweede kind",
   "cta": "Meld je kind aan",
-  "alt": "Meisje gooit lachend een padelbal op bij Poort Padel in Almere. Tekst: Meld je kind nog aan."
+  "alt": "Meisje gooit lachend een padelbal op bij Poort Padel in Almere. Tekst: Meld je kind nog aan.",
+  "z": 1
  },
  {
   "id": "w2_winterreeks_instromen",
-  "date": "2026-12-15",
+  "date": "2026-12-16",
   "time": "18:30",
-  "dag": "dinsdag 15 december",
+  "dag": "woensdag 16 december",
   "pijler": "winterreeks",
   "photo": "open/ACA_PoortPadel_29mei-28.jpg",
   "fx": 0.6,
@@ -131,9 +132,9 @@
   "time": "18:30",
   "dag": "vrijdag 18 december",
   "pijler": "kids kamp",
-  "photo": "kamp/frame_19.jpg",
-  "fx": 0.45,
-  "fy": 0.55,
+  "photo": "kamp/frame_7.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
   "kick": "Padel Kids Kamp · maandag beginnen we",
   "head": [
    "Klaar voor",
@@ -141,13 +142,14 @@
   ],
   "sub": "Maandag 21 t/m woensdag 23 december, 10:00 tot 12:30",
   "cta": "Meld je kind aan",
-  "alt": "Twee kinderen spelen met een cone en bal op de padelbaan bij Poort Padel. Tekst: Klaar voor maandag?"
+  "alt": "Twee kinderen spelen met een cone en bal op de padelbaan bij Poort Padel. Tekst: Klaar voor maandag?",
+  "z": 1
  },
  {
   "id": "a1_feestdagen",
-  "date": "2026-12-22",
+  "date": "2026-12-23",
   "time": "18:30",
-  "dag": "dinsdag 22 december",
+  "dag": "woensdag 23 december",
   "pijler": "all court academy",
   "photo": "open/ACA_PoortPadel_29mei-10.jpg",
   "fx": 0.5,
@@ -163,9 +165,9 @@
  },
  {
   "id": "v1_voorjaarsreeks",
-  "date": "2026-12-29",
+  "date": "2026-12-30",
   "time": "18:30",
-  "dag": "dinsdag 29 december",
+  "dag": "woensdag 30 december",
   "pijler": "voorjaarsreeks",
   "photo": "open/APA_13_mei-6.jpg",
   "fx": 0.6,
@@ -179,5 +181,407 @@
   "sub": "Vaste dag, vaste tijd, vaste groep van 4 op jouw niveau",
   "cta": "Schrijf je in",
   "alt": "Speelster in rood slaat een volley bij Poort Padel in Almere. Tekst: 7 lessen, 4 jan t/m 21 feb."
+ },
+ {
+  "id": "s03_lessenreeks",
+  "slide": "03",
+  "date": "2026-11-12",
+  "time": "18:30",
+  "dag": "donderdag 12 november",
+  "pijler": "lessenreeks",
+  "photo": "open/APA_13_mei-22.jpg",
+  "fx": 0.5,
+  "fy": 0.35,
+  "kick": "Lessenreeks",
+  "head": [
+   "Elke week",
+   "een stap beter"
+  ],
+  "sub": "Vaste dag en tijd, in een groep van 4 op jouw niveau",
+  "cta": "Inschrijving open",
+  "alt": "Speelster in rood slaat een bal bij Poort Padel in Almere. Tekst: Elke week een stap beter."
+ },
+ {
+  "id": "s37_collegas",
+  "slide": "37",
+  "date": "2026-11-25",
+  "time": "18:30",
+  "dag": "woensdag 25 november",
+  "pijler": "bedrijven",
+  "photo": "open/ACA_PoortPadel_29mei-48.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "Bedrijven",
+  "head": [
+   "Padel met",
+   "je collega's"
+  ],
+  "sub": "Losse les of clinic met je team, wij regelen baan en trainer",
+  "cta": "Vraag een offerte",
+  "alt": "Coach van All Court Academy in gesprek met collega's op de baan bij Poort Padel. Tekst: Padel met je collega's.",
+  "z": 1
+ },
+ {
+  "id": "s33_daluren",
+  "slide": "33",
+  "date": "2026-12-03",
+  "time": "18:30",
+  "dag": "donderdag 3 december",
+  "pijler": "daluren",
+  "photo": "open/ACA_PoortPadel_29mei-16.jpg",
+  "fx": 0.5,
+  "fy": 0.35,
+  "kick": "Overdag",
+  "head": [
+   "Overdag spelen",
+   "is voordeliger"
+  ],
+  "sub": "Daluren: dezelfde trainers, lagere prijs",
+  "cta": "Bekijk de daluren",
+  "alt": "Speelster met racket overdag op de baan bij Poort Padel in Almere. Tekst: Overdag spelen is voordeliger.",
+  "z": 1
+ },
+ {
+  "id": "s13_jeugd_groepjes",
+  "slide": "13",
+  "date": "2026-12-17",
+  "time": "18:30",
+  "dag": "donderdag 17 december",
+  "pijler": "jeugd",
+  "photo": "kamp/frame_31.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
+  "kick": "Jeugd",
+  "head": [
+   "Kleine groepjes,",
+   "veel aandacht"
+  ],
+  "sub": "Maximaal 6 kinderen per groep, elke week dezelfde trainer",
+  "cta": "Meld je kind aan",
+  "alt": "Coach legt een oefening uit aan kinderen op de padelbaan bij Poort Padel. Tekst: Kleine groepjes, veel aandacht.",
+  "z": 1
+ },
+ {
+  "id": "s07_toernooien",
+  "slide": "07",
+  "date": "2026-12-10",
+  "time": "18:30",
+  "dag": "donderdag 10 december",
+  "pijler": "toernooien",
+  "photo": "open/ACA_PoortPadel_29mei-55.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "Mexicano · King of the court",
+  "head": [
+   "Padel is leuker",
+   "met z'n allen"
+  ],
+  "sub": "Elk weekend toernooi bij Poort Padel, voor elk niveau",
+  "cta": "Speel mee",
+  "alt": "Spelers geven elkaar een high five op de baan bij Poort Padel in Almere. Tekst: Padel is leuker met z'n allen.",
+  "z": 1
+ },
+ {
+  "id": "s01_welkom",
+  "slide": "01",
+  "date": "2026-12-31",
+  "time": "18:30",
+  "dag": "donderdag 31 december",
+  "pijler": "all court academy",
+  "photo": "open/slide01_team_crop.jpg",
+  "fx": 0.5,
+  "fy": 0.5,
+  "kick": "All Court Academy · Poort Padel",
+  "head": [
+   "Welkom bij",
+   "All Court Academy"
+  ],
+  "sub": "Padelles voor iedereen, van je eerste bal tot wedstrijdniveau",
+  "cta": "Bekijk ons aanbod",
+  "alt": "Drie padelspelers lachen samen op de baan bij Poort Padel in Almere. Tekst: Welkom bij All Court Academy.",
+  "hs": 70,
+  "z": 1
+ },
+ {
+  "id": "s04_beginners",
+  "slide": "04",
+  "date": "2027-01-06",
+  "time": "18:30",
+  "dag": "woensdag 6 januari",
+  "pijler": "beginners",
+  "photo": "open/ACA_PoortPadel_29mei-13.jpg",
+  "fx": 0.5,
+  "fy": 0.3,
+  "kick": "Beginners",
+  "head": [
+   "Nooit gespeeld?",
+   "Perfect."
+  ],
+  "sub": "In je eerste les sla je al een rally. Beginnersgroepen starten regelmatig",
+  "cta": "Start met padel",
+  "alt": "Lachende speler met pet en racket bij Poort Padel in Almere. Tekst: Nooit gespeeld? Perfect.",
+  "z": 1
+ },
+ {
+  "id": "s27_eerste_les",
+  "slide": "27",
+  "date": "2027-01-08",
+  "time": "18:30",
+  "dag": "vrijdag 8 januari",
+  "pijler": "beginners",
+  "photo": "open/ACA_PoortPadel_29mei-8.jpg",
+  "fx": 0.5,
+  "fy": 0.35,
+  "kick": "Beginners",
+  "head": [
+   "Je eerste les",
+   "is de leukste"
+  ],
+  "sub": "Geen ervaring nodig, we beginnen bij de basis",
+  "cta": "Start met padel",
+  "alt": "Speler met witte pet slaat lachend een bal bij Poort Padel. Tekst: Je eerste les is de leukste.",
+  "z": 1
+ },
+ {
+  "id": "s16_niveau",
+  "slide": "16",
+  "date": "2027-01-13",
+  "time": "18:30",
+  "dag": "woensdag 13 januari",
+  "pijler": "lessenreeks",
+  "photo": "open/ACA_PoortPadel_29mei-16.jpg",
+  "fx": 0.5,
+  "fy": 0.3,
+  "kick": "Lessenreeks",
+  "head": [
+   "Jouw niveau,",
+   "jouw moment"
+  ],
+  "sub": "Groepen op niveau, elke week op een vaste dag en tijd",
+  "cta": "Inschrijving open",
+  "alt": "Speelster in zwart sportshirt op de baan bij Poort Padel in Almere. Tekst: Jouw niveau, jouw moment.",
+  "z": 1.15
+ },
+ {
+  "id": "s08_gevorderden",
+  "slide": "08",
+  "date": "2027-01-15",
+  "time": "18:30",
+  "dag": "vrijdag 15 januari",
+  "pijler": "gevorderden",
+  "photo": "open/ACA_PoortPadel_29mei-45.jpg",
+  "fx": 0.5,
+  "fy": 0.35,
+  "kick": "Gevorderden",
+  "head": [
+   "Van rally",
+   "naar smash"
+  ],
+  "sub": "Techniek, tactiek en matchplay voor wie beter wil worden",
+  "cta": "Train met ons",
+  "alt": "Speler met pet reikt omhoog voor een smash bij Poort Padel in Almere. Tekst: Van rally naar smash."
+ },
+ {
+  "id": "s21_coach_kiezen",
+  "slide": "21",
+  "date": "2027-01-20",
+  "time": "18:30",
+  "dag": "woensdag 20 januari",
+  "pijler": "losse training",
+  "photo": "open/ACA_PoortPadel_29mei-46.jpg",
+  "fx": 0.5,
+  "fy": 0.3,
+  "kick": "Losse training",
+  "head": [
+   "Les van een coach",
+   "die jij uitkiest"
+  ],
+  "sub": "Bekijk de coaches op de site en boek direct je moment",
+  "cta": "Kies je coach",
+  "alt": "Lachende coach met pet van All Court Academy bij Poort Padel. Tekst: Les van een coach die jij uitkiest.",
+  "hs": 66
+ },
+ {
+  "id": "s29_lachen_werken",
+  "slide": "29",
+  "date": "2027-01-27",
+  "time": "18:30",
+  "dag": "woensdag 27 januari",
+  "pijler": "gevorderden",
+  "photo": "open/ACA_PoortPadel_29mei-39.jpg",
+  "fx": 0.45,
+  "fy": 0.4,
+  "kick": "Gevorderden",
+  "head": [
+   "Hier wordt gelachen",
+   "én gewerkt"
+  ],
+  "sub": "Trainers die je uitdagen, zonder dat het een training voelt",
+  "cta": "Train met ons",
+  "alt": "Coach Pablo lacht met racket in de hand bij Poort Padel in Almere. Tekst: Hier wordt gelachen én gewerkt.",
+  "hs": 64,
+  "z": 1
+ },
+ {
+  "id": "s38_vrienden",
+  "slide": "38",
+  "date": "2027-01-29",
+  "time": "18:30",
+  "dag": "vrijdag 29 januari",
+  "pijler": "vrienden",
+  "photo": "open/ACA_PoortPadel_29mei-33.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "Vrienden",
+  "head": [
+   "Jullie groepje,",
+   "onze trainer"
+  ],
+  "sub": "Boek een les met 4 vrienden en krijg allemaal persoonlijke tips",
+  "cta": "Boek een les",
+  "alt": "Groep vrienden in gesprek met een coach bij Poort Padel in Almere. Tekst: Jullie groepje, onze trainer.",
+  "z": 1
+ },
+ {
+  "id": "s39_playtomic",
+  "slide": "39",
+  "date": "2027-02-03",
+  "time": "18:30",
+  "dag": "woensdag 3 februari",
+  "pijler": "losse training",
+  "photo": "open/ACA_PoortPadel_29mei-36.jpg",
+  "fx": 0.45,
+  "fy": 0.4,
+  "kick": "Playtomic",
+  "head": [
+   "Open les?",
+   "Doe mee"
+  ],
+  "sub": "Schuif aan via Playtomic, ook zonder eigen groepje",
+  "cta": "Open Playtomic",
+  "alt": "Coach met racket omhoog juicht op de baan bij Poort Padel. Tekst: Open les? Doe mee."
+ },
+ {
+  "id": "s34_kotc",
+  "slide": "34",
+  "date": "2027-01-22",
+  "time": "18:30",
+  "dag": "vrijdag 22 januari",
+  "pijler": "toernooien",
+  "photo": "open/ACA_PoortPadel_29mei-28.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "King of the court",
+  "head": [
+   "Elk weekend",
+   "King of the court"
+  ],
+  "sub": "Zaterdag en zondag, voor beginners tot gevorderden",
+  "cta": "Speel mee",
+  "alt": "Trainer geeft een speler een high five bij Poort Padel in Almere. Tekst: Elk weekend King of the court.",
+  "hs": 70,
+  "z": 1
+ },
+ {
+  "id": "s14_jeugd_leren",
+  "slide": "14",
+  "date": "2027-02-05",
+  "time": "18:30",
+  "dag": "vrijdag 5 februari",
+  "pijler": "jeugd",
+  "photo": "kamp/frame_4.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
+  "kick": "Jeugd · beginners",
+  "head": [
+   "Leren",
+   "met plezier"
+  ],
+  "sub": "Van de eerste grip tot het eerste wedstrijdje",
+  "cta": "Start met padel",
+  "alt": "Coach slaat een bal naar kinderen op de padelbaan bij Poort Padel. Tekst: Leren met plezier.",
+  "z": 1
+ },
+ {
+  "id": "s45_jeugd_bewegen",
+  "slide": "45",
+  "date": "2027-02-10",
+  "time": "18:30",
+  "dag": "woensdag 10 februari",
+  "pijler": "jeugd",
+  "photo": "kamp/frame_10.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
+  "kick": "Jeugd",
+  "head": [
+   "Bewegen, lachen",
+   "en beter worden"
+  ],
+  "sub": "Elke week een uur op de baan met een vaste trainer",
+  "cta": "Meld je kind aan",
+  "alt": "Kinderen doen een oefening met cones op de padelbaan bij Poort Padel. Tekst: Bewegen, lachen en beter worden.",
+  "hs": 66,
+  "z": 1
+ },
+ {
+  "id": "s46_jeugd_uitleg",
+  "slide": "46",
+  "date": "2027-02-12",
+  "time": "18:30",
+  "dag": "vrijdag 12 februari",
+  "pijler": "jeugd",
+  "photo": "kamp/frame_25.jpg",
+  "fx": 0.5,
+  "fy": 0.5,
+  "kick": "Jeugd",
+  "head": [
+   "Een trainer",
+   "die uitlegt"
+  ],
+  "sub": "Kleine groepjes, duidelijke oefeningen, veel balcontact",
+  "cta": "Meld je kind aan",
+  "alt": "Trainer legt een oefening uit aan een groepje kinderen bij Poort Padel. Tekst: Een trainer die uitlegt.",
+  "z": 1
+ },
+ {
+  "id": "s36_community",
+  "slide": "36",
+  "date": "2027-02-17",
+  "time": "18:30",
+  "dag": "woensdag 17 februari",
+  "pijler": "community",
+  "photo": "open/ACA_PoortPadel_29mei-47.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "Community",
+  "head": [
+   "Na de les",
+   "blijf je hangen"
+  ],
+  "sub": "Padel is sport én gezelligheid, ook naast de baan",
+  "cta": "Kom langs",
+  "alt": "Spelers praten na met elkaar bij Poort Padel in Almere. Tekst: Na de les blijf je hangen.",
+  "z": 1
+ },
+ {
+  "id": "s35_mexicano",
+  "slide": "35",
+  "date": "2027-02-19",
+  "time": "18:30",
+  "dag": "vrijdag 19 februari",
+  "pijler": "toernooien",
+  "photo": "open/ACA_PoortPadel_29mei-55.jpg",
+  "fx": 0.45,
+  "fy": 0.4,
+  "kick": "Mexicano",
+  "head": [
+   "Mexicano: spelen",
+   "met iedereen"
+  ],
+  "sub": "Elke ronde nieuwe partners, elk weekend bij Poort Padel",
+  "cta": "Speel mee",
+  "alt": "Spelers vieren een punt samen bij Poort Padel in Almere. Tekst: Mexicano, spelen met iedereen.",
+  "hs": 66,
+  "z": 1.1
  }
 ]

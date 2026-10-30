@@ -32,9 +32,9 @@ for p in posts:
     lines='<br>'.join(html.escape(l) for l in p['head'])
     page=f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&family=Inter:wght@500;600;700;800&display=swap"><style>{CSS}</style></head><body>
 <div class="p" style="--hs:{hs}px"><div class="ph" style="background-image:url(file://{bg})"></div><div class="gt"></div><div class="gb"></div>
-<img class="aca" src="file://{P}/aca_logo.png"><img class="pp" src="file://{P}/pp_logo_white.png">
+<img class="aca" src="file://{P}/aca_logo.png">
 <div class="txt"><div class="kick">{html.escape(p['kick'])}</div><h1>{lines}</h1><p class="sub">{html.escape(p['sub'])}</p>
 <div class="cta"><span class="pill">{html.escape(p['cta'])}&nbsp;&nbsp;↗</span><span class="lb">Link in bio · allcourtacademy.com</span></div></div></div></body></html>'''
     hp=f"{P}/{p['id']}.html"; open(hp,'w').write(page); png=f"{P}/{p['id']}.png"
-    subprocess.run([CH,'--headless=new','--no-sandbox','--disable-gpu','--hide-scrollbars','--allow-file-access-from-files',f'--window-size={W},{H}','--virtual-time-budget=8000',f'--screenshot={png}',f'file://{hp}'],capture_output=True)
-    subprocess.run(['convert',png,'-quality','92',f"{OUT}/{p['id']}.jpg"]); print(p['id'],'ok')
+    subprocess.run([CH,'--headless=new','--no-sandbox','--disable-gpu','--hide-scrollbars','--allow-file-access-from-files',f'--window-size={W},{H+120}','--virtual-time-budget=8000',f'--screenshot={png}',f'file://{hp}'],capture_output=True)
+    subprocess.run(['convert',png,'-crop',f'{W}x{H}+0+0','+repage','-quality','92',f"{OUT}/{p['id']}.jpg"]); print(p['id'],'ok')

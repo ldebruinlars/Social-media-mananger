@@ -1,4 +1,4 @@
-# Feedposts november en december 2026
+# Feedposts november 2026 t/m februari 2027
 
 Gemaakt 30 oktober 2026 op verzoek van Lars: "maak van de TV-slides gewoon de social media posts op de juiste datums". Lars kiest daarna zelf welke ook op het TV-scherm komen.
 
@@ -6,7 +6,18 @@ Gemaakt 30 oktober 2026 op verzoek van Lars: "maak van de TV-slides gewoon de so
 
 8 Instagram-concepten in Metricool (aangemaakt 27 oktober in een andere sessie, beelden in Drive-map `Instagram posts november 2026`): di 3 nov competitie, vr 6 nov instromen najaarsreeks, di 10 nov kerstborrel, vr 13 nov jeugd, di 17 nov coaches, vr 20 nov kerstreeks, di 24 nov feestje, vr 27 nov voorjaarsreeks. Geen Kids Kamp, niets in december.
 
-## 10 nieuwe posts (deze map)
+## Update 30 oktober, avond
+
+Lars: alle 30 goedgekeurde TV-slides moeten een post worden, op de beste dagen, met tekst voor alle kanalen. Dus:
+
+- 30 posts in deze map (10 campagneposts plus 20 rechtstreeks uit de slides, `slide` in `scripts/posts.json`), plus de 8 bestaande Metricool-concepten = 38 momenten.
+- Dagen volgens `docs/doelgroep-en-posttijden.md`: woensdag en vrijdag 18:30, donderdag als derde dag in november en december, LinkedIn 11:00. De 4 Metricool-concepten die op dinsdag stonden zijn verplaatst (3, 10, 17, 24 nov naar 5, 11, 19, 26 nov).
+- Volgorde: Kids Kamp 5x vanaf 4 november, winterreeks voor 14 december, feestdagen en voorjaarsreeks rond de jaarwisseling, beginners en reeks in januari, jeugd en community in februari. Volledige lijst in `captions.md` en `scripts/schedule.json`.
+- Alleen het ACA-logo op het beeld. Poort Padel krijgt de tag, de collab en de locatie, niet meer het logo rechtsboven (besluit Lars 30 okt). De 8 oudere concepten hebben het logo nog wel.
+- Alleen foto's die in de goedgekeurde slides zaten. Voor 01 (teamfoto) is de foto uit de slide zelf gesneden, het origineel staat niet in de Drive-mappen die bereikbaar zijn.
+- Renderfout opgelost: de knop viel onderaan weg omdat headless Chromium 80px van het venster afsnoept. Nu wordt 120px hoger gerenderd en op 1080x1350 bijgesneden.
+
+## 10 campagneposts (eerste set)
 
 | Datum | Id | Pijler | Kop |
 |---|---|---|---|

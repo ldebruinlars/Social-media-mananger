@@ -5,9 +5,9 @@ items=[]
 for p in new:
     items.append(dict(id=p['id'],date=p['date'],dag=p['dag'],time=p['time'],pijler=p['pijler'],kop=' '.join(p['head']),img='img/'+p['id']+'.jpg',ig=cap[p['id']]['ig'],fb=cap[p['id']]['fb'],li=cap[p['id']]['li'],li_fit=cap[p['id']]['li_fit'],li_aan=cap[p['id']]['li_aan'],kind='new'))
 for p in old:
-    items.append(dict(id=p['id'],date=p['date'],dag=p['dag'],time=p['time'],pijler=p['pijler'],kop=p['kop'],img='img/'+p['id']+'.jpg',ig=p['ig'],fb=p['fb'],li=p['li'],li_fit=p['li_fit'],li_aan=p['li_aan'],kind='old',mid=p['mid']))
+    items.append(dict(id=p['id'],date=p['date'],dag=p['dag'],time=p['time'],pijler=p['pijler'],kop=p['kop'],img='img/'+p['id']+'.jpg',ig=p['ig'],fb=p['fb'],li=p['li'],li_fit=p['li_fit'],li_aan=p['li_aan'],kind='old',mid=p['mid'],old_dag=p.get('old_dag')))
 items.sort(key=lambda x:(x['date'],x['time']))
-MON={'11':'November','12':'December'}
+MON={'11':'November','12':'December','01':'Januari','02':'Februari'}
 cards=[]; month=None
 for it in items:
     m=it['date'][5:7]
@@ -18,7 +18,7 @@ for it in items:
     fb=f'<label class="lbl" for="fb-{it["id"]}">Facebook · zelfde dag 18:30</label><textarea id="fb-{it["id"]}" class="cap" data-f="fb" rows="7">{html.escape(it["fb"])}</textarea>'
     fitlabel={'goed':'past goed bij een zakelijk publiek','redelijk':'past redelijk','zwak':'past zwak, alleen als je het bewust wilt'}[it['li_fit']]
     li=f'<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-{it["id"]}" {"checked" if it["li_aan"] else ""}><span>Ook naar LinkedIn</span></label><span class="fit fit-{it["li_fit"]}">{fitlabel}</span></div><label class="lbl" for="li-{it["id"]}">LinkedIn · zelfde dag 11:00</label><textarea id="li-{it["id"]}" class="cap li" data-f="li" rows="8">{html.escape(it["li"])}</textarea>'
-    oldnote='<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>' if it['kind']=='old' else ''
+    oldnote=('<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober'+(', verplaatst van '+html.escape(it['old_dag'])+' naar deze dag' if it.get('old_dag') else '')+'. Facebook en LinkedIn maak ik erbij als je ze op Goed zet. Dit beeld heeft nog het Poort Padel logo rechtsboven.</p>') if it['kind']=='old' else ''
     cards.append(f'''<article class="card" data-id="{it['id']}" data-kind="{it['kind']}" data-pijler="{html.escape(it['pijler'])}">
 <header class="ch"><div class="when"><b>{html.escape(it['dag'])}</b><span>{it['time']}</span></div>{tag}{kamp}</header>
 <div class="body"><div class="media"><img src="{it['img']}" alt="{html.escape(it['kop'])}" loading="lazy"></div>
@@ -79,8 +79,8 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 @media (prefers-reduced-motion:no-preference){{.card{{transition:border-color .2s}}}}
 </style>
 <div class="top"><div class="wrap">
-<h1>Postcheck november en december</h1>
-<p class="sub">Alle feedposts op een rij, op datum. 8 staan al als concept in Metricool (van 27 oktober), {n_new} zijn nieuw en komen uit de TV-slides: {n_kamp} keer Kids Kamp, verder winterreeks, jeugd, voorjaarsreeks en een feestdagenpost. Per post drie teksten: Instagram, Facebook en LinkedIn, met een schakelaar of hij naar LinkedIn gaat (standaard aan bij zakelijke onderwerpen). Teksten mag je direct aanpassen. Kies per post Goed, Aanpassen of Niet plaatsen. Niets gaat live zonder jouw Goed.</p>
+<h1>Postcheck november t/m februari</h1>
+<p class="sub">Alle 30 goedgekeurde TV-slides zijn nu een post, plus de 8 die al als concept in Metricool stonden. Op woensdag en vrijdag 18:30 (jullie beste dagen volgens de eigen cijfers), donderdag als derde dag in de drukke weken van november en december, LinkedIn om 11:00. Kids Kamp 5 keer vanaf 4 november, winterreeks voor 14 december, beginners en voorjaarsreeks in januari, jeugd en community in februari. Per post drie teksten met een LinkedIn-schakelaar. Alleen het ACA-logo op het beeld, Poort Padel krijgt de tag en de collab. Teksten mag je direct aanpassen. Kies per post Goed, Aanpassen of Niet plaatsen. Niets gaat live zonder jouw Goed.</p>
 <div class="bar"><button type="button" class="chip on" data-f="all">Alles</button><button type="button" class="chip" data-f="new">Nieuw</button><button type="button" class="chip" data-f="kamp">Kids Kamp</button><button type="button" class="chip" data-f="li">Naar LinkedIn</button><button type="button" class="chip" data-f="open">Nog niet beoordeeld</button>
 <div class="counts"><span>Goed <b id="c-approved">0</b></span><span>Aanpassen <b id="c-changes">0</b></span><span>Niet <b id="c-rejected">0</b></span><span>Open <b id="c-open">{len(items)}</b></span></div></div></div></div>
 <div class="wrap" id="list">{''.join(cards)}</div>
