@@ -1,0 +1,183 @@
+[
+ {
+  "id": "k1_kidskamp_aankondiging",
+  "date": "2026-11-05",
+  "time": "18:30",
+  "dag": "donderdag 5 november",
+  "pijler": "kids kamp",
+  "photo": "kamp/frame_14.jpg",
+  "fx": 0.5,
+  "fy": 0.42,
+  "kick": "Padel Kids Kamp · kerstvakantie",
+  "head": [
+   "Kids Kamp",
+   "21 t/m 23 dec"
+  ],
+  "sub": "Drie ochtenden padel, 6 t/m 14 jaar, 10:00 tot 12:30",
+  "cta": "Meld je kind aan",
+  "alt": "Lachend meisje met padelracket op de baan bij Poort Padel in Almere. Tekst: Kids Kamp 21 t/m 23 dec."
+ },
+ {
+  "id": "k2_kidskamp_prijs",
+  "date": "2026-11-19",
+  "time": "18:30",
+  "dag": "donderdag 19 november",
+  "pijler": "kids kamp",
+  "photo": "kamp/frame_31.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
+  "kick": "Padel Kids Kamp · 6 t/m 14 jaar",
+  "head": [
+   "Drie ochtenden",
+   "vol padel"
+  ],
+  "sub": "195 euro all-in, 10% familiekorting vanaf het tweede kind",
+  "cta": "Meld je kind aan",
+  "alt": "Coach geeft kinderen een high five op de padelbaan bij Poort Padel. Tekst: Drie ochtenden vol padel."
+ },
+ {
+  "id": "k3_kidskamp_programma",
+  "date": "2026-12-01",
+  "time": "18:30",
+  "dag": "dinsdag 1 december",
+  "pijler": "kids kamp",
+  "photo": "kamp/frame_4.jpg",
+  "fx": 0.5,
+  "fy": 0.45,
+  "kick": "Padel Kids Kamp · wat doen we",
+  "head": [
+   "Elke ochtend",
+   "een nieuwe slag"
+  ],
+  "sub": "Training van onze coaches, spelletjes en een pauze met eten en drinken",
+  "cta": "Meld je kind aan",
+  "alt": "Coach van All Court Academy helpt een meisje met haar slag bij Poort Padel. Tekst: Elke ochtend een nieuwe slag."
+ },
+ {
+  "id": "w1_winterreeks_start",
+  "date": "2026-12-04",
+  "time": "18:30",
+  "dag": "vrijdag 4 december",
+  "pijler": "winterreeks",
+  "photo": "open/ACA_PoortPadel_29mei-30.jpg",
+  "fx": 0.55,
+  "fy": 0.4,
+  "kick": "Winterreeks · start 14 december",
+  "head": [
+   "Doorspelen in de",
+   "kerstvakantie"
+  ],
+  "sub": "3 lessen t/m 2 januari, later instappen kan",
+  "cta": "Schrijf je in",
+  "alt": "Padelspeler slaat lachend een bal bij Poort Padel in Almere. Tekst: Doorspelen in de kerstvakantie."
+ },
+ {
+  "id": "j1_jeugd_voorjaar",
+  "date": "2026-12-08",
+  "time": "18:30",
+  "dag": "dinsdag 8 december",
+  "pijler": "jeugd",
+  "photo": "kamp/frame_15.jpg",
+  "fx": 0.5,
+  "fy": 0.42,
+  "kick": "Jeugd · vanaf 6 jaar",
+  "head": [
+   "Jeugdreeks",
+   "start 4 januari"
+  ],
+  "sub": "7 lessen t/m 20 februari, vaste groep en vaste trainer",
+  "cta": "Meld je kind aan",
+  "alt": "Lachend meisje in zwart shirt met padelracket bij Poort Padel. Tekst: Jeugdreeks start 4 januari."
+ },
+ {
+  "id": "k4_kidskamp_nog10dagen",
+  "date": "2026-12-11",
+  "time": "18:30",
+  "dag": "vrijdag 11 december",
+  "pijler": "kids kamp",
+  "photo": "kamp/frame_6.jpg",
+  "fx": 0.5,
+  "fy": 0.62,
+  "kick": "Padel Kids Kamp · nog 10 dagen",
+  "head": [
+   "Meld je kind",
+   "nog aan"
+  ],
+  "sub": "21 t/m 23 december, 10% familiekorting vanaf het tweede kind",
+  "cta": "Meld je kind aan",
+  "alt": "Meisje gooit lachend een padelbal op bij Poort Padel in Almere. Tekst: Meld je kind nog aan."
+ },
+ {
+  "id": "w2_winterreeks_instromen",
+  "date": "2026-12-15",
+  "time": "18:30",
+  "dag": "dinsdag 15 december",
+  "pijler": "winterreeks",
+  "photo": "open/ACA_PoortPadel_29mei-28.jpg",
+  "fx": 0.6,
+  "fy": 0.4,
+  "kick": "Winterreeks · gestart",
+  "head": [
+   "Instromen",
+   "kan nog"
+  ],
+  "sub": "Je betaalt alleen de lessen die nog komen, groep van 4 op jouw niveau",
+  "cta": "Schrijf je in",
+  "alt": "Trainer van All Court Academy geeft een leerling een high five met het racket. Tekst: Instromen kan nog."
+ },
+ {
+  "id": "k5_kidskamp_maandag",
+  "date": "2026-12-18",
+  "time": "18:30",
+  "dag": "vrijdag 18 december",
+  "pijler": "kids kamp",
+  "photo": "kamp/frame_19.jpg",
+  "fx": 0.45,
+  "fy": 0.55,
+  "kick": "Padel Kids Kamp · maandag beginnen we",
+  "head": [
+   "Klaar voor",
+   "maandag?"
+  ],
+  "sub": "Maandag 21 t/m woensdag 23 december, 10:00 tot 12:30",
+  "cta": "Meld je kind aan",
+  "alt": "Twee kinderen spelen met een cone en bal op de padelbaan bij Poort Padel. Tekst: Klaar voor maandag?"
+ },
+ {
+  "id": "a1_feestdagen",
+  "date": "2026-12-22",
+  "time": "18:30",
+  "dag": "dinsdag 22 december",
+  "pijler": "all court academy",
+  "photo": "open/ACA_PoortPadel_29mei-10.jpg",
+  "fx": 0.5,
+  "fy": 0.4,
+  "kick": "All Court Academy · Poort Padel",
+  "head": [
+   "Wij spelen",
+   "door"
+  ],
+  "sub": "Winterreeks, Kids Kamp en in januari de voorjaarsreeks",
+  "cta": "Bekijk ons aanbod",
+  "alt": "Twee coaches van All Court Academy lachen samen op de baan bij Poort Padel. Tekst: Wij spelen door."
+ },
+ {
+  "id": "v1_voorjaarsreeks",
+  "date": "2026-12-29",
+  "time": "18:30",
+  "dag": "dinsdag 29 december",
+  "pijler": "voorjaarsreeks",
+  "photo": "open/APA_13_mei-6.jpg",
+  "fx": 0.6,
+  "fy": 0.4,
+  "z": 1.15,
+  "kick": "Voorjaarsreeks · start 4 januari",
+  "head": [
+   "7 lessen,",
+   "4 jan t/m 21 feb"
+  ],
+  "sub": "Vaste dag, vaste tijd, vaste groep van 4 op jouw niveau",
+  "cta": "Schrijf je in",
+  "alt": "Speelster in rood slaat een volley bij Poort Padel in Almere. Tekst: 7 lessen, 4 jan t/m 21 feb."
+ }
+]
