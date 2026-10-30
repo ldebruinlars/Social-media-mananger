@@ -27,7 +27,7 @@ Beeld: zelfde stijl als de oktober- en novemberposts (ACA logo links, Poort Pade
 
 ## Goedkeuren
 
-Postcheck: https://claude.ai/artifact/XXXX (zie workflow-status voor de actuele link). Alle 18 posts op datum, teksten direct aanpasbaar, keuzes in artifact-collectie `postcheck_nov_v1` (per post `status`, `ig`, `fb`, `note`).
+Postcheck: https://claude.ai/artifact/XoUw6TDaZ8JAxpw2hWVkQr. Alle 18 posts op datum, teksten direct aanpasbaar, keuzes in artifact-collectie `postcheck_nov_v1` (per post `status`, `ig`, `fb`, `note`).
 
 ## Naar Metricool
 
