@@ -48,10 +48,11 @@ Postcheck: https://claude.ai/artifact/XoUw6TDaZ8JAxpw2hWVkQr. Alle 18 posts op d
 
 ## Naar Metricool
 
-De beelden staan niet in de repo (foto's met kinderen horen niet in een publieke repo; `.gitignore` houdt ze buiten). Metricool heeft wel een publieke URL nodig. `scripts/metricool_payloads.json` bevat per post de Instagram- en Facebook-concepten (draft, collab en fototag @poortpadel, alt-tekst), met `<PUBLIC_URL>` als placeholder voor het beeld. Twee routes:
+De beelden staan niet in de repo (foto's met kinderen horen niet in een publieke repo; `.gitignore` houdt ze buiten). Metricool heeft wel een publieke URL nodig. `scripts/metricool_payloads.json` bevat per post de Instagram- en Facebook-concepten (draft, collab en fototag @poortpadel, alt-tekst), met `<PUBLIC_URL>` als placeholder voor het beeld.
 
-1. Lars zet de 10 jpg's in de Drive-map `Instagram posts november 2026` (zelfde route als 27 oktober), dan maak ik de concepten aan via de Drive-koppeling van Metricool.
-2. Lars geeft akkoord om de beelden tijdelijk te hosten (Higgsfield-upload of de repo), dan gaan ze daarvandaan naar Metricool, dat ze naar zijn eigen opslag kopieert.
+Afgesproken route (30 oktober): de beelden gaan naar Lars zijn Drive, in de nieuwe map `All Court Acadamy/Social media content` (map-id `1RdWCs5ughvWNVEA8VVflR_m-ofO7j0ht`). Vanuit deze cloud-omgeving lukt dat niet automatisch: de Drive-koppeling kan alleen base64 ontvangen (veel te zwaar voor 29 jpg's), de Make-webhook (`hook.eu1.make.com`) wordt door het netwerkbeleid van de omgeving geblokkeerd, en publieke tussenopslag mag niet voor foto's met kinderen. Daarom kreeg Lars via de chat `ACA_social_content_29.zip`: vier maandmappen (`2026-11 november` t/m `2027-02 februari`) met per bestand de postdatum en het post-id in de naam. Lars sleept die vier mappen in `Social media content`.
+
+Daarna, per post: Drive-bestand opzoeken, link beschikbaar maken voor Metricool (Google Drive koppelen in Metricool, of de bestanden op "iedereen met de link" zetten en de downloadlink gebruiken), `<PUBLIC_URL>` vervangen en de concepten aanmaken (IG met collab en fototag, FB, LI waar `li_aan` true is). 29 posts, s34 (King of the court) niet.
 
 ## Akkoord van Lars (30 oktober, 's avonds)
 
@@ -59,4 +60,4 @@ De beelden staan niet in de repo (foto's met kinderen horen niet in een publieke
 
 In Metricool staan nu als concept (draft): de 7 oorspronkelijke Instagram-posts op hun nieuwe dag, plus Facebook voor alle 7 en LinkedIn voor de 5 met de schakelaar aan (competitie, kerstborrel, coaches, feestje, voorjaarsreeks). Beeld hergebruikt van het Instagram-concept.
 
-Nog niet in Metricool: de 29 goedgekeurde nieuwe posts. Die wachten op een publieke plek voor de beelden (Drive-map van Lars of toestemming voor hosting). Payloads staan klaar in `scripts/metricool_payloads.json`.
+Nog niet in Metricool: de 29 goedgekeurde nieuwe posts. Die wachten tot de beelden in de Drive-map `Social media content` staan (zip naar Lars, zie hierboven). Payloads staan klaar in `scripts/metricool_payloads.json`.
