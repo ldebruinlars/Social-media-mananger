@@ -12,7 +12,7 @@ why={
  '12':'Ronde 2: twee duidelijkere foto\'s uit de Kids Kamp map, kinderen midden in beeld. Jeugd voorjaarsreeks vanaf 4 januari.',
  '11':'Ronde 2: zelfde foto\'s, het meisje staat nu helemaal in beeld. Tekst gelijk gebleven.',
  '44':'Ronde 2: twee nieuwe foto\'s, meisje volledig in beeld. Tekst ongewijzigd.',
- '47':'Ronde 2: nieuwe foto\'s met de cones, dichterbij. Tekst ongewijzigd.',
+ '47':'Ronde 3: meisje met bal, lachend in de camera. De jongen met de cone blijft. Tekst ongewijzigd.',
  '48':'Ronde 2: foto\'s van de baan in plaats van de tafel: high five met de coach en een meisje met bal. Tekst gelijk.',
 }
 flags={}
