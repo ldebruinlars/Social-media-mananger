@@ -1,32 +1,28 @@
 import json,os,html,sys
 D=sys.argv[1]; W=D+'/tvwork'; OUTDIR=D+'/tvcheck'
-edits={e['file']:e for e in json.load(open(W+'/edits.json'))}
+edits={e['file']:e for e in json.load(open(W+'/edits2.json'))}
+order=json.load(open(W+'/order.json')); REJ=set(order['rejected'])
 files=sorted(f for f in os.listdir(D+'/tvzip/tv') if f.endswith('.jpg'))
 labels={'01':'Welkom','02':'Losse training','03':'Lessenreeks','04':'Beginners','05':'Onze aanpak','06':'Jeugd','07':'Toernooien','08':'Gevorderden','09':'Winterreeks','10':'Contact','11':'Kids Kamp kerstvakantie','12':'Jeugd voorjaarsreeks','13':'Jeugd groepjes','14':'Jeugd leren','15':'Losse les','16':'Lessenreeks (variant)','21':'Coach kiezen','22':'Snel op de baan','23':'Duo','24':'Vaste reeks','25':'Groep klaar','26':'Instromen','27':'Eerste les','28':'Eerste rally','29':'Lachen en werken','30':'Smash','31':'Competitie','32':'Queen of the court','33':'Daluren','34':'King of the court','35':'Mexicano','36':'Community','37':"Collega's",'38':'Vrienden','39':'Playtomic','40':'Team','41':'Aanbod','42':'Voorjaarsreeks','43':'Winterreeks (variant)','44':'Jeugd nieuw','45':'Jeugd bewegen','46':'Jeugd uitleg','47':'Jeugd spel','48':'Kids Kamp drie ochtenden','49':'Kids Kamp prijzen en extra\'s','50':'Jeugd proefles'}
 why={
- '09':'Was "inschrijving opent binnenkort". De winterreeks staat nu open op de site: 3 lessen, maandag 14 december t/m zaterdag 2 januari.',
- '43':'Zelfde reeks, tweede variant. Datums en "later instappen kan" overgenomen van de site.',
- '42':'Voorjaarsreeks 2027 van de site: 7 lessen, 4 januari t/m 21 februari.',
- '12':'Was een dubbele van slide 06. Nu de jeugd voorjaarsreeks: 7 lessen, 4 januari t/m 20 februari, vanaf 6 jaar.',
- '11':'Was "drie middagen" en "diploma". Site zegt: maandag 21 t/m woensdag 23 december, 10:00 tot 12:30.',
- '48':'Was "drie dagen". Nu drie ochtenden met de prijs van de site: 195 euro all-in, 10% familiekorting vanaf het tweede kind.',
- '49':'Stempelkaart, diploma en shirt staan niet op de site. Nu wat er wel staat: coaches, pauze met eten en drinken, rackets en ballen aanwezig.',
- '10':'E-mail l.debruin@ vervangen door info@allcourtacademy.com, zoals op de site.',
+ '09':'Ronde 2: nieuwe foto (trainer met leerling) en de tekst kleiner, zodat de foto zichtbaar blijft. Tekst: 3 lessen, 14 december t/m 2 januari.',
+ '43':'Ronde 2: nieuwe foto, kleinere tekst. Winterreeks met "later instappen kan".',
+ '42':'Ronde 2: nieuwe foto (speelster bij de volley), kleinere tekst. 7 lessen, 4 januari t/m 21 februari.',
+ '41':'Ronde 2: andere foto, twee coaches op de baan in plaats van de bal. Tekst ongewijzigd.',
+ '12':'Ronde 2: twee duidelijkere foto\'s uit de Kids Kamp map, kinderen midden in beeld. Jeugd voorjaarsreeks vanaf 4 januari.',
+ '11':'Ronde 2: zelfde foto\'s, het meisje staat nu helemaal in beeld. Tekst gelijk gebleven.',
+ '44':'Ronde 2: twee nieuwe foto\'s, meisje volledig in beeld. Tekst ongewijzigd.',
+ '47':'Ronde 2: nieuwe foto\'s met de cones, dichterbij. Tekst ongewijzigd.',
+ '48':'Ronde 2: foto\'s van de baan in plaats van de tafel: high five met de coach en een meisje met bal. Tekst gelijk.',
 }
-flags={
- '13':'Slide zegt maximaal 6 kinderen per groep. De site noemt groepen van 4. Welke klopt voor jeugd?',
- '07':'Weekendtoernooien staan niet op de ACA-site. Klopt de claim nog?',
- '34':'King of the court als vast evenement staat niet op de site. Nog actueel?',
- '35':'Mexicano als vast evenement staat niet op de site. Nog actueel?',
- '33':'Daluren-aanbod staat niet op de site. Klopt de tekst en de prijs nog?',
- '06':'Lijkt sterk op de oude slide 12. Die is nu omgebouwd, deze kan blijven of eruit.',
-}
+flags={}
 cards=[]
 for f in files:
     n=f[:2]; key=n; lab=labels.get(n,f[3:-4])
     e=edits.get(f); fl=flags.get(n)
     tags=''
-    if e: tags+='<span class="tag new">Aangepast</span>'
+    if e: tags+='<span class="tag new">Ronde 2</span>'
+    if n in REJ: tags+='<span class="tag rej">Eruit</span>'
     if fl: tags+='<span class="tag chk">Even checken</span>'
     media=f'<div class="media"><img src="orig/{f}" alt="Slide {n} {html.escape(lab)}" loading="lazy" data-orig="orig/{f}"' + (f' data-new="nieuw/{f}"' if e else '') + '></div>'
     toggle=''
@@ -72,6 +68,7 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 .tag{{font:700 11px/1 var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px}}
 .tag.new{{background:var(--lime);color:var(--ink)}}
 .tag.chk{{background:var(--amber);color:var(--ink)}}
+.tag.rej{{background:var(--red);color:#fff}}
 .media{{aspect-ratio:16/9;max-width:100%;background:#071321;border-radius:6px;overflow:hidden}}
 .media img{{width:100%;height:100%;object-fit:cover;display:block}}
 .seg{{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;align-self:flex-start}}
@@ -93,12 +90,11 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 @media (prefers-reduced-motion:no-preference){{.card{{transition:border-color .2s}}}}
 </style>
 <div class="top">
-<h1>TV-slides: check en akkoord</h1>
-<p class="sub">46 slides voor het scherm bij Poort Padel. 8 zijn aangepast met de actuele info van allcourtacademy.com (winterreeks, voorjaarsreeks, Kids Kamp). Bij 6 andere staat een vraag. Kies per slide Goed, Aanpassen of Niet gebruiken. Alles wordt direct opgeslagen.</p>
+<h1>TV-slides: ronde 2</h1>
+<p class="sub">Je keuzes van ronde 1 staan er nog in: 22 goed, 15 eruit. De 9 slides waar je Aanpassen op zette zijn opnieuw gemaakt met andere foto's uit je Drive (Kids Kamp map en openingsdag). Zet die 9 nu op Goed of nog een keer op Aanpassen met wat er anders moet. Filter: Ronde 2.</p>
 <div class="bar">
 <button type="button" class="chip on" data-f="all">Alles</button>
-<button type="button" class="chip" data-f="new">Aangepast</button>
-<button type="button" class="chip" data-f="chk">Even checken</button>
+<button type="button" class="chip" data-f="new">Ronde 2</button>
 <button type="button" class="chip" data-f="open">Nog niet beoordeeld</button>
 <div class="counts"><span>Goed <b id="c-approved">0</b></span><span>Aanpassen <b id="c-changes">0</b></span><span>Niet <b id="c-rejected">0</b></span><span>Open <b id="c-open">46</b></span></div>
 </div></div>

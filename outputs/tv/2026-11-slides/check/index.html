@@ -28,6 +28,7 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 .tag{font:700 11px/1 var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px}
 .tag.new{background:var(--lime);color:var(--ink)}
 .tag.chk{background:var(--amber);color:var(--ink)}
+.tag.rej{background:var(--red);color:#fff}
 .media{aspect-ratio:16/9;max-width:100%;background:#071321;border-radius:6px;overflow:hidden}
 .media img{width:100%;height:100%;object-fit:cover;display:block}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;align-self:flex-start}
@@ -51,8 +52,7 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 .order{margin-top:36px;border-top:1px solid var(--line);padding-top:22px}
 .oh{font:800 22px/1.1 var(--disp);text-transform:uppercase;margin:0 0 8px;letter-spacing:-.01em}
 .legend{list-style:none;padding:0;margin:0 0 12px;display:flex;flex-wrap:wrap;gap:8px 16px;font:600 13px/1 var(--font)}
-.legend li::before,.strip li::after{content:"";display:inline-block}
-.legend li::before{width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.legend li::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
 .o-kamp{--c:var(--lime)} .o-jeugd{--c:var(--amber)} .o-reeks{--c:#5aa9ff} .o-aca{--c:var(--mute)}
 .strip{list-style:none;padding:0;margin:0 0 12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
 .strip li{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:4px;overflow:hidden;background:#071321;border-bottom:4px solid var(--c)}
@@ -61,12 +61,11 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 .strip b{position:absolute;right:4px;top:4px;font:800 10px/1 var(--disp);background:var(--c);color:#071321;padding:3px 4px;border-radius:3px}
 </style>
 <div class="top">
-<h1>TV-slides: check en akkoord</h1>
-<p class="sub">46 slides voor het scherm bij Poort Padel. 8 zijn aangepast met de actuele info van allcourtacademy.com (winterreeks, voorjaarsreeks, Kids Kamp). Bij 6 andere staat een vraag. Kies per slide Goed, Aanpassen of Niet gebruiken. Alles wordt direct opgeslagen.</p>
+<h1>TV-slides: ronde 2</h1>
+<p class="sub">Je keuzes van ronde 1 staan er nog in: 22 goed, 15 eruit. De 9 slides waar je Aanpassen op zette zijn opnieuw gemaakt met andere foto's uit je Drive (Kids Kamp map en openingsdag). Zet die 9 nu op Goed of nog een keer op Aanpassen met wat er anders moet. Filter: Ronde 2.</p>
 <div class="bar">
 <button type="button" class="chip on" data-f="all">Alles</button>
-<button type="button" class="chip" data-f="new">Aangepast</button>
-<button type="button" class="chip" data-f="chk">Even checken</button>
+<button type="button" class="chip" data-f="new">Ronde 2</button>
 <button type="button" class="chip" data-f="open">Nog niet beoordeeld</button>
 <div class="counts"><span>Goed <b id="c-approved">0</b></span><span>Aanpassen <b id="c-changes">0</b></span><span>Niet <b id="c-rejected">0</b></span><span>Open <b id="c-open">46</b></span></div>
 </div></div>
@@ -96,20 +95,20 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-04" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="05" data-kind="plain">
-<header class="ch"><span class="num">05</span><h2>Onze aanpak</h2></header>
+<header class="ch"><span class="num">05</span><h2>Onze aanpak</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/05-aanpak.jpg" alt="Slide 05 Onze aanpak" loading="lazy" data-orig="orig/05-aanpak.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-05" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="06" data-kind="chk">
-<header class="ch"><span class="num">06</span><h2>Jeugd</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/06-jeugd.jpg" alt="Slide 06 Jeugd" loading="lazy" data-orig="orig/06-jeugd.jpg"></div><p class="flag">Lijkt sterk op de oude slide 12. Die is nu omgebouwd, deze kan blijven of eruit.</p>
+</article><article class="card" data-id="06" data-kind="plain">
+<header class="ch"><span class="num">06</span><h2>Jeugd</h2><span class="tag rej">Eruit</span></header>
+<div class="media"><img src="orig/06-jeugd.jpg" alt="Slide 06 Jeugd" loading="lazy" data-orig="orig/06-jeugd.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-06" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="07" data-kind="chk">
-<header class="ch"><span class="num">07</span><h2>Toernooien</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/07-toernooien.jpg" alt="Slide 07 Toernooien" loading="lazy" data-orig="orig/07-toernooien.jpg"></div><p class="flag">Weekendtoernooien staan niet op de ACA-site. Klopt de claim nog?</p>
+</article><article class="card" data-id="07" data-kind="plain">
+<header class="ch"><span class="num">07</span><h2>Toernooien</h2></header>
+<div class="media"><img src="orig/07-toernooien.jpg" alt="Slide 07 Toernooien" loading="lazy" data-orig="orig/07-toernooien.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-07" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
@@ -120,32 +119,32 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-08" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="09" data-kind="new">
-<header class="ch"><span class="num">09</span><h2>Winterreeks</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/09-kerstreeks.jpg" alt="Slide 09 Winterreeks" loading="lazy" data-orig="orig/09-kerstreeks.jpg" data-new="nieuw/09-kerstreeks.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>3 lessen, 14 dec t/m 2 jan</dd><dt>Label</dt><dd>Winterreeks · door de kerstvakantie</dd><dt>Tekst</dt><dd>Eén les per week op een vaste dag en tijd, in een groep van 4 op jouw niveau</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Was &quot;inschrijving opent binnenkort&quot;. De winterreeks staat nu open op de site: 3 lessen, maandag 14 december t/m zaterdag 2 januari.</p>
+<header class="ch"><span class="num">09</span><h2>Winterreeks</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/09-kerstreeks.jpg" alt="Slide 09 Winterreeks" loading="lazy" data-orig="orig/09-kerstreeks.jpg" data-new="nieuw/09-kerstreeks.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>3 lessen, 14 dec t/m 2 jan</dd><dt>Label</dt><dd>Winterreeks · door de kerstvakantie</dd><dt>Tekst</dt><dd>Eén les per week op een vaste dag en tijd, in een groep van 4 op jouw niveau</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Ronde 2: nieuwe foto (trainer met leerling) en de tekst kleiner, zodat de foto zichtbaar blijft. Tekst: 3 lessen, 14 december t/m 2 januari.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-09" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="10" data-kind="new">
-<header class="ch"><span class="num">10</span><h2>Contact</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/10-contact.jpg" alt="Slide 10 Contact" loading="lazy" data-orig="orig/10-contact.jpg" data-new="nieuw/10-contact.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Spreek ons gewoon aan</dd><dt>Label</dt><dd>Vragen?</dd><dt>Tekst</dt><dd>Je ziet onze coaches elke dag op de baan. Of mail info@allcourtacademy.com</dd><dt>Knop</dt><dd>Stel je vraag</dd></dl><p class="why">E-mail l.debruin@ vervangen door info@allcourtacademy.com, zoals op de site.</p>
+</article><article class="card" data-id="10" data-kind="plain">
+<header class="ch"><span class="num">10</span><h2>Contact</h2><span class="tag rej">Eruit</span></header>
+<div class="media"><img src="orig/10-contact.jpg" alt="Slide 10 Contact" loading="lazy" data-orig="orig/10-contact.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-10" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="11" data-kind="new">
-<header class="ch"><span class="num">11</span><h2>Kids Kamp kerstvakantie</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/11-kidscamp.jpg" alt="Slide 11 Kids Kamp kerstvakantie" loading="lazy" data-orig="orig/11-kidscamp.jpg" data-new="nieuw/11-kidscamp.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Kids Kamp in de kerstvakantie</dd><dt>Label</dt><dd>Padel Kids Kamp · 6 t/m 14 jaar</dd><dt>Tekst</dt><dd>Maandag 21 t/m woensdag 23 december, elke ochtend van 10:00 tot 12:30</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Was &quot;drie middagen&quot; en &quot;diploma&quot;. Site zegt: maandag 21 t/m woensdag 23 december, 10:00 tot 12:30.</p>
+<header class="ch"><span class="num">11</span><h2>Kids Kamp kerstvakantie</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/11-kidscamp.jpg" alt="Slide 11 Kids Kamp kerstvakantie" loading="lazy" data-orig="orig/11-kidscamp.jpg" data-new="nieuw/11-kidscamp.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Kids Kamp in de kerstvakantie</dd><dt>Label</dt><dd>Padel Kids Kamp · 6 t/m 14 jaar</dd><dt>Tekst</dt><dd>Maandag 21 t/m woensdag 23 december, elke ochtend van 10:00 tot 12:30</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Ronde 2: zelfde foto&#x27;s, het meisje staat nu helemaal in beeld. Tekst gelijk gebleven.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-11" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="12" data-kind="new">
-<header class="ch"><span class="num">12</span><h2>Jeugd voorjaarsreeks</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/12-jeugd-duo.jpg" alt="Slide 12 Jeugd voorjaarsreeks" loading="lazy" data-orig="orig/12-jeugd-duo.jpg" data-new="nieuw/12-jeugd-duo.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Jeugd voorjaarsreeks start 4 januari</dd><dt>Label</dt><dd>Jeugd · vanaf 6 jaar</dd><dt>Tekst</dt><dd>7 lessen t/m 20 februari, vaste groep en vaste trainer. Later instromen kan altijd</dd><dt>Knop</dt><dd>Meld je kind aan</dd></dl><p class="why">Was een dubbele van slide 06. Nu de jeugd voorjaarsreeks: 7 lessen, 4 januari t/m 20 februari, vanaf 6 jaar.</p>
+<header class="ch"><span class="num">12</span><h2>Jeugd voorjaarsreeks</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/12-jeugd-duo.jpg" alt="Slide 12 Jeugd voorjaarsreeks" loading="lazy" data-orig="orig/12-jeugd-duo.jpg" data-new="nieuw/12-jeugd-duo.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Jeugd voorjaarsreeks start 4 januari</dd><dt>Label</dt><dd>Jeugd · vanaf 6 jaar</dd><dt>Tekst</dt><dd>7 lessen t/m 20 februari, vaste groep en vaste trainer. Later instromen kan altijd</dd><dt>Knop</dt><dd>Meld je kind aan</dd></dl><p class="why">Ronde 2: twee duidelijkere foto&#x27;s uit de Kids Kamp map, kinderen midden in beeld. Jeugd voorjaarsreeks vanaf 4 januari.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-12" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="13" data-kind="chk">
-<header class="ch"><span class="num">13</span><h2>Jeugd groepjes</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/13-jeugd-groepjes.jpg" alt="Slide 13 Jeugd groepjes" loading="lazy" data-orig="orig/13-jeugd-groepjes.jpg"></div><p class="flag">Slide zegt maximaal 6 kinderen per groep. De site noemt groepen van 4. Welke klopt voor jeugd?</p>
+</article><article class="card" data-id="13" data-kind="plain">
+<header class="ch"><span class="num">13</span><h2>Jeugd groepjes</h2></header>
+<div class="media"><img src="orig/13-jeugd-groepjes.jpg" alt="Slide 13 Jeugd groepjes" loading="lazy" data-orig="orig/13-jeugd-groepjes.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-13" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
@@ -156,7 +155,7 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-14" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="15" data-kind="plain">
-<header class="ch"><span class="num">15</span><h2>Losse les</h2></header>
+<header class="ch"><span class="num">15</span><h2>Losse les</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/15-losse-les.jpg" alt="Slide 15 Losse les" loading="lazy" data-orig="orig/15-losse-les.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-15" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
@@ -174,31 +173,31 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-21" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="22" data-kind="plain">
-<header class="ch"><span class="num">22</span><h2>Snel op de baan</h2></header>
+<header class="ch"><span class="num">22</span><h2>Snel op de baan</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/22-snel-op-de-baan.jpg" alt="Slide 22 Snel op de baan" loading="lazy" data-orig="orig/22-snel-op-de-baan.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-22" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="23" data-kind="plain">
-<header class="ch"><span class="num">23</span><h2>Duo</h2></header>
+<header class="ch"><span class="num">23</span><h2>Duo</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/23-duo.jpg" alt="Slide 23 Duo" loading="lazy" data-orig="orig/23-duo.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-23" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="24" data-kind="plain">
-<header class="ch"><span class="num">24</span><h2>Vaste reeks</h2></header>
+<header class="ch"><span class="num">24</span><h2>Vaste reeks</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/24-reeks-vast.jpg" alt="Slide 24 Vaste reeks" loading="lazy" data-orig="orig/24-reeks-vast.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-24" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="25" data-kind="plain">
-<header class="ch"><span class="num">25</span><h2>Groep klaar</h2></header>
+<header class="ch"><span class="num">25</span><h2>Groep klaar</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/25-groep-klaar.jpg" alt="Slide 25 Groep klaar" loading="lazy" data-orig="orig/25-groep-klaar.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-25" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="26" data-kind="plain">
-<header class="ch"><span class="num">26</span><h2>Instromen</h2></header>
+<header class="ch"><span class="num">26</span><h2>Instromen</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/26-instromen.jpg" alt="Slide 26 Instromen" loading="lazy" data-orig="orig/26-instromen.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-26" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
@@ -210,7 +209,7 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-27" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="28" data-kind="plain">
-<header class="ch"><span class="num">28</span><h2>Eerste rally</h2></header>
+<header class="ch"><span class="num">28</span><h2>Eerste rally</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/28-eerste-rally.jpg" alt="Slide 28 Eerste rally" loading="lazy" data-orig="orig/28-eerste-rally.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-28" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
@@ -222,7 +221,7 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-29" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="30" data-kind="plain">
-<header class="ch"><span class="num">30</span><h2>Smash</h2></header>
+<header class="ch"><span class="num">30</span><h2>Smash</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/30-smash.jpg" alt="Slide 30 Smash" loading="lazy" data-orig="orig/30-smash.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-30" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
@@ -234,26 +233,26 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-31" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="32" data-kind="plain">
-<header class="ch"><span class="num">32</span><h2>Queen of the court</h2></header>
+<header class="ch"><span class="num">32</span><h2>Queen of the court</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/32-queen.jpg" alt="Slide 32 Queen of the court" loading="lazy" data-orig="orig/32-queen.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-32" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="33" data-kind="chk">
-<header class="ch"><span class="num">33</span><h2>Daluren</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/33-daluren.jpg" alt="Slide 33 Daluren" loading="lazy" data-orig="orig/33-daluren.jpg"></div><p class="flag">Daluren-aanbod staat niet op de site. Klopt de tekst en de prijs nog?</p>
+</article><article class="card" data-id="33" data-kind="plain">
+<header class="ch"><span class="num">33</span><h2>Daluren</h2></header>
+<div class="media"><img src="orig/33-daluren.jpg" alt="Slide 33 Daluren" loading="lazy" data-orig="orig/33-daluren.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-33" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="34" data-kind="chk">
-<header class="ch"><span class="num">34</span><h2>King of the court</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/34-kotc.jpg" alt="Slide 34 King of the court" loading="lazy" data-orig="orig/34-kotc.jpg"></div><p class="flag">King of the court als vast evenement staat niet op de site. Nog actueel?</p>
+</article><article class="card" data-id="34" data-kind="plain">
+<header class="ch"><span class="num">34</span><h2>King of the court</h2></header>
+<div class="media"><img src="orig/34-kotc.jpg" alt="Slide 34 King of the court" loading="lazy" data-orig="orig/34-kotc.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-34" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="35" data-kind="chk">
-<header class="ch"><span class="num">35</span><h2>Mexicano</h2><span class="tag chk">Even checken</span></header>
-<div class="media"><img src="orig/35-mexicano.jpg" alt="Slide 35 Mexicano" loading="lazy" data-orig="orig/35-mexicano.jpg"></div><p class="flag">Mexicano als vast evenement staat niet op de site. Nog actueel?</p>
+</article><article class="card" data-id="35" data-kind="plain">
+<header class="ch"><span class="num">35</span><h2>Mexicano</h2></header>
+<div class="media"><img src="orig/35-mexicano.jpg" alt="Slide 35 Mexicano" loading="lazy" data-orig="orig/35-mexicano.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-35" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
@@ -282,32 +281,32 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <textarea id="note-39" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="40" data-kind="plain">
-<header class="ch"><span class="num">40</span><h2>Team</h2></header>
+<header class="ch"><span class="num">40</span><h2>Team</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/40-team.jpg" alt="Slide 40 Team" loading="lazy" data-orig="orig/40-team.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-40" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="41" data-kind="plain">
-<header class="ch"><span class="num">41</span><h2>Aanbod</h2></header>
-<div class="media"><img src="orig/41-aanbod.jpg" alt="Slide 41 Aanbod" loading="lazy" data-orig="orig/41-aanbod.jpg"></div>
+</article><article class="card" data-id="41" data-kind="new">
+<header class="ch"><span class="num">41</span><h2>Aanbod</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/41-aanbod.jpg" alt="Slide 41 Aanbod" loading="lazy" data-orig="orig/41-aanbod.jpg" data-new="nieuw/41-aanbod.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Padelles bij Poort Padel</dd><dt>Label</dt><dd>All Court Academy</dd><dt>Tekst</dt><dd>Losse lessen, lessenreeksen, jeugd en toernooien, alles op één plek</dd><dt>Knop</dt><dd>Bekijk ons aanbod</dd></dl><p class="why">Ronde 2: andere foto, twee coaches op de baan in plaats van de bal. Tekst ongewijzigd.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-41" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="42" data-kind="new">
-<header class="ch"><span class="num">42</span><h2>Voorjaarsreeks</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/42-voorjaar.jpg" alt="Slide 42 Voorjaarsreeks" loading="lazy" data-orig="orig/42-voorjaar.jpg" data-new="nieuw/42-voorjaar.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Voorjaarsreeks: inschrijving open</dd><dt>Label</dt><dd>Voorjaarsreeks</dd><dt>Tekst</dt><dd>7 lessen van 4 januari t/m 21 februari, elke week op een vaste dag en tijd</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Voorjaarsreeks 2027 van de site: 7 lessen, 4 januari t/m 21 februari.</p>
+<header class="ch"><span class="num">42</span><h2>Voorjaarsreeks</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/42-voorjaar.jpg" alt="Slide 42 Voorjaarsreeks" loading="lazy" data-orig="orig/42-voorjaar.jpg" data-new="nieuw/42-voorjaar.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Voorjaarsreeks: inschrijving open</dd><dt>Label</dt><dd>Voorjaarsreeks</dd><dt>Tekst</dt><dd>7 lessen van 4 januari t/m 21 februari, elke week op een vaste dag en tijd</dd><dt>Knop</dt><dd>Schrijf je in</dd></dl><p class="why">Ronde 2: nieuwe foto (speelster bij de volley), kleinere tekst. 7 lessen, 4 januari t/m 21 februari.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-42" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="43" data-kind="new">
-<header class="ch"><span class="num">43</span><h2>Winterreeks (variant)</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/43-kerst.jpg" alt="Slide 43 Winterreeks (variant)" loading="lazy" data-orig="orig/43-kerst.jpg" data-new="nieuw/43-kerst.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Doorspelen in de kerstvakantie</dd><dt>Label</dt><dd>Winterreeks</dd><dt>Tekst</dt><dd>3 lessen van 14 december t/m 2 januari. Later instappen kan, je betaalt alleen de lessen die nog komen</dd><dt>Knop</dt><dd>Inschrijving open</dd></dl><p class="why">Zelfde reeks, tweede variant. Datums en &quot;later instappen kan&quot; overgenomen van de site.</p>
+<header class="ch"><span class="num">43</span><h2>Winterreeks (variant)</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/43-kerst.jpg" alt="Slide 43 Winterreeks (variant)" loading="lazy" data-orig="orig/43-kerst.jpg" data-new="nieuw/43-kerst.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Doorspelen in de kerstvakantie</dd><dt>Label</dt><dd>Winterreeks</dd><dt>Tekst</dt><dd>3 lessen van 14 december t/m 2 januari. Later instappen kan, je betaalt alleen de lessen die nog komen</dd><dt>Knop</dt><dd>Inschrijving open</dd></dl><p class="why">Ronde 2: nieuwe foto, kleinere tekst. Winterreeks met &quot;later instappen kan&quot;.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-43" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="44" data-kind="plain">
-<header class="ch"><span class="num">44</span><h2>Jeugd nieuw</h2></header>
-<div class="media"><img src="orig/44-jeugd-nieuw.jpg" alt="Slide 44 Jeugd nieuw" loading="lazy" data-orig="orig/44-jeugd-nieuw.jpg"></div>
+</article><article class="card" data-id="44" data-kind="new">
+<header class="ch"><span class="num">44</span><h2>Jeugd nieuw</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/44-jeugd-nieuw.jpg" alt="Slide 44 Jeugd nieuw" loading="lazy" data-orig="orig/44-jeugd-nieuw.jpg" data-new="nieuw/44-jeugd-nieuw.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Padel is hun nieuwe sport</dd><dt>Label</dt><dd>Jeugd</dd><dt>Tekst</dt><dd>Jeugdlessen vanaf 6 jaar, ingedeeld op leeftijd en niveau</dd><dt>Knop</dt><dd>Meld je kind aan</dd></dl><p class="why">Ronde 2: twee nieuwe foto&#x27;s, meisje volledig in beeld. Tekst ongewijzigd.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-44" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
@@ -323,26 +322,26 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-46" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="47" data-kind="plain">
-<header class="ch"><span class="num">47</span><h2>Jeugd spel</h2></header>
-<div class="media"><img src="orig/47-jeugd-spel.jpg" alt="Slide 47 Jeugd spel" loading="lazy" data-orig="orig/47-jeugd-spel.jpg"></div>
+</article><article class="card" data-id="47" data-kind="new">
+<header class="ch"><span class="num">47</span><h2>Jeugd spel</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/47-jeugd-spel.jpg" alt="Slide 47 Jeugd spel" loading="lazy" data-orig="orig/47-jeugd-spel.jpg" data-new="nieuw/47-jeugd-spel.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Spelenderwijs leren padellen</dd><dt>Label</dt><dd>Jeugd · 6 t/m 14 jaar</dd><dt>Tekst</dt><dd>Met spelletjes, cones en veel ballen, zo blijft het leuk</dd><dt>Knop</dt><dd>Meld je kind aan</dd></dl><p class="why">Ronde 2: nieuwe foto&#x27;s met de cones, dichterbij. Tekst ongewijzigd.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-47" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="48" data-kind="new">
-<header class="ch"><span class="num">48</span><h2>Kids Kamp drie ochtenden</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/48-kidscamp-3dagen.jpg" alt="Slide 48 Kids Kamp drie ochtenden" loading="lazy" data-orig="orig/48-kidscamp-3dagen.jpg" data-new="nieuw/48-kidscamp-3dagen.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Drie ochtenden vol padel</dd><dt>Label</dt><dd>Padel Kids Kamp · 21 t/m 23 december</dd><dt>Tekst</dt><dd>195 euro all-in voor de hele kamp, 10% familiekorting vanaf het tweede kind</dd><dt>Knop</dt><dd>Meer info</dd></dl><p class="why">Was &quot;drie dagen&quot;. Nu drie ochtenden met de prijs van de site: 195 euro all-in, 10% familiekorting vanaf het tweede kind.</p>
+<header class="ch"><span class="num">48</span><h2>Kids Kamp drie ochtenden</h2><span class="tag new">Ronde 2</span></header>
+<div class="media"><img src="orig/48-kidscamp-3dagen.jpg" alt="Slide 48 Kids Kamp drie ochtenden" loading="lazy" data-orig="orig/48-kidscamp-3dagen.jpg" data-new="nieuw/48-kidscamp-3dagen.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Drie ochtenden vol padel</dd><dt>Label</dt><dd>Padel Kids Kamp · 21 t/m 23 december</dd><dt>Tekst</dt><dd>195 euro all-in voor de hele kamp, 10% familiekorting vanaf het tweede kind</dd><dt>Knop</dt><dd>Meer info</dd></dl><p class="why">Ronde 2: foto&#x27;s van de baan in plaats van de tafel: high five met de coach en een meisje met bal. Tekst gelijk.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-48" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
-</article><article class="card" data-id="49" data-kind="new">
-<header class="ch"><span class="num">49</span><h2>Kids Kamp prijzen en extra&#x27;s</h2><span class="tag new">Aangepast</span></header>
-<div class="media"><img src="orig/49-kidscamp-diploma.jpg" alt="Slide 49 Kids Kamp prijzen en extra&#x27;s" loading="lazy" data-orig="orig/49-kidscamp-diploma.jpg" data-new="nieuw/49-kidscamp-diploma.jpg"></div><div class="seg" role="group" aria-label="Versie"><button type="button" class="segbtn" data-v="orig">Oud</button><button type="button" class="segbtn on" data-v="new">Nieuw</button></div><dl class="txt"><dt>Kop</dt><dd>Prijzen voor elk kind</dd><dt>Label</dt><dd>Padel Kids Kamp · alle niveaus</dd><dt>Tekst</dt><dd>Training van onze coaches, elke dag een pauze met eten en drinken, rackets en ballen aanwezig</dd><dt>Knop</dt><dd>Meer info</dd></dl><p class="why">Stempelkaart, diploma en shirt staan niet op de site. Nu wat er wel staat: coaches, pauze met eten en drinken, rackets en ballen aanwezig.</p>
+</article><article class="card" data-id="49" data-kind="plain">
+<header class="ch"><span class="num">49</span><h2>Kids Kamp prijzen en extra&#x27;s</h2><span class="tag rej">Eruit</span></header>
+<div class="media"><img src="orig/49-kidscamp-diploma.jpg" alt="Slide 49 Kids Kamp prijzen en extra&#x27;s" loading="lazy" data-orig="orig/49-kidscamp-diploma.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-49" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div>
 </article><article class="card" data-id="50" data-kind="plain">
-<header class="ch"><span class="num">50</span><h2>Jeugd proefles</h2></header>
+<header class="ch"><span class="num">50</span><h2>Jeugd proefles</h2><span class="tag rej">Eruit</span></header>
 <div class="media"><img src="orig/50-jeugd-proefles.jpg" alt="Slide 50 Jeugd proefles" loading="lazy" data-orig="orig/50-jeugd-proefles.jpg"></div>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet gebruiken</button></div>
 <textarea id="note-50" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
@@ -352,9 +351,9 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 
 <section class="order" id="volgorde">
 <h2 class="oh">Volgorde van de slideshow</h2>
-<p class="sub">Kids Kamp komt nu als eerste en daarna elke zesde slide terug, dus elke 48 seconden. Daartussen wisselen jeugd, lessenreeks en All Court Academy zelf elkaar af. De loop is 60 slides, 8 seconden per slide, 8 minuten. Slides die je op Niet gebruiken zet, haal ik eruit.</p>
-<ul class="legend"><li class="o-kamp">Kids Kamp (10x)</li><li class="o-jeugd">Jeugd (10x)</li><li class="o-reeks">Lessenreeks (20x)</li><li class="o-aca">All Court Academy (20x)</li></ul>
-<ol class="strip"><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>1</span><b>11</b></li><li class="o-reeks"><img src="nieuw/09-kerstreeks.jpg" alt="" loading="lazy"><span>2</span><b>09</b></li><li class="o-aca"><img src="orig/01-welkom.jpg" alt="" loading="lazy"><span>3</span><b>01</b></li><li class="o-jeugd"><img src="nieuw/12-jeugd-duo.jpg" alt="" loading="lazy"><span>4</span><b>12</b></li><li class="o-reeks"><img src="orig/03-lessenreeks.jpg" alt="" loading="lazy"><span>5</span><b>03</b></li><li class="o-aca"><img src="orig/05-aanpak.jpg" alt="" loading="lazy"><span>6</span><b>05</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>7</span><b>48</b></li><li class="o-reeks"><img src="nieuw/42-voorjaar.jpg" alt="" loading="lazy"><span>8</span><b>42</b></li><li class="o-aca"><img src="orig/36-community.jpg" alt="" loading="lazy"><span>9</span><b>36</b></li><li class="o-jeugd"><img src="orig/44-jeugd-nieuw.jpg" alt="" loading="lazy"><span>10</span><b>44</b></li><li class="o-reeks"><img src="nieuw/43-kerst.jpg" alt="" loading="lazy"><span>11</span><b>43</b></li><li class="o-aca"><img src="orig/29-lachen-werken.jpg" alt="" loading="lazy"><span>12</span><b>29</b></li><li class="o-kamp"><img src="nieuw/49-kidscamp-diploma.jpg" alt="" loading="lazy"><span>13</span><b>49</b></li><li class="o-reeks"><img src="orig/16-lessenreeks-alt.jpg" alt="" loading="lazy"><span>14</span><b>16</b></li><li class="o-aca"><img src="orig/30-smash.jpg" alt="" loading="lazy"><span>15</span><b>30</b></li><li class="o-jeugd"><img src="orig/13-jeugd-groepjes.jpg" alt="" loading="lazy"><span>16</span><b>13</b></li><li class="o-reeks"><img src="orig/24-reeks-vast.jpg" alt="" loading="lazy"><span>17</span><b>24</b></li><li class="o-aca"><img src="orig/40-team.jpg" alt="" loading="lazy"><span>18</span><b>40</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>19</span><b>11</b></li><li class="o-reeks"><img src="nieuw/09-kerstreeks.jpg" alt="" loading="lazy"><span>20</span><b>09</b></li><li class="o-aca"><img src="orig/31-competitie.jpg" alt="" loading="lazy"><span>21</span><b>31</b></li><li class="o-jeugd"><img src="orig/45-jeugd-bewegen.jpg" alt="" loading="lazy"><span>22</span><b>45</b></li><li class="o-reeks"><img src="orig/25-groep-klaar.jpg" alt="" loading="lazy"><span>23</span><b>25</b></li><li class="o-aca"><img src="orig/32-queen.jpg" alt="" loading="lazy"><span>24</span><b>32</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>25</span><b>48</b></li><li class="o-reeks"><img src="orig/26-instromen.jpg" alt="" loading="lazy"><span>26</span><b>26</b></li><li class="o-aca"><img src="nieuw/10-contact.jpg" alt="" loading="lazy"><span>27</span><b>10</b></li><li class="o-jeugd"><img src="orig/50-jeugd-proefles.jpg" alt="" loading="lazy"><span>28</span><b>50</b></li><li class="o-reeks"><img src="nieuw/42-voorjaar.jpg" alt="" loading="lazy"><span>29</span><b>42</b></li><li class="o-aca"><img src="orig/37-collegas.jpg" alt="" loading="lazy"><span>30</span><b>37</b></li><li class="o-kamp"><img src="nieuw/49-kidscamp-diploma.jpg" alt="" loading="lazy"><span>31</span><b>49</b></li><li class="o-reeks"><img src="orig/02-losse-training.jpg" alt="" loading="lazy"><span>32</span><b>02</b></li><li class="o-aca"><img src="orig/38-vrienden.jpg" alt="" loading="lazy"><span>33</span><b>38</b></li><li class="o-jeugd"><img src="orig/14-jeugd-leren.jpg" alt="" loading="lazy"><span>34</span><b>14</b></li><li class="o-reeks"><img src="orig/15-losse-les.jpg" alt="" loading="lazy"><span>35</span><b>15</b></li><li class="o-aca"><img src="orig/39-playtomic.jpg" alt="" loading="lazy"><span>36</span><b>39</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>37</span><b>11</b></li><li class="o-reeks"><img src="orig/04-beginners.jpg" alt="" loading="lazy"><span>38</span><b>04</b></li><li class="o-aca"><img src="orig/07-toernooien.jpg" alt="" loading="lazy"><span>39</span><b>07</b></li><li class="o-jeugd"><img src="orig/46-jeugd-uitleg.jpg" alt="" loading="lazy"><span>40</span><b>46</b></li><li class="o-reeks"><img src="orig/08-gevorderden.jpg" alt="" loading="lazy"><span>41</span><b>08</b></li><li class="o-aca"><img src="orig/33-daluren.jpg" alt="" loading="lazy"><span>42</span><b>33</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>43</span><b>48</b></li><li class="o-reeks"><img src="orig/21-coach-kiezen.jpg" alt="" loading="lazy"><span>44</span><b>21</b></li><li class="o-aca"><img src="orig/34-kotc.jpg" alt="" loading="lazy"><span>45</span><b>34</b></li><li class="o-jeugd"><img src="orig/47-jeugd-spel.jpg" alt="" loading="lazy"><span>46</span><b>47</b></li><li class="o-reeks"><img src="orig/22-snel-op-de-baan.jpg" alt="" loading="lazy"><span>47</span><b>22</b></li><li class="o-aca"><img src="orig/35-mexicano.jpg" alt="" loading="lazy"><span>48</span><b>35</b></li><li class="o-kamp"><img src="nieuw/49-kidscamp-diploma.jpg" alt="" loading="lazy"><span>49</span><b>49</b></li><li class="o-reeks"><img src="orig/23-duo.jpg" alt="" loading="lazy"><span>50</span><b>23</b></li><li class="o-aca"><img src="orig/01-welkom.jpg" alt="" loading="lazy"><span>51</span><b>01</b></li><li class="o-jeugd"><img src="orig/06-jeugd.jpg" alt="" loading="lazy"><span>52</span><b>06</b></li><li class="o-reeks"><img src="orig/27-eerste-les.jpg" alt="" loading="lazy"><span>53</span><b>27</b></li><li class="o-aca"><img src="orig/36-community.jpg" alt="" loading="lazy"><span>54</span><b>36</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>55</span><b>11</b></li><li class="o-reeks"><img src="orig/28-eerste-rally.jpg" alt="" loading="lazy"><span>56</span><b>28</b></li><li class="o-aca"><img src="nieuw/10-contact.jpg" alt="" loading="lazy"><span>57</span><b>10</b></li><li class="o-jeugd"><img src="nieuw/12-jeugd-duo.jpg" alt="" loading="lazy"><span>58</span><b>12</b></li><li class="o-reeks"><img src="orig/41-aanbod.jpg" alt="" loading="lazy"><span>59</span><b>41</b></li><li class="o-aca"><img src="orig/40-team.jpg" alt="" loading="lazy"><span>60</span><b>40</b></li></ol>
+<p class="sub">Zonder de 15 afgekeurde slides. Kids Kamp (11 en 48) komt als eerste en daarna elke zesde slide terug, elke 48 seconden. Daartussen jeugd, lessenreeks en All Court Academy. De loop is 42 slides, 8 seconden per slide, ruim 5 en een halve minuut.</p>
+<ul class="legend"><li class="o-kamp">Kids Kamp (7x)</li><li class="o-jeugd">Jeugd (7x)</li><li class="o-reeks">Lessenreeks (14x)</li><li class="o-aca">All Court Academy (14x)</li></ul>
+<ol class="strip"><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>1</span><b>11</b></li><li class="o-reeks"><img src="nieuw/09-kerstreeks.jpg" alt="" loading="lazy"><span>2</span><b>09</b></li><li class="o-aca"><img src="orig/01-welkom.jpg" alt="" loading="lazy"><span>3</span><b>01</b></li><li class="o-jeugd"><img src="nieuw/12-jeugd-duo.jpg" alt="" loading="lazy"><span>4</span><b>12</b></li><li class="o-reeks"><img src="orig/03-lessenreeks.jpg" alt="" loading="lazy"><span>5</span><b>03</b></li><li class="o-aca"><img src="orig/36-community.jpg" alt="" loading="lazy"><span>6</span><b>36</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>7</span><b>48</b></li><li class="o-reeks"><img src="nieuw/42-voorjaar.jpg" alt="" loading="lazy"><span>8</span><b>42</b></li><li class="o-aca"><img src="orig/29-lachen-werken.jpg" alt="" loading="lazy"><span>9</span><b>29</b></li><li class="o-jeugd"><img src="nieuw/44-jeugd-nieuw.jpg" alt="" loading="lazy"><span>10</span><b>44</b></li><li class="o-reeks"><img src="nieuw/43-kerst.jpg" alt="" loading="lazy"><span>11</span><b>43</b></li><li class="o-aca"><img src="orig/31-competitie.jpg" alt="" loading="lazy"><span>12</span><b>31</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>13</span><b>11</b></li><li class="o-reeks"><img src="orig/16-lessenreeks-alt.jpg" alt="" loading="lazy"><span>14</span><b>16</b></li><li class="o-aca"><img src="orig/37-collegas.jpg" alt="" loading="lazy"><span>15</span><b>37</b></li><li class="o-jeugd"><img src="orig/13-jeugd-groepjes.jpg" alt="" loading="lazy"><span>16</span><b>13</b></li><li class="o-reeks"><img src="orig/02-losse-training.jpg" alt="" loading="lazy"><span>17</span><b>02</b></li><li class="o-aca"><img src="orig/38-vrienden.jpg" alt="" loading="lazy"><span>18</span><b>38</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>19</span><b>48</b></li><li class="o-reeks"><img src="nieuw/09-kerstreeks.jpg" alt="" loading="lazy"><span>20</span><b>09</b></li><li class="o-aca"><img src="orig/39-playtomic.jpg" alt="" loading="lazy"><span>21</span><b>39</b></li><li class="o-jeugd"><img src="orig/45-jeugd-bewegen.jpg" alt="" loading="lazy"><span>22</span><b>45</b></li><li class="o-reeks"><img src="orig/04-beginners.jpg" alt="" loading="lazy"><span>23</span><b>04</b></li><li class="o-aca"><img src="orig/07-toernooien.jpg" alt="" loading="lazy"><span>24</span><b>07</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>25</span><b>11</b></li><li class="o-reeks"><img src="orig/08-gevorderden.jpg" alt="" loading="lazy"><span>26</span><b>08</b></li><li class="o-aca"><img src="orig/33-daluren.jpg" alt="" loading="lazy"><span>27</span><b>33</b></li><li class="o-jeugd"><img src="nieuw/47-jeugd-spel.jpg" alt="" loading="lazy"><span>28</span><b>47</b></li><li class="o-reeks"><img src="orig/21-coach-kiezen.jpg" alt="" loading="lazy"><span>29</span><b>21</b></li><li class="o-aca"><img src="orig/34-kotc.jpg" alt="" loading="lazy"><span>30</span><b>34</b></li><li class="o-kamp"><img src="nieuw/48-kidscamp-3dagen.jpg" alt="" loading="lazy"><span>31</span><b>48</b></li><li class="o-reeks"><img src="nieuw/42-voorjaar.jpg" alt="" loading="lazy"><span>32</span><b>42</b></li><li class="o-aca"><img src="orig/35-mexicano.jpg" alt="" loading="lazy"><span>33</span><b>35</b></li><li class="o-jeugd"><img src="orig/14-jeugd-leren.jpg" alt="" loading="lazy"><span>34</span><b>14</b></li><li class="o-reeks"><img src="orig/27-eerste-les.jpg" alt="" loading="lazy"><span>35</span><b>27</b></li><li class="o-aca"><img src="orig/01-welkom.jpg" alt="" loading="lazy"><span>36</span><b>01</b></li><li class="o-kamp"><img src="nieuw/11-kidscamp.jpg" alt="" loading="lazy"><span>37</span><b>11</b></li><li class="o-reeks"><img src="nieuw/41-aanbod.jpg" alt="" loading="lazy"><span>38</span><b>41</b></li><li class="o-aca"><img src="orig/36-community.jpg" alt="" loading="lazy"><span>39</span><b>36</b></li><li class="o-jeugd"><img src="orig/46-jeugd-uitleg.jpg" alt="" loading="lazy"><span>40</span><b>46</b></li><li class="o-reeks"><img src="orig/03-lessenreeks.jpg" alt="" loading="lazy"><span>41</span><b>03</b></li><li class="o-aca"><img src="orig/29-lachen-werken.jpg" alt="" loading="lazy"><span>42</span><b>29</b></li></ol>
 <textarea id="note-volgorde" class="note" rows="2" placeholder="Opmerking over de volgorde (optioneel)"></textarea>
 <div class="meta"><span class="saved" id="saved-volgorde"></span></div>
 </section>

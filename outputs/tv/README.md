@@ -36,3 +36,18 @@ Er zijn geen bronbestanden (Canva of Drive) van de slides gevonden. De oude teks
 Kids Kamp moet vaker en eerder. `slideshow.html` speelt nu een vaste volgorde van 60 slides (8 minuten) in plaats van de bestandsvolgorde: Kids Kamp als eerste en daarna elke zesde slide (elke 48 seconden), afgewisseld met jeugd, lessenreeks en All Court Academy zelf. De drie Kids Kamp slides komen elk 3 tot 4 keer per loop, winterreeks (09) en voorjaarsreeks (42) twee keer. De volgorde staat in `scripts/order.json` en wordt gemaakt door `scripts/order.py`.
 
 Na akkoord: aangepaste jpg's over de originelen heen in de zip zetten, `slideshow.html` hoeft niet te veranderen (zelfde bestandsnamen). Slides die Lars op Niet gebruiken zet gaan uit de img-lijst in `slideshow.html`.
+
+## Ronde 2 (30 oktober, later op de dag)
+
+Lars beoordeelde alle 46 slides op de check-pagina: 22 goed, 15 eruit (05, 06, 10, 15, 22, 23, 24, 25, 26, 28, 30, 32, 40, 49, 50) en 9 aanpassen, allemaal vanwege de foto (zie `2026-11-slides/keuzes-ronde1.json`).
+
+De 9 zijn opnieuw opgebouwd met foto's uit Drive, dus zonder de afdek-truc van ronde 1:
+
+- `Poort Padel/Kids kamp` (38 videoframes 2160x3840) voor 11, 12, 44, 47, 48
+- `Openingsdag` (serie Susan, 29 mei) en `eerste shoot` (APA 13 mei) voor 09, 41, 42, 43
+
+Twee sjablonen in `scripts/gen2.py` met `scripts/edits2.json`: `panel` (donker vlak links, twee staande foto's rechts, focuspunt en zoom per foto) en `photo` (brede foto met verloop links, kleinere tekst zodat de foto zichtbaar blijft). Logo als transparante PNG in `scripts/logo_t.png`.
+
+Nieuwe slideshow-volgorde zonder afgekeurde slides: 42 slides, Kids Kamp (11, 48) elke zesde slide, zie `scripts/order.json`. Check-pagina opnieuw bouwen: `python3 build_check.py <scratchpad> && python3 add_order.py <scratchpad>`.
+
+Lars moet de 9 slides van ronde 2 nog goedkeuren. Daarna: zip maken met de 31 gebruikte originelen plus de 9 nieuwe en `slideshow.html`.

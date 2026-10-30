@@ -1,0 +1,191 @@
+[
+ {
+  "file": "09-kerstreeks.jpg",
+  "tpl": "photo",
+  "p": {
+   "f": "ACA_PoortPadel_29mei-28.jpg",
+   "fx": 0.66,
+   "fy": 0.42,
+   "z": 1.08
+  },
+  "kick": "Winterreeks · door de kerstvakantie",
+  "head": [
+   "3 lessen,",
+   "14 dec t/m 2 jan"
+  ],
+  "sub": "Eén les per week op een vaste dag en tijd, in een groep van 4 op jouw niveau",
+  "cta": "Schrijf je in",
+  "hs": 88,
+  "tw": 760
+ },
+ {
+  "file": "43-kerst.jpg",
+  "tpl": "photo",
+  "p": {
+   "f": "ACA_PoortPadel_29mei-30.jpg",
+   "fx": 0.6,
+   "fy": 0.5
+  },
+  "kick": "Winterreeks",
+  "head": [
+   "Doorspelen in",
+   "de kerstvakantie"
+  ],
+  "sub": "3 lessen van 14 december t/m 2 januari. Later instappen kan, je betaalt alleen de lessen die nog komen",
+  "cta": "Inschrijving open",
+  "hs": 84,
+  "tw": 940
+ },
+ {
+  "file": "42-voorjaar.jpg",
+  "tpl": "photo",
+  "p": {
+   "f": "APA_13_mei-6.jpg",
+   "fx": 0.78,
+   "fy": 0.42,
+   "z": 1.25
+  },
+  "kick": "Voorjaarsreeks",
+  "head": [
+   "Voorjaarsreeks:",
+   "inschrijving open"
+  ],
+  "sub": "7 lessen van 4 januari t/m 21 februari, elke week op een vaste dag en tijd",
+  "cta": "Schrijf je in",
+  "hs": 84,
+  "tw": 940
+ },
+ {
+  "file": "41-aanbod.jpg",
+  "tpl": "photo",
+  "p": {
+   "f": "ACA_PoortPadel_29mei-10.jpg",
+   "fx": 0.6,
+   "fy": 0.45
+  },
+  "kick": "All Court Academy",
+  "head": [
+   "Padelles bij",
+   "Poort Padel"
+  ],
+  "sub": "Losse lessen, lessenreeksen, jeugd en toernooien, alles op één plek",
+  "cta": "Bekijk ons aanbod",
+  "hs": 88,
+  "tw": 760
+ },
+ {
+  "file": "12-jeugd-duo.jpg",
+  "tpl": "panel",
+  "p1": {
+   "f": "frame_15.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "p2": {
+   "f": "frame_7.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "kick": "Jeugd · vanaf 6 jaar",
+  "head": [
+   "Jeugd voorjaarsreeks",
+   "start 4 januari"
+  ],
+  "sub": "7 lessen t/m 20 februari, vaste groep en vaste trainer. Later instromen kan altijd",
+  "cta": "Meld je kind aan",
+  "hs": 82,
+  "tw": 760
+ },
+ {
+  "file": "11-kidscamp.jpg",
+  "tpl": "panel",
+  "p1": {
+   "f": "frame_14.jpg",
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "p2": {
+   "f": "frame_34.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "kick": "Padel Kids Kamp · 6 t/m 14 jaar",
+  "head": [
+   "Kids Kamp in de",
+   "kerstvakantie"
+  ],
+  "sub": "Maandag 21 t/m woensdag 23 december, elke ochtend van 10:00 tot 12:30",
+  "cta": "Schrijf je in",
+  "hs": 88,
+  "tw": 760
+ },
+ {
+  "file": "44-jeugd-nieuw.jpg",
+  "tpl": "panel",
+  "p1": {
+   "f": "frame_26.jpg",
+   "fx": 0.5,
+   "fy": 0.42
+  },
+  "p2": {
+   "f": "frame_9.jpg",
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "kick": "Jeugd",
+  "head": [
+   "Padel is",
+   "hun nieuwe sport"
+  ],
+  "sub": "Jeugdlessen vanaf 6 jaar, ingedeeld op leeftijd en niveau",
+  "cta": "Meld je kind aan",
+  "hs": 80,
+  "tw": 760
+ },
+ {
+  "file": "47-jeugd-spel.jpg",
+  "tpl": "panel",
+  "p1": {
+   "f": "frame_18.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "p2": {
+   "f": "frame_11.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "kick": "Jeugd · 6 t/m 14 jaar",
+  "head": [
+   "Spelenderwijs",
+   "leren padellen"
+  ],
+  "sub": "Met spelletjes, cones en veel ballen, zo blijft het leuk",
+  "cta": "Meld je kind aan",
+  "hs": 88,
+  "tw": 760
+ },
+ {
+  "file": "48-kidscamp-3dagen.jpg",
+  "tpl": "panel",
+  "p1": {
+   "f": "frame_31.jpg",
+   "fx": 0.5,
+   "fy": 0.5
+  },
+  "p2": {
+   "f": "frame_5.jpg",
+   "fx": 0.5,
+   "fy": 0.45
+  },
+  "kick": "Padel Kids Kamp · 21 t/m 23 december",
+  "head": [
+   "Drie ochtenden",
+   "vol padel"
+  ],
+  "sub": "195 euro all-in voor de hele kamp, 10% familiekorting vanaf het tweede kind",
+  "cta": "Meer info",
+  "hs": 88,
+  "tw": 760
+ }
+]
