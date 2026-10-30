@@ -32,6 +32,10 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 .lbl{font:600 12px/1 var(--font);letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-top:4px}
 .cap,.note{width:100%;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;font:400 13px/1.45 var(--font);resize:vertical}
 .note2{margin:0;font-size:13px;color:var(--mute);border-left:3px solid var(--line);padding-left:10px}
+.lirow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:6px}
+.sw{display:flex;align-items:center;gap:8px;font:600 13px/1 var(--font);cursor:pointer} .sw input{width:18px;height:18px;accent-color:var(--lime)}
+.fit{font:600 12px/1 var(--font);padding:5px 8px;border-radius:4px;background:var(--panel2);color:var(--mute)} .fit-goed{color:var(--green)} .fit-zwak{color:var(--amber)}
+.card.li-off .li{opacity:.45}
 .actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
 .st{flex:1;min-width:90px;border:1px solid var(--line);background:var(--panel2);color:var(--fg);border-radius:8px;padding:10px 8px;font:600 13px/1 var(--font);cursor:pointer}
 .st:focus-visible,.chip:focus-visible{outline:2px solid var(--lime);outline-offset:2px}
@@ -43,8 +47,8 @@ h1{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform:
 </style>
 <div class="top"><div class="wrap">
 <h1>Postcheck november en december</h1>
-<p class="sub">Alle feedposts op een rij, op datum. 8 staan al als concept in Metricool (van 27 oktober), 10 zijn nieuw en komen uit de TV-slides: 5 keer Kids Kamp, verder winterreeks, jeugd, voorjaarsreeks en een feestdagenpost. Teksten mag je direct in de vakken aanpassen. Kies per post Goed, Aanpassen of Niet plaatsen. Niets gaat live zonder jouw Goed.</p>
-<div class="bar"><button type="button" class="chip on" data-f="all">Alles</button><button type="button" class="chip" data-f="new">Nieuw</button><button type="button" class="chip" data-f="kamp">Kids Kamp</button><button type="button" class="chip" data-f="open">Nog niet beoordeeld</button>
+<p class="sub">Alle feedposts op een rij, op datum. 8 staan al als concept in Metricool (van 27 oktober), 10 zijn nieuw en komen uit de TV-slides: 5 keer Kids Kamp, verder winterreeks, jeugd, voorjaarsreeks en een feestdagenpost. Per post drie teksten: Instagram, Facebook en LinkedIn, met een schakelaar of hij naar LinkedIn gaat (standaard aan bij zakelijke onderwerpen). Teksten mag je direct aanpassen. Kies per post Goed, Aanpassen of Niet plaatsen. Niets gaat live zonder jouw Goed.</p>
+<div class="bar"><button type="button" class="chip on" data-f="all">Alles</button><button type="button" class="chip" data-f="new">Nieuw</button><button type="button" class="chip" data-f="kamp">Kids Kamp</button><button type="button" class="chip" data-f="li">Naar LinkedIn</button><button type="button" class="chip" data-f="open">Nog niet beoordeeld</button>
 <div class="counts"><span>Goed <b id="c-approved">0</b></span><span>Aanpassen <b id="c-changes">0</b></span><span>Niet <b id="c-rejected">0</b></span><span>Open <b id="c-open">18</b></span></div></div></div></div>
 <div class="wrap" id="list"><h2 class="mh">November</h2><article class="card" data-id="mc_01-competitie" data-kind="old" data-pijler="competitie">
 <header class="ch"><div class="when"><b>dinsdag 3 november</b><span>18:30</span></div><span class="tag old">Staat al in Metricool</span></header>
@@ -59,7 +63,25 @@ Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
 Reageer TEAM en we sturen je de vrije tijden.
 
 #padelcompetitie #knltb #padelalmere #padeltraining #poortpadel</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_01-competitie">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_01-competitie" class="cap" data-f="fb" rows="7">Competitie gestart? Dan telt vanaf nu elke bal.
+
+In een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het net. Met je competitieteam of alleen, 1 tot 4 spelers.
+
+Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
+
+Reageer TEAM en we sturen je de vrije tijden.
+
+Meer info: https://allcourtacademy.com/pages/lessen.html
+
+#padelcompetitie #knltb #padelalmere #padeltraining #poortpadel</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_01-competitie" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-mc_01-competitie">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_01-competitie" class="cap li" data-f="li" rows="8">De KNLTB-competitie is gestart. Vanaf nu telt elke bal.
+
+In een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het net. Met je competitieteam of alleen, een tot vier spelers, bij Poort Padel in Almere. Baanhuur zit erbij.
+
+Vrije tijden en boeken: https://allcourtacademy.com/pages/lessen.html
+
+#padel #padelcompetitie #almere #knltb #padelnederland</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_01-competitie" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="k1_kidskamp_aankondiging" data-kind="new" data-pijler="kids kamp">
@@ -75,7 +97,7 @@ Drie ochtenden training van onze coaches, spelletjes en elke dag een pauze met e
 Aanmelden via de link in bio 🎾
 
 #kidskamp #jeugdpadel #padelalmere #poortpadel #almere</textarea>
-<label class="lbl" for="fb-k1_kidskamp_aankondiging">Facebook</label><textarea id="fb-k1_kidskamp_aankondiging" class="cap" data-f="fb" rows="7">Kerstvakantie en je kind wil bewegen? Padel Kids Kamp bij @poortpadel in Almere.
+<label class="lbl" for="fb-k1_kidskamp_aankondiging">Facebook · zelfde dag 18:30</label><textarea id="fb-k1_kidskamp_aankondiging" class="cap" data-f="fb" rows="7">Kerstvakantie en je kind wil bewegen? Padel Kids Kamp bij @poortpadel in Almere.
 
 Maandag 21 t/m woensdag 23 december, elke ochtend van 10:00 tot 12:30. Voor kinderen van 6 t/m 14 jaar, op niveau ingedeeld. Nooit gepadeld is geen probleem, rackets en ballen liggen klaar.
 
@@ -84,6 +106,14 @@ Drie ochtenden training van onze coaches, spelletjes en elke dag een pauze met e
 Aanmelden: https://allcourtacademy.com/pages/kids-camp.html 🎾
 
 #kidskamp #jeugdpadel #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-k1_kidskamp_aankondiging" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-k1_kidskamp_aankondiging">LinkedIn · zelfde dag 11:00</label><textarea id="li-k1_kidskamp_aankondiging" class="cap li" data-f="li" rows="8">Kerstvakantie, drie ochtenden, één sport. Het Padel Kids Kamp bij Poort Padel in Almere staat weer op de kalender: 21 tot en met 23 december, 10:00 tot 12:30, voor kinderen van 6 tot en met 14 jaar.
+
+Onze coaches trainen in kleine groepen op niveau. Rackets en ballen zijn er, een pauze met eten en drinken ook. 195 euro all-in, 10 procent familiekorting vanaf het tweede kind.
+
+Voor ouders die de vakantie nog moeten plannen: https://allcourtacademy.com/pages/kids-camp.html
+
+#padel #jeugdsport #almere #kidskamp #padelnederland</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-k1_kidskamp_aankondiging" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_02-instromen" data-kind="old" data-pijler="najaarsreeks">
@@ -99,7 +129,23 @@ Kan je een keer niet? Stuur een vervanger. Lessen bij @poortpadel tot en met 12 
 Inschrijven gaat via de link in bio.
 
 #padelles #padelalmere #padelbeginners #poortpadel #almere</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_02-instromen">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_02-instromen" class="cap" data-f="fb" rows="7">Nog niet begonnen aan de najaarsreeks? Geen probleem, je kan nog instromen.
+
+Je betaalt alleen de lessen die nog komen. Padelles in Almere in een vaste groep van max 4, met elke week dezelfde coach, zodat je niet steeds opnieuw hoeft uit te leggen waar je mee worstelt.
+
+Kan je een keer niet? Stuur een vervanger. Lessen bij @poortpadel tot en met 12 december.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padelles #padelalmere #padelbeginners #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_02-instromen" ><span>Ook naar LinkedIn</span></label><span class="fit fit-redelijk">past redelijk</span></div><label class="lbl" for="li-mc_02-instromen">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_02-instromen" class="cap li" data-f="li" rows="8">Nog niet begonnen aan de najaarsreeks? Instromen kan nog, je betaalt alleen de lessen die nog komen.
+
+Padelles in Almere in een vaste groep van maximaal vier, elke week dezelfde coach, zodat je niet steeds opnieuw hoeft uit te leggen waar je mee worstelt. Kan je een keer niet, dan stuur je een vervanger. Lessen bij Poort Padel tot en met 12 december.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #padelles #almere #padelnederland #poortpadel</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_02-instromen" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_03-kerstborrel" data-kind="old" data-pijler="bedrijven">
@@ -115,7 +161,25 @@ Een bedrijfsuitje voor 8 tot 100+ personen. Plan op tijd.
 Tag de collega die dit moet regelen 👇
 
 #bedrijfsuitje #kerstborrel #teamuitje #padelalmere #poortpadel</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_03-kerstborrel">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_03-kerstborrel" class="cap" data-f="fb" rows="7">Dit moment wil je op je kerstborrel. Ook bij de collega die nooit sport.
+
+Ervaring is niet nodig. De coach legt het uit, maakt de teams en zorgt dat iedereen meedoet, ook wie nog nooit een racket heeft vastgehad. Bij @poortpadel in Almere regelen wij banen, coaches, rackets en catering.
+
+Een bedrijfsuitje voor 8 tot 100+ personen. Plan op tijd.
+
+Tag de collega die dit moet regelen 👇
+
+Meer info: https://allcourtacademy.com/pages/business.html
+
+#bedrijfsuitje #kerstborrel #teamuitje #padelalmere #poortpadel</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_03-kerstborrel" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-mc_03-kerstborrel">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_03-kerstborrel" class="cap li" data-f="li" rows="8">De kerstborrel die iedereen onthoudt is niet de borrel met de beste wijn, maar die waarbij de collega die nooit sport ineens een punt wint.
+
+Een padelclinic als bedrijfsuitje bij Poort Padel in Almere: de coach legt het uit, maakt de teams en zorgt dat iedereen meedoet. Banen, coaches, rackets en catering regelen wij. Voor 8 tot 100+ personen.
+
+December loopt snel vol, plan op tijd: https://allcourtacademy.com/pages/business.html
+
+#teamuitje #bedrijfsuitje #padel #almere #netwerken</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_03-kerstborrel" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_04-jeugd" data-kind="old" data-pijler="jeugd">
@@ -131,7 +195,25 @@ Geen racket? Die lenen we gratis uit. Kan je kind een keer niet, dan mag een vri
 Ouders, sla deze post op voor als je kind ernaar vraagt.
 
 #jeugdpadel #padelkids #padelalmere #poortpadel #almere</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_04-jeugd">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_04-jeugd" class="cap" data-f="fb" rows="7">Eerst de grip, dan de bal. Zo beginnen onze jeugdlessen.
+
+Padel voor kinderen vanaf 6 jaar, in groepjes op hun eigen niveau. Een reeks van 8 lessen of een losse les bij @poortpadel in Almere.
+
+Geen racket? Die lenen we gratis uit. Kan je kind een keer niet, dan mag een vriendje of vriendinnetje de plek overnemen.
+
+Ouders, sla deze post op voor als je kind ernaar vraagt.
+
+Meer info: https://allcourtacademy.com/pages/lessen.html
+
+#jeugdpadel #padelkids #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_04-jeugd" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-mc_04-jeugd">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_04-jeugd" class="cap li" data-f="li" rows="8">Eerst de grip, dan de bal. Zo beginnen onze jeugdlessen bij Poort Padel in Almere.
+
+Padel voor kinderen vanaf 6 jaar, in groepjes op hun eigen niveau. Een reeks van acht lessen of een losse les. Rackets lenen we uit, een vriendje of vriendinnetje mag invallen als je kind een keer niet kan.
+
+Meer over de jeugdlessen: https://allcourtacademy.com/pages/lessen.html
+
+#padel #jeugdsport #almere #padelnederland #poortpadel</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_04-jeugd" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_05-coaches" data-kind="old" data-pijler="losse training">
@@ -147,7 +229,25 @@ Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
 Welke slag wil jij als eerste beter maken? Zeg het hieronder 👇
 
 #padelcoach #padeltraining #padelalmere #poortpadel #almere</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_05-coaches">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_05-coaches" class="cap" data-f="fb" rows="7">Jouw coach, jouw tijd, jouw tempo.
+
+Bij een losse training kies je zelf je coach: Pablo, Randy, Joep, Raúl of Lars. Je plant op de dag en tijd die jou uitkomt, alleen of met 1 tot 3 vrienden.
+
+Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
+
+Welke slag wil jij als eerste beter maken? Zeg het hieronder 👇
+
+Meer info: https://allcourtacademy.com/pages/lessen.html
+
+#padelcoach #padeltraining #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_05-coaches" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-mc_05-coaches">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_05-coaches" class="cap li" data-f="li" rows="8">Jouw coach, jouw tijd, jouw tempo.
+
+Bij een losse training kies je zelf je coach: Pablo, Randy, Joep, Raúl of Lars. Je plant op de dag en tijd die jou uitkomt, alleen of met een tot drie anderen. Handig voor wie een volle agenda heeft en toch wekelijks wil trainen. Bij Poort Padel in Almere, baanhuur zit erbij.
+
+Coach kiezen: https://allcourtacademy.com/pages/lessen.html
+
+#padel #padelcoach #almere #padelnederland #vitaliteit</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_05-coaches" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="k2_kidskamp_prijs" data-kind="new" data-pijler="kids kamp">
@@ -163,7 +263,7 @@ Komen broer of zus ook mee? Vanaf het tweede kind krijg je 10% familiekorting.
 Plek reserveren doe je via de link in bio.
 
 #kidskamp #padelkids #padelalmere #poortpadel #sportalmere</textarea>
-<label class="lbl" for="fb-k2_kidskamp_prijs">Facebook</label><textarea id="fb-k2_kidskamp_prijs" class="cap" data-f="fb" rows="7">Drie ochtenden vol padel in de kerstvakantie. Dat is het Padel Kids Kamp bij @poortpadel.
+<label class="lbl" for="fb-k2_kidskamp_prijs">Facebook · zelfde dag 18:30</label><textarea id="fb-k2_kidskamp_prijs" class="cap" data-f="fb" rows="7">Drie ochtenden vol padel in de kerstvakantie. Dat is het Padel Kids Kamp bij @poortpadel.
 
 21, 22 en 23 december, 10:00 tot 12:30. 195 euro all-in: training van onze coaches, spelletjes, elke dag een pauze met eten en drinken, en rackets en ballen zijn er.
 
@@ -172,6 +272,14 @@ Komen broer of zus ook mee? Vanaf het tweede kind krijg je 10% familiekorting.
 Plek reserveren: https://allcourtacademy.com/pages/kids-camp.html
 
 #kidskamp #padelkids #padelalmere #poortpadel #sportalmere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-k2_kidskamp_prijs" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-k2_kidskamp_prijs">LinkedIn · zelfde dag 11:00</label><textarea id="li-k2_kidskamp_prijs" class="cap li" data-f="li" rows="8">Wat kost drie ochtenden padel voor je kind in de kerstvakantie? 195 euro all-in, en 10 procent korting vanaf het tweede kind uit hetzelfde gezin.
+
+Daar zit alles in: training van onze coaches, spelletjes, een pauze met eten en drinken, rackets en ballen. 21 tot en met 23 december bij Poort Padel in Almere, 10:00 tot 12:30.
+
+Aanmelden: https://allcourtacademy.com/pages/kids-camp.html
+
+#padel #jeugdsport #almere #kidskamp #padelnederland</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-k2_kidskamp_prijs" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_06-kerstreeks" data-kind="old" data-pijler="winterreeks">
@@ -185,7 +293,23 @@ De kerstreeks is 3 padellessen tussen 14 december en 2 januari, bij @poortpadel 
 Wie gaat er mee? Tag je padelmaatje 👇
 
 #padelles #kerstvakantie #padelalmere #poortpadel #almere</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_06-kerstreeks">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_06-kerstreeks" class="cap" data-f="fb" rows="7">Kerstvakantie is geen reden om je smash te laten roesten.
+
+De kerstreeks is 3 padellessen tussen 14 december en 2 januari, bij @poortpadel in Almere. Zo begin je januari niet op nul.
+
+Wie gaat er mee? Tag je padelmaatje 👇
+
+Meer info: https://allcourtacademy.com/pages/lessen.html
+
+#padelles #kerstvakantie #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_06-kerstreeks" ><span>Ook naar LinkedIn</span></label><span class="fit fit-redelijk">past redelijk</span></div><label class="lbl" for="li-mc_06-kerstreeks">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_06-kerstreeks" class="cap li" data-f="li" rows="8">Kerstvakantie is geen reden om je smash te laten roesten.
+
+De winterreeks: drie padellessen tussen 14 december en 2 januari bij Poort Padel in Almere, in een vaste groep van vier met dezelfde coach. Zo begin je januari niet op nul.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #vitaliteit #almere #padelnederland #poortpadel</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_06-kerstreeks" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_07-feestje" data-kind="old" data-pijler="feestjes">
@@ -203,7 +327,27 @@ Bij @poortpadel.
 Tag de groep met wie je dit gaat doen 👇
 
 #vrijgezellenfeest #uitjealmere #padelalmere #poortpadel #padel</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_07-feestje">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_07-feestje" class="cap" data-f="fb" rows="7">Armen omhoog. Zo eindigt een middag padel met je vrienden.
+
+Verjaardag, vrijgezellenfeest of een uitje in Almere dat eens geen bowlen is? Kom padellen. Een coach begeleidt jullie en rackets en ballen liggen klaar, dus ook wie nog nooit een racket vasthad doet na een paar minuten gewoon mee.
+
+Lachen. Zweten. Revanche willen.
+
+Bij @poortpadel.
+
+Tag de groep met wie je dit gaat doen 👇
+
+Meer info: https://allcourtacademy.com/pages/events.html
+
+#vrijgezellenfeest #uitjealmere #padelalmere #poortpadel #padel</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_07-feestje" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-mc_07-feestje">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_07-feestje" class="cap li" data-f="li" rows="8">Een uitje dat eens geen borrel of bowlen is: padel met je team, je vrienden of je familie bij Poort Padel in Almere.
+
+Een coach begeleidt de groep, rackets en ballen liggen klaar, ook wie nog nooit een racket vasthad doet na een paar minuten mee.
+
+Plannen: https://allcourtacademy.com/pages/events.html
+
+#padel #teamuitje #almere #padelnederland #poortpadel</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_07-feestje" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="mc_08-voorjaarsreeks" data-kind="old" data-pijler="voorjaarsreeks">
@@ -217,7 +361,21 @@ De voorjaarsreeks start 4 januari: 7 padellessen tot en met 20 februari. In een 
 Schrijf je nu in via de link in bio, dan zit je straks in de groep die bij je past.
 
 #padelles #goedvoornemen #padelalmere #poortpadel #almere</textarea>
-<p class="note2">Alleen Instagram, als concept aangemaakt op 27 oktober. Facebook-versie kan ik erbij maken.</p>
+<label class="lbl" for="fb-mc_08-voorjaarsreeks">Facebook · zelfde dag 18:30</label><textarea id="fb-mc_08-voorjaarsreeks" class="cap" data-f="fb" rows="7">Goed voornemen voor 2027? Begin met een vaste plek op de baan.
+
+De voorjaarsreeks start 4 januari: 7 padellessen tot en met 20 februari. In een vaste groep van max 4 op jouw niveau, met elke week dezelfde coach, bij @poortpadel in Almere.
+
+Schrijf je nu in, dan zit je straks in de groep die bij je past: https://allcourtacademy.com/pages/lessen.html
+
+#padelles #goedvoornemen #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-mc_08-voorjaarsreeks" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-mc_08-voorjaarsreeks">LinkedIn · zelfde dag 11:00</label><textarea id="li-mc_08-voorjaarsreeks" class="cap li" data-f="li" rows="8">Goed voornemen voor 2027? Begin met een vaste plek op de baan.
+
+De voorjaarsreeks start 4 januari: zeven padellessen tot en met 20 februari, in een vaste groep van maximaal vier op jouw niveau, met elke week dezelfde coach, bij Poort Padel in Almere. Een uur per week dat vaststaat, buiten de agenda om.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #netwerken #almere #padelnederland #vitaliteit</textarea>
+<p class="note2">Instagram staat al als concept in Metricool sinds 27 oktober. Facebook en LinkedIn maak ik erbij als je ze op Goed zet.</p>
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-mc_08-voorjaarsreeks" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><h2 class="mh">December</h2><article class="card" data-id="k3_kidskamp_programma" data-kind="new" data-pijler="kids kamp">
@@ -233,7 +391,7 @@ Onze coaches staan de hele ochtend op de baan, in groepjes op leeftijd en niveau
 Aanmelden via de link in bio.
 
 #kidskamp #jeugdpadel #padelalmere #poortpadel #kerstvakantie</textarea>
-<label class="lbl" for="fb-k3_kidskamp_programma">Facebook</label><textarea id="fb-k3_kidskamp_programma" class="cap" data-f="fb" rows="7">Wat doen we eigenlijk op het Kids Kamp? Elke ochtend staat een nieuwe slag centraal.
+<label class="lbl" for="fb-k3_kidskamp_programma">Facebook · zelfde dag 18:30</label><textarea id="fb-k3_kidskamp_programma" class="cap" data-f="fb" rows="7">Wat doen we eigenlijk op het Kids Kamp? Elke ochtend staat een nieuwe slag centraal.
 
 We beginnen met de basis, daarna de volley en op de laatste dag gaan we smashen en spelen we een toernooitje. Tussendoor spelletjes met cones en veel ballen, en elke dag een pauze met eten en drinken.
 
@@ -242,6 +400,14 @@ Onze coaches staan de hele ochtend op de baan, in groepjes op leeftijd en niveau
 Aanmelden: https://allcourtacademy.com/pages/kids-camp.html
 
 #kidskamp #jeugdpadel #padelalmere #poortpadel #kerstvakantie</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-k3_kidskamp_programma" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-k3_kidskamp_programma">LinkedIn · zelfde dag 11:00</label><textarea id="li-k3_kidskamp_programma" class="cap li" data-f="li" rows="8">Een kids kamp is geen drie ochtenden ballen rapen. Elke ochtend van het Padel Kids Kamp staat een nieuwe slag centraal: eerst de basis, dan de volley, op de laatste dag smashen en een toernooitje.
+
+Onze coaches staan de hele ochtend op de baan, in groepjes op leeftijd en niveau. 21 tot en met 23 december bij Poort Padel in Almere.
+
+Programma en aanmelden: https://allcourtacademy.com/pages/kids-camp.html
+
+#padel #jeugdsport #almere #kidskamp #padelcoach</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-k3_kidskamp_programma" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="w1_winterreeks_start" data-kind="new" data-pijler="winterreeks">
@@ -257,7 +423,7 @@ Later instappen kan, je betaalt alleen de lessen die nog komen. Kan je een keer 
 Inschrijven via de link in bio 🎾
 
 #padelles #padelalmere #winterreeks #poortpadel #almere</textarea>
-<label class="lbl" for="fb-w1_winterreeks_start">Facebook</label><textarea id="fb-w1_winterreeks_start" class="cap" data-f="fb" rows="7">Niet stilzitten in de kerstvakantie? De winterreeks start maandag 14 december bij @poortpadel in Almere.
+<label class="lbl" for="fb-w1_winterreeks_start">Facebook · zelfde dag 18:30</label><textarea id="fb-w1_winterreeks_start" class="cap" data-f="fb" rows="7">Niet stilzitten in de kerstvakantie? De winterreeks start maandag 14 december bij @poortpadel in Almere.
 
 3 lessen t/m 2 januari, elke week op een vaste dag en tijd, in een groep van 4 op jouw niveau met dezelfde coach. Zo begin je januari niet op nul.
 
@@ -266,6 +432,14 @@ Later instappen kan, je betaalt alleen de lessen die nog komen. Kan je een keer 
 Inschrijven: https://allcourtacademy.com/pages/lessen.html 🎾
 
 #padelles #padelalmere #winterreeks #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-w1_winterreeks_start" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-redelijk">past redelijk</span></div><label class="lbl" for="li-w1_winterreeks_start">LinkedIn · zelfde dag 11:00</label><textarea id="li-w1_winterreeks_start" class="cap li" data-f="li" rows="8">De drukste weken van het jaar zijn precies de weken waarin trainen het meeste oplevert: je hoofd leeg, je lijf in beweging.
+
+Daarom starten we op 14 december met de winterreeks bij Poort Padel in Almere. Drie lessen tot en met 2 januari, elke week op een vaste dag en tijd, in een groep van vier op jouw niveau met dezelfde coach. Later instappen kan, je betaalt alleen de lessen die nog komen.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #vitaliteit #almere #padelnederland #poortpadel</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-w1_winterreeks_start" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="j1_jeugd_voorjaar" data-kind="new" data-pijler="jeugd">
@@ -281,7 +455,7 @@ Geen racket? Die lenen we uit. Kan je kind een keer niet, dan mag een vriendje o
 Aanmelden via de link in bio.
 
 #jeugdpadel #padelkids #padelalmere #poortpadel #almere</textarea>
-<label class="lbl" for="fb-j1_jeugd_voorjaar">Facebook</label><textarea id="fb-j1_jeugd_voorjaar" class="cap" data-f="fb" rows="7">Voor de jeugd start op 4 januari de voorjaarsreeks bij @poortpadel in Almere.
+<label class="lbl" for="fb-j1_jeugd_voorjaar">Facebook · zelfde dag 18:30</label><textarea id="fb-j1_jeugd_voorjaar" class="cap" data-f="fb" rows="7">Voor de jeugd start op 4 januari de voorjaarsreeks bij @poortpadel in Almere.
 
 7 lessen t/m 20 februari, elke week op dezelfde dag en tijd, in een vaste groep met een vaste trainer. Vanaf 6 jaar, ingedeeld op leeftijd en niveau.
 
@@ -290,6 +464,14 @@ Geen racket? Die lenen we uit. Kan je kind een keer niet, dan mag een vriendje o
 Aanmelden: https://allcourtacademy.com/pages/lessen.html
 
 #jeugdpadel #padelkids #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-j1_jeugd_voorjaar" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-j1_jeugd_voorjaar">LinkedIn · zelfde dag 11:00</label><textarea id="li-j1_jeugd_voorjaar" class="cap li" data-f="li" rows="8">Op 4 januari start de voorjaarsreeks voor de jeugd bij Poort Padel in Almere. Zeven lessen tot en met 20 februari, elke week dezelfde dag, dezelfde groep, dezelfde trainer.
+
+Vanaf 6 jaar, ingedeeld op leeftijd en niveau. Rackets lenen we uit, later instromen kan altijd.
+
+Aanmelden: https://allcourtacademy.com/pages/lessen.html
+
+#padel #jeugdsport #almere #padelnederland #poortpadel</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-j1_jeugd_voorjaar" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="k4_kidskamp_nog10dagen" data-kind="new" data-pijler="kids kamp">
@@ -305,7 +487,7 @@ Aanmelden: https://allcourtacademy.com/pages/lessen.html
 Aanmelden via de link in bio 🎁
 
 #kidskamp #kerstvakantie #padelalmere #poortpadel #jeugdpadel</textarea>
-<label class="lbl" for="fb-k4_kidskamp_nog10dagen">Facebook</label><textarea id="fb-k4_kidskamp_nog10dagen" class="cap" data-f="fb" rows="7">Over 10 dagen begint het Padel Kids Kamp. Nog niet aangemeld? Dat kan nog.
+<label class="lbl" for="fb-k4_kidskamp_nog10dagen">Facebook · zelfde dag 18:30</label><textarea id="fb-k4_kidskamp_nog10dagen" class="cap" data-f="fb" rows="7">Over 10 dagen begint het Padel Kids Kamp. Nog niet aangemeld? Dat kan nog.
 
 21 t/m 23 december, 10:00 tot 12:30 bij @poortpadel in Almere. Drie ochtenden training, spelletjes en een pauze met eten en drinken, voor kinderen van 6 t/m 14 jaar.
 
@@ -314,6 +496,14 @@ Aanmelden via de link in bio 🎁
 Aanmelden: https://allcourtacademy.com/pages/kids-camp.html 🎁
 
 #kidskamp #kerstvakantie #padelalmere #poortpadel #jeugdpadel</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-k4_kidskamp_nog10dagen" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-k4_kidskamp_nog10dagen">LinkedIn · zelfde dag 11:00</label><textarea id="li-k4_kidskamp_nog10dagen" class="cap li" data-f="li" rows="8">Over tien dagen begint het Padel Kids Kamp bij Poort Padel in Almere: 21 tot en met 23 december, 10:00 tot 12:30, voor kinderen van 6 tot en met 14 jaar.
+
+195 euro all-in, 10 procent familiekorting vanaf het tweede kind. Een cadeau dat onder de boom past en drie ochtenden duurt.
+
+Aanmelden: https://allcourtacademy.com/pages/kids-camp.html
+
+#padel #jeugdsport #almere #kidskamp #padelnederland</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-k4_kidskamp_nog10dagen" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="w2_winterreeks_instromen" data-kind="new" data-pijler="winterreeks">
@@ -329,7 +519,7 @@ Zo hou je je ritme vast in de kerstvakantie en sta je in januari scherp aan de s
 Inschrijven via de link in bio.
 
 #padelles #padeltraining #padelalmere #poortpadel #almere</textarea>
-<label class="lbl" for="fb-w2_winterreeks_instromen">Facebook</label><textarea id="fb-w2_winterreeks_instromen" class="cap" data-f="fb" rows="7">De winterreeks is gestart, maar instromen kan nog.
+<label class="lbl" for="fb-w2_winterreeks_instromen">Facebook · zelfde dag 18:30</label><textarea id="fb-w2_winterreeks_instromen" class="cap" data-f="fb" rows="7">De winterreeks is gestart, maar instromen kan nog.
 
 Je betaalt alleen de lessen die nog komen. Je komt in een groep van 4 op jouw niveau, elke week op een vaste dag en tijd met dezelfde coach, bij @poortpadel in Almere. De reeks loopt t/m 2 januari.
 
@@ -338,6 +528,14 @@ Zo hou je je ritme vast in de kerstvakantie en sta je in januari scherp aan de s
 Inschrijven: https://allcourtacademy.com/pages/lessen.html
 
 #padelles #padeltraining #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-w2_winterreeks_instromen" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-redelijk">past redelijk</span></div><label class="lbl" for="li-w2_winterreeks_instromen">LinkedIn · zelfde dag 11:00</label><textarea id="li-w2_winterreeks_instromen" class="cap li" data-f="li" rows="8">De winterreeks is gestart, en instromen kan nog steeds. Je betaalt alleen de lessen die nog komen.
+
+Zo werkt het bij ons altijd: een groep van vier op jouw niveau, een vaste dag en tijd, dezelfde coach elke week. Bij Poort Padel in Almere, tot en met 2 januari. Wie nu instapt staat in januari scherp aan de start van de voorjaarsreeks.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #vitaliteit #almere #padelnederland #poortpadel</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-w2_winterreeks_instromen" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="k5_kidskamp_maandag" data-kind="new" data-pijler="kids kamp">
@@ -351,13 +549,21 @@ Klaar voor drie ochtenden padel met onze coaches, spelletjes en een pauze met et
 Nog niet aangemeld? Dit is het moment, via de link in bio.
 
 #kidskamp #kerstvakantie #padelalmere #poortpadel #padelkids</textarea>
-<label class="lbl" for="fb-k5_kidskamp_maandag">Facebook</label><textarea id="fb-k5_kidskamp_maandag" class="cap" data-f="fb" rows="7">Maandag beginnen we. Padel Kids Kamp bij @poortpadel, 21 t/m 23 december, elke ochtend van 10:00 tot 12:30.
+<label class="lbl" for="fb-k5_kidskamp_maandag">Facebook · zelfde dag 18:30</label><textarea id="fb-k5_kidskamp_maandag" class="cap" data-f="fb" rows="7">Maandag beginnen we. Padel Kids Kamp bij @poortpadel, 21 t/m 23 december, elke ochtend van 10:00 tot 12:30.
 
 Klaar voor drie ochtenden padel met onze coaches, spelletjes en een pauze met eten en drinken? Rackets en ballen liggen klaar, sportkleren en binnenschoenen zijn genoeg.
 
 Nog niet aangemeld? Dit is het moment: https://allcourtacademy.com/pages/kids-camp.html
 
 #kidskamp #kerstvakantie #padelalmere #poortpadel #padelkids</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-k5_kidskamp_maandag" ><span>Ook naar LinkedIn</span></label><span class="fit fit-zwak">past zwak, alleen als je het bewust wilt</span></div><label class="lbl" for="li-k5_kidskamp_maandag">LinkedIn · zelfde dag 11:00</label><textarea id="li-k5_kidskamp_maandag" class="cap li" data-f="li" rows="8">Maandag beginnen we. Padel Kids Kamp bij Poort Padel in Almere, 21 tot en met 23 december, elke ochtend van 10:00 tot 12:30.
+
+Drie ochtenden training met onze coaches, spelletjes en een pauze met eten en drinken. Rackets en ballen liggen klaar.
+
+Laatste kans om aan te melden: https://allcourtacademy.com/pages/kids-camp.html
+
+#padel #jeugdsport #almere #kidskamp #padelnederland</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-k5_kidskamp_maandag" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="a1_feestdagen" data-kind="new" data-pijler="all court academy">
@@ -371,13 +577,23 @@ Deze week het Padel Kids Kamp, de winterreeks loopt t/m 2 januari en op 4 januar
 Zin om in 2027 vaker op de baan te staan? Ons hele aanbod staat via de link in bio 🎾
 
 #padel #padelalmere #poortpadel #almere #padelles</textarea>
-<label class="lbl" for="fb-a1_feestdagen">Facebook</label><textarea id="fb-a1_feestdagen" class="cap" data-f="fb" rows="7">Fijne feestdagen! Bij All Court Academy spelen we gewoon door.
+<label class="lbl" for="fb-a1_feestdagen">Facebook · zelfde dag 18:30</label><textarea id="fb-a1_feestdagen" class="cap" data-f="fb" rows="7">Fijne feestdagen! Bij All Court Academy spelen we gewoon door.
 
 Deze week het Padel Kids Kamp, de winterreeks loopt t/m 2 januari en op 4 januari start de voorjaarsreeks voor volwassenen en jeugd. Allemaal bij @poortpadel in Almere.
 
 Zin om in 2027 vaker op de baan te staan? Ons hele aanbod: https://allcourtacademy.com/pages/lessen.html 🎾
 
 #padel #padelalmere #poortpadel #almere #padelles</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-a1_feestdagen" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-a1_feestdagen">LinkedIn · zelfde dag 11:00</label><textarea id="li-a1_feestdagen" class="cap li" data-f="li" rows="8">Fijne feestdagen vanuit All Court Academy. Wij spelen door.
+
+Deze week het Padel Kids Kamp, de winterreeks loopt tot en met 2 januari en op 4 januari start de voorjaarsreeks voor volwassenen en jeugd. Allemaal bij Poort Padel in Almere.
+
+Dank aan iedereen die dit jaar bij ons op de baan stond, van de eerste losse les tot de competitieteams. In 2027 gaan we door met waar we goed in zijn: kleine groepen, vaste coaches en lessen waar je echt beter van wordt.
+
+Ons aanbod: https://allcourtacademy.com/pages/lessen.html
+
+#padel #almere #ondernemerschap #padelnederland #poortpadel</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-a1_feestdagen" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article><article class="card" data-id="v1_voorjaarsreeks" data-kind="new" data-pijler="voorjaarsreeks">
@@ -393,7 +609,7 @@ Liever samen met je maatje? Schrijf je samen in, dan kom je in dezelfde groep.
 Inschrijven via de link in bio.
 
 #padelles #voorjaarsreeks #padelalmere #poortpadel #almere</textarea>
-<label class="lbl" for="fb-v1_voorjaarsreeks">Facebook</label><textarea id="fb-v1_voorjaarsreeks" class="cap" data-f="fb" rows="7">Nog vijf dagen en dan start de voorjaarsreeks bij @poortpadel in Almere.
+<label class="lbl" for="fb-v1_voorjaarsreeks">Facebook · zelfde dag 18:30</label><textarea id="fb-v1_voorjaarsreeks" class="cap" data-f="fb" rows="7">Nog vijf dagen en dan start de voorjaarsreeks bij @poortpadel in Almere.
 
 7 lessen van 4 januari t/m 21 februari, elke week op een vaste dag en tijd, in een groep van 4 op jouw niveau met dezelfde coach. Beginner of gevorderd, er is een groep die bij je past.
 
@@ -402,6 +618,14 @@ Liever samen met je maatje? Schrijf je samen in, dan kom je in dezelfde groep.
 Inschrijven: https://allcourtacademy.com/pages/lessen.html
 
 #padelles #voorjaarsreeks #padelalmere #poortpadel #almere</textarea>
+<div class="lirow"><label class="sw"><input type="checkbox" class="liaan" id="li-aan-v1_voorjaarsreeks" checked><span>Ook naar LinkedIn</span></label><span class="fit fit-goed">past goed bij een zakelijk publiek</span></div><label class="lbl" for="li-v1_voorjaarsreeks">LinkedIn · zelfde dag 11:00</label><textarea id="li-v1_voorjaarsreeks" class="cap li" data-f="li" rows="8">Nog vijf dagen en dan start de voorjaarsreeks bij Poort Padel in Almere. Zeven lessen van 4 januari tot en met 21 februari, elke week op een vaste dag en tijd, in een groep van vier op jouw niveau met dezelfde coach.
+
+Veel van onze groepen bestaan uit collega&#x27;s of zakenrelaties die samen inschrijven. Een uur per week dat vaststaat, buiten de agenda om. Schrijf je samen in, dan kom je in dezelfde groep.
+
+Inschrijven: https://allcourtacademy.com/pages/lessen.html
+
+#padel #netwerken #almere #padelnederland #vitaliteit</textarea>
+
 <div class="actions"><button type="button" class="st" data-s="approved">Goed</button><button type="button" class="st" data-s="changes">Aanpassen</button><button type="button" class="st" data-s="rejected">Niet plaatsen</button></div>
 <textarea id="note-v1_voorjaarsreeks" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article></div>
@@ -414,12 +638,14 @@ let filter='all';
 function render(){const c={approved:0,changes:0,rejected:0,open:0};
  for(const el of cards){const id=el.dataset.id;const r=state[id]||{};if(r.status)el.dataset.st=r.status;else delete el.dataset.st;c[r.status||'open']++;
   for(const ta of el.querySelectorAll('.cap')){const f=ta.dataset.f;if(document.activeElement!==ta&&r[f]!==undefined&&r[f]!==ta.value)ta.value=r[f];}
+  const cb=el.querySelector('.liaan');const on=r.li_aan!==undefined?r.li_aan:cb.defaultChecked;if(cb.checked!==on)cb.checked=on;el.classList.toggle('li-off',!on);
   const nt=el.querySelector('.note');if(document.activeElement!==nt&&(r.note||'')!==nt.value)nt.value=r.note||'';
   el.querySelector('.saved').textContent=r.updatedAt?('Opgeslagen '+fmt(r.updatedAt)):'';
-  let show=true;if(filter==='new')show=el.dataset.kind==='new';else if(filter==='kamp')show=el.dataset.pijler==='kids kamp';else if(filter==='open')show=!r.status;el.hidden=!show;}
+  let show=true;if(filter==='new')show=el.dataset.kind==='new';else if(filter==='kamp')show=el.dataset.pijler==='kids kamp';else if(filter==='li')show=(r.li_aan!==undefined?r.li_aan:el.querySelector('.liaan').defaultChecked);else if(filter==='open')show=!r.status;el.hidden=!show;}
  for(const k in c)document.getElementById('c-'+k).textContent=c[k];}
 async function save(id,patch){const rec=Object.assign({},state[id]||{},patch,{updatedAt:Date.now()});state[id]=rec;render();ls(COL+':'+id,rec);if(db){try{await db.doc(COL+'/'+id).set(rec);}catch(e){console.warn('db set',e);}}}
 for(const el of cards){const id=el.dataset.id;const cached=ls(COL+':'+id);if(cached)state[id]=cached;
+ el.querySelector('.liaan').addEventListener('change',ev=>save(id,{li_aan:ev.target.checked}));
  el.querySelectorAll('.st').forEach(b=>b.addEventListener('click',()=>{const cur=(state[id]||{}).status;save(id,{status:cur===b.dataset.s?null:b.dataset.s});}));
  for(const ta of [...el.querySelectorAll('.cap'),el.querySelector('.note')]){const f=ta.classList.contains('note')?'note':ta.dataset.f;let t;
   ta.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(()=>save(id,{[f]:ta.value}),900);});

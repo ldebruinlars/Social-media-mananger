@@ -75,7 +75,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/k1_kidskamp_aankondiging.jpg"
+   ],
+   "mediaAltText": [
+    "Lachend meisje met padelracket op de baan bij Poort Padel in Almere. Tekst: Kids Kamp 21 t/m 23 dec."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-05T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Kerstvakantie, drie ochtenden, één sport. Het Padel Kids Kamp bij Poort Padel in Almere staat weer op de kalender: 21 tot en met 23 december, 10:00 tot 12:30, voor kinderen van 6 tot en met 14 jaar.\n\nOnze coaches trainen in kleine groepen op niveau. Rackets en ballen zijn er, een pauze met eten en drinken ook. 195 euro all-in, 10 procent familiekorting vanaf het tweede kind.\n\nVoor ouders die de vakantie nog moeten plannen: https://allcourtacademy.com/pages/kids-camp.html\n\n#padel #jeugdsport #almere #kidskamp #padelnederland",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "k2_kidskamp_prijs",
@@ -153,7 +184,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/k2_kidskamp_prijs.jpg"
+   ],
+   "mediaAltText": [
+    "Coach geeft kinderen een high five op de padelbaan bij Poort Padel. Tekst: Drie ochtenden vol padel."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-19T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Wat kost drie ochtenden padel voor je kind in de kerstvakantie? 195 euro all-in, en 10 procent korting vanaf het tweede kind uit hetzelfde gezin.\n\nDaar zit alles in: training van onze coaches, spelletjes, een pauze met eten en drinken, rackets en ballen. 21 tot en met 23 december bij Poort Padel in Almere, 10:00 tot 12:30.\n\nAanmelden: https://allcourtacademy.com/pages/kids-camp.html\n\n#padel #jeugdsport #almere #kidskamp #padelnederland",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "k3_kidskamp_programma",
@@ -231,7 +293,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/k3_kidskamp_programma.jpg"
+   ],
+   "mediaAltText": [
+    "Coach van All Court Academy helpt een meisje met haar slag bij Poort Padel. Tekst: Elke ochtend een nieuwe slag."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-01T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Een kids kamp is geen drie ochtenden ballen rapen. Elke ochtend van het Padel Kids Kamp staat een nieuwe slag centraal: eerst de basis, dan de volley, op de laatste dag smashen en een toernooitje.\n\nOnze coaches staan de hele ochtend op de baan, in groepjes op leeftijd en niveau. 21 tot en met 23 december bij Poort Padel in Almere.\n\nProgramma en aanmelden: https://allcourtacademy.com/pages/kids-camp.html\n\n#padel #jeugdsport #almere #kidskamp #padelcoach",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "w1_winterreeks_start",
@@ -309,7 +402,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/w1_winterreeks_start.jpg"
+   ],
+   "mediaAltText": [
+    "Padelspeler slaat lachend een bal bij Poort Padel in Almere. Tekst: Doorspelen in de kerstvakantie."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-04T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "De drukste weken van het jaar zijn precies de weken waarin trainen het meeste oplevert: je hoofd leeg, je lijf in beweging.\n\nDaarom starten we op 14 december met de winterreeks bij Poort Padel in Almere. Drie lessen tot en met 2 januari, elke week op een vaste dag en tijd, in een groep van vier op jouw niveau met dezelfde coach. Later instappen kan, je betaalt alleen de lessen die nog komen.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #vitaliteit #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
  },
  {
   "id": "j1_jeugd_voorjaar",
@@ -387,7 +511,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/j1_jeugd_voorjaar.jpg"
+   ],
+   "mediaAltText": [
+    "Lachend meisje in zwart shirt met padelracket bij Poort Padel. Tekst: Jeugdreeks start 4 januari."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-08T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Op 4 januari start de voorjaarsreeks voor de jeugd bij Poort Padel in Almere. Zeven lessen tot en met 20 februari, elke week dezelfde dag, dezelfde groep, dezelfde trainer.\n\nVanaf 6 jaar, ingedeeld op leeftijd en niveau. Rackets lenen we uit, later instromen kan altijd.\n\nAanmelden: https://allcourtacademy.com/pages/lessen.html\n\n#padel #jeugdsport #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "k4_kidskamp_nog10dagen",
@@ -465,7 +620,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/k4_kidskamp_nog10dagen.jpg"
+   ],
+   "mediaAltText": [
+    "Meisje gooit lachend een padelbal op bij Poort Padel in Almere. Tekst: Meld je kind nog aan."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-11T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Over tien dagen begint het Padel Kids Kamp bij Poort Padel in Almere: 21 tot en met 23 december, 10:00 tot 12:30, voor kinderen van 6 tot en met 14 jaar.\n\n195 euro all-in, 10 procent familiekorting vanaf het tweede kind. Een cadeau dat onder de boom past en drie ochtenden duurt.\n\nAanmelden: https://allcourtacademy.com/pages/kids-camp.html\n\n#padel #jeugdsport #almere #kidskamp #padelnederland",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "w2_winterreeks_instromen",
@@ -543,7 +729,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/w2_winterreeks_instromen.jpg"
+   ],
+   "mediaAltText": [
+    "Trainer van All Court Academy geeft een leerling een high five met het racket. Tekst: Instromen kan nog."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-15T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "De winterreeks is gestart, en instromen kan nog steeds. Je betaalt alleen de lessen die nog komen.\n\nZo werkt het bij ons altijd: een groep van vier op jouw niveau, een vaste dag en tijd, dezelfde coach elke week. Bij Poort Padel in Almere, tot en met 2 januari. Wie nu instapt staat in januari scherp aan de start van de voorjaarsreeks.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #vitaliteit #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
  },
  {
   "id": "k5_kidskamp_maandag",
@@ -621,7 +838,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/k5_kidskamp_maandag.jpg"
+   ],
+   "mediaAltText": [
+    "Twee kinderen spelen met een cone en bal op de padelbaan bij Poort Padel. Tekst: Klaar voor maandag?"
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-18T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Maandag beginnen we. Padel Kids Kamp bij Poort Padel in Almere, 21 tot en met 23 december, elke ochtend van 10:00 tot 12:30.\n\nDrie ochtenden training met onze coaches, spelletjes en een pauze met eten en drinken. Rackets en ballen liggen klaar.\n\nLaatste kans om aan te melden: https://allcourtacademy.com/pages/kids-camp.html\n\n#padel #jeugdsport #almere #kidskamp #padelnederland",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
  },
  {
   "id": "a1_feestdagen",
@@ -699,7 +947,38 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/a1_feestdagen.jpg"
+   ],
+   "mediaAltText": [
+    "Twee coaches van All Court Academy lachen samen op de baan bij Poort Padel. Tekst: Wij spelen door."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-22T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Fijne feestdagen vanuit All Court Academy. Wij spelen door.\n\nDeze week het Padel Kids Kamp, de winterreeks loopt tot en met 2 januari en op 4 januari start de voorjaarsreeks voor volwassenen en jeugd. Allemaal bij Poort Padel in Almere.\n\nDank aan iedereen die dit jaar bij ons op de baan stond, van de eerste losse les tot de competitieteams. In 2027 gaan we door met waar we goed in zijn: kleine groepen, vaste coaches en lessen waar je echt beter van wordt.\n\nOns aanbod: https://allcourtacademy.com/pages/lessen.html\n\n#padel #almere #ondernemerschap #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
  },
  {
   "id": "v1_voorjaarsreeks",
@@ -777,6 +1056,549 @@
    "facebookData": {
     "type": "POST"
    }
-  }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<PUBLIC_URL>/v1_voorjaarsreeks.jpg"
+   ],
+   "mediaAltText": [
+    "Speelster in rood slaat een volley bij Poort Padel in Almere. Tekst: 7 lessen, 4 jan t/m 21 feb."
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-12-29T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Nog vijf dagen en dan start de voorjaarsreeks bij Poort Padel in Almere. Zeven lessen van 4 januari tot en met 21 februari, elke week op een vaste dag en tijd, in een groep van vier op jouw niveau met dezelfde coach.\n\nVeel van onze groepen bestaan uit collega's of zakenrelaties die samen inschrijven. Een uur per week dat vaststaat, buiten de agenda om. Schrijf je samen in, dan kom je in dezelfde groep.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #netwerken #almere #padelnederland #vitaliteit",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
+ },
+ {
+  "id": "mc_01-competitie",
+  "metricool_ig_id": 408257839,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257839>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-03T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Competitie gestart? Dan telt vanaf nu elke bal.\n\nIn een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het net. Met je competitieteam of alleen, 1 tot 4 spelers.\n\nPadeltraining in Almere bij @poortpadel, baanhuur zit erbij.\n\nReageer TEAM en we sturen je de vrije tijden.\n\nMeer info: https://allcourtacademy.com/pages/lessen.html\n\n#padelcompetitie #knltb #padelalmere #padeltraining #poortpadel",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257839>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-03T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "De KNLTB-competitie is gestart. Vanaf nu telt elke bal.\n\nIn een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het net. Met je competitieteam of alleen, een tot vier spelers, bij Poort Padel in Almere. Baanhuur zit erbij.\n\nVrije tijden en boeken: https://allcourtacademy.com/pages/lessen.html\n\n#padel #padelcompetitie #almere #knltb #padelnederland",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
+ },
+ {
+  "id": "mc_02-instromen",
+  "metricool_ig_id": 408257852,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257852>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-06T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Nog niet begonnen aan de najaarsreeks? Geen probleem, je kan nog instromen.\n\nJe betaalt alleen de lessen die nog komen. Padelles in Almere in een vaste groep van max 4, met elke week dezelfde coach, zodat je niet steeds opnieuw hoeft uit te leggen waar je mee worstelt.\n\nKan je een keer niet? Stuur een vervanger. Lessen bij @poortpadel tot en met 12 december.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padelles #padelalmere #padelbeginners #poortpadel #almere",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257852>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-06T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Nog niet begonnen aan de najaarsreeks? Instromen kan nog, je betaalt alleen de lessen die nog komen.\n\nPadelles in Almere in een vaste groep van maximaal vier, elke week dezelfde coach, zodat je niet steeds opnieuw hoeft uit te leggen waar je mee worstelt. Kan je een keer niet, dan stuur je een vervanger. Lessen bij Poort Padel tot en met 12 december.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #padelles #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
+ },
+ {
+  "id": "mc_03-kerstborrel",
+  "metricool_ig_id": 408257872,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257872>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-10T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Dit moment wil je op je kerstborrel. Ook bij de collega die nooit sport.\n\nErvaring is niet nodig. De coach legt het uit, maakt de teams en zorgt dat iedereen meedoet, ook wie nog nooit een racket heeft vastgehad. Bij @poortpadel in Almere regelen wij banen, coaches, rackets en catering.\n\nEen bedrijfsuitje voor 8 tot 100+ personen. Plan op tijd.\n\nTag de collega die dit moet regelen 👇\n\nMeer info: https://allcourtacademy.com/pages/business.html\n\n#bedrijfsuitje #kerstborrel #teamuitje #padelalmere #poortpadel",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257872>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-10T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "De kerstborrel die iedereen onthoudt is niet de borrel met de beste wijn, maar die waarbij de collega die nooit sport ineens een punt wint.\n\nEen padelclinic als bedrijfsuitje bij Poort Padel in Almere: de coach legt het uit, maakt de teams en zorgt dat iedereen meedoet. Banen, coaches, rackets en catering regelen wij. Voor 8 tot 100+ personen.\n\nDecember loopt snel vol, plan op tijd: https://allcourtacademy.com/pages/business.html\n\n#teamuitje #bedrijfsuitje #padel #almere #netwerken",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
+ },
+ {
+  "id": "mc_04-jeugd",
+  "metricool_ig_id": 408257891,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257891>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-13T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Eerst de grip, dan de bal. Zo beginnen onze jeugdlessen.\n\nPadel voor kinderen vanaf 6 jaar, in groepjes op hun eigen niveau. Een reeks van 8 lessen of een losse les bij @poortpadel in Almere.\n\nGeen racket? Die lenen we gratis uit. Kan je kind een keer niet, dan mag een vriendje of vriendinnetje de plek overnemen.\n\nOuders, sla deze post op voor als je kind ernaar vraagt.\n\nMeer info: https://allcourtacademy.com/pages/lessen.html\n\n#jeugdpadel #padelkids #padelalmere #poortpadel #almere",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257891>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-13T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Eerst de grip, dan de bal. Zo beginnen onze jeugdlessen bij Poort Padel in Almere.\n\nPadel voor kinderen vanaf 6 jaar, in groepjes op hun eigen niveau. Een reeks van acht lessen of een losse les. Rackets lenen we uit, een vriendje of vriendinnetje mag invallen als je kind een keer niet kan.\n\nMeer over de jeugdlessen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #jeugdsport #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
+ },
+ {
+  "id": "mc_05-coaches",
+  "metricool_ig_id": 408257907,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257907>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-17T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Jouw coach, jouw tijd, jouw tempo.\n\nBij een losse training kies je zelf je coach: Pablo, Randy, Joep, Raúl of Lars. Je plant op de dag en tijd die jou uitkomt, alleen of met 1 tot 3 vrienden.\n\nPadeltraining in Almere bij @poortpadel, baanhuur zit erbij.\n\nWelke slag wil jij als eerste beter maken? Zeg het hieronder 👇\n\nMeer info: https://allcourtacademy.com/pages/lessen.html\n\n#padelcoach #padeltraining #padelalmere #poortpadel #almere",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257907>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-17T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Jouw coach, jouw tijd, jouw tempo.\n\nBij een losse training kies je zelf je coach: Pablo, Randy, Joep, Raúl of Lars. Je plant op de dag en tijd die jou uitkomt, alleen of met een tot drie anderen. Handig voor wie een volle agenda heeft en toch wekelijks wil trainen. Bij Poort Padel in Almere, baanhuur zit erbij.\n\nCoach kiezen: https://allcourtacademy.com/pages/lessen.html\n\n#padel #padelcoach #almere #padelnederland #vitaliteit",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
+ },
+ {
+  "id": "mc_06-kerstreeks",
+  "metricool_ig_id": 408257933,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257933>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-20T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Kerstvakantie is geen reden om je smash te laten roesten.\n\nDe kerstreeks is 3 padellessen tussen 14 december en 2 januari, bij @poortpadel in Almere. Zo begin je januari niet op nul.\n\nWie gaat er mee? Tag je padelmaatje 👇\n\nMeer info: https://allcourtacademy.com/pages/lessen.html\n\n#padelles #kerstvakantie #padelalmere #poortpadel #almere",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257933>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-20T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Kerstvakantie is geen reden om je smash te laten roesten.\n\nDe winterreeks: drie padellessen tussen 14 december en 2 januari bij Poort Padel in Almere, in een vaste groep van vier met dezelfde coach. Zo begin je januari niet op nul.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #vitaliteit #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
+ },
+ {
+  "id": "mc_07-feestje",
+  "metricool_ig_id": 408257956,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257956>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-24T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Armen omhoog. Zo eindigt een middag padel met je vrienden.\n\nVerjaardag, vrijgezellenfeest of een uitje in Almere dat eens geen bowlen is? Kom padellen. Een coach begeleidt jullie en rackets en ballen liggen klaar, dus ook wie nog nooit een racket vasthad doet na een paar minuten gewoon mee.\n\nLachen. Zweten. Revanche willen.\n\nBij @poortpadel.\n\nTag de groep met wie je dit gaat doen 👇\n\nMeer info: https://allcourtacademy.com/pages/events.html\n\n#vrijgezellenfeest #uitjealmere #padelalmere #poortpadel #padel",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257956>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-24T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Een uitje dat eens geen borrel of bowlen is: padel met je team, je vrienden of je familie bij Poort Padel in Almere.\n\nEen coach begeleidt de groep, rackets en ballen liggen klaar, ook wie nog nooit een racket vasthad doet na een paar minuten mee.\n\nPlannen: https://allcourtacademy.com/pages/events.html\n\n#padel #teamuitje #almere #padelnederland #poortpadel",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": false
+ },
+ {
+  "id": "mc_08-voorjaarsreeks",
+  "metricool_ig_id": 408257973,
+  "fb": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257973>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-27T18:30:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Goed voornemen voor 2027? Begin met een vaste plek op de baan.\n\nDe voorjaarsreeks start 4 januari: 7 padellessen tot en met 20 februari. In een vaste groep van max 4 op jouw niveau, met elke week dezelfde coach, bij @poortpadel in Almere.\n\nSchrijf je nu in, dan zit je straks in de groep die bij je past: https://allcourtacademy.com/pages/lessen.html\n\n#padelles #goedvoornemen #padelalmere #poortpadel #almere",
+   "providers": [
+    {
+     "network": "facebook"
+    }
+   ],
+   "facebookData": {
+    "type": "POST"
+   }
+  },
+  "li": {
+   "autoPublish": true,
+   "draft": true,
+   "firstCommentText": "",
+   "hasNotReadNotes": false,
+   "media": [
+    "<METRICOOL_MEDIA_URL_VAN_IG_CONCEPT 408257973>"
+   ],
+   "mediaAltText": [
+    ""
+   ],
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "publicationDate": {
+    "dateTime": "2026-11-27T11:00:00",
+    "timezone": "Europe/Amsterdam"
+   },
+   "text": "Goed voornemen voor 2027? Begin met een vaste plek op de baan.\n\nDe voorjaarsreeks start 4 januari: zeven padellessen tot en met 20 februari, in een vaste groep van maximaal vier op jouw niveau, met elke week dezelfde coach, bij Poort Padel in Almere. Een uur per week dat vaststaat, buiten de agenda om.\n\nInschrijven: https://allcourtacademy.com/pages/lessen.html\n\n#padel #netwerken #almere #padelnederland #vitaliteit",
+   "providers": [
+    {
+     "network": "linkedin"
+    }
+   ],
+   "linkedinData": {
+    "previewIncluded": false,
+    "type": "POST"
+   }
+  },
+  "li_aan": true
  }
 ]

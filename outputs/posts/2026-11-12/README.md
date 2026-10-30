@@ -25,6 +25,12 @@ Kids Kamp komt zo 5 keer voorbij vanaf 5 november (eerst stond hij er nul keer i
 
 Beeld: zelfde stijl als de oktober- en novemberposts (ACA logo links, Poort Padel rechts, lime label, kop, subregel, knop met "Link in bio"). Foto's uit Drive: `Poort Padel/Kids kamp` (frames), `Openingsdag` en `eerste shoot`. Gemaakt met `scripts/gen_posts.py` + `scripts/posts.json` (headless Chromium), captions in `scripts/captions.json` en `captions.md`.
 
+## Drie kanalen, zoals in oktober
+
+Per post staan drie teksten klaar: Instagram (link in bio), Facebook (link in de tekst, zelfde dag 18:30) en LinkedIn (zakelijker register, zelfde dag 11:00). LinkedIn heeft een schakelaar per post, standaard aan bij competitie, kerstborrel, coaches, winterreeks, feestdagen en voorjaarsreeks (8 van de 18), uit bij Kids Kamp, jeugd, feestje en instromen. Fit-label per post: goed, redelijk of zwak. Teksten in `scripts/captions.json` (nieuw), `scripts/existing.json` (de 8 van 27 oktober, nu ook met Facebook en LinkedIn) en `scripts/linkedin.json`.
+
+Voor de 8 bestaande Metricool-concepten kunnen Facebook en LinkedIn het beeld van het Instagram-concept hergebruiken (staat al op static.metricool.com), daar is geen nieuwe hosting voor nodig.
+
 ## Goedkeuren
 
 Postcheck: https://claude.ai/artifact/XoUw6TDaZ8JAxpw2hWVkQr. Alle 18 posts op datum, teksten direct aanpasbaar, keuzes in artifact-collectie `postcheck_nov_v1` (per post `status`, `ig`, `fb`, `note`).
