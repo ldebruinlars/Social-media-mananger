@@ -52,7 +52,9 @@ De beelden staan niet in de repo (foto's met kinderen horen niet in een publieke
 
 Afgesproken route (30 oktober): de beelden gaan naar Lars zijn Drive, in de nieuwe map `All Court Acadamy/Social media content` (map-id `1RdWCs5ughvWNVEA8VVflR_m-ofO7j0ht`). Vanuit deze cloud-omgeving lukt dat niet automatisch: de Drive-koppeling kan alleen base64 ontvangen (veel te zwaar voor 29 jpg's), de Make-webhook (`hook.eu1.make.com`) wordt door het netwerkbeleid van de omgeving geblokkeerd, en publieke tussenopslag mag niet voor foto's met kinderen. Daarom kreeg Lars via de chat `ACA_social_content_29.zip`: vier maandmappen (`2026-11 november` t/m `2027-02 februari`) met per bestand de postdatum en het post-id in de naam. Lars heeft de 29 jpg's op 30 oktober in `Social media content` gezet (plat, zonder maandmappen). De Drive-id per post staat in `scripts/drive_ids.json`.
 
-Test met de bedrijvenpost (s37): Metricool geeft `Failed to normalize media` op zowel de Drive-weblink als de downloadlink, omdat Google Drive niet aan Metricool gekoppeld is en de bestanden niet openbaar zijn. Lars koppelt Google Drive in Metricool of zet de map op "iedereen met de link". Daarna per post `<PUBLIC_URL>` vervangen door de Drive-link en de concepten aanmaken (IG met collab en fototag, FB, LI waar `li_aan` true is). 29 posts, s34 (King of the court) niet.
+Metricool haalt een Drive-link alleen op als het bestand openbaar bereikbaar is (de Drive-koppeling in Metricool helpt niet voor links via de API, getest op 30 oktober). Lars zette de map op "iedereen met de link", daarna zijn alle concepten aangemaakt met de downloadlink per bestand. Metricool kopieert het beeld meteen naar static.metricool.com, dus de map kan daarna weer op Beperkt.
+
+Aangemaakt op 30 oktober, allemaal als concept (draft): 29 Instagram (collab en fototag @poortpadel, alt-tekst), 29 Facebook en 11 LinkedIn, samen 69 concepten. De Metricool-id's per post staan in `scripts/metricool_ids.json`. s34 (King of the court) is niet aangemaakt.
 
 ## Akkoord van Lars (30 oktober, 's avonds)
 
@@ -60,4 +62,4 @@ Test met de bedrijvenpost (s37): Metricool geeft `Failed to normalize media` op 
 
 In Metricool staan nu als concept (draft): de 7 oorspronkelijke Instagram-posts op hun nieuwe dag, plus Facebook voor alle 7 en LinkedIn voor de 5 met de schakelaar aan (competitie, kerstborrel, coaches, feestje, voorjaarsreeks). Beeld hergebruikt van het Instagram-concept.
 
-Nog niet in Metricool: de 29 goedgekeurde nieuwe posts. Die wachten tot de beelden in de Drive-map `Social media content` staan (zip naar Lars, zie hierboven). Payloads staan klaar in `scripts/metricool_payloads.json`.
+Sinds 30 oktober staan ook de 29 nieuwe posts in Metricool als concept: 29 IG, 29 FB en 11 LI (id's in `scripts/metricool_ids.json`). Alles bij elkaar: 36 Instagram-, 36 Facebook- en 16 LinkedIn-concepten van 4 november t/m 19 februari.
