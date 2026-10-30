@@ -148,3 +148,5 @@ Frequentie doel: 3 Reels per week, 1 carrousel, dagelijks 1 tot 3 stories. Faceb
 3. Welke coaches mogen in beeld en hebben ze eigen handles (Pablo, Raúl, Randy, Joep, Rutger).
 4. Je 3 beste en 3 slechtste posts tot nu toe (screenshots of Meta export).
 5. Mag de kids kamp prijs op social (staat al publiek op de site).
+
+**Geen reactie-beloftes in captions** (Lars, 30 oktober 2026): geen zinnen als "reageer X en we sturen je Y". Wel mag: een vraag stellen, "tag je maatje", "sla deze post op". De actie loopt altijd via de link in bio of de link in de tekst.

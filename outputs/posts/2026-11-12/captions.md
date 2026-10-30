@@ -95,7 +95,7 @@ In een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het n
 
 Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
 
-Reageer TEAM en we sturen je de vrije tijden.
+Boek wedstrijdtraining via de link in bio.
 
 #padelcompetitie #knltb #padelalmere #padeltraining #poortpadel
 
@@ -107,7 +107,7 @@ In een wedstrijdtraining werken we aan positie, tactiek en druk zetten aan het n
 
 Padeltraining in Almere bij @poortpadel, baanhuur zit erbij.
 
-Reageer TEAM en we sturen je de vrije tijden.
+Boek wedstrijdtraining via de link in bio.
 
 Meer info: https://allcourtacademy.com/pages/lessen.html
 
