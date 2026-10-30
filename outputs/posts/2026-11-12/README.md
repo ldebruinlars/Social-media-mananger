@@ -52,3 +52,11 @@ De beelden staan niet in de repo (foto's met kinderen horen niet in een publieke
 
 1. Lars zet de 10 jpg's in de Drive-map `Instagram posts november 2026` (zelfde route als 27 oktober), dan maak ik de concepten aan via de Drive-koppeling van Metricool.
 2. Lars geeft akkoord om de beelden tijdelijk te hosten (Higgsfield-upload of de repo), dan gaan ze daarvandaan naar Metricool, dat ze naar zijn eigen opslag kopieert.
+
+## Akkoord van Lars (30 oktober, 's avonds)
+
+35 van de 38 op Goed. Eruit: het instroomconcept van 6 november (uit Metricool verwijderd) en King of the court (22 januari). Aanpassing: Playtomic-post zegt nu "zoek op Poort Padel". Lars zette LinkedIn aan bij de feestjespost. Details in `keuzes-30okt.json`.
+
+In Metricool staan nu als concept (draft): de 7 oorspronkelijke Instagram-posts op hun nieuwe dag, plus Facebook voor alle 7 en LinkedIn voor de 5 met de schakelaar aan (competitie, kerstborrel, coaches, feestje, voorjaarsreeks). Beeld hergebruikt van het Instagram-concept.
+
+Nog niet in Metricool: de 29 goedgekeurde nieuwe posts. Die wachten op een publieke plek voor de beelden (Drive-map van Lars of toestemming voor hosting). Payloads staan klaar in `scripts/metricool_payloads.json`.

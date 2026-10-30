@@ -1248,7 +1248,7 @@ Open les? Doe mee. Via Playtomic schuif je aan bij een les van All Court Academy
 
 Je ziet welke lessen er openstaan bij @poortpadel in Almere, op welk niveau, en je boekt je plek. Zo train je met een coach zonder dat je eerst drie anderen hoeft te regelen.
 
-Open Playtomic en zoek op All Court Academy.
+Open Playtomic en zoek op Poort Padel.
 
 #padel #playtomic #padelalmere #poortpadel #almere
 
@@ -1258,7 +1258,7 @@ Open les? Doe mee. Via Playtomic schuif je aan bij een les van All Court Academy
 
 Je ziet welke lessen er openstaan bij @poortpadel in Almere, op welk niveau, en je boekt je plek. Zo train je met een coach zonder dat je eerst drie anderen hoeft te regelen.
 
-Open Playtomic en zoek op All Court Academy, of kijk op https://allcourtacademy.com/pages/lessen.html
+Open Playtomic en zoek op Poort Padel, of kijk op https://allcourtacademy.com/pages/lessen.html
 
 #padel #playtomic #padelalmere #poortpadel #almere
 
@@ -1266,7 +1266,7 @@ Open Playtomic en zoek op All Court Academy, of kijk op https://allcourtacademy.
 
 Geen vast groepje, wel zin om te trainen? Via Playtomic schuif je aan bij een open les van All Court Academy bij Poort Padel in Almere.
 
-Je ziet welke lessen openstaan en op welk niveau, en boekt je plek. Zo past een les met coach ook in een week waarin niemand anders kan.
+Zoek in Playtomic op Poort Padel, je ziet welke lessen openstaan en op welk niveau, en boekt je plek. Zo past een les met coach ook in een week waarin niemand anders kan.
 
 Meer over de lessen: https://allcourtacademy.com/pages/lessen.html
 

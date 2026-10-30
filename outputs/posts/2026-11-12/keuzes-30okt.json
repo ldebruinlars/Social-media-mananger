@@ -1,0 +1,9 @@
+{"bron":"artifact XoUw6TDaZ8JAxpw2hWVkQr, collectie postcheck_nov_v1, uitgelezen 30 okt 2026 22:30",
+ "approved":35,"rejected":["mc_02-instromen (concept uit Metricool verwijderd)","s34_kotc"],
+ "changes":{"s39_playtomic":"nee zoek op poort padel -> tekst aangepast op alle kanalen"},
+ "li_aan_door_lars":{"mc_07-feestje":true},
+ "metricool":{
+  "verplaatst":{"mc_01":"3 nov -> do 5 nov (id 411676382)","mc_03":"10 nov -> wo 11 nov (id 411671745)","mc_05":"17 nov -> do 19 nov (id 411672009)","mc_07":"24 nov -> do 26 nov (id 411672055)"},
+  "verwijderd":{"mc_02-instromen":408257852},
+  "nieuwe_concepten_fb_li":{"mc_01 fb":411697623,"mc_01 li":411697691,"mc_03 fb":411697759,"mc_03 li":411697833,"mc_04 fb":411697934,"mc_05 fb":411698022,"mc_05 li":411698097,"mc_06 fb":411698155,"mc_07 fb":411698244,"mc_07 li":411698327,"mc_08 fb":411698428,"mc_08 li":411698495},
+  "nog_te_maken":"IG, FB en LI (waar aan) voor de 29 goedgekeurde nieuwe posts, zodra de beelden een publieke URL hebben"}}
