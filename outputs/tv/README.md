@@ -50,4 +50,8 @@ Twee sjablonen in `scripts/gen2.py` met `scripts/edits2.json`: `panel` (donker v
 
 Nieuwe slideshow-volgorde zonder afgekeurde slides: 42 slides, Kids Kamp (11, 48) elke zesde slide, zie `scripts/order.json`. Check-pagina opnieuw bouwen: `python3 build_check.py <scratchpad> && python3 add_order.py <scratchpad>`.
 
-Lars moet de 9 slides van ronde 2 nog goedkeuren. Daarna: zip maken met de 31 gebruikte originelen plus de 9 nieuwe en `slideshow.html`.
+Ronde 2 goedgekeurd door Lars op 8 van de 9; slide 47 kreeg in ronde 3 een andere foto van het meisje (frame_6) en is daarmee klaar.
+
+## Definitieve set (30 oktober, avond)
+
+`ACA_tv_slides_v5_31.zip`: 22 goedgekeurde originelen, 9 nieuwe slides en `slideshow.html` (42 posities, Kids Kamp elke zesde). Bestandsnamen gelijk aan v4. De zip is via de chat aan Lars gegeven en staat niet in de repo (11 MB). Opnieuw maken: originelen uit de v4-zip in `<scratchpad>/tvzip/tv/`, nieuwe uit `2026-11-slides/nieuw/`, afgekeurde nummers staan in `scripts/order.json`.
