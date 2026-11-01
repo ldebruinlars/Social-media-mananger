@@ -32,6 +32,6 @@ Lars koos op de checkpagina 10 beelden voor tv: k1, k3, j1, s01, s07, s29, s35, 
 ## Ronde 3 (1 nov): logo-lockup en tekstgrootte voor tv
 
 Lars wilde het Poort Padel logo erbij, rechtsboven als "All Court Academy × Poort Padel", en vroeg om te kijken wat voor tv het beste werkt. Toegepast:
-- Lockup rechtsboven in het venster: ACA-logo, ×, Poort Padel wit, 74 px hoog, lichte slagschaduw.
+- Lockup rechtsboven in het venster: ACA-logo 80 px hoog, ×, Poort Padel wit 104 px hoog (op verzoek van Lars even groot als het ACA-logo), lichte slagschaduw.
 - Tekstgrootte volgens de vuistregel 1 inch letterhoogte per 10 voet kijkafstand (DigitalSignage.com, Signs.com, WMU). Op een 55 inch scherm vanaf 4 à 5 meter: kop 82 à 92 px (kapitaalhoogte ongeveer 38 mm), subregel van 30 naar 40 px, knop van 28 naar 32 px, kicker van 24 naar 28 px. Maximaal 3 à 4 informatie-eenheden per slide (kicker, kop, één regel, één actie), geen lopende tekst.
 - Richtlijn per slide 10 tot 15 seconden in beeld; vermeld in de README voor Poort Padel.
