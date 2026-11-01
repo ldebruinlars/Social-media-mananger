@@ -22,7 +22,7 @@ def css(W,H,S,G):
 .gb{{position:absolute;left:0;right:0;bottom:0;height:{round(H*G)}px;background:linear-gradient(0deg,rgba(11,19,31,.96) 0%,rgba(11,19,31,.9) 34%,rgba(11,19,31,.5) 66%,rgba(11,19,31,0) 100%)}}
 .lock{{position:absolute;right:{r(56)};top:{r(44)};display:flex;align-items:center;gap:{r(30)}}}
 .lock img{{height:{r(140)};width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
-.lock img.pp{{height:{r(130)};position:relative;top:-{r(18)}}}
+.lock img.pp{{position:relative;top:-{r(18)}}}
 .lock svg.x{{width:{r(36)};height:{r(36)};display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
 .txt{{position:absolute;left:{r(64)};right:{r(64)};bottom:{r(56)}}}
 .kick{{display:flex;align-items:center;gap:{r(14)};color:#C4D44E;font:700 {r(28)}/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:{r(20)};text-shadow:0 1px 2px rgba(0,0,0,.6)}}
