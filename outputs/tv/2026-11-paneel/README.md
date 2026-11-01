@@ -39,3 +39,7 @@ Lars wilde het Poort Padel logo erbij, rechtsboven als "All Court Academy × Poo
 ## Ronde 4 (1 nov): alleen de poster, in drie formaten
 
 Lars: het systeem van Poort Padel heeft zijn eigen klok en logo, de mockups met klok waren alleen ter illustratie. Aan te leveren is de poster zelf. Generator `outputs/posts/2026-11-12/scripts/gen_tv_formats.py` maakt de 10 posters in 1080 x 1350 (4:5, eerste keus), 1080 x 1080 (1:1) en 1920 x 1080 (16:9), zonder teal achtergrond en zonder afgerond venster. Zip `ACA_tv_posters_3_formaten.zip` naar Lars. Vragen voor Poort Padel staan in `aanleveren-poort-padel.md`.
+
+## Logo-correctie (1 nov)
+
+Het Poort Padel logo in de lockup was een onscherpe nagetekende versie (verkeerde P, verkeerde cirkel). Lars stuurde het echte witte logo (bal met P, POORT, PADEL); dat staat nu in `context/logos/poort_padel_wit.png`, naast `context/logos/aca_logo.png`. Alle 10 posters (3 formaten), de mockups en de zips zijn opnieuw gerenderd. De generators verwachten de logo's als `posts/aca_logo.png` en `posts/pp_logo_white.png` in de werkmap.
