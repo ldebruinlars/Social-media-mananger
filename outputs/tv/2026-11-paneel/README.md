@@ -35,3 +35,7 @@ Lars wilde het Poort Padel logo erbij, rechtsboven als "All Court Academy × Poo
 - Lockup rechtsboven in het venster: ACA-logo 80 px hoog, ×, Poort Padel wit 104 px hoog (op verzoek van Lars even groot als het ACA-logo), lichte slagschaduw.
 - Tekstgrootte volgens de vuistregel 1 inch letterhoogte per 10 voet kijkafstand (DigitalSignage.com, Signs.com, WMU). Op een 55 inch scherm vanaf 4 à 5 meter: kop 82 à 92 px (kapitaalhoogte ongeveer 38 mm), subregel van 30 naar 40 px, knop van 28 naar 32 px, kicker van 24 naar 28 px. Maximaal 3 à 4 informatie-eenheden per slide (kicker, kop, één regel, één actie), geen lopende tekst.
 - Richtlijn per slide 10 tot 15 seconden in beeld; vermeld in de README voor Poort Padel.
+
+## Ronde 4 (1 nov): alleen de poster, in drie formaten
+
+Lars: het systeem van Poort Padel heeft zijn eigen klok en logo, de mockups met klok waren alleen ter illustratie. Aan te leveren is de poster zelf. Generator `outputs/posts/2026-11-12/scripts/gen_tv_formats.py` maakt de 10 posters in 1080 x 1350 (4:5, eerste keus), 1080 x 1080 (1:1) en 1920 x 1080 (16:9), zonder teal achtergrond en zonder afgerond venster. Zip `ACA_tv_posters_3_formaten.zip` naar Lars. Vragen voor Poort Padel staan in `aanleveren-poort-padel.md`.
