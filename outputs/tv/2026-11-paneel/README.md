@@ -43,3 +43,7 @@ Lars: het systeem van Poort Padel heeft zijn eigen klok en logo, de mockups met 
 ## Logo-correctie (1 nov)
 
 Het Poort Padel logo in de lockup was een onscherpe nagetekende versie (verkeerde P, verkeerde cirkel). Lars stuurde het echte witte logo (bal met P, POORT, PADEL); dat staat nu in `context/logos/poort_padel_wit.png`, naast `context/logos/aca_logo.png`. Alle 10 posters (3 formaten), de mockups en de zips zijn opnieuw gerenderd. De generators verwachten de logo's als `posts/aca_logo.png` en `posts/pp_logo_white.png` in de werkmap.
+
+## Logo-lockup definitief (1 nov)
+
+Lars stuurde het officiële ACA-logo als SVG (wit met lime beeldmerk): `context/logos/aca_logo_wit_groen.svg`, gerenderd naar `aca_logo_wit_groen.png` (2400 px breed, transparant). Lockup rechtsboven: ACA-logo en Poort Padel logo allebei 110 px hoog (op het 1180 px venster, geschaald per formaat), met een getekend kruis (SVG, 34 px, lijn 5 px, ronde uiteinden) in plaats van een getypte ×. Alles opnieuw gerenderd. De generators verwachten `posts/aca_logo_new.png` en `posts/pp_logo_white.png`.
