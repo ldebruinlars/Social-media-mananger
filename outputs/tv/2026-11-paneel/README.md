@@ -16,3 +16,7 @@ Op 31 oktober stuurde Lars een foto van het scherm bij Poort Padel: links het Po
 - Zip `ACA_tv_panel_1080x1350.zip` (29 jpg's) via de chat naar Lars, om er eerst één op het scherm te testen.
 
 Beelden staan niet in de repo (.gitignore).
+
+## Derde versie (1 nov): hele rechterkant als ontwerp
+
+Lars wilde geen losse foto in een vak maar een ontwerp dat de rechterkant vult en natuurlijker in het scherm zit. Nieuwe generator `outputs/posts/2026-11-12/scripts/gen_tv_wide.py`: volledig 16:9 beeld van 1920 x 1080, achtergrond in de kleur van het scherm (#0091B1), links 660 px leeg voor klok en logo, rechts een afgerond venster van 1180 x 1000 px (x 700, y 40, hoeken 44 px, zachte schaduw) met foto, donkere verloop onderaan, ACA-logo, kicker, kop, subregel, knop en "Vraag aan de bar · allcourtacademy.com". Output `posts/tv_wide`, 29 beelden. Mockup met klok: `scripts/render_wide.py`. Zip `ACA_tv_breed_1920x1080.zip` naar Lars. Dit werkt alleen als het systeem van Poort Padel een volledig beeld onder de klok kan tonen; anders terug naar de 4:5 versie (`posts/tv_out`). De 7 oudere Metricool-beelden hebben geen brede versie.

@@ -6,7 +6,7 @@ cards=[];month=None
 for it in items:
     m=it['date'][5:7]
     if m!=month: month=m; cards.append(f'<h2 class="mh">{MON[m]}</h2>')
-    tag='<span class="tag new">Nieuw beeld, tv-versie</span>' if it['kind']=='new' else '<span class="tag old">Ouder beeld (nog Link in bio en Poort Padel logo)</span>'
+    tag='<span class="tag new">Tv-versie breed</span>' if it['kind']=='new' else '<span class="tag old">Ouder beeld (nog Link in bio en Poort Padel logo)</span>'
     kamp='<span class="tag kamp">Kids Kamp</span>' if it['pijler']=='kids kamp' else ''
     cards.append(f'''<article class="card" data-id="{it['id']}" data-kind="{it['kind']}" data-pijler="{html.escape(it['pijler'])}">
 <header class="ch"><div class="when"><b>{html.escape(it['kop'])}</b><span>post van {html.escape(it['dag'])}</span></div>{tag}{kamp}</header>
@@ -58,8 +58,8 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 </style>
 <div class="top"><div class="wrap">
 <h1>Tv-check Poort Padel</h1>
-<p class="sub">Zo staat elke post groot in het vak rechts op het scherm, zonder onderschrift, met de Poort Padel klok links. Het beeld is staand (4:5) en vult de hoogte van het scherm, zodat de tekst op de poster leesbaar is. Kies per beeld Op tv of Niet op tv. De nieuwe beelden hebben op tv "Vraag aan de bar" in plaats van "Link in bio".</p>
-<ul class="specs"><li>Formaat <b>1080 × 1350 px</b> (4:5, staand)</li><li>Op tv <b>768 × 960 px</b> van 1920 × 1080, gecentreerd rechts</li><li><b>Geen onderschrift</b>, de tekst staat op de poster</li><li>Klok en logo links <b>blijven staan</b></li></ul>
+<p class="sub">Nieuwe opzet: de hele rechterkant is het ontwerp. Een afgerond venster met de foto, de tekst en de knop vult het scherm naast de Poort Padel klok, met de blauwgroene achtergrond van het scherm eromheen. Het bestand is een volledig 16:9 beeld (1920 x 1080) waarbij de linkerkant leeg blijft voor de klok en het logo. Kies per beeld Op tv of Niet op tv. Op tv staat "Vraag aan de bar" in plaats van "Link in bio".</p>
+<ul class="specs"><li>Bestand <b>1920 × 1080 px</b> (16:9, volledig scherm)</li><li>Links <b>660 px vrij</b> in de kleur van het scherm, daar staan klok en logo</li><li>Venster rechts <b>1180 × 1000 px</b>, hoeken afgerond</li><li><b>Geen onderschrift</b>, tekst en knop staan in het venster</li></ul>
 <div class="bar"><button type="button" class="chip on" data-f="all">Alles</button><button type="button" class="chip" data-f="new">Nieuw</button><button type="button" class="chip" data-f="kamp">Kids Kamp</button><button type="button" class="chip" data-f="tv">Gekozen voor tv</button><button type="button" class="chip" data-f="open">Nog niet gekozen</button>
 <div class="counts"><span>Op tv <b id="c-tv">0</b></span><span>Niet <b id="c-no">0</b></span><span>Open <b id="c-open">{len(items)}</b></span></div></div></div></div>
 <div class="wrap" id="list">{''.join(cards)}</div>
