@@ -13,8 +13,10 @@ CSS=f'''html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:
 .ph{{position:absolute;inset:0;background-size:cover;background-position:center}}
 .gt{{position:absolute;left:0;right:0;top:0;height:260px;background:linear-gradient(180deg,rgba(11,19,31,.55),rgba(11,19,31,0))}}
 .gb{{position:absolute;left:0;right:0;bottom:0;height:720px;background:linear-gradient(0deg,rgba(11,19,31,.97) 0%,rgba(11,19,31,.92) 38%,rgba(11,19,31,.55) 68%,rgba(11,19,31,0) 100%)}}
-.aca{{position:absolute;left:60px;top:52px;width:250px}}
-.pp{{position:absolute;right:60px;top:60px;width:150px}}
+.lock{{position:absolute;right:56px;top:48px;display:flex;align-items:center;gap:26px}}
+.lock img{{height:108px;width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
+.lock img.pp{{position:relative;top:-14px}}
+.lock svg.x{{width:30px;height:30px;display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
 .txt{{position:absolute;left:60px;right:60px;bottom:56px}}
 .kick{{display:flex;align-items:center;gap:14px;color:#C4D44E;font:700 25px/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:24px;text-shadow:0 1px 2px rgba(0,0,0,.6)}}
 .kick::before{{content:"";width:44px;height:3px;background:#C4D44E;flex:none}}
@@ -32,7 +34,7 @@ for p in posts:
     lines='<br>'.join(html.escape(l) for l in p['head'])
     page=f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&family=Inter:wght@500;600;700;800&display=swap"><style>{CSS}</style></head><body>
 <div class="p" style="--hs:{hs}px"><div class="ph" style="background-image:url(file://{bg})"></div><div class="gt"></div><div class="gb"></div>
-<img class="aca" src="file://{P}/aca_logo.png">
+<div class="lock"><img src="file://{P}/aca_logo_new.png"><svg class="x" viewBox="0 0 34 34"><path d="M6 6L28 28M28 6L6 28" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><img class="pp" src="file://{P}/pp_logo_white.png"></div>
 <div class="txt"><div class="kick">{html.escape(p['kick'])}</div><h1>{lines}</h1><p class="sub">{html.escape(p['sub'])}</p>
 <div class="cta"><span class="pill">{html.escape(p['cta'])}&nbsp;&nbsp;↗</span><span class="lb">Link in bio · allcourtacademy.com</span></div></div></div></body></html>'''
     hp=f"{P}/{p['id']}.html"; open(hp,'w').write(page); png=f"{P}/{p['id']}.png"
