@@ -20,3 +20,11 @@ Beelden staan niet in de repo (.gitignore).
 ## Derde versie (1 nov): hele rechterkant als ontwerp
 
 Lars wilde geen losse foto in een vak maar een ontwerp dat de rechterkant vult en natuurlijker in het scherm zit. Nieuwe generator `outputs/posts/2026-11-12/scripts/gen_tv_wide.py`: volledig 16:9 beeld van 1920 x 1080, achtergrond in de kleur van het scherm (#0091B1), links 660 px leeg voor klok en logo, rechts een afgerond venster van 1180 x 1000 px (x 700, y 40, hoeken 44 px, zachte schaduw) met foto, donkere verloop onderaan, ACA-logo, kicker, kop, subregel, knop en "Vraag aan de bar · allcourtacademy.com". Output `posts/tv_wide`, 29 beelden. Mockup met klok: `scripts/render_wide.py`. Zip `ACA_tv_breed_1920x1080.zip` naar Lars. Dit werkt alleen als het systeem van Poort Padel een volledig beeld onder de klok kan tonen; anders terug naar de 4:5 versie (`posts/tv_out`). De 7 oudere Metricool-beelden hebben geen brede versie.
+
+## Ronde 2 (1 nov): keuze van Lars en korte teksten
+
+Lars koos op de checkpagina 10 beelden voor tv: k1, k3, j1, s01, s07, s29, s35, s39, v1, w1. Zijn opmerkingen: korte teksten, één regel met actie plus plek ("Meld je kind aan op allcourtacademy.com"), geen "Vraag aan de bar"; Kids Kamp foto's van k1 en k3 omwisselen; jeugdreeks (j1) met de foto van s13 (coach met groepje); toernooien (s07) en Mexicano (s35) betere foto en aanmelden via Playtomic; s35 "Mexicano of King of the Court"; Playtomic-post (s39) alleen via Playtomic, website weglaten; s29 tekst beter ("Lachen én beter worden").
+
+- Teksten en foto's per tv-slide: `outputs/posts/2026-11-12/scripts/tv_posts.json`, generator `gen_tv_final.py` (zelfde venster-opzet, knop met de hele regel, geen label ernaast). Output `posts/tv_final` (10 jpg's, 1920 x 1080).
+- Nieuwe foto's: s07 ACA_PoortPadel_29mei-57 (high five met drie spelers), s35 ACA_PoortPadel_29mei-10 (twee spelers na een punt).
+- Checkpagina ronde 2 op dezelfde url, db-collectie `tvcheck3_v1`. Zip `ACA_tv_definitief_10.zip` naar Lars.
