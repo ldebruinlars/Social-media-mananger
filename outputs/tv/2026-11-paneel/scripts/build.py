@@ -13,8 +13,6 @@ for it in items:
 <div class="body"><a class="media" href="img/{it['id']}.jpg" target="_blank" rel="noopener"><img src="img/{it['id']}.jpg" alt="Tv-mockup: {html.escape(it['kop'])}" loading="lazy"></a>
 <div class="fields">
 <div class="actions"><button type="button" class="st" data-s="tv">Op tv</button><button type="button" class="st" data-s="no">Niet op tv</button></div>
-<label class="lbl" for="c1-{it['id']}">Onderschrift regel 1</label><input id="c1-{it['id']}" class="cap" data-f="cap1" value="{html.escape(it['cap1'])}">
-<label class="lbl" for="c2-{it['id']}">Onderschrift regel 2</label><input id="c2-{it['id']}" class="cap" data-f="cap2" value="{html.escape(it['cap2'])}">
 <textarea id="note-{it['id']}" class="note" rows="2" placeholder="Opmerking (optioneel)"></textarea>
 <div class="meta"><span class="saved"></span></div></div></div></article>''')
 page=f'''<title>ACA Tv-check Poort Padel</title>
@@ -60,8 +58,8 @@ h1{{font:800 clamp(24px,4vw,34px)/1.05 var(--disp);margin:0 0 6px;text-transform
 </style>
 <div class="top"><div class="wrap">
 <h1>Tv-check Poort Padel</h1>
-<p class="sub">Zo staat elke post in het vak rechts op het scherm, met de Poort Padel klok links. Het vak is staand, ongeveer 4:5, dus de postbeelden passen er precies in. Kies per beeld Op tv of Niet op tv en pas het onderschrift aan (twee korte regels, die zet Poort Padel eronder). De nieuwe beelden hebben op tv "Vraag aan de bar" in plaats van "Link in bio".</p>
-<ul class="specs"><li>Formaat <b>1080 × 1350 px</b> (4:5, staand)</li><li>Vak op tv ongeveer <b>590 × 740 px</b> van 1920 × 1080</li><li>Onderschrift <b>2 regels</b>, wit, gecentreerd</li><li>Klok en logo links <b>blijven staan</b></li></ul>
+<p class="sub">Zo staat elke post groot in het vak rechts op het scherm, zonder onderschrift, met de Poort Padel klok links. Het beeld is staand (4:5) en vult de hoogte van het scherm, zodat de tekst op de poster leesbaar is. Kies per beeld Op tv of Niet op tv. De nieuwe beelden hebben op tv "Vraag aan de bar" in plaats van "Link in bio".</p>
+<ul class="specs"><li>Formaat <b>1080 × 1350 px</b> (4:5, staand)</li><li>Op tv <b>768 × 960 px</b> van 1920 × 1080, gecentreerd rechts</li><li><b>Geen onderschrift</b>, de tekst staat op de poster</li><li>Klok en logo links <b>blijven staan</b></li></ul>
 <div class="bar"><button type="button" class="chip on" data-f="all">Alles</button><button type="button" class="chip" data-f="new">Nieuw</button><button type="button" class="chip" data-f="kamp">Kids Kamp</button><button type="button" class="chip" data-f="tv">Gekozen voor tv</button><button type="button" class="chip" data-f="open">Nog niet gekozen</button>
 <div class="counts"><span>Op tv <b id="c-tv">0</b></span><span>Niet <b id="c-no">0</b></span><span>Open <b id="c-open">{len(items)}</b></span></div></div></div></div>
 <div class="wrap" id="list">{''.join(cards)}</div>

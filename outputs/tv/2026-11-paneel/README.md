@@ -6,13 +6,13 @@ Op 31 oktober stuurde Lars een foto van het scherm bij Poort Padel: links het Po
 
 - Scherm 1920 x 1080. Linkerzone met logo en klok tot ongeveer x = 640.
 - Beeldvak rechts ongeveer x 985 tot 1575, y 95 tot 835: 590 x 740 px, verhouding ongeveer 4:5 (staand). Onderschrift daaronder tot ongeveer y = 950, gecentreerd op x = 1280.
-- Aan te leveren: beeld 1080 x 1350 px (4:5) plus twee korte regels onderschrift. Dat is hetzelfde formaat als de feedposts, dus die beelden kunnen een op een mee.
+- Eerste versie: beeld in het bestaande vak plus twee regels onderschrift. Lars (1 nov): liever het beeld groter en geen onderschrift, zodat de tekst op de poster leesbaar is. Mockup nu: beeld 768 x 960 px (4:5) van y 60 tot 1020, gecentreerd op x 1280, zonder onderschrift. Aan te leveren blijft 1080 x 1350 px (4:5), hetzelfde formaat als de feedposts.
 
 ## Wat er is gemaakt
 
 - `scripts/gen_posts_tv.py` (in `outputs/posts/2026-11-12/scripts`): zelfde generator als de posts, maar met "Vraag aan de bar · allcourtacademy.com" in plaats van "Link in bio". Output `posts/tv_out`, 29 beelden (s34 niet).
 - `scripts/render.py`: mockup van het tv-scherm (klok, logo, tijd, beeldvak, onderschrift) voor alle 36 kandidaten: 29 nieuwe tv-versies plus 7 oudere Metricool-beelden (mc_02 is afgekeurd). De 7 oudere hebben nog "Link in bio" en het Poort Padel logo; die kunnen opnieuw gerenderd worden als Lars ze op tv wil.
-- `scripts/build.py` -> `check.html`: keuzepagina, per beeld Op tv / Niet op tv plus onderschrift (2 regels). Gepubliceerd als https://claude.ai/artifact/KBZpBxDpnM1BJh2prNR5vi, keuzes in db-collectie `tvcheck2_v1`.
+- `scripts/build.py` -> `check.html`: keuzepagina, per beeld Op tv / Niet op tv (onderschriftvelden weggehaald op 1 nov). Gepubliceerd als https://claude.ai/artifact/KBZpBxDpnM1BJh2prNR5vi, keuzes in db-collectie `tvcheck2_v1`.
 - Zip `ACA_tv_panel_1080x1350.zip` (29 jpg's) via de chat naar Lars, om er eerst één op het scherm te testen.
 
 Beelden staan niet in de repo (.gitignore).

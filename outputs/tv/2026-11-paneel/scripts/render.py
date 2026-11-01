@@ -18,7 +18,7 @@ TPL='''<!doctype html><html><head><meta charset="utf-8">
 .clock{position:absolute;left:170px;top:310px}
 .time{position:absolute;left:255px;top:810px;font:700 66px/1 Inter,Arial;letter-spacing:.02em}
 .tag{position:absolute;left:165px;top:960px;font:800 26px/1 Inter,Arial;font-style:italic;color:#C8F23D;letter-spacing:.06em}
-.panel{position:absolute;left:985px;top:95px;width:590px;height:738px;background:#000;overflow:hidden}
+.panel{position:absolute;left:896px;top:60px;width:768px;height:960px;background:#000;overflow:hidden}
 .panel img{width:100%;height:100%;object-fit:cover;display:block}
 .cap{position:absolute;left:900px;top:860px;width:760px;text-align:center;font:700 36px/1.3 Inter,Arial}
 </style></head><body>
@@ -31,7 +31,7 @@ TPL='''<!doctype html><html><head><meta charset="utf-8">
 <div class="time">TIME</div>
 <div class="tag">MEET&nbsp;&nbsp;•&nbsp;&nbsp;SMASH&nbsp;&nbsp;•&nbsp;&nbsp;RELAX</div>
 <div class="panel"><img src="file://SRC"></div>
-<div class="cap">CAP1<br>CAP2</div>
+
 </body></html>'''
 import math
 nums=''.join(f'<text x="{round(158*math.sin(math.radians(i*30)))}" y="{round(-158*math.cos(math.radians(i*30)))}">{i}</text>' for i in range(1,13))
