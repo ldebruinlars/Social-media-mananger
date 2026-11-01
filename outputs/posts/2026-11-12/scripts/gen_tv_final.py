@@ -17,9 +17,9 @@ CSS=f'''html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:
 .gt{{position:absolute;left:0;right:0;top:0;height:240px;background:linear-gradient(180deg,rgba(11,19,31,.5),rgba(11,19,31,0))}}
 .gb{{position:absolute;left:0;right:0;bottom:0;height:660px;background:linear-gradient(0deg,rgba(11,19,31,.96) 0%,rgba(11,19,31,.9) 34%,rgba(11,19,31,.5) 66%,rgba(11,19,31,0) 100%)}}
 .lock{{position:absolute;right:56px;top:44px;display:flex;align-items:center;gap:30px}}
-.lock img{{height:140px;width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
-.lock img.pp{{position:relative;top:-18px}}
-.lock svg.x{{width:36px;height:36px;display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
+.lock img{{height:118px;width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
+.lock img.pp{{position:relative;top:-15px}}
+.lock svg.x{{width:32px;height:32px;display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
 .txt{{position:absolute;left:64px;right:64px;bottom:56px}}
 .kick{{display:flex;align-items:center;gap:14px;color:#C4D44E;font:700 28px/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;text-shadow:0 1px 2px rgba(0,0,0,.6)}}
 .kick::before{{content:"";width:44px;height:3px;background:#C4D44E;flex:none}}
