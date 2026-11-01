@@ -21,8 +21,9 @@ def css(W,H,S,G):
 .gt{{position:absolute;left:0;right:0;top:0;height:{round(H*.22)}px;background:linear-gradient(180deg,rgba(11,19,31,.5),rgba(11,19,31,0))}}
 .gb{{position:absolute;left:0;right:0;bottom:0;height:{round(H*G)}px;background:linear-gradient(0deg,rgba(11,19,31,.96) 0%,rgba(11,19,31,.9) 34%,rgba(11,19,31,.5) 66%,rgba(11,19,31,0) 100%)}}
 .lock{{position:absolute;right:{r(56)};top:{r(44)};display:flex;align-items:center;gap:{r(30)}}}
-.lock img{{height:{r(110)};width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
-.lock svg.x{{width:{r(34)};height:{r(34)};display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
+.lock img{{height:{r(140)};width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
+.lock img.pp{{height:{r(130)};position:relative;top:-{r(18)}}}
+.lock svg.x{{width:{r(36)};height:{r(36)};display:block;opacity:.92;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}}
 .txt{{position:absolute;left:{r(64)};right:{r(64)};bottom:{r(56)}}}
 .kick{{display:flex;align-items:center;gap:{r(14)};color:#C4D44E;font:700 {r(28)}/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:{r(20)};text-shadow:0 1px 2px rgba(0,0,0,.6)}}
 .kick::before{{content:"";width:{r(44)};height:3px;background:#C4D44E;flex:none}}
@@ -40,7 +41,7 @@ for name,(W,H,S,G) in FORMATS.items():
         lines='<br>'.join(html.escape(l) for l in p['head'])
         page=f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&family=Inter:wght@500;600;700;800&display=swap"><style>{css(W,H,S,G)}</style></head><body>
 <div class="s" style="--hs:{hs}px"><div class="ph" style="background-image:url(file://{bg})"></div><div class="gt"></div><div class="gb"></div>
-<div class="lock"><img src="file://{P}/aca_logo_new.png"><svg class="x" viewBox="0 0 34 34"><path d="M6 6L28 28M28 6L6 28" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><img src="file://{P}/pp_logo_white.png"></div>
+<div class="lock"><img src="file://{P}/aca_logo_new.png"><svg class="x" viewBox="0 0 34 34"><path d="M6 6L28 28M28 6L6 28" stroke="#fff" stroke-width="5" stroke-linecap="round"/></svg><img class="pp" src="file://{P}/pp_logo_white.png"></div>
 <div class="txt"><div class="kick">{html.escape(p['kick'])}</div><h1>{lines}</h1><p class="sub">{html.escape(p['sub'])}</p>
 <span class="pill">{html.escape(p['cta'])}&nbsp;&nbsp;↗</span></div></div></body></html>'''
         hp=f"{P}/{p['id']}_{name}.html"; open(hp,'w').write(page); png=f"{P}/{p['id']}_{name}.png"
