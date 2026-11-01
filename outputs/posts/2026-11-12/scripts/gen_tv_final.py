@@ -15,15 +15,17 @@ CSS=f'''html,body{{margin:0;width:{W}px;height:{H}px;overflow:hidden;background:
 .win{{position:absolute;left:{WX}px;top:{WY}px;width:{WW}px;height:{WH}px;border-radius:44px;overflow:hidden;box-shadow:0 30px 80px rgba(0,40,60,.45)}}
 .ph{{position:absolute;inset:0;background-size:cover;background-position:center}}
 .gt{{position:absolute;left:0;right:0;top:0;height:240px;background:linear-gradient(180deg,rgba(11,19,31,.5),rgba(11,19,31,0))}}
-.gb{{position:absolute;left:0;right:0;bottom:0;height:600px;background:linear-gradient(0deg,rgba(11,19,31,.96) 0%,rgba(11,19,31,.9) 34%,rgba(11,19,31,.5) 66%,rgba(11,19,31,0) 100%)}}
-.aca{{position:absolute;left:56px;top:48px;width:230px}}
+.gb{{position:absolute;left:0;right:0;bottom:0;height:660px;background:linear-gradient(0deg,rgba(11,19,31,.96) 0%,rgba(11,19,31,.9) 34%,rgba(11,19,31,.5) 66%,rgba(11,19,31,0) 100%)}}
+.lock{{position:absolute;right:56px;top:44px;display:flex;align-items:center;gap:26px}}
+.lock img{{height:74px;width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}}
+.lock .x{{font:600 40px/1 Inter,sans-serif;color:#fff;opacity:.85}}
 .txt{{position:absolute;left:64px;right:64px;bottom:56px}}
-.kick{{display:flex;align-items:center;gap:14px;color:#C4D44E;font:700 24px/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;text-shadow:0 1px 2px rgba(0,0,0,.6)}}
+.kick{{display:flex;align-items:center;gap:14px;color:#C4D44E;font:700 28px/1 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;text-shadow:0 1px 2px rgba(0,0,0,.6)}}
 .kick::before{{content:"";width:44px;height:3px;background:#C4D44E;flex:none}}
 h1{{margin:0 0 14px;font:800 var(--hs)/1.02 "Inter Tight",Inter,sans-serif;text-transform:uppercase;letter-spacing:-.005em;max-width:980px}}
-.sub{{font:500 30px/1.3 Inter,sans-serif;color:#DCE5DF;margin:0 0 30px;max-width:900px}}
+.sub{{font:500 40px/1.25 Inter,sans-serif;color:#F2F6F2;margin:0 0 34px;max-width:980px}}
 .cta{{display:flex;align-items:center;gap:24px}}
-.pill{{background:#C4D44E;color:#0B131F;font:800 28px/1 Inter,sans-serif;letter-spacing:.01em;text-transform:uppercase;padding:0 42px;height:84px;display:flex;align-items:center;border-radius:999px;white-space:nowrap}}
+.pill{{background:#C4D44E;color:#0B131F;font:800 32px/1 Inter,sans-serif;letter-spacing:.01em;text-transform:uppercase;padding:0 46px;height:98px;display:flex;align-items:center;border-radius:999px;white-space:nowrap}}
 .lb{{font:600 22px/1.25 Inter,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#DCE5DF}}
 '''
 for p in posts:
@@ -31,11 +33,11 @@ for p in posts:
     if only and p['id'] not in only: continue
     src=D+'/drive/'+p['photo']; bg=f"{P}/{p['id']}_fbg.jpg"
     crop(src,bg,WW,WH,p.get('fx',.5),p.get('fy',.5),p.get('z',1.0))
-    hs=p.get('hs', 80 if max(len(l) for l in p['head'])<=14 else 70)+4
+    hs=p.get('hs', 80 if max(len(l) for l in p['head'])<=14 else 70)+12
     lines='<br>'.join(html.escape(l) for l in p['head'])
     page=f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800&family=Inter:wght@500;600;700;800&display=swap"><style>{CSS}</style></head><body>
 <div class="s" style="--hs:{hs}px"><div class="win"><div class="ph" style="background-image:url(file://{bg})"></div><div class="gt"></div><div class="gb"></div>
-<img class="aca" src="file://{P}/aca_logo.png">
+<div class="lock"><img src="file://{P}/aca_logo.png"><span class="x">×</span><img src="file://{P}/pp_logo_white.png"></div>
 <div class="txt"><div class="kick">{html.escape(p['kick'])}</div><h1>{lines}</h1><p class="sub">{html.escape(p['sub'])}</p>
 <div class="cta"><span class="pill">{html.escape(p['cta'])}&nbsp;&nbsp;↗</span></div></div></div></div></body></html>'''
     hp=f"{P}/{p['id']}_f.html"; open(hp,'w').write(page); png=f"{P}/{p['id']}_f.png"
