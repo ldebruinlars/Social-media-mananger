@@ -14,30 +14,31 @@ json.dump(items,open(f'{D}/tvmock/items.json','w'),ensure_ascii=False,indent=1)
 TPL='''<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap">
 <style>html,body{margin:0}body{width:1920px;height:1080px;background:#0091B1 url(file://SRC) 0 0/1920px 1080px no-repeat;position:relative;overflow:hidden;font-family:Inter,Arial,sans-serif;color:#fff}
-.logo{position:absolute;left:250px;top:140px;width:330px}
-.clock{position:absolute;left:170px;top:310px}
-.time{position:absolute;left:255px;top:810px;font:700 66px/1 Inter,Arial;letter-spacing:.02em}
-.tag{position:absolute;left:165px;top:960px;font:800 26px/1 Inter,Arial;font-style:italic;color:#C8F23D;letter-spacing:.06em}
+.left{position:absolute;left:0;top:0;width:680px;height:1080px;display:flex;flex-direction:column;align-items:center}
+.logo{width:300px;margin-top:110px}
+.clock{margin-top:34px}
+.time{margin-top:26px;font:700 66px/1 Inter,Arial;letter-spacing:.02em}
+.tag{margin-top:auto;margin-bottom:60px;font:800 26px/1 Inter,Arial;font-style:italic;color:#C8F23D;letter-spacing:.06em}
 .panel{position:absolute;left:896px;top:60px;width:768px;height:960px;background:#000;overflow:hidden}
 .panel img{width:100%;height:100%;object-fit:cover;display:block}
 .cap{position:absolute;left:900px;top:860px;width:760px;text-align:center;font:700 36px/1.3 Inter,Arial}
 </style></head><body>
-<img class="logo" src="file://LOGO">
-<svg class="clock" width="380" height="380" viewBox="-190 -190 380 380">
-<g font-family="Inter,Arial" font-weight="700" font-size="34" fill="#fff" text-anchor="middle" dominant-baseline="central">NUMS</g>
+<div class="left"><img class="logo" src="file://LOGO">
+<svg class="clock" width="340" height="340" viewBox="-170 -170 340 340">
+<circle r="160" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/><g font-family="Inter,Arial" font-weight="700" font-size="30" fill="#fff" text-anchor="middle" dominant-baseline="central">NUMS</g>
 <line x1="0" y1="0" x2="HX" y2="HY" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
 <line x1="0" y1="0" x2="MX" y2="MY" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
 <circle r="8" fill="#fff"/></svg>
 <div class="time">TIME</div>
-<div class="tag">MEET&nbsp;&nbsp;•&nbsp;&nbsp;SMASH&nbsp;&nbsp;•&nbsp;&nbsp;RELAX</div>
+<div class="tag">MEET&nbsp;&nbsp;•&nbsp;&nbsp;SMASH&nbsp;&nbsp;•&nbsp;&nbsp;RELAX</div></div>
 
 
 </body></html>'''
 import math
-nums=''.join(f'<text x="{round(158*math.sin(math.radians(i*30)))}" y="{round(-158*math.cos(math.radians(i*30)))}">{i}</text>' for i in range(1,13))
+nums=''.join(f'<text x="{round(128*math.sin(math.radians(i*30)))}" y="{round(-128*math.cos(math.radians(i*30)))}">{i}</text>' for i in range(1,13))
 hh,mm=17,20
 ha=math.radians((hh%12+mm/60)*30); ma=math.radians(mm*6)
-tpl=TPL.replace('NUMS',nums).replace('HX',str(round(85*math.sin(ha)))).replace('HY',str(round(-85*math.cos(ha)))).replace('MX',str(round(125*math.sin(ma)))).replace('MY',str(round(-125*math.cos(ma)))).replace('TIME',f'{hh:02d}:{mm:02d}').replace('LOGO',f'{D}/posts/pp_logo_white.png')
+tpl=TPL.replace('NUMS',nums).replace('HX',str(round(70*math.sin(ha)))).replace('HY',str(round(-70*math.cos(ha)))).replace('MX',str(round(100*math.sin(ma)))).replace('MY',str(round(-100*math.cos(ma)))).replace('TIME',f'{hh:02d}:{mm:02d}').replace('LOGO',f'{D}/posts/pp_logo_white.png')
 CH='/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 only=sys.argv[2:] 
 for it in items:
