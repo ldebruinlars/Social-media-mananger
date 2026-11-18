@@ -71,3 +71,11 @@ Lars wil op alle posts dezelfde logo-lockup als op de tv-posters: officieel ACA-
 - `scripts/gen_posts.py` aangepast (lockup 108 px hoog op 1080 breed). Alle 29 beelden opnieuw gerenderd.
 - De 7 oudere Metricool-posts van 27 oktober (competitie, kerstborrel, jeugd, coaches, kerstreeks, feestje, voorjaarsreeks) hadden nog het oude ontwerp met het oude Poort Padel logo. Die zijn nu ook in de huidige stijl gemaakt: teksten en foto's in `scripts/mc_posts.json`, zelfde generator. Foto's: APA_13_mei-34 (forehand), 29mei-57 (high five), kamp frame_23 (coach met groepje), 29mei-32 (coach), APA_13_mei-24 (smash), 29mei-37 (juichen), 29mei-38 (lachende speler). Alt-teksten staan in `mc_posts.json`.
 - Zip `ACA_social_content_36_logo.zip` (36 beelden, maandmappen, naam = datum + id) naar Lars via de chat. Route als op 30 oktober: Lars zet de beelden in Drive `Social media content` (map even op "iedereen met de link"), daarna worden alle 88 Metricool-posts (36 IG, 36 FB, 16 LI) bijgewerkt met het nieuwe beeld. Metricool kopieert naar static.metricool.com, daarna kan de map weer op Beperkt.
+
+## Uitgevoerd 18 november: nieuwe beelden in Metricool
+
+Lars (18 nov): op sommige posts ontbrak het Poort Padel logo en op de meeste was het verkeerd; alles wat nog gepost wordt moet de juiste lockup hebben.
+
+- Stand op 18 nov 11:45: 72 posts nog ingepland (30 IG, 30 FB, 12 LI) van 18 nov 18:30 t/m 19 feb, met 30 verschillende beelden. Al gepubliceerd en dus niet meer aan te passen: de posts van 2 t/m 16 nov (competitie, Kids Kamp aankondiging, lessenreeks, kerstborrel, jeugd, coaches).
+- De 30 beelden zijn rechtstreeks vanuit de sessie naar Drive `Social media content` gezet (nieuw: de Drive-koppeling accepteert nu een bestandsverwijzing in plaats van base64). Namen `<eerste datum>_<id>_v2.jpg`, id's in `scripts/drive_ids_v2.json`. De oude beelden staan er nog naast.
+- Alle 72 posts bijgewerkt met updateScheduledPost: alleen het beeld vervangen, tekst, datum, alt-tekst, collab en fototag @poortpadel ongewijzigd. Gecontroleerd door de hele planning opnieuw op te halen: 72 van 72 hebben een nieuw beeld op static.metricool.com (map 202611), alles PENDING, autoPublish aan. Nieuwe id per uuid in `scripts/metricool_status_2026-11-18.json`.
